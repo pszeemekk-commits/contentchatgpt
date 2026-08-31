@@ -8,85 +8,147 @@ Hook i opis to nie dwa osobne teksty, tylko jeden przekaz rozbity na dwie częś
 
 Test na koniec: gdyby ktoś przeczytał sam opis bez oglądania wideo, czy dostałby pełną wartość? Powinien. Gdyby ktoś obejrzał samo wideo bez czytania opisu, czy dostałby pełną wartość? Nie powinien — to znak, że hook działa.
 
-## Hook: trzy typy obietnicy
+## Hook: co on naprawdę robi
 
-Wybierz typ, który pasuje do wsadu. Typ decyduje o tym, jak zbudujesz opis w kroku dalej.
+Odbiorca tych treści nie przychodzi bez diagnozy. Ma własną, zamkniętą sprawę i wyrok: „widocznie tak już mam", „jestem słaby", „to mój charakter". Budzi się codziennie już skazany. Nie potrzebuje, żeby mu powiedzieć, że ma problem — wie to lepiej niż ty.
 
-1. **Odkrycie.** Coś, co autor znalazł, sprawdził, przeżył i co zmienia spojrzenie na temat. Hook stawia fakt albo pytanie bez wyjaśnienia: „Sprawdziłem X i wyszło coś, czego się nie spodziewałem" / „Okazuje się, że X wcale nie działa tak, jak myślisz". Widz zostaje z pytaniem „a co się okazało?".
-2. **Lista sposobów / powodów / przyczyn.** Hook zapowiada policzalną, konkretną zawartość: „3 powody, dla których X" / „Robisz to źle z jednego z tych 4 powodów". Widz wie z góry, ile dostanie i jakiego rodzaju, ale nie zna treści.
-3. **Ważne przesłanie.** Hook stawia tezę albo emocjonalne zdanie, które domaga się uzasadnienia: „Nikt Ci tego nie powie, ale X" / zdanie, które brzmi jak wyznanie albo mocne zdanie na kontrowersyjny temat. Widz chce wiedzieć, dlaczego autor tak twierdzi.
+Dlatego hook, który mu ten problem opisuje, nie działa. Działa hook, który **otwiera na nowo sprawę, którą on zamknął, i otwiera ją na jego korzyść.**
 
-Nie mieszaj typów w jednym hooku — hook obiecujący jednocześnie odkrycie i listę rozmywa obietnicę i opis nie będzie wiedział, czym ją spełnić.
+Robi to zawsze tym samym ruchem: bierze konkretny fakt, który odbiorca trzyma jako dowód przeciwko sobie, i odwraca jego wykładnię, nie podważając samego faktu.
 
-## Hook rozbrajający przekonanie: dwa takty
+- Wracał po każdej przerwie → fakt zostaje, ale przestaje dowodzić słabości, zaczyna dowodzić, że walczył z objawem.
+- Po 90 dniach było tak samo → nie porażka charakteru, tylko dowód, że abstynencja jest pauzą.
+- Nie poszedł na terapię → droga, której nieodbycie miał sobie za winę, nie była konieczna.
+- Czuje wstyd zamiast ulgi → to, co brał za dowód na swoje zwyrodnienie, jest sygnałem diagnostycznym.
 
-Gdy rolka ma obalić konkretne przekonanie odbiorcy (najczęstszy przypadek przy liście powodów i przy ważnym przesłaniu), hook buduje się z dwóch taktów w tej kolejności:
+Ten sam fakt, przeciwna wykładnia. Odbiorca klika, bo jeśli jego koronny dowód przeciwko sobie upada, cały wyrok idzie do przeliczenia — a to jest jego interes, nie ciekawostka.
 
-**Takt 1 — przekonanie wypowiedziane jako gołe twierdzenie**, dokładnie w takiej formie, w jakiej brzmi w głowie odbiorcy. Bez ramki, bez cudzysłowu, bez zapowiedzi, że zaraz zostanie obalone.
+Pytanie, od którego zaczynasz pisanie hooka: **jaki fakt ten człowiek trzyma dziś przeciwko sobie i co ten fakt naprawdę oznacza?** Bez odpowiedzi na nie hook będzie tylko kolejnym opisem problemu, który odbiorca zna lepiej od ciebie.
 
-**Takt 2 — autor obala je wprost** i kieruje do opisu po uzasadnienie.
+## Zaczep: czynność albo pragnienie, nigdy stan wewnętrzny
 
-```
-Pornografia sama odpuści jak wystarczająco długo wytrzymasz.
+Hook musi w pierwszej sekundzie dać odbiorcy powód, żeby uznał „to o mnie". Pewnie robią to tylko dwie rzeczy:
 
-Niestety, to nieprawda, a 3 powody, dla których wraca po każdej przerwie, wypisałem w opisie.
-```
+- **czynność, którą on wykonuje** — „oglądasz pornografię", „liczyłeś dni", „blokowałeś strony", „po tym czujesz wstyd", „byłeś u psychologa",
+- **rzecz, której chce** — „jeśli chcesz zbudować szczęśliwy związek", „chcesz poznać tę jedną".
 
-Dlaczego kolejność i forma taktu 1 są tak ważne: odbiorca czyta pierwsze zdanie jako swoje własne, przez sekundę przytakuje, i dopiero wtedy dostaje sprzeciw. Ten moment przytaknięcia jest całą siłą tego hooka — bez niego nie ma czego wywracać.
+Jedno i drugie jest faktem z jego tygodnia albo z jego głowy i nie da się tego podważyć.
 
-**Antywzorzec: ramkowanie przekonania jako cudzego, zanim padnie.** „Myślisz, że…", „Wydaje ci się, że…", „Wielu mężczyzn sądzi, że…", „Może ci się zdawać, że…". Każde z nich robi trzy złe rzeczy naraz: sygnalizuje z góry, że zdanie jest do obalenia (więc odbiorca nie przytakuje, tylko czeka na puentę), ustawia autora na zewnątrz w roli kogoś, kto diagnozuje odbiorcę z dystansu, i zamienia jego myśl w opis cudzego stanu. Efekt to hook, który brzmi jak teza postawiona nad kimś, a nie jak zdanie wyjęte z jego głowy.
+Czego nie robić: **opisywać jego stanu wewnętrznego.** „Wiesz dokładnie, co powinieneś zrobić, i tego nie robisz", „uciekasz od tego, na czym ci zależy", „nie potrafisz być obecny". Żeby rozpoznać się w takim zdaniu, musiałby już mieć ten wgląd i chcieć przyłożyć go do siebie. Zwykle nie ma go i nie chce — czyta, myśli „no, nie do końca", i przewija. Opis psychiki jest wnioskiem, który ma powstać w opisie pod postem, nie warunkiem wejścia do niego.
 
-- ŹLE: „Myślisz, że jak wytrzymasz wystarczająco długo, pornografia sama odpuści."
-- DOBRZE: „Pornografia sama odpuści jak wystarczająco długo wytrzymasz. / Niestety, to nieprawda (…)"
+Test: czy odbiorca mógłby zaprzeczyć pierwszemu zdaniu hooka? Jeśli tak, masz opis stanu, nie zaczep.
 
-Takt 2 może brzmieć różnie („Niestety, to nieprawda", „Tak to nie działa", „Sprawdziłem to na sobie przez 15 lat"), byle był sprzeciwem autora, nie kolejnym opisem odbiorcy. Tu wchodzi obecność piszącego: takt 1 należy do odbiorcy, takt 2 do autora.
+## Trzecia osoba trafia do kobiet, nie do niego
 
-**Test:** zasłoń drugą linijkę. Czy pierwsza brzmi jak coś, pod czym odbiorca podpisałby się bez wahania? Jeśli już z niej widać, że autor się z tym nie zgadza, takt 1 jest zepsuty i wywrotka nie zadziała.
+„5 zachowań, które demaskują, że mężczyzna używa kobiety jako plastra" mówi **o nim**, nie **do niego**. Takie hooki potrafią zebrać największy zasięg, bo rozsyłają je kobiety swoim facetom, i właśnie dlatego są pułapką przy treści, która ma przyprowadzić klientów. Mężczyzna, który dostaje taki post od swojej kobiety, wchodzi w obronę, nie w rozpoznanie.
 
-## Wzorcowe hooki (zatwierdzone przez autora)
+Zasada: **trzecia osoba to zasięg przez kobiety, druga osoba to ból u niego.** Pod sprzedaż idzie druga. Samo słowo „demaskują" jest tu dodatkowym sygnałem ostrzegawczym, bo demaskacja **dokłada** wyrok, którego on ma już dosyć, zamiast go zdejmować.
 
-Cztery hooki napisane albo poprawione ręcznie przez autora. Traktuj je jako kalibrację tonu i budowy, nie jako szablony do wypełnienia.
+## Obietnica policzalnej treści to transport tego formatu
 
-```
-Pornografia sama odpuści jak wystarczająco długo wytrzymasz.
-Niestety, to nieprawda, a 3 powody, dla których wraca po każdej przerwie, wypisałem w opisie.
-```
+To jest rolka **do opisu**, więc hook bez konkretnej, policzalnej zawartości zapowiedzianej pod spodem nie ma jak zadziałać: nikt nie klika „więcej" po samo stwierdzenie. „5 zachowań", „4 błędy", „7 faz", „10 powodów", „3 fazy" — liczba nie jest ozdobą, tylko jedynym powodem, dla którego widz przechodzi z wideo do tekstu.
 
-```
-Zanim odzyskasz kontrolę nad p*rnografią, musisz odzyskać 4 inne rzeczy.
-Kontrola jest ich efektem, nie celem samym w sobie.
-```
+Sama liczba hookiem jednak nie jest. Kolejność wygląda tak: **zaczep, potem obietnica.** „7 faz" bez „inaczej będzie za późno" to spis treści. „Boisz się wejść na konto bankowe" bez „5 innych miejsc, gdzie dzieje się to samo" to zdanie, po którym nie ma czego kliknąć.
+
+Zwykle mieści się to w dwóch linijkach:
 
 ```
-Byłem uzależniony od p*4no przez 14 lat, od 2 lat jestem wolny. I nie byłem ani u terapeuty, ani u psychologa.
-4 powody, dlaczego poszedłem do tego inaczej, wypisałem w opisie.
+Zmieniłeś pracę, zmieniłeś kobietę, zmieniłeś miasto.
+5 rzeczy, które pojechały z tobą.
+```
+
+Dopisek „w opisie" nie jest obowiązkowy. Sama policzalna zapowiedź zwykle wystarcza, a wskazanie wprost przydaje się wtedy, gdy obietnica jest złożona albo gdy widz mógłby nie domyślić się, gdzie szukać ciągu dalszego.
+
+## Trzy typy obietnicy
+
+Typ decyduje o tym, jak zbudujesz opis (patrz „Opis: struktura według typu obietnicy"). W praktyce lista dominuje i to ona niesie większość działających rolek, bo jako jedyna daje policzalną zapowiedź w samym hooku.
+
+1. **Lista sposobów, powodów albo przyczyn.** Hook zapowiada policzalną zawartość. Widz wie z góry, ile dostanie i jakiego rodzaju, ale nie zna treści.
+2. **Odkrycie.** Coś, co autor znalazł, sprawdził albo przeżył i co zmienia spojrzenie na temat. Widz zostaje z pytaniem „a co się okazało?".
+3. **Ważne przesłanie.** Teza albo zdanie, które domaga się uzasadnienia. Widz chce wiedzieć, dlaczego autor tak twierdzi.
+
+Nie mieszaj typów w jednym hooku — obietnica jednocześnie odkrycia i listy rozmywa się, a opis nie będzie wiedział, czym ją spełnić.
+
+## Wzorcowe hooki: 14 viralowych rolek autora
+
+Kalibracja tonu i budowy, nie szablony do wypełnienia. Wszystkie te rolki dowiozły zasięgi.
+
+**Rodzina 1 — licznik i kontra.** Autor pokazuje wynik, potem zabiera klucz.
+
+```
+15 lat przegrywałem z porno. Dziś mija 525 dzień wolności.
+Po drodze popełniłem te 4 błędy.
 ```
 
 ```
-Moi klienci, którzy wyszli z p*4no, nie byli od ciebie silniejsi.
-Po prostu robili 4 rzeczy inaczej. Wypisałem je w opisie.
+Nie obejrzałem porno od 21 miesięcy, ale przedtem walczyłem z nim 4 lata.
+Oto dlaczego ciągle wracałem.
 ```
 
-Cztery rzeczy, które je łączą, i które łatwo zgubić przy pisaniu:
+Kolejność jest tu wszystkim: **wynik idzie przed wyznaniem.** „Byłem uzależniony 14 lat, od 2 lat jestem wolny" pada zanim przyjdzie „i nie byłem ani u terapeuty, ani u psychologa". Bez wyniku ta druga część jest brawurą, z wynikiem staje się dowodem, że istnieje inna droga.
 
-**1. Druga linijka niesie myśl, nie opis struktury tekstu.** Zdanie w rodzaju „kontrola jest ostatnia na tej liście" mówi o układzie opisu, a nie o rzeczy — czytelnik dostaje metainformację zamiast treści. Porównaj z „kontrola jest ich efektem, nie celem samym w sobie": to samo miejsce w hooku, a już niesie tezę i podnosi stawkę. Druga linijka to drugi cios, nie spis treści.
+**Rodzina 2 — sekwencja z ostrzeżeniem.** Chaos zamienia się w maszynę z wejściem.
 
-**2. Podmiot konkretny, nie kategoria.** „Moi klienci, którzy wyszli" bije „mężczyźni, którzy z tego wyszli", bo mówi, skąd autor to wie, i przy okazji wprost sygnalizuje, że pracuje z ludźmi. Anonimowa kategoria brzmi jak cudza obserwacja, konkretny podmiot jak własne doświadczenie.
+```
+Cykl uzależnienia od porno ma 7 faz.
+Musisz przerwać w 1 lub 2, inaczej będzie za późno.
+```
 
-**3. W hooku osobistym wynik idzie przed wyznaniem.** „Byłem uzależniony 14 lat, od 2 lat jestem wolny" pada ZANIM przyjdzie kontrowersyjne „i nie byłem ani u terapeuty, ani u psychologa". Bez wyniku ta druga część jest tylko dziwactwem albo brawurą; z wynikiem staje się dowodem, że istnieje inna droga. Kolejność decyduje, czy odbiorca czyta to jako lekkomyślność, czy jako powód, żeby słuchać.
+```
+Uwalnianie się od pornografii przebiega przez 3 fazy.
+Mężczyźni, którzy nie mogą przestać, pominęli jedną.
+```
 
-**4. Rzecz nazwana wprost i wcześnie.** „P\*rnografia" pada w pierwszym zdaniu, nie kryje się za „tym", „nawykiem" ani „ekranem". Zapis z cenzurą (`p*rnografia`, `p*4no`) chroni zasięgi i jest w tych treściach normą — nazwanie wprost dotyczy tego, ŻE rzecz pada, nie tego, jak jest zapisana.
+Groźba nie jest tu straszeniem. Jest stawką przy ponownym otwarciu sprawy: da się ją otworzyć, ale okno się zamyka.
+
+**Rodzina 3 — warunek kwalifikujący.** Hook nazywa stan odbiorcy precyzyjniej, niż on sam potrafi, i tym samym go wybiera.
+
+```
+Jeśli po tym czujesz wstyd, a nie ulgę, to jest dla ciebie.
+4 sygnały, że pornografia jest objawem, nie przyczyną.
+```
+
+Rozpoznanie na poziomie takiego szczegółu jest jedynym dowodem kompetencji, jaki w hooku pada.
+
+**Rodzina 4 — obalenie cudzej tezy.** Nie tezy odbiorcy, tylko tego, co słyszy zewsząd.
+
+```
+Każdy mówi: rzuć porno. Ale to nie problem, to skutek.
+Prawdziwy problem opisałem pod spodem.
+```
+
+**Rodzina 5 — pragnienie z warunkiem.**
+
+```
+Oto 10 powodów, dlaczego powinieneś rzucić pornografię,
+jeśli chcesz zbudować szczęśliwy i stabilny związek.
+```
+
+Co łączy wszystkie: rzecz jest nazwana wprost i wcześnie. „Pornografia" pada w pierwszym zdaniu i nie kryje się za „tym", „nawykiem" ani „ekranem". Cenzura zapisu (`p*rnografia`, `p*4no`) chroni zasięgi i jest w tych treściach normą — nazwanie wprost dotyczy tego, ŻE rzecz pada, nie tego, jak jest zapisana.
+
+## Rejestr: to jest treść o męskości, nie o produktywności
+
+Najczęstszy sposób, w jaki poprawnie zbudowany hook ląduje w martwym temacie: mechanika się zgadza, tylko temat jest z innej marki. „Zapisałeś cele w styczniu, w czerwcu nie pamiętasz gdzie", „trenujesz i dalej budzisz się bez energii", „policz rzeczy, które porzuciłeś" — to są tematy o dyscyplinie, celach i śnie. Odbiorca tych treści nie ma problemu z produktywnością. Ma rozjazd między mężczyzną, którym wie, że ma być, a tym, którym budzi się codziennie.
+
+Zanim napiszesz hook, sprawdź, czy temat da się opowiedzieć w kategoriach: kobieta, ojciec, syn, wstyd bycia przejrzanym, udawanie kogoś, kim się nie jest, lata przelatujące przez palce. Jeśli da się go opowiedzieć wyłącznie przez cele i nawyki, to nie jest temat tej marki.
+
+## Cztery sposoby, na które hook się psuje
+
+1. **Opis stanu wewnętrznego zamiast czynności.** Da się temu zaprzeczyć, więc odbiorca zaprzecza i przewija.
+2. **Trzecia osoba.** Zasięg przez kobiety, obrona u mężczyzny.
+3. **Brak policzalnej obietnicy.** Nie ma po co klikać „więcej", więc opis zostaje nieprzeczytany.
+4. **Sklejanie osobnych problemów w jeden na siłę.** „To nie są trzy osobne problemy" postawione nad rzeczami, które oczywiście są osobne, czyta się jak naciąganie i podważa wszystko, co idzie dalej. Wspólne źródło pokazuje się w opisie, dowodem, nie deklaracją w hooku.
 
 ## Hook: jak kierować do opisu
 
-Dwa sposoby, oba działają, wybór zależy od mocy samego napięcia:
+Dwa sposoby, wybór zależy od mocy samego napięcia:
 
-- **Wprost.** Hook kończy się jawnym wskazaniem: „reszta w opisie", „cały mechanizm rozpisałem w opisie", strzałka w dół. Używaj, gdy obietnica jest złożona (np. lista z kilkoma pozycjami) i widz mógłby nie domyślić się, gdzie szukać ciągu dalszego.
-- **Przez samo napięcie (open loop).** Hook stawia pytanie albo niedopowiedzenie na tyle mocne, że kliknięcie „więcej" jest naturalnym odruchem, bez potrzeby proszenia o to wprost. Działa lepiej przy „odkryciu" i „ważnym przesłaniu", gdzie dopowiedzenie „sprawdź w opisie" osłabiłoby napięcie zamiast je wzmocnić.
+- **Wprost.** Hook kończy się jawnym wskazaniem: „reszta w opisie", „cały mechanizm rozpisałem w opisie", strzałka w dół. Używaj, gdy obietnica jest złożona i widz mógłby nie domyślić się, gdzie szukać ciągu dalszego.
+- **Przez samo napięcie.** Policzalna zapowiedź sama w sobie wystarcza, żeby kliknięcie „więcej" było naturalnym odruchem. Działa lepiej przy odkryciu i ważnym przesłaniu, gdzie „sprawdź w opisie" osłabiłoby napięcie zamiast je wzmocnić.
 
-Hook musi być spójny z tym, co naprawdę jest w opisie. Obietnica, której opis nie spełnia, to nie hook — to clickbait, a to zniechęca odbiorców do kolejnych postów.
+Hook musi być spójny z tym, co naprawdę jest w opisie. Obietnica, której opis nie spełnia, to nie hook, tylko clickbait, a to zniechęca odbiorców do kolejnych postów.
 
-Długość: hook to 1–2 zdania, tyle, ile mieści się w kilku sekundach uwagi na ekranie. Jeśli hook potrzebuje więcej niż dwóch zdań, znaczy to, że próbuje już zacząć odpowiadać — przytnij go z powrotem do samej obietnicy.
+Długość: 1–2 zdania, tyle, ile mieści się w kilku sekundach uwagi na ekranie. Jeśli hook potrzebuje więcej niż dwóch zdań, znaczy to, że próbuje już zacząć odpowiadać — przytnij go z powrotem do zaczepu i obietnicy.
 
 ## Opis: napięcie skończyło się na hooku
 

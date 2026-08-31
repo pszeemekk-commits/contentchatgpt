@@ -1588,3 +1588,221 @@ Trzecia: zero personifikacji i zero metafory na okładce, a już na pewno zero w
 komentarza do niej ("nie mówię tego w przenośni"). Wszystkie cztery wzorcowe hooki
 Przemka to płaskie zdania oznajmujące z konkretnym podmiotem: pornografia, ty, ja,
 moi klienci.
+
+---
+
+### KOR-2026-08-31-STORYTELLING-NIE-EDUKACJA-Z-HISTORIA
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+TEMAT: bratnia dusza - ta sama dziewczyna, dwa podejścia w odstępie dwóch lat
+
+WERSJA AI (odrzucona):
+Plan z funkcjami slajdów: S1 OKŁADKA / S2 KONTEKST / S3 ZAWIAS / S4 MIĘSO / S6 RDZEŃ /
+S8 WNIOSEK. Na S2 od razu wyjaśnienie, co bohater wtedy robił i po co.
+
+DLACZEGO: "zabrałeś to naturalne brzmienie historii i wpasowałeś w strukturę, przez co
+w 2 slajdzie już tłumaczysz co robiłem. To nie jest angażujący storytelling. Piszesz
+karuzelę edukacyjną na bazie historii, a nie karuzelę storytellingową."
+
+WZORZEC: karuzela storytellingowa nie jest karuzelą diagnostyczną z anegdotą w środku.
+Trzy twarde wymogi, których brak natychmiast ją demaskuje:
+(1) NAPIĘCIE OD POCZĄTKU - konflikt musi stać najpóźniej na S2, nie w połowie tekstu.
+(2) CENA, KTÓRĄ WIDZ CZUJE OD POCZĄTKU - musi być jasne, co jest do stracenia.
+(3) KONFLIKT JEST CZYTELNIKA, NIE AUTORA - "ludzie czytają, bo ta historia może dotyczyć
+    też ich, a wprowadzając konflikt i napięcie na S2 pokazujesz im to". Slajd 2 napisany
+    jako relacja z wydarzeń ("zagadałem, zaczęliśmy się spotykać, imponowała mi") to
+    komunikat "opowiem ci historię z mojego życia" i nikt tego nie przewinie.
+Rozwiązanie zastosowane: okładka nazywa stratę wprost ("Straciłem ją na dwa lata"),
+a S2 stawia obok siebie kim ona była i po co on sięgał, bez zdania wyjaśniającego.
+
+---
+
+### KOR-2026-08-31-WAHADLO-PO-KOREKCIE
+DATA: 2026-08-31
+FORMAT: dowolny (zasada procesu, nie formatu)
+
+WERSJA AI: po korekcie "za bardzo trzymasz się struktury" - wywalenie całej struktury
+i oddanie prozy ciągłej. Po korekcie "slajd 1 za długi" - skrócenie WSZYSTKICH slajdów.
+Po korekcie "za mało wsadu" - przepisanie wsadu 1:1. Po "za dużo wsadu 1:1" - odejście
+od jego słów.
+
+DLACZEGO: "jesteś jak wahadło, albo tak albo tak, nic pomiędzy. Teraz jest gorzej niż
+było." / "im dalej poprawiamy, tym gorzej".
+
+WZORZEC: korekta wskazuje MIEJSCE i KIERUNEK, nie nakazuje skrajności po drugiej stronie.
+"Slajd 1 jest za długi" znaczy: skróć slajd 1. Nie znaczy: skróć wszystkie.
+"To brzmi jak wykład" znaczy: dodaj napięcie. Nie znaczy: wyrzuć strukturę.
+Przed każdą poprawką sprawdź, czy nie odwracasz o 180 stopni czegoś, co ostatnia
+korekta chwaliła. Jeśli poprzednia wersja miała działające elementy - zostają nietknięte.
+
+---
+
+### KOR-2026-08-31-POPRAWKA-OBEJMUJE-CALY-TEKST
+DATA: 2026-08-31
+FORMAT: karuzela
+
+WERSJA AI: po uwadze "S5 jest za krótki i bez ziarenka" - poprawienie S5 i S9.
+
+DLACZEGO: "dlaczego kurwa gdy każę ci poprawić karuzelę to poprawiasz tylko s5 i s9?"
+
+WZORZEC: rozszerzenie zasady o przeczesywaniu wzorca na CAŁY tekst. Gdy Przemek zgłasza
+wadę jednego slajdu, wskazany slajd jest próbką, a nie listą. Przejdź wszystkie slajdy
+pod tym samym kryterium i pokaż komplet poprawek w jednej odpowiedzi. Oddanie dwóch
+poprawionych slajdów, gdy wada dotyczy pięciu, kosztuje go kolejną turę.
+
+---
+
+### KOR-2026-08-31-OKLADKA-DWIE-LINIE
+DATA: 2026-08-31
+FORMAT: karuzela
+
+WERSJA AI (S1, odrzucona):
+Szła z deskorolką, za nią zachodziło słońce.
+Miała różowe włosy, ale nie jak jakaś alternatywka. Jej to w chuj pasowało.
+Pomyślałem: ona musi być moja.
+Nie wyszło. Wyszło dopiero dwa lata później, z tą samą dziewczyną.
+
+WERSJA PO KOREKCIE:
+Pomyślałem: ona musi być moja.
+Straciłem ją na dwa lata.
+
+CO ZMIENIŁ: cztery zdania na dwa; detal z różowymi włosami wyleciał.
+DLACZEGO: "slajd 1 na 4 zdania serio kurwa? I dlaczego przepisujesz 1:1 z tą alternatywką"
+WZORZEC: okładka to maksymalnie dwie linie. Osobno: detal z wsadu przeklejony dosłownie
+nie jest zaletą, jeśli nic nie posuwa. Wierność wsadowi dotyczy słownictwa i przykładów
+tam, gdzie niosą treść, nie kopiowania ozdobników.
+
+---
+
+### KOR-2026-08-31-ZA-GRZECZNY-OMIJANIE-SEKSU
+DATA: 2026-08-31
+FORMAT: karuzela
+
+WERSJA AI: "Podrywałem, chciałem ją zbajerować, pocałować, pobawić się."
+WERSJA PO KOREKCIE: "Chciałem ją zbajerować, pocałować i zaliczyć." + "żeby była moja
+i żeby ze mną spała" + "przestajesz liczyć, kiedy pójdzie z tobą do łóżka"
+
+DLACZEGO: "jesteś za grzeczny, nie napisałeś nic o dążeniu do seksu"
+
+WZORZEC: gdy wsad mówi o seksie, tekst mówi o seksie wprost. Zamiana "zaliczyć" na
+"pobawić się" albo pominięcie wątku to cenzura wsadu, nie takt. Dotyczy to zwłaszcza
+tekstów, w których cała teza stoi na kontraście między chceniem seksu a chceniem
+człowieka - bez nazwania pierwszego, drugie nie ma się od czego odbić.
+
+---
+
+### KOR-2026-08-31-TAJEMNICA-ZAMIAST-TLUMACZENIA
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+
+WERSJE AI (wszystkie odrzucone, jedna po drugiej):
+1. "Obydwoje mieliśmy wtedy własne wewnętrzne problemy." - "nuda, bez napięcia"
+2. "Każde z nas miało wtedy tyle swojego w głowie, że nie starczyło nas na siebie
+   nawzajem." - "jeszcze gorzej, zbuduj tajemnicę"
+3. Powrót do wersji 1 - "na chuj wracasz, mówię popraw"
+4. "Potem zniknęło to tak samo szybko, jak się zaczęło." - wciąż źle
+
+WERSJA PO KOREKCIE:
+Nikt się nie znudził. Do mnie wtedy po prostu nie dało się dostać.
+
+DLACZEGO: "w tym slajdzie chodzi o przekazanie: to co nas rozłączyło było czymś głębszym,
+a nie utratą zainteresowania (ja byłem niedostępny emocjonalnie). Tylko bez tłumaczenia,
+a z zasugerowaniem."
+
+WZORZEC: budowanie tajemnicy to nie to samo co niedopowiedzenie ani co ładniejszy opis
+stanu. Działający kształt ma dwa ruchy: (1) odetnij płytkie wyjaśnienie, którego czytelnik
+by się spodziewał ("nikt się nie znudził"), (2) wskaż głębszą przyczynę przez skutek, nie
+przez nazwę ("do mnie nie dało się dostać" zamiast "byłem niedostępny emocjonalnie").
+Osobno: gdy Przemek każe coś poprawić, nie wolno wracać do jego oryginalnego sformułowania
+jako "poprawki". To jest ucieczka od braku pomysłu, nie wykonanie polecenia.
+
+---
+
+### KOR-2026-08-31-METAFORA-ZAMIAST-ZACHOWANIA
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+
+WERSJA AI: "Dwa lata wcześniej te same resztki byłyby całym mną."
+WERSJA PO KOREKCIE: "Dwa lata wcześniej podrywałem inne. Ona się wycofała, a ja nawet
+nie wiedziałem, dlaczego kontakt się urwał."
+
+DLACZEGO: "co to za tania metafora, weź to opisz jak bym się zachowywał 2 lata wcześniej,
+a nie jakaś mglista metafora udająca głębię" + "to ma być wprost wskazanie, co wtedy się
+wydarzyło"
+
+WZORZEC: dwa błędy naraz, oba typowe dla zamknięć.
+(1) Metafora w miejscu, gdzie ma stać konkretne zachowanie. Test: czy da się to wskazać
+    palcem jako czynność, którą ktoś wykonał?
+(2) Tryb przypuszczający zamiast czasu przeszłego. Gdy tekst opisuje, jak było naprawdę,
+    "skończyłoby się tak" jest słabsze niż "tak się skończyło". Fakt bije hipotezę.
+Trzeci błąd wyłapany przy tej samej poprawce: "skończyłoby się tak jak za pierwszym razem:
+[opis, jak skończyło się za pierwszym razem]" to masło maślane. Zapowiedź plus jej
+natychmiastowe rozwinięcie = jeden takt padł dwa razy. Zostaje sam opis.
+
+---
+
+### KOR-2026-08-31-SZTUCZNY-CLIFFHANGER
+DATA: 2026-08-31
+FORMAT: karuzela
+
+WERSJA AI (S4, ostatnia linia): "Nie wiedziałem jeszcze, po co mi to wszystko będzie
+potrzebne."
+WERSJA PO KOREKCIE: linia wycięta bez zamiennika.
+
+DLACZEGO: "na chuj dodajesz jakiś sztuczny cliffhanger i w dodatku robisz powtórzenie z s3?"
+(S3 kończył się na "Wtedy jeszcze nie wiedziałem, że...")
+
+WZORZEC: ziarenko obiecujące, że dalej będzie ciekawie, nie jest ziarenkiem. Slajd, który
+kończy się faktem, ciągnie sam - czytelnik przewija, bo chce zobaczyć skutek, nie dlatego,
+że dostał zapowiedź. Osobno: ta sama konstrukcja składniowa dwa razy w jednym tekście
+("wtedy jeszcze nie wiedziałem") czyta się jak kalka z samego siebie, nawet gdy oba
+wystąpienia niosą inną treść. Sprawdzaj powtórzenia KONSTRUKCJI, nie tylko słów.
+
+---
+
+### KOR-2026-08-31-SKROCONE-POROWNANIE
+DATA: 2026-08-31
+FORMAT: karuzela
+
+WERSJA AI: "Rozmowa wciągnęła nas jak na MDMA."
+WERSJA PRZEMKA: "Rozmowa wciągnęła nas tak, że czułem się jakbym był na MDMA."
+
+CO ZMIENIŁ: przywrócił pełną konstrukcję porównania z odczuciem podmiotu.
+DLACZEGO: "a nie kurwa 'jak na MDMA', robisz kategoryczne błędy"
+WZORZEC: skracanie porównania do formy przysłówkowej wycina z niego autora. "Jak na MDMA"
+opisuje rozmowę z zewnątrz, "czułem się jakbym był na MDMA" mówi, co on przeżywał. Przy
+kompresji zdania sprawdź, czy nie wypada podmiot odczucia - to jest dokładnie ta warstwa,
+która odróżnia jego głos od relacji z wydarzeń.
+
+---
+
+### KOR-2026-08-31-SLAJD-Z-ROBOTA-NA-POWTORZENIU
+DATA: 2026-08-31
+FORMAT: karuzela
+
+WERSJE AI (S11, cztery odrzucone):
+1. "Wtedy przestajesz liczyć, jak wypadasz, i masz w głowie miejsce na to, kim ona jest."
+2. "Bez tego też kogoś spotkasz. Ja ją spotkałem i przepadła, zanim zdążyłem zobaczyć,
+   kogo mam przed sobą." - "niejasno, nikt ci w głowie nie siedzi"
+3. "Bez tego spotkasz właściwą kobietę i zobaczysz w niej dziewczynę do zdobycia."
+4. wciąż nie
+
+DLACZEGO (do wersji 1): "tanie wyjaśnienie, zbudowałeś je na wcześniejszym slajdzie,
+a nie na głębi przekazu"
+
+WERSJA PRZYJĘTA:
+Przez te dwa lata nie pracowałem nad kobietami ani nad tym, jak do nich podchodzić.
+Wchodziłem w trans i zajmowałem się chłopcem, którym byłem. To, kogo w niej zobaczyłem,
+zmieniło się przy okazji.
+
+WZORZEC: slajd z robotą zbudowany przez powtórzenie tego, co wcześniejszy slajd pokazał
+sceną, jest zawsze słabszy od tamtej sceny - tłumaczy to, co już zadziałało. Musi stać na
+tezie z BRAND/POGLĄDY, nie na recyklingu własnego tekstu.
+Drugi wzorzec, kluczowy dla tej marki: "napraw swoje poczucie własnej wartości" jest
+EFEKTEM, nie czynnością - czytelnik nie ma czego zrobić. Robota tej marki brzmi zawsze
+tak samo: pracujesz w jednym miejscu, u siebie w środku (trans, podświadomość, źródło),
+a relacja, pieniądze i forma zmieniają się przy okazji. To jest MOTOR z BRAND.md sekcja 0
+i on musi paść jako mechanizm, nie jako hasło o wartości.
+Trzeci: po trzeciej odrzuconej wersji tego samego slajdu przestań produkować czwartą.
+Nazwij tezę, na której stoi, powiedz dlaczego jest płytka, zaproponuj głębszą. Ta metoda
+zamknęła sprawę w jednej turze po czterech nieudanych.

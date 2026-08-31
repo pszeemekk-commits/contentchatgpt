@@ -116,6 +116,22 @@ W BoF (case study, karuzela inicjacyjna): transformacja dozwolona, ale wyłączn
 
 ## 8. STORYTELLING (gdy otwierasz sceną lub scena jest głównym wehikułem)
 
+### 8.0 Karuzela storytellingowa to osobny format, nie karuzela diagnostyczna z anegdotą
+
+To jest najczęstszy sposób, w jaki ten format się psuje, i widać go dopiero po oddaniu tekstu. Bierzesz historię, rozpisujesz plan na funkcje slajdów (okładka / kontekst / zawias / mięso / wniosek / puenta) i wsypujesz w nie materiał. Wychodzi karuzela edukacyjna na bazie historii: poprawna slajd po slajdzie, bez biegu, i już na drugim slajdzie tłumacząca, co bohater robił i po co. Nikt tego nie przewija.
+
+Trzy wymogi, wszystkie liczone od POCZĄTKU tekstu, nie od jego środka:
+
+**(1) Napięcie najpóźniej na slajdzie 2.** Nie na szóstym, gdzie leży punkt zwrotny historii. Czytelnik ma czuć, że coś jest nie tak, zanim dowie się, o co chodzi.
+
+**(2) Cena, którą widz czuje od pierwszego slajdu.** Musi być jasne, co jest do stracenia. Okładka, która mówi tylko "opowiem, co mi się przydarzyło", nie ma stawki - okładka, która mówi "straciłem ją na dwa lata", ma.
+
+**(3) Konflikt jest CZYTELNIKA, nie autora.** To jest sedno i najłatwiej to przeoczyć, bo tekst z konfliktem autora czyta się dobrze - dla autora. Ludzie czytają, bo ta historia może dotyczyć też ich, i pokazuje im to konflikt postawiony wcześnie. Slajd napisany jako relacja z wydarzeń ("zagadałem, zaczęliśmy się spotykać, imponowała mi") komunikuje "opowiem ci historię z mojego życia" i tam karuzela się kończy.
+
+**Kształt, który zadziałał (sesja 2026-08-31, karuzela o bratniej duszy):** okładka nazywa stratę wprost i ma dwie linie. Slajd 2 stawia obok siebie dwa fakty - kim ona była i po co on do niej sięgał - bez ani jednego zdania wyjaśniającego. Rozjazd między nimi robi czytelnik sam i to jest jego konflikt, nie autora. Od tego momentu każdy slajd zbliżenia czyta się z napięciem, bo koniec jest już znany z okładki.
+
+**Czego przy tym nie robić:** nie zapowiadaj napięcia ("nie wiedziałem jeszcze, po co mi to będzie potrzebne") - to sztuczny cliffhanger, nie ziarenko. Slajd kończący się faktem ciągnie sam. Nie tłumacz też, dlaczego coś się rozpadło - odetnij płytkie wyjaśnienie, którego czytelnik by się spodziewał ("nikt się nie znudził"), i wskaż głębszą przyczynę przez skutek, nie przez nazwę ("do mnie nie dało się dostać" zamiast "byłem niedostępny emocjonalnie").
+
 - Otwarcie sceną NIE oznacza braku tezy - teza/wyznanie/paradoks może otwierać, scena potwierdza w kolejnych 1-2 slajdach (patrz sekcja 2)
 - Scena musi być potwierdzona w CONTENT_MACHINE.md lub bezpośrednio od Ciebie w rozmowie - zero fabularyzacji faktów
 - **Zakaz wymyślania motywacji psychologicznych.** Jeśli nie padło wprost od Ciebie dlaczego coś zrobiłeś/poczułeś - nie pisz tego. "Powiedziałem tak, bo się bałem" wymyślone = kłamstwo w tekście autobiograficznym, nawet jeśli brzmi wiarygodnie

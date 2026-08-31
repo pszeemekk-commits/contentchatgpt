@@ -40,3 +40,5 @@
 - [Naglowek = scena, nie mechanizm](feedback_naglowek_scena_nie_mechanizm.md) — ogolne stwierdzenie mechanizmu w naglowku to AI slop, nawet z pelnym pokryciem; scena do naglowka, uogolnienie do tekstu.
 - [Okladka musi nazwac temat](feedback_okladka_musi_nazwac_temat.md) — "pornografia" w PIERWSZEJ linii okladki, druga linia to teza nie spis tresci, zero metafor.
 - [Odbior, nie fakt](feedback_odbior_nie_fakt.md) — emocja "zostala odebrana jako zagrozenie", nigdy "byla zagrozeniem"; slowo "naprawde" to sygnal ostrzegawczy.
+- [Wahadło po korekcie](feedback_wahadlo_po_korekcie.md) — popraw wskazane miejsce, nie odwracaj całości o 180 stopni; nie "poprawiaj" powrotem do jego oryginału.
+- [Karuzela storytellingowa](feedback_karuzela_storytellingowa.md) — konflikt i cena od S2, i to konflikt CZYTELNIKA; okładka max dwie linie.
