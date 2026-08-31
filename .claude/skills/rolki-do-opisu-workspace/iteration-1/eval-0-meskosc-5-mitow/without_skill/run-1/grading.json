@@ -1,0 +1,17 @@
+{
+  "expectations": [
+    {"text": "Output zawiera wyraźnie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": false, "evidence": "Tekst jest jednym ciągłym postem/listicle bez rozróżnienia, co pada na wideo a co jest samym opisem pod postem."},
+    {"text": "Hook mieści się w maksymalnie 2 zdaniach.", "passed": false, "evidence": "Nie da się wskazać osobnego bloku hooka — pierwsze zdania płynnie przechodzą w resztę posta, format nie rozróżnia warstwy wideo od opisu."},
+    {"text": "Opis zawiera wszystkich 5 mitów z wsadu.", "passed": true, "evidence": "Wszystkie 5 punktów obecne, przepisane na 'Ty' zamiast trzeciej osoby."},
+    {"text": "Każdy z 5 punktów niesie przeformułowanie z wsadu, nie tylko nagłówek.", "passed": true, "evidence": "Każdy punkt ma rozwinięcie w drugim zdaniu."},
+    {"text": "Opis nie dodaje przykładów, statystyk ani twierdzeń spoza wsadu.", "passed": false, "evidence": "Wstęp dodaje wymyślone konteksty 'w domu, w szatni, w pracy' — scen, których wsad nie zawierał."},
+    {"text": "Widać ślad procesu etapowego (Etap 1, 2, 3).", "passed": false, "evidence": "Brak jakiegokolwiek procesu — model poszedł prosto do gotowego tekstu, bez pytań ani planu."},
+    {"text": "Opis kończy się CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Który punkt siedzi w tobie najmocniej? Napisz numer w komentarzu.'"},
+    {"text": "Pierwsze zdania opisu nie powtarzają hooka słowo w słowo.", "passed": false, "evidence": "Nie ma wydzielonego hooka do porównania — cały tekst to jeden blok, więc assercja nie ma czego sprawdzić w sposób, który miałby znaczenie."}
+  ],
+  "summary": {"passed": 3, "failed": 5, "total": 8, "pass_rate": 0.375},
+  "execution_metrics": {"total_tool_calls": 2, "errors_encountered": 0},
+  "timing": {"total_duration_seconds": 45.6},
+  "user_notes_summary": {"uncertainties": [], "needs_review": [], "workarounds": []},
+  "eval_feedback": {"suggestions": [], "overall": "Baseline nie rozumie mechaniki formatu 'rolka do opisu' — pisze zwykły post/karuzelowy tekst bez podziału hook/wideo vs opis, i bez procesu etapowego."}
+}

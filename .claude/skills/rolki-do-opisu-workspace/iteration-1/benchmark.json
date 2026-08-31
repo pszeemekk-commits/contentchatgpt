@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "skill_name": "rolki-do-opisu",
+    "skill_path": "G:\\MARKA\\ContentAI\\CONTENT\\.claude\\skills\\rolki-do-opisu",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-07-26T09:39:51Z",
+    "evals_run": [
+      0,
+      1
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 417.3,
+        "tokens": 0,
+        "tool_calls": 5,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).",
+          "passed": true,
+          "evidence": "Osobne nag\u0142\u00f3wki '### HOOK (tekst na wideo)' i '### OPIS POD POST' w Etapie 3."
+        },
+        {
+          "text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.",
+          "passed": true,
+          "evidence": "Hook: 'Wi\u0119kszo\u015b\u0107 facet\u00f3w myli m\u0119sko\u015b\u0107 z czym\u015b, co ni\u0105 wcale nie jest. Rozpisa\u0142em pi\u0119\u0107 takich pomy\u0142ek w opisie pod tym filmem.' \u2014 dok\u0142adnie 2 zdania."
+        },
+        {
+          "text": "Opis zawiera wszystkich 5 mit\u00f3w z wsadu.",
+          "passed": true,
+          "evidence": "Wszystkie 5 punkt\u00f3w obecne i ponumerowane w opisie, w oryginalnej kolejno\u015bci z wsadu."
+        },
+        {
+          "text": "Ka\u017cdy z 5 punkt\u00f3w niesie przeformu\u0142owanie z wsadu, nie tylko nag\u0142\u00f3wek.",
+          "passed": true,
+          "evidence": "Ka\u017cdy punkt ma 2 zdania rozwini\u0119cia opartego na oryginalnych sformu\u0142owaniach ('spok\u00f3j w sobie', 'kamienna twarz', 'chroni i podnosi')."
+        },
+        {
+          "text": "Opis nie dodaje przyk\u0142ad\u00f3w, statystyk ani twierdze\u0144 spoza wsadu.",
+          "passed": true,
+          "evidence": "Sekcja 'Uwagi w\u0142asne' potwierdza brak nowego materia\u0142u; rozwini\u0119cia to parafrazy, nie nowe sceny/liczby."
+        },
+        {
+          "text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).",
+          "passed": true,
+          "evidence": "Dokument ma jawne sekcje ETAP 1 (pytania kontrolne), ETAP 2 (plan w formacie z SKILL.md), ETAP 3 (finalny hook+opis)."
+        },
+        {
+          "text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.",
+          "passed": true,
+          "evidence": "'Sprawd\u017a, przy kt\u00f3rym z tych pi\u0119ciu punkt\u00f3w \u0142apiesz si\u0119 najcz\u0119\u015bciej. Napisz w komentarzu numer.'"
+        },
+        {
+          "text": "Pierwsze zdania opisu nie powtarzaj\u0105 hooka s\u0142owo w s\u0142owo.",
+          "passed": true,
+          "evidence": "Opis zaczyna si\u0119 'Ka\u017cda pozycja z tej listy wygl\u0105da jak m\u0119sko\u015b\u0107, a w praktyce j\u0105 podcina.' \u2014 inne sformu\u0142owanie ni\u017c hook."
+        }
+      ],
+      "notes": [
+        "Wsad nie dawa\u0142 przyk\u0142ad\u00f3w/scen, wi\u0119c rozwini\u0119cia punkt\u00f3w s\u0105 parafraz\u0105, nie nowym materia\u0142em \u2014 model to zg\u0142osi\u0142, nie ukry\u0142."
+      ]
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 277.0,
+        "tokens": 0,
+        "tool_calls": 5,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).",
+          "passed": true,
+          "evidence": "Osobne bloki '**HOOK (tekst na wideo):**' i '**OPIS POD POST:**' w Etapie 3."
+        },
+        {
+          "text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.",
+          "passed": true,
+          "evidence": "'Pornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny. Siedem z nich rozpisa\u0142em w opisie.' \u2014 2 zdania."
+        },
+        {
+          "text": "Opis zawiera wszystkie 7 cech z wsadu.",
+          "passed": true,
+          "evidence": "Wszystkie 7 pozycji ponumerowane w opisie, w oryginalnej kolejno\u015bci."
+        },
+        {
+          "text": "Wsad to same nazwy bez rozwini\u0119cia \u2014 skill powinien zapyta\u0107 albo zosta\u0107 przy definicyjnym rozwini\u0119ciu, nie wymy\u015bla\u0107 mechanizm\u00f3w.",
+          "passed": true,
+          "evidence": "Etap 1 zawiera wprost pytanie 1 o materia\u0142 do przyk\u0142ad\u00f3w; ZA\u0141O\u017bENIE 1 jawnie ogranicza rozwini\u0119cia do definicji bez nowych scen/liczb, i samokontrola nazywa to 'najs\u0142abszym ogniwem'."
+        },
+        {
+          "text": "Opis nie dodaje statystyk, bada\u0144 ani twierdze\u0144 medycznych spoza wsadu.",
+          "passed": true,
+          "evidence": "Rozwini\u0119cia przy punktach s\u0105 czysto definicyjne (np. 'Pozwala ci utrzyma\u0107 uwag\u0119 na jednej rzeczy' dla koncentracji) \u2014 brak liczb, bada\u0144, cytat\u00f3w."
+        },
+        {
+          "text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).",
+          "passed": true,
+          "evidence": "Pe\u0142ne sekcje ETAP 1/2/3 z jawnymi za\u0142o\u017ceniami tam, gdzie brak realnego u\u017cytkownika."
+        },
+        {
+          "text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.",
+          "passed": true,
+          "evidence": "'Policz, ile z tych siedmiu masz jeszcze przy sobie. Napisz w komentarzu, kt\u00f3ry punkt najbardziej ci\u0119 ruszy\u0142.'"
+        },
+        {
+          "text": "Ton utrzymany bez moralizowania/oceniania czytelnika.",
+          "passed": true,
+          "evidence": "Zdania opisowe, neutralne ('Sprawia, \u017ce inni ci\u0119 s\u0142uchaj\u0105'), bez j\u0119zyka wstydu czy oceny."
+        }
+      ],
+      "notes": [
+        "Rozwini\u0119cia 7 cech s\u0105 minimalne/definicyjne, bo wsad nie dawa\u0142 przyk\u0142ad\u00f3w \u2014 model to jawnie nazwa\u0142 najs\u0142abszym ogniwem tekstu.",
+        "Przy realnym u\u017cytkowniku warto dopyta\u0107 o konkretne przyk\u0142ady zamiast zostawia\u0107 czysto definicyjne rozwini\u0119cia."
+      ]
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.375,
+        "passed": 3,
+        "failed": 5,
+        "total": 8,
+        "time_seconds": 45.6,
+        "tokens": 0,
+        "tool_calls": 2,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).",
+          "passed": false,
+          "evidence": "Tekst jest jednym ci\u0105g\u0142ym postem/listicle bez rozr\u00f3\u017cnienia, co pada na wideo a co jest samym opisem pod postem."
+        },
+        {
+          "text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.",
+          "passed": false,
+          "evidence": "Nie da si\u0119 wskaza\u0107 osobnego bloku hooka \u2014 pierwsze zdania p\u0142ynnie przechodz\u0105 w reszt\u0119 posta, format nie rozr\u00f3\u017cnia warstwy wideo od opisu."
+        },
+        {
+          "text": "Opis zawiera wszystkich 5 mit\u00f3w z wsadu.",
+          "passed": true,
+          "evidence": "Wszystkie 5 punkt\u00f3w obecne, przepisane na 'Ty' zamiast trzeciej osoby."
+        },
+        {
+          "text": "Ka\u017cdy z 5 punkt\u00f3w niesie przeformu\u0142owanie z wsadu, nie tylko nag\u0142\u00f3wek.",
+          "passed": true,
+          "evidence": "Ka\u017cdy punkt ma rozwini\u0119cie w drugim zdaniu."
+        },
+        {
+          "text": "Opis nie dodaje przyk\u0142ad\u00f3w, statystyk ani twierdze\u0144 spoza wsadu.",
+          "passed": false,
+          "evidence": "Wst\u0119p dodaje wymy\u015blone konteksty 'w domu, w szatni, w pracy' \u2014 scen, kt\u00f3rych wsad nie zawiera\u0142."
+        },
+        {
+          "text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).",
+          "passed": false,
+          "evidence": "Brak jakiegokolwiek procesu \u2014 model poszed\u0142 prosto do gotowego tekstu, bez pyta\u0144 ani planu."
+        },
+        {
+          "text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.",
+          "passed": true,
+          "evidence": "'Kt\u00f3ry punkt siedzi w tobie najmocniej? Napisz numer w komentarzu.'"
+        },
+        {
+          "text": "Pierwsze zdania opisu nie powtarzaj\u0105 hooka s\u0142owo w s\u0142owo.",
+          "passed": false,
+          "evidence": "Nie ma wydzielonego hooka do por\u00f3wnania \u2014 ca\u0142y tekst to jeden blok, wi\u0119c assercja nie ma czego sprawdzi\u0107 w spos\u00f3b, kt\u00f3ry mia\u0142by znaczenie."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.375,
+        "passed": 3,
+        "failed": 5,
+        "total": 8,
+        "time_seconds": 56.0,
+        "tokens": 0,
+        "tool_calls": 3,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).",
+          "passed": false,
+          "evidence": "Sekcje istniej\u0105 nominalnie, ale 'HOOK' to w praktyce ca\u0142y scenariusz m\u00f3wiony (hook+przej\u015bcie+lista+zamkni\u0119cie+CTA) \u2014 wideo samo dowozi pe\u0142n\u0105 warto\u015b\u0107, co przeczy definicji formatu z anatomii (wideo ma tylko otworzy\u0107 p\u0119tl\u0119, nie domyka\u0107 jej)."
+        },
+        {
+          "text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.",
+          "passed": true,
+          "evidence": "Sam wydzielony blok '[HOOK \u2014 0:00-0:03]' to 2 zdania \u2014 ale w kontek\u015bcie ca\u0142ego scenariusza to techniczna zgodno\u015b\u0107, nie realne spe\u0142nienie mechaniki formatu."
+        },
+        {
+          "text": "Opis zawiera wszystkie 7 cech z wsadu.",
+          "passed": true,
+          "evidence": "Lista 7 cech obecna w sekcji OPIS POD POST, oznaczona emoji \ud83d\udd3b."
+        },
+        {
+          "text": "Wsad to same nazwy bez rozwini\u0119cia \u2014 skill powinien zapyta\u0107 albo zosta\u0107 przy definicji, nie wymy\u015bla\u0107 mechanizm\u00f3w.",
+          "passed": false,
+          "evidence": "Model wymy\u015bli\u0142 konkretne mechanizmy przyczynowe niepochodz\u0105ce z wsadu (np. 'm\u00f3zg przyzwyczajony do bod\u017aca co kilka sekund nie wytrzyma d\u0142u\u017cej', 'm\u0119\u017cczyzna, kt\u00f3ry nie ma za sob\u0105 pary jaj, brzmi inaczej') i sam to przyznaje w 'UWAGI DLA PRZEMKA'."
+        },
+        {
+          "text": "Opis nie dodaje statystyk, bada\u0144 ani twierdze\u0144 medycznych spoza wsadu.",
+          "passed": false,
+          "evidence": "Sam model pisze wprost: 'dopisa\u0142em uzasadnienia z w\u0142asnej g\u0142owy, bo nie mia\u0142em dost\u0119pu do bazy' \u2014 czyli \u015bwiadomie naruszy\u0142 t\u0119 zasad\u0119."
+        },
+        {
+          "text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).",
+          "passed": false,
+          "evidence": "Brak jakichkolwiek pyta\u0144 kontrolnych czy planu do akceptacji \u2014 model poszed\u0142 prosto do gotowego scenariusza i opisu."
+        },
+        {
+          "text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.",
+          "passed": true,
+          "evidence": "'Napisz w komentarzu, kt\u00f3ry z nich uderzy\u0142 najmocniej. Albo napisz do mnie, je\u015bli ju\u017c wiesz, \u017ce chcesz to zmieni\u0107.'"
+        },
+        {
+          "text": "Ton utrzymany bez moralizowania/oceniania czytelnika.",
+          "passed": false,
+          "evidence": "'trudno szanowa\u0107 siebie, kiedy wiesz, \u017ce codziennie robisz co\u015b, czego si\u0119 wstydzisz' \u2014 j\u0119zyk wstydu skierowany wprost do czytelnika."
+        }
+      ],
+      "notes": [
+        "Model sam oznaczy\u0142 ca\u0142y tekst jako 'wersj\u0119 bazow\u0105 bez dost\u0119pu do plik\u00f3w marki' i zasugerowa\u0142 przepuszczenie przez normalny proces Pisarza/Doradcy.",
+        "Wymy\u015blone mechanizmy przyczynowe przy punktach 3 i 5 \u2014 model sam to flagowa\u0142 jako ryzykowne."
+      ]
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 347.15,
+        "stddev": 99.2071,
+        "min": 277.0,
+        "max": 417.3
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.375,
+        "stddev": 0.0,
+        "min": 0.375,
+        "max": 0.375
+      },
+      "time_seconds": {
+        "mean": 50.8,
+        "stddev": 7.3539,
+        "min": 45.6,
+        "max": 56.0
+      },
+      "tokens": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.62",
+      "time_seconds": "+296.3",
+      "tokens": "+0"
+    }
+  },
+  "notes": []
+}

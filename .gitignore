@@ -1,0 +1,17 @@
+# Ustawienia lokalne maszyny - zawieraja sciezki specyficzne dla PC/laptopa
+.claude/settings.local.json
+
+# Instalatory, archiwa, binaria - nie naleza do projektu tresci
+*.exe
+*.jar
+*.zip
+*.msi
+
+# Smieci systemowe
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Cache Pythona ze skryptow skilli
+__pycache__/
+*.pyc

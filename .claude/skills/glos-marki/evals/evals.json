@@ -1,0 +1,26 @@
+{
+  "skill_name": "glos-marki",
+  "evals": [
+    {
+      "id": 0,
+      "name": "meskosc-po-cichu-karuzela",
+      "prompt": "Napisz karuzelę na Instagram. Temat: \"Te rzeczy odbierają ci męskość po cichu\". Przedstaw rzeczy, które po cichu odbierają męskość (jego szacunek do samego siebie). Nie definiuj wprost, że męskość to szacunek do samego siebie - to ma być ukryte pod słowami. Te rzeczy: pornografia i inne nałogi, mówienie \"tak\" byle ktoś się nie przywalił do ciebie, utrata swojego zdania tylko po to, żeby kobieta cię polubiła, składanie sobie obietnic i ciągłe ich niedotrzymywanie. WAŻNE: nie karz go za to, że tak ma, nie oceniaj, nie osądzaj - tylko pokaż komunikat marki: zapis steruje twoim życiem, a ty myślisz, że to twoja słabość. Nie jest tak. Pokaż, że to normalne, że tak ma - ale jednocześnie to go trzyma w miejscu. Sprowadź to do tego, że sposobem na zmianę jest praca z podświadomością, bo mechanizm, który do tego pcha, można zmienić. Wyjaśnij dokładnie ten mechanizm korzystając z baz wiedzy o podświadomości.",
+      "expected_output": "Karuzela (slajdy + opis pod post) zgodna z marką: jeden komunikat z BRAND.md sekcja 4 jako kręgosłup, teza z POGLĄDY_PRZEMKA, mechanizm z dosłownym pokryciem w WIEDZA_XX, postawa bez oceniania, rytm i frazy Przemka.",
+      "files": [],
+      "assertions": [
+        "Wskazuje JEDEN konkretny komunikat marki z BRAND.md sekcja 4 (meta M1/M2 albo oś 1-7) jako kręgosłup tekstu i cytuje go dosłownie",
+        "Mechanizm podświadomości ma dosłowne pokrycie w konkretnym pliku wiedza/WIEDZA_XX.md - cytowany fragment da się odnaleźć w źródle",
+        "Mechanizm ma realną przyczynowość (da się rozpisać jako 'gdy X, dzieje się Y, bo Z'), nie samo nazwanie uczucia",
+        "Wszystkie cztery rzeczy z promptu są w karuzeli: porno/nałogi, mówienie 'tak' z lęku, utrata zdania dla kobiety, niedotrzymane obietnice wobec siebie",
+        "Nie definiuje wprost, że męskość to szacunek do samego siebie - znaczenie zostaje pod słowami",
+        "Nie ocenia i nie moralizuje: brak zdań przypisujących czytelnikowi słabość, winę lub charakter jako przyczynę",
+        "Używa co najmniej jednej frazy dosłownie z tabeli material/FRAZY_PRZEMKA.md albo jawnie oznacza jej brak",
+        "Zero-Fiction: żaden szczegół z życia Przemka nie pojawia się bez pokrycia w plikach projektu",
+        "'Świadomość' nie jest użyta w znaczeniu mindfulness (zauważanie napięcia w ciele, oddech, 'tu i teraz') - to rejestr wroga marki wg BRAND.md sekcja 13",
+        "Scan mechaniczny czysty: 0 długich myślników, maksymalnie 1 'ale', 0 'Że' na początku zdania",
+        "Maksymalnie jeden kontrast typu 'X, nie Y' w całym tekście",
+        "Żadna abstrakcja (zapis, mechanizm, wzorzec, rana) nie jest podmiotem czasownika akcji"
+      ]
+    }
+  ]
+}

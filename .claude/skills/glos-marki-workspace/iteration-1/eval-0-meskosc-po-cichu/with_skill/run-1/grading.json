@@ -1,0 +1,73 @@
+{
+  "eval_id": 0,
+  "eval_name": "meskosc-po-cichu-karuzela",
+  "run": "with_skill",
+  "expectations": [
+    {
+      "text": "Wskazuje JEDEN konkretny komunikat marki z BRAND.md sekcja 4 i cytuje go dosłownie",
+      "passed": true,
+      "evidence": "Oś przekazu nr 1 zacytowana w całości, plus jawne uzasadnienie odrzucenia M1 i Komunikatu 7 'żeby tekst niósł jedną nić'."
+    },
+    {
+      "text": "Mechanizm ma dosłowne pokrycie w konkretnym pliku WIEDZA_XX - cytat da się odnaleźć w źródle",
+      "passed": true,
+      "evidence": "6 cytatów. Zweryfikowane grepem w źródłach: 'instrukcja obsługi podobnych sytuacji' i 'dąży do spójności z tym obrazem' (WIEDZA_02), 'Nie ma filtra krytycznego' (WIEDZA_04), 'Postanowienia podejmujesz w trybie spokoju' (WIEDZA_02). Zero zmyślonej wiedzy."
+    },
+    {
+      "text": "Mechanizm ma realną przyczynowość (gdy X, dzieje się Y, bo Z), nie samo nazwanie uczucia",
+      "passed": true,
+      "evidence": "Łańcuch: ustępujesz w drobiazgu -> podświadomość archiwizuje emocję i wniosek jako instrukcję -> z wniosków składa się obraz siebie -> umysł dąży do spójności z nim, nie do sukcesu -> postanowienie pęka w tym samym miejscu. Slajdy 9-10."
+    },
+    {
+      "text": "Wszystkie cztery rzeczy z promptu są w karuzeli",
+      "passed": true,
+      "evidence": "Slajdy 4-7: porno, mówienie 'tak' z lęku, gubienie zdania przy niej, niedotrzymane obietnice. Każdy jako osobny numerowany punkt."
+    },
+    {
+      "text": "Nie definiuje wprost, że męskość to szacunek do samego siebie",
+      "passed": true,
+      "evidence": "Skan: 0 wystąpień 'męskość to / oznacza / polega'. Definicja zostaje pod tekstem - jedyne użycie słowa to potwierdzona fraza na slajdzie 4."
+    },
+    {
+      "text": "Nie ocenia i nie moralizuje - brak przypisywania czytelnikowi słabości lub charakteru jako przyczyny",
+      "passed": true,
+      "evidence": "Odwrotnie: slajd 8 przepisuje 'dlaczego jesteś taki słaby' na 'kiedy nauczyłeś się, że tak jest bezpieczniej', slajd 11 nazywa charakter wnioskiem chłopca. Cztery zachowania opisane bez przymiotnika wartościującego."
+    },
+    {
+      "text": "Używa co najmniej jednej frazy dosłownie z tabeli FRAZY_PRZEMKA.md albo jawnie oznacza brak",
+      "passed": true,
+      "evidence": "Dwie frazy: 'nie panujesz nad seksualnością nie panujesz nad swoją męskością' (slajd 4, bez zmian) i 'niósł ogromny plecak...' (slajd 12, zmieniona wyłącznie osoba - odstępstwo zgłoszone jawnie, nie ukryte)."
+    },
+    {
+      "text": "Zero-Fiction: żaden szczegół z życia Przemka bez pokrycia w plikach",
+      "passed": true,
+      "evidence": "Zero scen biograficznych. Jedyny cytat przypisany ludziom ('Jestem gościem, który mówi i nie robi') pochodzi z AVATAR.md sekcja 9. Wyciął wymyśloną scenkę z szefem w piątek po 17 jako zgadnięty konkret."
+    },
+    {
+      "text": "'Świadomość' nie użyta w rejestrze mindfulness (oddech, napięcie w ciele, tu i teraz)",
+      "passed": true,
+      "evidence": "Skan: 0 trafień na wzorce mindfulness. Praca opisana jako dotarcie do zapisu sprzed lat w transie, z normalizacją przez przykład z samochodu."
+    },
+    {
+      "text": "Scan mechaniczny czysty: 0 długich myślników w treści, max 1 'ale', 0 'Że' na początku zdania",
+      "passed": true,
+      "evidence": "W treści karuzeli i opisu: 'ale' = 0, 'Że' na początku = 0, długi myślnik = 0. Dwa myślniki występują wyłącznie w nagłówkach roboczych pliku ('CZĘŚĆ 2 — KARUZELA'), nie w tekście na Instagram."
+    },
+    {
+      "text": "Maksymalnie jeden kontrast typu 'X, nie Y' w całym tekście",
+      "passed": false,
+      "evidence": "Są dwa: 'dąży do spójności z tym obrazem, nie do sukcesu' (slajd 10) i 'To jest problem konstrukcji, nie charakteru' (opis). Skill zadeklarował w kontroli limit 1 i policzył się na 1 - własny scan modelu przeliczył się o jeden."
+    },
+    {
+      "text": "Żadna abstrakcja nie jest podmiotem czasownika akcji",
+      "passed": false,
+      "evidence": "'Twoja podświadomość archiwizuje' (slajd 9, opis). Zgłoszone jawnie i uzasadnione kanonem - Komunikat 1 w BRAND.md sam brzmi 'Podświadomość podpięła...'. Policzone: 23 zdania z podmiotem 'Ty' wobec 2 z abstrakcją."
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.8333,
+    "passed": 10,
+    "failed": 2,
+    "total": 12
+  }
+}
