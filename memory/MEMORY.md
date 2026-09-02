@@ -42,3 +42,14 @@
 - [Odbior, nie fakt](feedback_odbior_nie_fakt.md) — emocja "zostala odebrana jako zagrozenie", nigdy "byla zagrozeniem"; slowo "naprawde" to sygnal ostrzegawczy.
 - [Wahadło po korekcie](feedback_wahadlo_po_korekcie.md) — popraw wskazane miejsce, nie odwracaj całości o 180 stopni; nie "poprawiaj" powrotem do jego oryginału.
 - [Karuzela storytellingowa](feedback_karuzela_storytellingowa.md) — konflikt i cena od S2, i to konflikt CZYTELNIKA; okładka max dwie linie.
+- [Historia to nie pamiętnik](feedback_historia_to_nie_pamietnik.md) — hook musi dać widzowi korzyść z przeczytania; samo rozpoznanie to za mało.
+- [Zakaz słowa "głód"](feedback_zakazane_slowo_glod.md) — nie jest słowem Przemka; grep "głod" przed oddaniem tekstu.
+- [Zakaz słowa "awaria"](feedback_zakazane_slowo_awaria.md) — nie jest słowem Przemka; myśl może być z pliku, a sformułowanie i tak obce.
+- [Warstwy, nie zamiana](feedback_warstwy_nie_zamiana.md) — stary abstrakcyjny opis transformacji i nowy konkretny z oferty to zwykle dwa poziomy tego samego; dołóż, nie kasuj.
+- [Obecność w związku nie przez rozmowę](feedback_obecnosc_w_zwiazku_nie_przez_rozmowe.md) — "zostaję w rozmowie" to domyślny obraz AI; pokazuj czułość, otwartość na jej stany i mówienie o swoich emocjach.
+- [Droga Przemka jest w plikach](feedback_droga_przemka_jest_w_plikach.md) — czytaj CONTENT_MACHINE zanim poprosisz go o konkret; bierz minimum potrzebne temu tekstowi, nie całą scenę.
+- [Fraza z tabeli to nie pojęcie centralne](feedback_fraza_z_tabeli_to_nie_pojecie_centralne.md) — "uwieranie"/"plecak" to obrazy do myślenia; nazwij rzecz wprost, nawet kosztem zera fraz z tabeli w tekście.
+- [OFERTA.md nie jest wsadem](feedback_oferta_nie_jest_wsadem.md) — przepisany opis obszaru = landing, nie stories; tryb oferty wprost też przechodzi glos-marki i pyta o jego obserwację.
+- [Stories mówią w drugiej osobie](feedback_stories_druga_osoba.md) — "facet/on" to wykład o obcym; sprawdź też, czy ruch myślowy jest w zdaniach, nie tylko w nagłówku pliku.
+- [Ziarenka jako wymyślona fabuła](feedback_ziarenka_jako_wymyslona_fabula.md) — przy wsadzie o stanach ziarenko wymusza zmyśloną chronologię; wycinaj tylko wskazane, nie całą kategorię.
+- [Nagłówek niesie funkcję slajdu](feedback_naglowek_ma_niesc_funkcje_slajdu.md) — slajd kontrastowy wymaga obu stron w nagłówku; test zasłonięcia tego nie łapie, to osobny test.

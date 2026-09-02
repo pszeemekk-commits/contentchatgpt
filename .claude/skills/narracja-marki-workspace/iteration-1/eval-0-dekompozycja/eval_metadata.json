@@ -1,0 +1,16 @@
+{
+  "eval_id": 0,
+  "eval_name": "dekompozycja",
+  "prompt": "wrzucam swoj braindump, cztery pliki: Braindump_marka.md, braindump_historiamarki.md, braindump_glosmarki.md, braindump_wartoscimarki.md. przeanalizuj to i powiedz mi co tu wlasciwie jest. chce wiedziec co jest mocne a co brzmi jak kazdy inny w tej branzy",
+  "assertions": [
+    {"id": "a1", "text": "Wynik rozroznia wprost, co pochodzi z materialu, a co jest wnioskiem autora analizy (np. etykiety SOURCE / INTERPRETATION / HYPOTHESIS albo rownowazne oznaczenie)"},
+    {"id": "a2", "text": "Twierdzenia o Przemku maja kotwice w materiale (cytat albo jednoznaczne wskazanie fragmentu/pliku), nie sa golymi zdaniami"},
+    {"id": "a3", "text": "Wynik zawiera osobna, wprost nazwana sekcje o tym, co w materiale brzmi generycznie / jak u kazdego innego w branzy"},
+    {"id": "a4", "text": "Wynik nazywa sprzecznosci lub napiecia i NIE rozstrzyga ich za autora (pokazuje obie strony zamiast wybierac wlasciwa)"},
+    {"id": "a5", "text": "Wynik zawiera bank historii, w ktorym pojedyncza historia ma wypisane WIECEJ NIZ JEDNO mozliwe znaczenie/zastosowanie"},
+    {"id": "a6", "text": "Wynik NIE jest wylacznie streszczeniem braindumpu - zawiera warstwe analityczna (co material znaczy), nie tylko uporzadkowane powtorzenie tresci"},
+    {"id": "a7", "text": "Brak slow zakazanych marki w tekstach oddanych uzytkownikowi: 'adres', 'glod', 'awaria', 'robota' jako termin, konstrukcja 'X siedzi w Y'"},
+    {"id": "a8", "text": "Zaden fakt o zyciu Przemka podany jako pewny nie jest zmyslony - wyrywkowo sprawdzalny w plikach braindump_*"},
+    {"id": "a9", "text": "Powstaly trwale dokumenty robocze (pliki .md) uporzadkowane tematycznie, a nie jedna dluga odpowiedz w czacie"}
+  ]
+}

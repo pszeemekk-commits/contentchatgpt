@@ -2,7 +2,7 @@
 
 Spis treści:
 1. Trzy wymogi napięcia
-2. Okładka
+2. Okładka (w tym: to nie jest jego pamiętnik)
 3. Konflikt czytelnika, nie autora
 4. Środek historii — co ciągnie przez slajdy
 5. Zwrot i przejście na „ty"
@@ -23,22 +23,43 @@ Wszystkie trzy liczone od POCZĄTKU tekstu, nie od jego środka. To jest różni
 
 ---
 
-## 2. Okładka
+## 2. Okładka (w tym: to nie jest jego pamiętnik)
 
 Dwie linie. Nigdy więcej, niezależnie od tego, jak dobry jest materiał na trzecią.
 
-Zadanie okładki w tym formacie różni się od karuzeli diagnostycznej. Tam okładka nazywa problem czytelnika. Tu nazywa **stratę albo stawkę bohatera** i tym samym ustawia napięcie na resztę tekstu.
+### To nie jest jego pamiętnik
 
-Działający kształt: zdanie sceniczne albo myśl bohatera, a pod nim fakt, który do niej nie pasuje.
+Zacznij od tego, bo to jest najdroższy błąd w całym formacie i wraca za każdym razem. Okładka, która zapowiada, że autor coś przeżył, nie daje czytelnikowi żadnego powodu, żeby przewinąć. „Nie mogłem się doczekać, aż odbiorę oficerską szablę. Nigdy jej nie odebrałem" jest zgrabne, ma stratę, ma napięcie fabularne — i nie obchodzi nikogo, bo pytanie, które stawia, brzmi „co się stało z jego szablą".
+
+Nikt nie czyta cudzego życiorysu. Czytelnik daje ci pierwsze dwie sekundy pod warunkiem, że **wie, co sam z tego będzie miał**. To musi być widoczne w okładce, nie na slajdzie ósmym.
+
+Uwaga na pułapkę pośrednią, w którą łatwo wpaść po tej korekcie: samo **rozpoznanie** to jeszcze nie korzyść. „Szedłem po szablę, bo myślałem, że tego chcę. To było marzenie mojego ojca" daje czytelnikowi lustro („a mój cel jest mój?"), ale nie mówi, po co ma czytać dalej. Rozpoznanie jest wstępem do korzyści, nie jej zamiennikiem.
+
+**Korzyść to odpowiedź na pytanie: co ten człowiek wyniesie z przeczytania tej historii?** Nie „o czym ona jest". Co będzie wiedział albo umiał rozpoznać po ostatnim slajdzie. Ustal to zdanie, zanim napiszesz okładkę — i zbuduj ją wokół niego, nie wokół najlepszej sceny, jaką masz.
+
+### Kształt, który działa
+
+Konkretna sytuacja życiowa, a pod nią zwrot, który jej przeczy i zostawia lukę:
+
+```
+Miałem być oficerem Wojska Polskiego, a jestem mentorem mężczyzn.
+Odejście z wojska było najlepszą decyzją, jaką podjąłem.
+```
+
+Pytanie, z którym zostaje czytelnik, brzmi: jak porzucenie największej perspektywy życiowej może być najlepszą decyzją? A obchodzi go ono dlatego, że sam coś trzyma i nie wie, czy trzymać dalej. Korzyść jest w tym pytaniu zawarta, bez ani jednego słowa obietnicy — nie musisz pisać „pokażę ci, jak rozpoznać", bo to spis treści.
+
+Drugi działający wariant, gdy stawką jest strata: pragnienie w pierwszej linii, jego unieważnienie w drugiej.
 
 ```
 Pomyślałem: ona musi być moja.
 Straciłem ją na dwa lata.
 ```
 
-Pierwsza linia daje pragnienie, druga je unieważnia. Czytelnik wchodzi w historię, wiedząc, że to się rozsypie, więc każdy slajd zbliżenia czyta z napięciem.
+To działa, bo strata kobiety jest doświadczeniem czytelnika, nie tylko autora — on też kogoś przepuścił. Ta sama konstrukcja zastosowana do szabli nie działa, bo oficerskiej szabli nie stracił nikt oprócz Przemka. Różnica nie leży w formie zdania, tylko w tym, czy rzecz, o którą toczy się gra, jest też jego rzeczą.
 
-**Czego na okładce nie ma:** detali scenograficznych (kolor włosów, pogoda), które nie niosą stawki — one idą na slajd drugi albo wypadają; obietnicy typu „powiem ci, co było między nimi", bo to spis treści, nie hak; metafory i komentarza autora do własnej historii.
+**Czego na okładce nie ma:** detali scenograficznych (kolor włosów, pogoda), które nie niosą stawki — one idą na slajd drugi albo wypadają; obietnicy typu „powiem ci, co było między nimi" ani „pokażę ci, jak rozpoznać", bo to spis treści; metafory i komentarza autora do własnej historii.
+
+**Test przed zatwierdzeniem okładki:** przeczytaj obie linie i zadaj sobie pytanie, które postawi czytelnik. Jeśli brzmi ono „i co dalej z nim?" — masz pamiętnik. Jeśli brzmi „a jak to jest u mnie?" — masz lustro, ale sprawdź jeszcze, czy z tekstu wyniesie coś poza samym rozpoznaniem.
 
 **Kryteria odrzucenia** obowiązujące w tej marce (teza wycelowana w czytelnika, paradoks-chiazm w trzeciej osobie, założenie o przeszłości odbiorcy, abstrakcja) stosują się tu tak samo — pełna lista w `glos-marki`, Krok 3.6.
 
@@ -73,6 +94,10 @@ Rozjazd między dwoma faktami robi czytelnik sam — i to jest jego konflikt, bo
 ---
 
 ## 4. Środek historii — co ciągnie przez slajdy
+
+**Każdy slajd zostawia otwartą pętlę.** Efekt Zeigarnika trzyma uwagę mocniej niż ciekawość: rzecz niedokończona uwiera, dokończona pozwala odejść. Slajd, na którym każda myśl kończy się kropką, jest naturalnym miejscem, żeby przestać czytać — a kilkanaście takich pod rząd to kilkanaście okazji do porzucenia tekstu. Sprawdź to na gotowej karuzeli slajd po slajdzie: co zostaje nierozwiązane, gdy czytelnik zobaczy ostatnie zdanie?
+
+Pętle, które zadziałały w karuzeli o wojsku: „nie miałem pojęcia, że to nie był mój pomysł" (czyj?), „zapamiętaj ten miesiąc" (po co?), „została jedna rozmowa do odbycia" (z kim, jak się skończy?), „nowy kierunek już miałem" (jaki?). Każda niesie informację, której wcześniej nie było, i każda domyka się później w tekście.
 
 **Ziarenko fabularne to zdarzenie, nie zapowiedź.** Slajd kończący się faktem ciągnie sam, bo czytelnik chce zobaczyć skutek. Slajd kończący się obietnicą, że dalej będzie ciekawie, jest sztucznym cliffhangerem i czyta się jak reklama samego siebie:
 
@@ -164,3 +189,10 @@ Wszystkie zebrane przy karuzeli o bratniej duszy (2026-08-31), pełne pary w `ma
 | Wahadło po korekcie | „Slajd 1 za długi" → skrócone wszystkie | Popraw wskazane miejsce |
 | Poprawka wybiórcza | Zgłoszona wada jednego slajdu → poprawione dwa | Przeczesz kryterium całą karuzelę |
 | Powrót do oryginału jako poprawka | Oddanie mu jego zdania z wsadu | Napisz lepsze albo powiedz, że nie umiesz |
+| Okładka-pamiętnik | „Nigdy nie odebrałem tej szabli" | Sytuacja plus zwrot, z których czytelnik ma korzyść |
+| Rozpoznanie zamiast korzyści | „To było marzenie mojego ojca" i nic dalej | Rozpoznanie plus powód, żeby czytać do końca |
+| Slajd na cztery słowa | „Pokłóciliśmy się. Wkurzył się." | Zdarzenie razem z jego powodem, jedna myśl w całości |
+| Zlepienie osobnych myśli | Październik i start pracy z podświadomością razem | Zbieżność w czasie to nie jedna myśl |
+| Domknięty slajd bez pętli | Każda myśl kończy się kropką | Nierozwiązany element niosący informację |
+| Odpowiedź z czatu jako slajd | „Efektów transu nie czujesz pięć minut później" | Wykorzystaj informację, napisz zdanie od nowa |
+| Cytat sprzeczny z tekstem | „że to, co robię, jest wartościowe" po 12 slajdach o wartości własnej | Spójność z tekstem bije dosłowność wsadu |

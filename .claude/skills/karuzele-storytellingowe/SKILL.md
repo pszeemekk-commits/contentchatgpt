@@ -42,7 +42,11 @@ Odwrotny błąd też istnieje: wsad, który jest tezą z ilustracją, a nie hist
 
 ## Etap 1 — czy z tego materiału da się zrobić historię
 
-Historia potrzebuje czterech rzeczy, których nie da się dopisać z powietrza. Sprawdź, czy masz je we wsadzie, i dopytaj o brakujące — maksymalnie cztery pytania naraz, każde odnoszące się do tego, co Przemek napisał.
+**Zacznij od pytania, które przesądza o wszystkim: co czytelnik z tej historii wyniesie?** Nie o czym ona jest — co ten człowiek będzie wiedział albo umiał u siebie rozpoznać, gdy dojedzie do ostatniego slajdu. Zapisz to jednym zdaniem i trzymaj przed sobą, bo od niego zależy okładka, a od okładki to, czy ktokolwiek dojdzie do slajdu drugiego.
+
+To nie jest formalność ani ozdoba procesu. Historia z życia autora domyślnie nie obchodzi nikogo — jest jego pamiętnikiem. Staje się czyimś tekstem dopiero wtedy, gdy czytelnik od pierwszej sekundy wie, po co ma ją czytać. Jeśli nie potrafisz tego zdania napisać, nie pisz okładki; szczegóły w `references/anatomia-karuzeli-storytellingowej.md`, sekcja 2.
+
+Poza tym historia potrzebuje czterech rzeczy, których nie da się dopisać z powietrza. Sprawdź, czy masz je we wsadzie, i dopytaj o brakujące — maksymalnie cztery pytania naraz, każde odnoszące się do tego, co Przemek napisał.
 
 1. **Konflikt.** Czego bohater chciał i co stanęło na drodze. Bez tego masz relację z wydarzeń, nie historię.
 2. **Cena.** Co było do stracenia i czy zostało stracone. To ona trzyma czytelnika przez środek tekstu.
@@ -71,7 +75,15 @@ Zapytaj o zgodę i czekaj. Bez akceptacji planu nie piszesz slajdów. Jeśli Prz
 
 Po akceptacji napisz slajdy i opis pod post.
 
-Liczba slajdów wynika z oddechu historii, nie z limitu. Krótkie slajdy w scenach, dłuższe w momentach konfliktu; 10-18 to normalny zakres i nie ma powodu ciąć historii, żeby zmieścić ją w dziesięciu. Na slajdzie mieści się do pięciu zdań, ale w scenach zwykle dwa albo trzy. Okładka ma dwie linie i nigdy więcej.
+**Jeden slajd to jedna myśl albo jedna scena, opowiedziana w całości.** To jest jedyna reguła podziału i działa w obie strony, bo psuje się w obie.
+
+Historia może potrzebować więcej slajdów niż karuzela diagnostyczna i nie ma powodu ciąć jej do dziesięciu — ale „więcej slajdów" nie znaczy rozdrabniania. Slajd na cztery słowa („Pokłóciliśmy się. Wkurzył się.") dorabia czytelnikowi przewinięcie i nie daje mu za nie nic; jedna myśl rozbita na trzy kafelki to trzy razy ta sama myśl w kawałkach. Odwrotny błąd jest równie kosztowny: zlepienie dwóch osobnych rzeczy, bo obie były krótkie. Październik, w którym miał wylecieć, i start pracy z podświadomością zbiegły się w czasie, ale to dwie różne myśli i na jednym slajdzie robią kaszę.
+
+Test: streść slajd jednym zdaniem. Jeśli potrzebujesz „i" łączącego dwie niezależne rzeczy — rozdziel. Jeśli streszczenie brzmi tak samo jak sąsiedni slajd — scal. Pięć zdań to typowa górna granica, ale gęsty slajd fabularny może mieć sześć i to lepsze niż rozcinanie myśli na pół. Okładka ma dwie linie i nigdy więcej.
+
+**Każdy slajd zostawia otwartą pętlę.** Efekt Zeigarnika trzyma czytelnika mocniej niż ciekawość — niedokończona rzecz uwiera, dokończona pozwala odejść. Slajd domknięty kropką po każdej myśli jest naturalnym miejscem, żeby przestać czytać, a piętnaście takich slajdów pod rząd to piętnaście okazji do porzucenia tekstu.
+
+Pętla niesie informację, której wcześniej nie było, i zostawia nierozwiązany element: „nie miałem pojęcia, że to nie był mój pomysł" (czyj?), „zapamiętaj ten miesiąc" (po co?), „została jedna rozmowa do odbycia" (z kim, jak się skończy?). Zapowiedź nie niesie nic i dlatego brzmi jak reklama samej siebie — „nie wiedziałem jeszcze, po co mi to będzie potrzebne" obiecuje tylko, że dalej będzie ciekawie. Rozwinięcie w `references/`, sekcja 4.
 
 Opis pod postem nie streszcza karuzeli. Bierze to, co nie zmieściło się na slajdach — zwykle domknięcie historii i to, co bohater z niej wyniósł — i kończy zaproszeniem do reakcji zgodnym z celem posta.
 
@@ -83,6 +95,8 @@ Historia z życia ma jedną własność, której nie mają teksty diagnostyczne:
 - **Nie dopisuj zdarzeń, dat, liczb, cytatów.** Jeśli historii brakuje ogniwa, zapytaj. Jedno pytanie kosztuje mniej niż tekst wycofany po publikacji.
 - **Nie uogólniaj scen.** Konkretna scena zostaje sceną, nie zamienia się w kategorię.
 - **Jego sformułowania są lepsze od twoich.** Wsad jest napisany polszczyzną, którą mówi. Przenoś jego czasowniki i konstrukcje; nowe zdania wymyślaj tam, gdzie wsad milczy. Uwaga na kompresję: skracając porównanie łatwo wyciąć z niego autora („czułem się jakbym był na MDMA" → „jak na MDMA" opisuje już rozmowę z zewnątrz, nie jego przeżycie).
+- **Odpowiedzi na twoje pytania to nie jest wsad.** Gdy dopytujesz i Przemek tłumaczy ci mechanikę własnego życia („przecież nie czujesz efektów transu pięć minut później", „dla większej idei poświęciłem ideę przeżycia życia po swojemu"), to jest myślenie na głos skierowane do ciebie, w rejestrze rozmowy, nie tekst na kafelek. Wykorzystaj informację, napisz zdanie od nowa. Przeklejone brzmi jak wycinek z czatu, bo nim jest.
+- **Cytat z wsadu przegrywa ze spójnością tekstu.** Zdarza się, że jego własne zdanie mówi co innego niż historia, którą zbudowałeś. Przy karuzeli o wojsku wsad kończył się na „próbie udowodnienia otoczeniu, że to, co robię, jest wartościowe", a wszystkie dwanaście slajdów mówiło o udowadnianiu ojcu własnej wartości — nie wartości swojej pracy. Dosłowność brzmiała wiernie i była nietrafna. Gdy widzisz taki rozjazd, nazwij go i zaproponuj wersję spójną z tekstem, zamiast wklejać cytat, bo jest jego.
 - **Ale przepisywanie 1:1 to nie wierność, tylko lenistwo.** Notatka pocięta na slajdy jest bezwartościowa — on ją już ma. Detal przeklejony dosłownie zostaje tylko wtedy, gdy niesie treść; ozdobnik wypada, choćby był jego.
 - **Oznacz, co dopisałeś.** Oddając tekst, wypisz zdania, których nie było we wsadzie, i skąd je wziąłeś. To jego jedyna szansa złapać zmyślony fakt przed publikacją.
 
@@ -102,15 +116,16 @@ Dwie rzeczy, które to równoważą:
 
 Przejdź to na gotowym tekście:
 
-1. **Same pierwsze linie slajdów, po kolei.** Czytają się jak historia? Jeśli jak spis tez — masz karuzelę diagnostyczną w przebraniu.
-2. **Gdzie stoi konflikt.** Na S2 czy dalej? Jeśli dalej, przód tekstu jest relacją z wydarzeń.
-3. **Czy czytelnik ma się w czym rozpoznać przed połową.** Historia bez tego jest twoją anegdotą.
-4. **Każde ziarenko** — czy to zdarzenie, czy zapowiedź, że dalej będzie ciekawie. Zapowiedzi wypadają.
-5. **Każde zdanie o tym, jak było** — fakt w czasie przeszłym czy hipoteza w trybie przypuszczającym? Fakt bije hipotezę.
-6. **Metafory.** W miejscu, gdzie miało stać zachowanie, metafora zawsze udaje głębię. Test: czy da się wskazać palcem czynność, którą ktoś wykonał?
-7. **Skaner z glos-marki** na samych slajdach i opisie:
+1. **Test pamiętnika, na samej okładce.** Przeczytaj dwie linie i nazwij pytanie, które postawi czytelnik. „I co dalej z nim?" znaczy, że napisałeś cudzy życiorys i reszta tekstu nie ma znaczenia, bo nikt do niej nie dojdzie. Rób ten test pierwszy, przed wszystkimi innymi.
+2. **Same pierwsze linie slajdów, po kolei.** Czytają się jak historia? Jeśli jak spis tez — masz karuzelę diagnostyczną w przebraniu.
+3. **Gdzie stoi konflikt.** Na S2 czy dalej? Jeśli dalej, przód tekstu jest relacją z wydarzeń.
+4. **Czy czytelnik ma się w czym rozpoznać przed połową.** Historia bez tego jest twoją anegdotą.
+5. **Każde ziarenko** — czy to zdarzenie, czy zapowiedź, że dalej będzie ciekawie. Zapowiedzi wypadają.
+6. **Każde zdanie o tym, jak było** — fakt w czasie przeszłym czy hipoteza w trybie przypuszczającym? Fakt bije hipotezę.
+7. **Metafory.** W miejscu, gdzie miało stać zachowanie, metafora zawsze udaje głębię. Test: czy da się wskazać palcem czynność, którą ktoś wykonał?
+8. **Skaner z glos-marki** na samych slajdach i opisie:
    ```bash
    python .claude/skills/glos-marki/scripts/scan_tekstu.py <plik>
    ```
    Wynik niezerowy na twardych limitach oznacza poprawkę i ponowny skan, nie dyskusję z licznikiem.
-8. **Lista dopisanych zdań** dla Przemka, na końcu odpowiedzi.
+9. **Lista dopisanych zdań** dla Przemka, na końcu odpowiedzi.

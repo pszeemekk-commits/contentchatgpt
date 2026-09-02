@@ -73,6 +73,20 @@ Te pliki istnieją i są referencjonowane, ale ich treść nigdy nie przeszła t
 6. Jeśli temat dotyczy sprzedaży (Filar 4) - sprawdź `OFERTA.md` po konkrety, nie zgaduj ceny/struktury.
 7. Każda korekta od Przemka - zamień w trwałą zasadę w odpowiednim pliku, nigdy jako jednorazową uwagę.
 
+## Słowa zakazane - obowiązuje zawsze, od pierwszej wiadomości
+
+Pełna lista i uzasadnienie: `tozsamosc/MASTER_TOV.md` sekcja 9.1. Skrót, bo ten plik jest jedynym, który wczytuje się na starcie każdej sesji:
+
+**adres, głód, awaria, robota (jako termin), "X siedzi w Y"** - nie używaj ich nigdzie: ani w gotowym tekście, ani w planie slajdów, ani w propozycji konceptu, ani w zwykłej rozmowie o marce. Odrzucone jest też zdanie "facet, który nie ma męskości".
+
+To, że słowo stoi w `BRAND.md` sekcja 13 (słowa-klucze marki), NIE jest zgodą na użycie go w tekście - tamta lista tłumaczy pojęcia do myślenia, nie do pisania.
+
+Przed oddaniem czegokolwiek: `grep -n "adres\|głod\|awari\|robot\|siedzi" plik`.
+
+**Zasada szersza:** myśl może pochodzić z pliku, a sformułowanie i tak być obce. Kompresowanie treści z pliku we własne, zgrabne hasło to moment, w którym powstaje kolejne słowo z tej listy - cytuj sformułowania Przemka dosłownie albo pytaj.
+
+---
+
 ## Czego nie robić
 
 - Nie zakładaj że plik z `/wiedza/` lub `/material/` jest dobry tylko dlatego że istnieje.

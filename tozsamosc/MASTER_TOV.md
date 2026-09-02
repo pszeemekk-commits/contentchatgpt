@@ -148,6 +148,22 @@ BŁĄD: "Sypia obok Ciebie. Odzywa się inaczej." POPRAWNIE: konkretna scena z d
 - ToF: "nawyk", "ucieczka" - unikaj "pornografia" wprost. MoF/BoF: "porno" OK, sygnał rozpoznania
 - Gdy hook/tytuł tekstu JUŻ nazwał "porno" wprost (czyli tekst jest MoF/BoF, nie ToF) - nie cofaj się w środku tekstu do ogólnikowego "nawyk"/"ten nawyk" jako określenia samego uzależnienia. Czyta się to jak wycofanie z konkretu, który tekst już obiecał w hooku. "Nawyk" samo w sobie nie jest zakazane - jest właściwym słowem dla ToF i dla opisu codziennych rutyn/struktury dnia (inne znaczenie, nie problem). Test: czy w TYM tekście porno zostało już nazwane wprost wcześniej? Jeśli tak, trzymaj konkret do końca zamiast mieszać z eufemizmem.
 
+### 9.1 SŁOWA ZAKAZANE - twarda lista, grep przed oddaniem tekstu
+
+Te słowa nie są słowami Przemka. Zakaz obowiązuje w każdym tekście oddawanym Przemkowi i w każdej rozmowie o marce - w prozie, w opisie mechanizmu, w propozycji konceptu, w planie slajdów. Obecność słowa na liście słów-kluczy w `BRAND.md` sekcja 13 NIE jest zgodą na użycie go w tekście: tamta lista tłumaczy pojęcia do myślenia, nie do pisania.
+
+| Zakazane | Dlaczego | Zamiast |
+|---|---|---|
+| **adres** (adres napięcia, zmiana adresu, adres tej roboty) | żargon wewnętrzny, mimo że stoi w BRAND.md sekcja 13 | nazwij wprost, gdzie leży przyczyna, albo wytnij zdanie |
+| **głód** (np. "cztery adresy jednego głodu") | autorska metafora dorobiona do wsadu, nie jego słownik | opisz wprost, czego szukał i gdzie |
+| **awaria** (np. "dwa typy awarii męskości") | obce sformułowanie, nawet gdy sama myśl pochodzi z POGLĄDY_PRZEMKA.md | cytuj sformułowanie z pliku dosłownie albo zapytaj |
+| **robota** jako termin | potoczne słowo Przemka użyte jako pojęcie czyta się jak podróbka jego głosu | przepisz na czasownik |
+| **"X siedzi w Y"** | kalka z angielskiego, wyłapywana natychmiast | przepisz konstrukcję |
+
+Osobno odrzucone sformułowanie: **"facet, który nie ma męskości"**. Myśl z `POGLĄDY_PRZEMKA.md` sekcja 1 istnieje, ale to konkretne zdanie nie jest jego.
+
+**Wzorzec pod tą listą, ważniejszy niż same słowa:** myśl może pochodzić z pliku, a sformułowanie i tak być obce. Pokrycie merytoryczne nie jest pokryciem językowym. Gdy kompresujesz treść z pliku we własne, zgrabne hasło - to jest dokładnie moment, w którym powstaje słowo z tej listy.
+
 ---
 
 ## 10. CENZURA I METADANE
@@ -165,6 +181,7 @@ Zamiast rozbudowanej checklisty dopasowywania do katalogu wzorców - kilka pyta�
 □ Czy jest tu miejsce, gdzie zamiast obrazu wystarczyłby czysty konkret/rozkaz - i czy go zamieniłem na niepotrzebną metaforę?
 □ Czy wejście w tekst było wymuszone przez "wybór trybu", czy naturalnie wynikło z tego co mam do powiedzenia?
 □ AI-artefakty z sekcji 7 - scan mechaniczny (grep): "Że " na początku, długi myślnik, kalki, przymiotniki marketingowe
+□ Słowa zakazane z sekcji 9.1 - grep obowiązkowy: "adres", "głod", "awari", "robot", "siedzi"
 
 **Test lustra:** przeczytaj na głos. Czy to brzmi jak Przemek gadający do kamery albo piszący z impulsu - czy jak ktoś starający się brzmieć jak Przemek? Pierwsze = wyślij. Drugie = przepisz, i sprawdź czy nie wróciłeś do starych, wygładzonych wzorców z poprzedniej wersji tego dokumentu.
 

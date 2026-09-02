@@ -1806,3 +1806,325 @@ i on musi paść jako mechanizm, nie jako hasło o wartości.
 Trzeci: po trzeciej odrzuconej wersji tego samego slajdu przestań produkować czwartą.
 Nazwij tezę, na której stoi, powiedz dlaczego jest płytka, zaproponuj głębszą. Ta metoda
 zamknęła sprawę w jednej turze po czterech nieudanych.
+
+---
+
+### KOR-2026-08-31-HISTORIA-TO-NIE-PAMIETNIK
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+TEMAT: „Miałem być oficerem Wojska Polskiego, a jestem mentorem mężczyzn"
+
+WERSJE AI (okładka, trzy odrzucone):
+1. "Nie mogłem się doczekać, aż odbiorę oficerską szablę. / Nigdy jej nie odebrałem."
+2. "Szedłem po oficerską szablę, bo myślałem, że tego chcę. / To było marzenie mojego ojca."
+3. (po zatrzymaniu i pytaniu) —
+
+WERSJA PRZYJĘTA:
+Miałem być oficerem Wojska Polskiego, a jestem mentorem mężczyzn.
+Odejście z wojska było najlepszą decyzją, jaką podjąłem.
+
+DLACZEGO: "hook nikogo nie obchodzi ani wstęp i ona robi teraz słabe zaangażowanie mimo
+że ci napisałem: początek ma obchodzić widza, on musi mieć coś z tego że przeczyta tą
+historię" / "to nie jest mój pamiętnik kurwa"
+
+WZORZEC: historia z życia autora domyślnie nie obchodzi nikogo. Wersja 1 miała stratę,
+napięcie i zgrabną konstrukcję, a pytanie, które stawiała, brzmiało „co się stało z jego
+szablą" - i to nie jest pytanie czytelnika.
+Wersja 2 pokazuje pułapkę pośrednią, w którą łatwo wpaść po tej korekcie: samo
+ROZPOZNANIE („a mój cel jest mój?") to jeszcze nie korzyść. Daje lustro, nie daje powodu,
+żeby czytać dalej.
+Kolejność pracy: NAJPIERW zapisz jednym zdaniem, co czytelnik wyniesie z tej historii
+(co będzie wiedział albo umiał u siebie rozpoznać po ostatnim slajdzie), DOPIERO POTEM
+pisz okładkę - wokół tego zdania, nie wokół najlepszej sceny z wsadu.
+Obietnicy nie wypowiada się wprost („pokażę ci, jak rozpoznać" to spis treści) - ma
+wynikać z luki między dwiema liniami.
+Test: jakie pytanie stawia okładka? „I co dalej z nim?" = pamiętnik.
+
+---
+
+### KOR-2026-08-31-ODPOWIEDZ-Z-CZATU-JAKO-SLAJD
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+
+WERSJE AI (dwa osobne wystąpienia tego samego błędu):
+1. "Efektów transu nie czujesz pięć minut później, minęły miesiące."
+2. "Dla większej idei poświęciłem całą ideę przeżycia życia po swojemu, a ona jest dużo
+   bardziej smakowita. (...) Jedno nie musi wykluczać drugiego."
+
+DLACZEGO: "na chuj wyjaśniasz to, co ja cię poprawiłem? na chuj to dajesz w karuzelę?" /
+"znowu kurwa przepisujesz moje słowa do ciebie kurwa do KARUZELI"
+
+WZORZEC: gdy dopytujesz, a Przemek tłumaczy ci mechanikę własnego życia, to jest myślenie
+na głos skierowane DO CIEBIE, w rejestrze rozmowy - nie tekst na kafelek. Oba te zdania
+padły w odpowiedzi na moje pytania z Etapu 1 i oba wylądowały w karuzeli słowo w słowo.
+Rozróżnienie: wsad to materiał, który napisał Z ZAMIAREM zrobienia z niego treści.
+Odpowiedź na pytanie to informacja - wykorzystaj ją i napisz zdanie od nowa.
+Zostaje po tym charakterystyczny ślad: tekst nagle tłumaczy czytelnikowi coś, o co
+czytelnik nie pytał, bo pytał o to model.
+
+---
+
+### KOR-2026-08-31-CYTAT-SPRZECZNY-Z-TEKSTEM
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+
+WERSJA AI (puenta, cytat z wsadu słowo w słowo):
+Kluczem było rozwiązanie jednego problemu: próby udowodnienia otoczeniu, że to, co robię,
+jest wartościowe.
+
+WERSJA PO KOREKCIE:
+Kluczem było rozwiązanie jednego problemu: próby udowodnienia, że jestem coś wart.
+
+DLACZEGO: "JAK KURWA TO CO ROBIE JEST WARTOSCIOWE? PRZECIEZ ZACZELO SIE OD NIEWYSTARCZAJACY
+I OD PROBY UDOWODNIENIA SWOJEJ WARTOSCI. TO NIE MA NIC WSPOLNEGO Z TYM CO ROBIE TYLKO ZE MNĄ"
+
+WZORZEC: dosłowny cytat z wsadu może być niespójny z tekstem, który wokół niego powstał.
+Cała karuzela mówiła o udowadnianiu OJCU WŁASNEJ WARTOŚCI (chłopiec chce usłyszeć, że
+ojciec jest dumny; udowodnienie ojcu siły i wartości; ciężar próby poczucia się
+wartościowym), a zamknięcie przeniosło to na wartość jego pracy. Wierność brzmieniu dała
+niewierność sensowi.
+To wyjątek od zasady „jego sformułowania są lepsze od twoich": gdy widzisz rozjazd między
+cytatem a tym, co tekst zbudował, nazwij go i zaproponuj wersję spójną, zamiast wklejać
+cytat, bo jest jego. Test: podstaw zamknięcie pod pierwsze pięć slajdów i sprawdź, czy
+mówi o tej samej rzeczy.
+
+---
+
+### KOR-2026-08-31-ZEIGARNIK-KAZDY-SLAJD
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+
+WERSJA AI: piętnaście slajdów, każdy domknięty kropką po ostatniej myśli.
+DLACZEGO: "ty nie robisz przejść do następnych, nie wzbudzasz ciekawości i zeigarnik"
+
+WERSJA PO KOREKCIE (pętle dopisane tam, gdzie ich nie było):
+S2 "Nie miałem pojęcia, że to nie był mój pomysł." (czyj? - domyka się przy ojcu)
+S3 "Zapamiętaj ten miesiąc." (po co? - domyka się przy zestawieniu z czerwcem)
+S6 "Została jedna rozmowa do odbycia." (z kim, jak się skończy?)
+S8 "Nowy kierunek już miałem." (jaki?)
+
+WZORZEC: efekt Zeigarnika - rzecz niedokończona uwiera, dokończona pozwala odejść. Slajd,
+na którym każda myśl kończy się kropką, jest naturalnym miejscem, żeby przestać czytać;
+kilkanaście takich pod rząd to kilkanaście okazji do porzucenia tekstu.
+Granica wobec sztucznego cliffhangera (KOR-2026-08-31-SZTUCZNY-CLIFFHANGER): pętla NIESIE
+INFORMACJĘ, której wcześniej nie było, i zostawia nierozwiązany element. Zapowiedź nie
+niesie nic - „nie wiedziałem jeszcze, po co mi to będzie potrzebne" obiecuje tylko, że
+dalej będzie ciekawie. Test: czy po wycięciu tego zdania slajd traci fakt, czy tylko obietnicę?
+
+---
+
+### KOR-2026-08-31-JEDEN-SLAJD-JEDNA-MYSL
+DATA: 2026-08-31
+FORMAT: karuzela storytellingowa
+
+WERSJA AI (rozdrobnienie): S9 "Powiedziałem ojcu, że odchodzę. / Pokłóciliśmy się.
+Wkurzył się." + osobny S10 z powodem jego reakcji.
+DLACZEGO: "na chuj? dorabiasz ludziom przewijania a tekstu jest tam tyle co nic (...)
+to powinien być jeden slajd (...) mówi ci się przy storytellingowej może być więcej
+slajdów, to ty robisz slajdy na 4 słowa i jedną myśl rozbijasz na 3 slajdy"
+
+WERSJA AI (odwrotna skrajność, po korekcie): scalenie wszystkiego do 10 slajdów, w tym
+października (miał wylecieć) ze startem pracy z podświadomością.
+DLACZEGO: "teraz połączyłeś kurwa osobne myśli. NP. S3 ale pewnie też inne"
+
+WZORZEC: jeden slajd to jedna myśl albo jedna scena, opowiedziana w całości - i ta reguła
+psuje się w obie strony. „Więcej slajdów" w storytellingu znaczy, że historia może
+potrzebować dwudziestu, a nie że rozdrabniasz myśl na kafelki po cztery słowa. Zbieżność
+w czasie nie robi z dwóch rzeczy jednej myśli.
+Test: streść slajd jednym zdaniem. Potrzebujesz „i" łączącego dwie niezależne rzeczy -
+rozdziel. Streszczenie brzmi jak sąsiedni slajd - scal.
+Limit pięciu zdań jest orientacyjny: gęsty slajd fabularny może mieć sześć i to lepsze
+niż rozcięcie myśli na pół.
+
+---
+
+### KOR-2026-09-01-OBECNOSC-W-ZWIAZKU-GENERYCZNA
+DATA: 2026-09-01
+FORMAT: karuzela (Filar 3.4, stan PO wyjściu z porno)
+TEMAT: jak pokazać dojrzałość emocjonalną w związku
+
+WERSJA AI:
+"Wcześniej byłem obecny do pewnego momentu, a potem wychodziłem, choć siedziałem na
+miejscu. Dziś zostaję w rozmowie do końca."
+
+DLACZEGO: "rozmowa to generyczny styl AI jak pokazać emocje w związku (...) przecież to
+tak kurwa generyczne". "Zostaję w rozmowie", "słucham do końca", "jestem obecny przy
+stole" - to zdania, które pasują do dowolnego posta dowolnej marki o związkach. Nie niosą
+ani jednego konkretu z życia i nie pokazują niczego, czego facet nie przeczytał już sto razy.
+
+ZAKAZANE: pokazywanie obecności i dojrzałości emocjonalnej w związku przez ROZMOWĘ jako
+scenę - "zostaję w rozmowie", "słucham jej naprawdę", "jestem obecny, gdy mówi",
+"nie przerywam", "rozmawiamy o wszystkim".
+
+CZYM ZASTĘPOWAĆ - cztery konkrety podane przez Przemka, wszystkie o dojrzałości emocjonalnej,
+żaden o rozmowie jako takiej:
+1. czułość okazywana partnerce
+2. otwartość na jej emocje i trudne stany
+3. wytrzymanie tych trudnych stanów, bo sam panuje nad swoimi emocjami bez natychmiastowego
+   rozładowania
+4. mówienie jej o tym, co czuje, bo przestał to tłumić
+
+WZORZEC: dojrzałość emocjonalna mężczyzny w związku pokazuje się przez to, co robi z
+EMOCJAMI - swoimi i jej - a nie przez jakość komunikacji. Rozmowa jest domyślnym obrazem,
+po który sięga model, i dlatego jest bezwartościowa. Test: czy to zdanie dałoby się wkleić
+do cudzego posta o związkach bez zmiany sensu? Jeśli tak, opisz konkretną emocję i to, co
+on z nią robi.
+Uwaga na słownictwo: "regulacja emocji" to żargon wewnętrzny, nie wchodzi do tekstu
+(MASTER_TOV sekcja 9) - opisz wprost, że wytrzymuje jej stan i nie musi go od razu rozładować.
+
+DOPISEK 2026-09-01 (ten sam błąd popełniony PO tej korekcie):
+zamiennikiem zakazanej rozmowy było "przy jej trudnym dniu albo uciekałem z pokoju, albo
+wybuchałem". Reakcja: "jak kurwa uciekałem z pokoju? WŁAŚNIE CI POWIEDZIAŁEM żeby to
+wywalić 'trudna rozmowa więc wychodzę' a ty to dałeś?"
+Dwa błędy naraz: (1) wymyślona scena z jego życia bez pokrycia w żadnym pliku,
+(2) ta sama rodzina obrazu - wyjście z rozmowy - tylko przeniesiona w przeszłość.
+WZORZEC: zakaz obrazu obejmuje też jego lustrzane odbicie w czasie przeszłym. Gdy wycinasz
+generyczny obraz, zamiennik bierzesz WYŁĄCZNIE z wsadu - "wcześniej" opisujesz tym, co
+Przemek sam powiedział o swoim "wcześniej", nie sceną, która brzmi prawdopodobnie.
+Poprawna wersja stoi w całości na jego zdaniach: tłumienie z "przestałem się chować",
+rozładowanie z "potrafię kontrolować własne emocje bez natychmiastowego rozładowania".
+
+DOPISEK 2 (2026-09-01): "wytrzymuję przy niej ten stan" - też odrzucone.
+"To pisze, jakby to była jakaś walka." Karuzela mówi, że walka się skończyła, a ten slajd
+kazał bohaterowi prowadzić ją dalej, tylko przy kobiecie.
+WZORZEC: czasowniki wysiłku (wytrzymać, znieść, utrzymać, opanować, poradzić sobie z)
+są zakazane przy opisie stanu PO. Dojrzałość emocjonalna to LUZ - jego własne słowo z wsadu
+("czuję luz emocjonalny") - więc opisuj ją czasownikami spokoju i otwartości, nie zmagania.
+Test: czy zdanie sugeruje wysiłek? Jeśli tak, przeczy tezie tekstu, choćby opisywało
+poprawne zachowanie.
+
+---
+
+### KOR-2026-09-01-METODA-Z-PLIKOW-NIE-MGLA
+DATA: 2026-09-01
+FORMAT: karuzela (Filar 3.4, stan PO wyjściu z porno)
+
+WERSJA AI: slajd o tym, JAK zaszła zmiana, napisany bez otwarcia CONTENT_MACHINE.md -
+"Nie mam daty. Mam moment, w którym zauważyłem, że od kilku dni nie prowadzę w głowie
+żadnych negocjacji." Plus marker [BRAK MATERIAŁU] z prośbą do Przemka o konkret.
+
+DLACZEGO: "Przecież temat dotyczy rzucenia porno. Ale teraz piszesz o zmianie pozycji?
+Że co robiłem przez tyle czasu? Przecież kurwa dobrze wiesz, jak wyglądała zmiana.
+Masz to w plikach. Dlaczego nie czytasz pliku w przed?"
+
+WERSJA PO POPRAWCE: "Ja położyłem się, wszedłem w trans i zszedłem do zapisu, który
+przyniosłem z domu, w którym dorastałem. Kiedy go rozbroiłem, pętla straciła zasilanie."
++ "Ostatni raz był 9 września 2024. Piętnaście lat nawyku i dwie i pół godziny w transie."
+
+WZORZEC 1: zanim poprosisz Przemka o konkret z jego życia, sprawdź, czy nie stoi już
+w plikach. Jego droga jest rozpisana w CONTENT_MACHINE.md (sekcje 1.1-1.11, SCENY A-Q),
+PERSONA_I_GLOS.md sekcja o łuku życia i BANK_CASE_STUDIES.md. Marker [BRAK MATERIAŁU]
+postawiony nad materiałem, który leży w bazie, to nie ostrożność, tylko nieprzeczytany plik.
+
+WZORZEC 2: karuzela o stanie PO musi pokazać METODĘ, inaczej opisuje cudzy dobrostan.
+Bez zdania o tym, co konkretnie zrobił, "zmiana pozycji" brzmi jak hasło i czytelnik nie wie,
+co niby wypełniało te lata.
+
+WZORZEC 3 (granica do WZORCA 1): z jego historii bierzesz do tekstu MINIMUM, które
+odpowiada na pytanie tego tekstu, nie całą scenę. "Nie używaj całej sceny, bo po płynięciu
+uczy się silniej krzyk. Przecież to tego nie jest potrzebne do tej karuzeli."
+Do karuzeli o stanie PO weszły: trans 2,5h, zejście do zapisu, 15 lat, data 09.09.2024.
+Zostały poza tekstem: popłynięcie i wstyd przed sesją, krzyk wikinga po 30 dniach, poznanie
+Mai, linia pradziadek-dziadek-ojciec. Każde z nich jest prawdziwe i każde ciągnęłoby
+karuzelę w inną stronę.
+Test: czy ten szczegół odpowiada na pytanie, które zadaje TEN tekst? Jeśli tylko wzbogaca
+obraz, zostaje w pliku.
+
+---
+
+### KOR-2026-09-01-FRAZA-Z-TABELI-JAKO-POJECIE-CENTRALNE
+DATA: 2026-09-01
+FORMAT: karuzela
+
+WERSJA AI: nagłówek "Coś uwierało mnie tak długo, że przestałem to czuć" + pierwsze zdanie
+"Jak coś uwiera i przestaje uwierać, nagle świat wygląda inaczej". Fraza wzięta dosłownie
+z FRAZY_PRZEMKA.md i rozbudowana do pojęcia centralnego całego tekstu.
+
+DLACZEGO: "wyskoczyłeś z uwieraniem na slajdzie 3, kolejna pusta abstrakcja. Tyle razy ci
+powtarzałem, że odbiorca nie zajrzy ci do głowy i nie domyśli się, co ty chcesz przekazać pod
+tymi słowami. I to nie ma nic wspólnego z tłumaczeniem za dużo, tylko z tym, że chcesz
+sztucznie brzmieć głęboko."
+
+WERSJA PO POPRAWCE: "Byłem napięty przez cały czas i myślałem, że tak się po prostu żyje.
+Napięcie w tle, ciągła gotowość, karanie się w myślach po każdym wieczorze."
+
+WZORZEC: potwierdzona fraza z tabeli NIE jest licencją na zbudowanie z niej pojęcia
+centralnego. Jego frazy są skrótami do rzeczy, które on ma w głowie - w tekście dla obcego
+czytelnika działają jako ozdoba, dopóki rzecz nie jest nazwana wprost tym samym słowem,
+którym nazwałby ją czytelnik. "Uwieranie", "plecak", "zapis" to obrazy DO myślenia.
+Test: czy czytelnik, który nie zna marki, umie po tym slajdzie powiedzieć jednym rzeczownikiem,
+o czym był? Jeśli musi się domyślać - nazwij rzecz wprost i wytnij metaforę.
+Granica: to NIE jest zarzut o zbyt małą liczbę wyjaśnień. Dodanie akapitu tłumaczącego
+metaforę nie naprawia tego slajdu - naprawia go usunięcie metafory.
+Skutek uboczny do przyjęcia: w gotowym tekście może nie zostać ANI JEDNA fraza z tabeli
+FRAZY_PRZEMKA.md i to jest w porządku. Lepszy tekst bez frazy niż slajd, który brzmi głęboko
+i nic nie znaczy.
+
+---
+
+### KOR-2026-09-01-ZIARENKA-JAKO-WYMYSLONA-FABULA
+DATA: 2026-09-01
+FORMAT: karuzela
+
+WERSJA AI (odrzucone przez Przemka, dwie pozycje): "Najbardziej pilnowałem się przy niej"
+i "Nie zrobiłem w tej sprawie nic bezpośrednio". Plus nagłówek "Przy niej mam luz" - kobieta
+niewprowadzona nigdzie wcześniej w tekście.
+
+DLACZEGO: "przy jakiej kurwa niej? WYMYŚLIŁEŚ SOBIE TO. (...) Nie zrobiłem w tej sprawie nic
+bezpośrednio - a przez to jest random jumpem. To te efekty to prawda, ale to jak je
+wprowadzasz w narrację to już twoja wymyślona fantazja i przez to bije AI."
+
+WZORZEC: wsad opisujący STANY (lista efektów, przemyśleń, obserwacji) nie zawiera fabuły,
+a ziarenko ciekawości domaga się fabuły - i to jest moment, w którym model ją dopisuje.
+Każde "pierwsze wróciło X", "Y zszedł później", "najbardziej przy Z" wprowadza chronologię
+i hierarchię, których w materiale nie ma. Efekty są prawdziwe, a narracja wokół nich zmyślona,
+i to po niej czytelnik poznaje AI - nie po samych zdaniach.
+Zasada: brak ziarenka jest lepszy niż ziarenko wymyślone. Slajdy mogą iść na styk.
+
+UWAGA - WAHADŁO PRZY TEJ SAMEJ KOREKCIE: po tym zgłoszeniu wyciąłem WSZYSTKIE ziarenka
+z tekstu, w tym trzy, których Przemek nie ruszał. Reakcja: "teraz usunąłeś całkiem ziarenka,
+a nie kazałem ci wszystkich usunąć. Powiedziałem tylko, które są złe. Dlaczego zachowujesz się
+jak wahadło, mimo że ustalaliśmy coś?"
+Przeczesanie tekstu wzorcem znaczy: ZNAJDŹ inne trafienia i POKAŻ mu je jako listę do decyzji.
+Nie znaczy: usuń całą kategorię. Zatwierdzone albo nieruszane elementy zostają na miejscu,
+dopóki nie powie inaczej. Patrz też KOR o wahadle po korekcie.
+
+WAHADŁO DRUGI RAZ, TA SAMA KOREKTA: po przywróceniu trzech nieruszanych ziarenek zostawiłem
+puste miejsca po dwóch odrzuconych. Reakcja: "tam trzeba dodać inne (...) przecież trzeba
+zamienić je". Odrzucone ziarenko to polecenie NAPISZ LEPSZE, nie USUŃ - dokładnie jak przy
+odrzuconym slajdzie. Zamienniki, które przeszły: "W związku wygląda to teraz inaczej" (S6,
+wynika z wsadu "w relacji jestem bardziej obecny") i "Nad żadną z tych rzeczy nie pracowałem
+osobno" (S7, odnosi się do czułości/spokoju/pożądania wymienionych na TYM slajdzie, więc nie
+jest skokiem, i otwiera pytanie, na które odpowiada slajd o transie).
+Jeśli most naprawdę jest potrzebny, musi być zdaniem z wsadu (tu: "Chowałem się przed
+kobietą, przed sobą i przed życiem" wprowadziło kobietę przed slajdem o związku),
+albo pytaj Przemka.
+Osobno: każdy zaimek osobowy w nagłówku ("ona", "niej", "on") wymaga rzeczownika wcześniej
+W TEKŚCIE, nie w mojej głowie ani w pakiecie wsadu.
+
+---
+
+### KOR-2026-09-01-NAGLOWEK-MA-NIESC-FUNKCJE-SLAJDU
+DATA: 2026-09-01
+FORMAT: karuzela
+
+Trzy podejścia do jednego nagłówka, dwa odrzucone.
+
+WERSJA AI 1: "Położyłem się i wszedłem w trans na dwie i pół godziny."
+DLACZEGO: "co to ma do treści slajdu 8? na slajdzie jest o czymś innym, a nagłówek o czymś
+innym". Nagłówek był sceną wyjętą ze środka tekstu, a slajd niósł co innego.
+
+WERSJA AI 2: "Zszedłem pod nawyk, do zapisu z domu, w którym dorastałem."
+DLACZEGO: "dalej nie rozumiesz. Przecież slajd jest o KONTRAŚCIE abstynencja vs źródło".
+Nagłówek nazywał tylko JEDNĄ stronę kontrastu - moją - więc czytelnik nie widział, wobec
+czego to stoi.
+
+WERSJA ZATWIERDZONA: "Abstynencja pilnuje wieczorów, ja zszedłem do źródła tego napięcia."
+
+WZORZEC: nagłówek ma nieść FUNKCJĘ slajdu, nie ładne zdanie z jego wnętrza. Gdy slajd stoi
+na kontraście, obie strony kontrastu muszą być w nagłówku, oddzielone przecinkiem. Gdy stoi
+na scenie - scena. Gdy na skutku - skutek.
+Kolejność pracy: najpierw nazwij jednym słowem, co ten slajd robi w karuzeli (kontrast,
+diagnoza, scena, skutek, mechanizm), dopiero potem pisz nagłówek. Test zasłonięcia sprawdza
+tylko, czy tekst nie powtarza nagłówka - NIE sprawdza, czy nagłówek jest o tym samym co slajd.
+To dwa osobne testy i drugi wypadł tu trzy razy z rzędu.

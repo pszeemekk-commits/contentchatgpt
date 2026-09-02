@@ -16,9 +16,9 @@
 
 Dziś robiłem sesję z jednym z moich ludzi.
 
-Znaleźliśmy w nim część, która karze go za to, że nie realizuje swojego potencjału.
+Odezwały się w nim dwie części. Jedna pchała go do przodu, druga go karała.
 
-Ta sama część pilnuje, żeby go nie zrealizował.
+Ta karząca chciała dla niego dokładnie tego samego, co pierwsza.
 
 **WARIANT B (anomalia, wejście od klienta):**
 
@@ -26,7 +26,7 @@ Facet w końcu wiedział, czego chce od życia. Ruszył z tym i stanął.
 
 Dziś w transie sprawdzaliśmy, co go zatrzymało.
 
-Zatrzymała go jego własna ochrona.
+Zatrzymała go część, która chce dla niego jak najlepiej.
 
 ---
 
@@ -66,8 +66,10 @@ Po wszystkim poczuł się lepiej. Ustaliliśmy plan na następne dni.
 
 ## KAFELEK 5 - AKTYWIZACJA
 
-Wiesz, czego chcesz, ruszyłeś i stoisz? To nie jest kwestia dyscypliny.
+Jeśli wiesz, czego chcesz, ruszyłeś i stoisz, to nie jest tak, że ci się nie chce.
 
-Tak pracujemy w Jaskini.
+Coś w tobie pilnuje, żebyś tam nie doszedł, i ma swój powód.
+
+Tym zajmujemy się w Jaskini.
 
 Napisz mi w DM: Wchodzę do Jaskini.

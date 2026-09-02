@@ -11,10 +11,10 @@ Czytany w Warstwie 0 (przed POGLĄDY_PRZEMKA.md) - to jest fundament z którego 
 
 **JEDNO ZDANIE TRANSFORMACJI (kanoniczne, definiujące - wszystko w tej sekcji jest tylko jego rozwinięciem):**
 
-"Odzyskujesz dostęp do własnej podświadomości - jedno źródło, cztery rzeki - i tym samym ruchem chłopiec, który udowadniał swoją wartość, znieczulał się i udawał kogoś kim nie jest, staje się wreszcie mężczyzną: dojrzałym, sprawczym, obecnym."
+"Odzyskujesz dostęp do własnej podświadomości - jedno źródło, cztery rzeki - i tym samym ruchem facet, który wie, że stać go na więcej, ale wciąż stoi w miejscu (chłopiec, który udowadnia swoją wartość, znieczula się i udaje kogoś kim nie jest), staje się mężczyzną, który wie, jakiego życia chce, konsekwentnie je buduje i potrafi przełamywać to, co wcześniej go zatrzymywało (dojrzałym, sprawczym, obecnym)."
 
-**Z:** chłopiec, który udowadnia swoją wartość, znieczula się i udaje kogoś kim nie jest.
-**Do:** mężczyzna dojrzały, sprawczy, obecny - nie "lepsza wersja siebie", tylko WRESZCIE mężczyzna, bo wcześniej, mimo wieku, wciąż był chłopcem w środku.
+**Z:** facet, który wie, że stać go na więcej, ale wciąż stoi w miejscu - chłopiec, który udowadnia swoją wartość, znieczula się i udaje kogoś kim nie jest.
+**Do:** mężczyzna, który wie, jakiego życia chce, konsekwentnie je buduje i potrafi przełamywać to, co wcześniej go zatrzymywało - dojrzały, sprawczy, obecny.
 
 Dwa elementy zdania powyżej, do rozróżniania - test filtrujący (a)/(b) poniżej sprawdza je osobno:
 
@@ -28,7 +28,7 @@ To jest JEDNA transformacja, nie zbiór osobnych tematów. Każdy obszar pracy (
 
 **Test filtrujący każdy temat treści (patrz też AGENT_PISARZ.md, TYPY_TRESCI.md) - dwie części, obie muszą przejść, sprawdzane PRZED wyborem tematu, nie po:**
 
-(a) **Destynacja (test KIERUNKU):** czy temat da się nazwać krokiem od chłopca do mężczyzny (udowadnianie/znieczulanie/udawanie → dojrzałość/sprawczość/obecność) - nie ogólnym "krokiem naprzód" w życiu, nie "lepszą wersją siebie"?
+(a) **Destynacja (test KIERUNKU):** czy temat da się nazwać krokiem od chłopca do mężczyzny (udowadnianie/znieczulanie/udawanie → dojrzałość/sprawczość/obecność - czyli od faceta, który wie, że stać go na więcej, ale wciąż stoi w miejscu, do mężczyzny, który wie, jakiego życia chce, konsekwentnie je buduje i potrafi przełamywać to, co wcześniej go zatrzymywało) - nie ogólnym "krokiem naprzód" w życiu, nie "lepszą wersją siebie"?
 
 (b) **Metoda (test MOTORU):** czy droga pokazana w temacie jest metodą TEJ marki (mechanizm, podświadomość, adres/źródło problemu, jedno źródło rozlewające się dalej) - nie generyczną techniką/dyscypliną/silną wolą, którą marka wprost odrzuca (sekcja 5)?
 
