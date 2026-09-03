@@ -186,5 +186,24 @@ Obserwowana sekwencja 10+ slajdów budująca jedną, spójną filozofię ("budow
 
 ---
 
-**Wersja:** 1.1 - rozszerzona o drugą partię materiału (18 dodatkowych stories). Wciąż wymaga potwierdzenia Przemka przed wejściem do aktywnej Warstwy 3.
+## 17. SERIA POGŁĘBIAJĄCA RELACJĘ - ODCINKI W RÓŻNYCH DATACH
 
+Korekta Przemka z 2026-09-02: w kontekście strategii więzi „seria pogłębiająca” oznacza historię rozwijaną przez kolejne publikacje, np. 03.09, 10.09, 15.09. Kilka slajdów na jeden dzień jest pojedynczym odcinkiem. Prośba o dwie przykładowe serie oznacza dwie historie, każdą z kilkoma datowanymi odcinkami.
+
+Oddaj konkretne teksty odcinków na poszczególne daty. Sam dopisek „wróć do tego po czasie” nie realizuje prośby. Nie wystarczy też pociąć jednego tekstu między daty: każdy odcinek ma własną domkniętą myśl i dodaje motywację, koszt, sprzeczność, konsekwencję albo nowe znaczenie wcześniejszego wydarzenia.
+
+Kolejny odcinek krótko przypomina potrzebny kontekst, żeby nowa osoba mogła wejść do historii. Stały odbiorca zyskuje dodatkowe rozumienie tego, co już poznał. Daty publikacji nie są datami opisywanych wydarzeń. Przyszłych sukcesów, decyzji, reakcji widzów i aktualizacji z życia nie wolno wymyślać. Gotowe przykłady można zbudować przez stopniowe odsłanianie już potwierdzonego materiału; rzeczywisty nowy wynik wymaga nowego wsadu.
+
+### Wartość każdej planszy w serii pogłębiającej
+
+Kolejna korekta Przemka z 2026-09-02: poznawanie biografii autora samo w sobie nie wystarcza. Odbiorca ma rozpoznać siebie i wyciągnąć coś o sobie z każdej planszy, a nie dopiero z ostatniego odcinka. Obowiązuje definicja z `PSYCHOLOGIA_I_WARTOSC.md`, część 4, oraz formy A/B z `AGENT_PISARZ.md`, Krok 0.
+
+Przed oddaniem tekstu przypisz każdej planszy konkretny wynik dla odbiorcy: co rozpoznaje we własnym doświadczeniu, jak zmienia interpretację własnej sytuacji albo jaką własną motywację czy wartość potrafi nazwać. Sama informacja o zarobkach, zawodzie, zainteresowaniu lub decyzji Przemka nie przechodzi tego testu. Wartość ma wynikać z opowiedzianej sytuacji, przeżycia i osobistego odkrycia autora. Mechaniczne dopisanie „też tak masz?” albo porady na końcu każdej planszy nie wystarcza.
+
+Zachowaj historię, osobisty głos i powroty między datami. Nie zastępuj ich wykładem ani zestawem ogólnych ćwiczeń. Rozpoznanie nie wymaga identycznej biografii: odbiorca może odnaleźć u siebie podobny dylemat, oczekiwanie lub sposób oceniania własnych wyborów. Nie dopisuj mu scen ani motywacji bez podstawy w materiale.
+
+**Doprecyzowanie Przemka z tej samej sesji: dzielenie się doświadczeniem.** Prośba, żeby widz wyciągnął coś o sobie, nie oznacza prowadzenia go przez coaching. W tych seriach Przemek opowiada w pierwszej osobie: czego chciał, co przeżywał, jak rozumiał sytuację, co odkrył i co się zmieniło. Każda z tych treści wymaga pokrycia w materiale. Widz rozpoznaje siebie przez wspólne napięcie lub zmianę rozumienia; autor nie zadaje mu po każdej scenie ćwiczenia. Usuń komendy typu „przyjrzyj się”, „nazwij”, „przypomnij sobie”, „weź jedną decyzję” i pytania diagnostyczne doklejone do anegdoty. Nie zastępuj ich ogólnym morałem ani przepisaną na pierwszą osobę poradą. Zachowaj kontakt z widzem przez opowiadanie mu doświadczenia, bez obowiązku odpowiedzi. To doprecyzowanie dotyczy serii osobistych; nie zakazuje pytań w innych trybach Stories.
+
+---
+
+**Wersja:** 1.3 z korektami zakresu serii, wartości każdej planszy i dzielenia się doświadczeniem z 2026-09-02. Anatomia bazowa pochodzi z realnych stories; sekcja 17 doprecyzowuje serię rozwijaną w czasie.

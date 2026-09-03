@@ -4,6 +4,16 @@ Portret człowieka stojącego za marką. Stan: 2026-09-02, na podstawie czterech
 
 ---
 
+## Jak ciekawość prowadzi do tworzenia — aktualizacja 3.09.2026
+
+[SOURCE — Ź29] Przemek opisuje przejście od wciągnięcia się w powieść i relację z bohaterem do szukania mechanizmu tego doświadczenia, analizy własnej historii i budowy systemu komunikacji. Mówi: „nawet prosta rzecz moze byc dla mnie trudna do zrozumienia jesli nie zrozumiem jakie mechaniki nia steruja i jakie zaleznosci wplywaja na efekt koncowy.” Pełna wypowiedź: [warsztat](F:/CONTENT/narracja/WARSZTAT_AVATARA_MARKI.md), „Od fascynacji powieścią do systemu narracji”.
+
+[INTERPRETATION — POTWIERDZONA PRZEZ AUTORA] Potrzebuje rozumieć, od czego zależy dobry wybór, żeby móc dokonywać go samodzielnie. W tym przykładzie przeżycie prowadzi do ciekawości, ciekawość do analizy, a zrozumienie do tworzenia własnych rozwiązań. Przenosi odkryte powiązania między literaturą, komunikacją, własną historią i ofertą.
+
+[INTERPRETATION — POTWIERDZONA PRZEZ AUTORA] Ta bieżąca historia pokazuje pozytywny sens sprawczości: możliwość podążania za fascynacją i wykorzystania tego, co poznał, przy budowaniu wybranego życia. Nie wymaga dawnego kryzysu, żeby odsłonić ważną część człowieka.
+
+[SOURCE / GRANICA INTERPRETACJI] Sam opisuje tę sekwencję jako Ne–Ti i ENTP. W narracji pierwszeństwo ma konkretne zachowanie. Typologia jest jego sposobem opisu, bez wnioskowania, że inne typy nie potrafią tak analizować ani że każde jego działanie wynika z typu.
+
 ## Główne rozdziały
 
 Podział pochodzi od Przemka [SOURCE] (`Braindump_marka.md`, pkt 7 i 8), nazwy rozdziałów są [INTERPRETATION] — nazwane przez to, czego każda wersja szukała i czym płaciła.

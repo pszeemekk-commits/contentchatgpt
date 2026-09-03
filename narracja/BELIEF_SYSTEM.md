@@ -8,6 +8,16 @@ Numeracja `B-XXX` służy odwołaniom z `STORY_BANK.md`.
 
 ## FOUNDATIONAL BELIEFS
 
+### Potwierdzony osobisty sens sprawczości — 3.09.2026
+
+[INTERPRETATION — POTWIERDZONA PRZEZ AUTORA] „Przemek chce być sprawczy, żeby móc realizować swoje marzenia i doświadczać życia z ciekawością i zachwytem. Dlatego tak mocno reaguje, kiedy sposób, w jaki żyje, odbiera mu tę możliwość.”
+
+↳ [Warsztat narracji](F:/CONTENT/narracja/WARSZTAT_AVATARA_MARKI.md), sekcje „Osobista stawka budowania życia” i „Potwierdzenie filozofii i ludzi, których ma przyciągać”. Autor potwierdził syntezę i nazwał ją początkiem filozofii wyjaśniającej sens życia, marki, oferty i przekazu.
+
+[SOURCE — zamiar autora] Chce przyciągać ludzi, którzy czują podobnie, również tych, którzy jeszcze nie nazwali tego pragnienia albo je tłumili.
+
+[INTERPRETATION] Ten osobisty sens łączy istniejące przekonania o sprawczości, tworzeniu, wolności i głębi. Dalsze rozwijanie filozofii ma pokazywać, do jakiego życia prowadzą te przekonania oraz jak działają w konkretnych wyborach autora. Rezonans z odbiorcą pozostaje zamierzoną funkcją komunikacji.
+
 **B-001** [SOURCE] Cała moc jest już w człowieku. Nie trzeba jej tworzyć ani zdobywać na zewnątrz — trzeba ją odkopać.
   ↳ braindump_glosmarki.md, Komunikat 1 + „on już jest, nie trzeba go tworzyć. Trzeba go ogrzać ogniem konfrontacji i transformacji"
   Test rozwijalności: zdaje egzamin. Wynika z niej stanowisko wobec motywacji, dyscypliny, terapii, coachingu i uwodzenia jednocześnie.

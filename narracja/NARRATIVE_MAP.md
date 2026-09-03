@@ -1,11 +1,23 @@
 # NARRATIVE_MAP.md
 
 Mapa narracji marki „Niedźwiedź na Szlaku". Dokument do zaglądania przed pisaniem, nie do publikacji.
-Stan: 2026-09-02, na podstawie czterech braindumpów. Numery `B-XXX` odsyłają do `BELIEF_SYSTEM.md`, `S-XXX` do `STORY_BANK.md`.
+Stan: 2026-09-03, na podstawie czterech braindumpów oraz późniejszych doprecyzowań autora Ź25–29 z [rejestru źródeł](F:/CONTENT/narracja/ZRODLA_I_USTALENIA_SYSTEMU_WIEZI.md). Numery `B-XXX` odsyłają do `BELIEF_SYSTEM.md`, `S-XXX` do `STORY_BANK.md`. Starsze fragmenty zachowują kontekst momentu zapisu; nowsze wypowiedzi autora mają pierwszeństwo w odczytaniu motywacji i celu pracy.
+
+[SOURCE — aktualizacja celu, Ź27] „moja marka po prostu oddaje Ci ster w życiu”. Autor opisuje, że poznawanie innych mężczyzn pomagało mu dojść do tego określenia i głębiej zrozumieć własną przeszłość. Pewność siebie, pornografia i język męskości nie wyczerpują aktualnego opisu transformacji. Bieżącą syntezę zawiera [zwarty wykład-warsztat](F:/CONTENT/narracja/WYKLAD_WARSZTAT_RELACJA_POSTAC_OFERTA.md).
+
+---
+
+[SOURCE — kierunek pogłębienia, Ź28] Autor chce pokazywać, dlaczego dawniej czuł się tak, jak się czuł, jaką stawkę wówczas odczuwał, dlaczego zależy mu na budowaniu własnego życia i jak wpływa to na dzisiejsze decyzje. Osobisty sens sprawczości został następnie potwierdzony przez autora; zapis znajduje się na początku sekcji 1 poniżej. Konkretne znaczenia kolejnych scen wymagają oparcia w jego wypowiedziach. Przed rozwinięciem historii, wartości, wizji i teraźniejszości sprawdź sekcję „Osobista stawka budowania życia” w [warsztacie](F:/CONTENT/narracja/WARSZTAT_AVATARA_MARKI.md) oraz stałą zasadę w [systemie komunikacji](F:/CONTENT/narracja/SYSTEM_KOMUNIKACJI_WIEZI.md).
 
 ---
 
 ## 1. WHO I AM
+
+[SOURCE — Ź29, 3.09.2026] Przemek opisuje potrzebę rozumienia mechanizmów i zależności, zanim potrafi świadomie wybierać działanie. Przykład: fascynacja postacią z powieści → analiza odczuwanej więzi → zastosowanie do własnej historii → budowa systemu komunikacji i połączenie z wartością oraz kontekstem oferty. Pełny zapis: [warsztat](F:/CONTENT/narracja/WARSZTAT_AVATARA_MARKI.md), „Od fascynacji powieścią do systemu narracji”.
+
+[INTERPRETATION — POTWIERDZONA PRZEZ AUTORA] Ta historia pokazuje, jak ciekawość i zachwyt prowadzą go do poznawania, a następnie samodzielnego tworzenia. To aktualny przykład osobistego sensu sprawczości opisanego poniżej. Główna zmiana rozumienia odbiorcy dotyczy tego, dlaczego Przemek szuka zależności i według czego buduje własne rozwiązania. Ne–Ti pozostaje językiem jego samoopisu; narracja powinna być zrozumiała również bez znajomości typologii.
+
+[INTERPRETATION — POTWIERDZONA PRZEZ AUTORA, 3.09.2026] „Przemek chce być sprawczy, żeby móc realizować swoje marzenia i doświadczać życia z ciekawością i zachwytem. Dlatego tak mocno reaguje, kiedy sposób, w jaki żyje, odbiera mu tę możliwość.” To potwierdzony osobisty sens do rozwijania w narracji. Autor widzi w nim początek filozofii wyjaśniającej jego życie, markę, ofertę i przekaz, z którą mają rozpoznawać się podobnie czujący ludzie. Źródło: [warsztat](F:/CONTENT/narracja/WARSZTAT_AVATARA_MARKI.md), „Potwierdzenie filozofii i ludzi, których ma przyciągać”.
 
 [SOURCE] Człowiek, który przez dwanaście lat próbował udowodnić, że jest wystarczający — kolejno: ojcu, rówieśnikom, subkulturom, kobietom, dowódcom — i który sam zauważył, że samym udowadnianiem to sobie odbierał.
 
@@ -148,13 +160,13 @@ Pełna lista: `OPEN_LOOPS.md`. Najważniejsze:
 
 ## 11. WHY THIS WORK EXISTS
 
-[SOURCE] Bo pradziadka zabili komuniści, dziadek został sierotą, ojciec nie usłyszał, że zasługuje na miłość, i nie mógł tego powiedzieć synowi. Przemek jest pierwszym w tej linii, u którego to się zatrzymało — i jedyne, co po tym zostało do zrobienia, to pokazać innym, że tę linię da się przerwać u siebie.
+[SOURCE — Ź25] Przemka pociąga wpływ na człowieka i skala możliwej przemiany. Rozpoznanie tego motywu w pracy trenera i rozmowie z kolegą pomogło mu inaczej zrozumieć wcześniejszy DJ-ing. Później wskazał wewnętrzny chaos człowieka jako obszar szczególnie interesujący go ze względu na potencjał zmiany.
 
-[SOURCE] Jego własne słowa: „Kurwa, czuję, że sprzeciwiam się czemuś wielkiemu. (…) Mam jakąś ogromną ideę, z którą muszę się zetrzeć, czyli właśnie kryzys męskości. (…) mam w końcu pole bitwy."
+[SOURCE — Ź26] Forma pracy wyłaniała się etapami: żart podczas drogi w Bieszczady, wejście w mentoring biznesowy online, pomysł połączenia treningu z autohipnozą i sensem, pierwsza komunikacja, późniejsze skupienie na mężczyznach. Ambicja finansowa i inwestycja są częścią tej historii. Nie dopisujemy jednej wspólnej daty wszystkim początkom.
 
-[INTERPRETATION] Ta praca nie istnieje, bo pomaganie jest szlachetne. Istnieje, bo on potrzebuje przeciwnika na miarę, a jedyny, jakiego zna od środka, to mechanizm, który przerabiał u siebie przez dwanaście lat.
+[SOURCE — Ź27] Praca z mężczyznami uczyła go lepiej rozumieć ich trudności i własną przeszłość. Obecną transformację nazywa oddaniem steru w życiu. Pewność siebie oraz zmiana w obszarze pornografii mogą być efektami; nie są pełną definicją celu.
 
-Test: czy dałoby się to podstawić dowolnemu innemu mentorowi? Nie — bo stoi na trzech pokoleniach konkretnej rodziny.
+[INTERPRETATION] Sens pracy rozwija się razem z rozumieniem człowieka. Własna historia jest jednym ze źródeł; kontakt z ludźmi również wnosi nową wiedzę. Wcześniejsza interpretacja o potrzebie posiadania przeciwnika nie była potwierdzoną motywacją i nie jest podstawą aktualnego modelu.
 
 ---
 

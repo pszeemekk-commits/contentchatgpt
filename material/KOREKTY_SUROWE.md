@@ -2128,3 +2128,48 @@ Kolejność pracy: najpierw nazwij jednym słowem, co ten slajd robi w karuzeli 
 diagnoza, scena, skutek, mechanizm), dopiero potem pisz nagłówek. Test zasłonięcia sprawdza
 tylko, czy tekst nie powtarza nagłówka - NIE sprawdza, czy nagłówek jest o tym samym co slajd.
 To dwa osobne testy i drugi wypadł tu trzy razy z rzędu.
+
+---
+
+### KOR-2026-09-02-SERIA-STORIES-ROZWIJANA-W-CZASIE
+DATA: 2026-09-02
+FORMAT: dwie serie Stories pogłębiające relację
+TEMAT: przykłady zastosowania strategii więzi do dwóch historii Przemka
+
+WERSJA AI: dwie sekwencje po sześć slajdów, każda na jeden dzień, z ogólnym dopiskiem o późniejszym powrocie.
+
+KOREKTA PRZEMKA: „KURWA TO MAILA BYC SERIA POGLEBIAJACA CZYLI NP. 03.09 10.09 15.09 ITD.”
+
+WZORZEC: pomylenie jednostki pracy. W kontekście strategii więzi seria to kilka odcinków publikowanych w różnych dniach. Slajdy jednego dnia są tylko jednym odcinkiem. Dwie historie wymagają dwóch takich ciągów, z konkretnymi datami i gotowymi tekstami kolejnych odcinków.
+
+ZASADA: każdy powrót dodaje nowe rozumienie autora: motywację, koszt, sprzeczność, konsekwencję lub inne znaczenie znanego wydarzenia. Każdy odcinek domyka swoją myśl. Nie oddawać samego planu powrotów ani sztucznie rozciągniętego pojedynczego tekstu. Nie dopisywać przyszłych wydarzeń i wyników; datować publikację potwierdzonej historii. Zasada formatu: TOV_STORIES.md, sekcja 17.
+
+---
+
+### KOR-2026-09-02-WARTOSC-KAZDEJ-PLANSZY-STORIES
+DATA: 2026-09-02
+FORMAT: dwie serie Stories rozwijane przez kilka dat
+TEMAT: wartość i identyfikacja odbiorcy w osobistych historiach
+
+WERSJA AI: datowane odcinki opowiadające głównie kolejne fakty o Przemku. Przykład: „Po zmianie kierunku przychodziło też zwykłe rozwijanie tego, co wybrałem.” Plan wyjaśniał, czego odbiorca dowiaduje się o autorze, pomijając to, co rozpoznaje we własnym życiu.
+
+KOREKTA PRZEMKA: „no jest ok ale przeciez te stories musza miec wartsosc dla odbiorcy, przecyztaj pliki o wartosci czym jest i popraw je. oni sie musza zidentyfikowac i wyciagnac cos z siebie z kazdego stories”
+
+WZORZEC: pomylenie informacji o autorze z wartością dla odbiorcy. Stopniowe odsłanianie biografii może rozwijać znajomość autora, a nadal nie zmieniać nic w rozumieniu siebie przez czytelnika.
+
+ZASADA: w serii pogłębiającej sprawdzaj wartość każdej planszy, nie tylko odcinka i całego cyklu. Odbiorca ma rozpoznać własne doświadczenie, zobaczyć swoją sytuację inaczej albo nazwać coś o sobie. Zachowaj osobistą historię i jej rozwój między datami; buduj identyfikację przez wspólny dylemat i znaczenie zdarzenia. Nie naprawiaj braku wartości samym generycznym pytaniem czy doklejoną poradą. Definicja: PSYCHOLOGIA_I_WARTOSC.md, część 4; zastosowanie: TOV_STORIES.md, sekcja 17.
+
+---
+
+### KOR-2026-09-02-DOSWIADCZENIE-ZAMIAST-COACHINGU
+DATA: 2026-09-02
+FORMAT: serie osobistych Stories rozwijane przez kilka dat
+TEMAT: sposób budowania wartości i identyfikacji
+
+WERSJA AI: do historii dopisane komendy i ćwiczenia, np. „Przyjrzyj się swojej pracy trochę dokładniej”, „Pomyśl o swoim najważniejszym celu”, „Weź jedną decyzję, którą odkładasz”.
+
+KOREKTA PRZEMKA: „ale teraz robisz coaching a nie dzielisz sie doswiadczeniem z widzem xD”
+
+WZORZEC: nadmierna korekta braku wartości. Autor przestał dzielić się doświadczeniem i zaczął prowadzić odbiorcę przez ćwiczenia. Schemat anegdota + polecenie zachował biografię, lecz zmienił rolę mówiącego.
+
+ZASADA: w osobistej serii Stories wartość wynika z przeżycia, napięcia, ceny, motywacji i osobistego odkrycia opowiedzianych w pierwszej osobie. Widz ma rozpoznać siebie w doświadczeniu Przemka. Nie prowadź go pytaniami diagnostycznymi ani komendami; nie zastępuj ich morałem. Nie cofaj się też do samej informacji biograficznej. Wszystkie uczucia i znaczenia przypisywane Przemkowi muszą mieć pokrycie w źródle. Zastosowanie: TOV_STORIES.md, sekcja 17.
