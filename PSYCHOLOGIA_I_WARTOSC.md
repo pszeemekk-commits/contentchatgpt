@@ -1,215 +1,104 @@
-# PSYCHOLOGIA I WARTOŚĆ - fundamenty, mechanizmy, filtr jakości, viralowość
+# Wartość i zaangażowanie — filtr pomocniczy ECS
 
-Scalenie czterech plików: FUNDAMENTY_PSYCHOLOGICZNE, MECHANIZMY_ANGAZOWANIA, VIRAL_MATRIX, WARTOŚĆ. Odniesienia do nieistniejących już plików (CLAUDE.md stare, BRAND.txt, FILARY_CONTENTU, AVATAR_LEKI.md, BIBLIOTEKA_SCEN.md, AGENT_KREATOR) zamienione na aktualne. Poprawiona reguła zamknięcia (sekcja 5.4) - nie "zawsze otwarta pętla", tylko "zawsze pcha odbiorcę dalej".
+Wersja 2.0, 3.09.2026. Ten dokument pomaga oceniać materiał. Pełny model relacji, W01–W30, warstwy postaci i wspólna pamięć pozostają w narracja/SYSTEM_KOMUNIKACJI_WIEZI.md. Workflow i brief: SYSTEM_ECS.md. Poniższe M1–M13 zachowują identyfikatory wcześniejszego dokumentu; są wskazówkami redakcyjnymi, nie katalogiem dowiedzionych skutków neurologicznych.
 
-**Używane przez:** AGENT_PISARZ.md (scan jakościowy, konstrukcja mechanizmu, hook), AGENT_DORADCA.md (Tryb B - synteza tematów).
+## CZĘŚĆ 1 — Zakres
 
----
+Treść ma główną funkcję z TYPY_TRESCI.md i jednocześnie wkład relacyjny. Nie każda publikacja wymaga bólu, mechanizmu psychologicznego, sceny, rozwiązania, silnej emocji lub CTA. Nie stosuj jednego filtra diagnostycznego do filozofii, case study i kontemplacji.
 
-## CZĘŚĆ 1 - FUNDAMENTY PSYCHOLOGICZNE (dlaczego, nie co)
+Nie wnioskuj o reakcji mózgu lub skuteczności z samej obecności techniki redakcyjnej. Poprzednie twierdzenia o hormonach, mnożnikach szybkości i gwarantowanej reakcji nie stanowią podstawy publikacji. Konkretne twierdzenie merytoryczne wymaga właściwego źródła i weryfikacji.
 
-Ten dział odpowiada na pytanie DLACZEGO każdy element działa - nie co wstawić. Agent który rozumie mechanizm może wychodzić poza schemat. Agent który zna tylko schemat, jest kopiarką.
+## CZĘŚĆ 2 — Wskazówki M1–M13
 
-**1. Efekt Zeigarnik** - niedokończone pytania/pętle tworzą napięcie poznawcze które mózg musi domknąć. Przykład: *"390 dni bez porno nauczyły mnie jednego."* Odbiorca musi wiedzieć czego.
+**M1 — Intencja.** Ustal wartość dla odbiorcy i konkretny wkład w poznawanie Przemka. Zamierzona reakcja jest celem redakcyjnym, nie faktem o czytelniku.
 
-**2. Transportation Theory** - śledzenie historii postaci = odbiorcy widzą siebie = umysł "przenosi się" do historii, opór maleje. Bohater musi mieć te same próby co avatar - identyfikuj, nie idealizuj.
+**M2 — Kierunek myśli.** Wskaż, co tekst rozwija: rozumienie, rozróżnienie, doświadczenie, zastosowanie albo obecność. Potwierdzenie znanego standardu w nowej sytuacji także ma sens.
 
-**3. Identyfikacja przez ból** - mózg reaguje silniej na opisany ból który już czuje, niż na obietnicę nagrody. Zamiast "wielu mężczyzn ma trudność z X" → "siadasz wieczorem i wiesz że zaraz sięgniesz po telefon".
+**M3 — Rozpoznanie.** Korzystaj z rzeczywistego języka i potrzeb odbiorcy. Rozpoznanie może dotyczyć pragnienia i fascynacji, nie tylko bólu. Nie przypisuj mu intencji i wstydu.
 
-**4. Reguła wzajemności (Cialdini)** - realny wgląd bez proszenia o nic buduje psychologiczny dług i gotowość do odwzajemnienia. Nie każdy post musi sprzedawać.
+**M4 — Konkret.** Scena, decyzja, obserwacja, przykład zastosowania lub dokładne rozróżnienie czynią przekaz czytelnym. Data, godzina i miejsce są potrzebne tylko wtedy, gdy mają znaczenie i pokrycie.
 
-**5. Awersja do straty** - strata boli 2x mocniej niż zysk cieszy. "Każdy rok w pętli kosztuje cię relację, którą mógłbyś zbudować" > "zyskasz spokój".
+**M5 — Ciekawość otwarcia.** Daj powód do dalszego kontaktu. Można ujawnić tezę lub wynik od razu, jeśli dalsza część rozwija uzasadnienie, drogę albo konsekwencje. Nie wymagaj zagadki.
 
-**6. Paradoks supresji (Ironic Process Theory)** - im mocniej tłumisz myśl/zachowanie, tym silniejsze się staje. Fundament dla "silna wola nakręca pętlę" - kluczowy mechanizm tej marki.
+**M6 — Dopasowanie wejścia.** Wybierz otwarcie do filaru, formatu i materiału. Stanowisko jest właściwym wejściem do argumentu, a spokojna obserwacja do refleksji. Nie wymuszaj wysokiego pobudzenia.
 
-**7. Spójność tożsamości** - podświadomość dąży do zachowania spójności z obrazem siebie. "Nie zmienia się zachowania, które jest spójne z tożsamością, której nie zmieniłeś." Uderzaj w tożsamość, nie w zachowanie.
+**M7 — Zmiana spojrzenia.** Gdy materiał ma zmieniać interpretację, pokaż uzasadnienie. Nie diagnozuj człowieka bez podstaw i nie traktuj dopisania „nieświadomie” jako dowodu przyczyny.
 
-**8. Efekt niedostępności** - to co nie jest dla wszystkich jest bardziej pożądane. "Jeśli szukasz szybkiego tipu - zamknij ten post. Jeśli jesteś gotów na proces - zostań." Polaryzacja jako narzędzie.
+**M8 — Dowód.** Case study i cytat klienta wymagają źródła, kontekstu, konkretnego rezultatu i ustalonego zakresu wykorzystania. Osobiste doświadczenie wyjaśnia perspektywę; nie dowodzi uniwersalnego efektu.
 
-**9. Zeigarnik w serii (cliffhanger)** - w karuzeli każdy slajd kończy się otwarciem, nie kropką. Kropka = stop. Otwarcie = dalej.
+**M9 — Pełna wartość.** Spełnij obietnicę materiału. Wyjaśnienie, praktyczne rozwiązanie, refleksja i przyjemność kontaktu mogą być wartościowe. Nie projektuj zobowiązania do odwzajemnienia pomocy zakupem.
 
-**10. Dowód społeczny + identyfikacja** - case study działa dwutorowo: "jeśli on mógł, ja też mogę" + "inni to robią". Bohater case study musi mieć rysy avatara, nie być wyjątkowy.
+**M10 — Domknięcie.** Zakończenie odpowiada celowi tekstu. Może domknąć temat, pozostawić refleksję lub nazwać prawdziwą niewiadomą. Brak CTA i brak dalszej zagadki nie są błędem. Relacja nie jest automatycznym lejkiem do zakupu.
 
-**11. Peak-end rule (Kahneman)** - mózg zapamiętuje przez SZCZYT i ZAKOŃCZENIE, nie średnią. Ostatnie zdanie pisz świadomie, na końcu procesu. Test: czy da się je wyciągnąć jako standalone cytat?
+**M11 — Stawka.** Pokazuj rzeczywistą konsekwencję, koszt lub możliwość, gdy wynika z materiału. Nie dopisuj katastroficznej przyszłości, aby skłonić do decyzji.
 
-**12. Information gap** - luka informacyjna = głód poznawczy. "Oto 7 faz" > "oto kilka rzeczy" - precyzja wzmacnia napięcie.
+**M12 — CTA.** Gdy potrzebne, jasno komunikuje dobrowolny następny krok i jego sens. Komentarz, DM lub zakup nie są testem lojalności. Warunki i dostępność oferty wymagają potwierdzenia.
 
----
+**M13 — Słabości i granice.** Pokazuj prawdziwe ograniczenie lub niepewność, jeśli pomaga zrozumieć autora i mieści się w jego granicach. Nie wymagaj odsłaniania prywatności, sztucznej bezbronności ani emocjonalnego ratowania autora.
 
-## CZĘŚĆ 2 - MECHANIZMY ZAANGAŻOWANIA (M1-M13)
+## CZĘŚĆ 3 — Zasięg jako jedna z funkcji
 
-13 mechanizmów neurologicznych/psychologicznych decydujących czy content angażuje. Przed pisaniem/audytem sprawdź które są aktywowane - post bez żadnego to poziom 1-2 (patrz Część 4, skala wartości).
+STEPPS może pomagać przy materiale nastawionym na odkrywanie i udostępnianie: wartość społeczna, przypomnienia, emocje, widoczność, użyteczność i opowieść. Nie ma obowiązkowego progu liczby elementów dla każdej treści. Nie używaj „my kontra oni” do budowania wspólnoty.
 
-### Zanim zaczniesz pisać
+Rozpoznanie tej marki działa przez to samo miejsce, które odbiorca ma u siebie, a nie przez dorobek autora. Rozpoznaje niewielu, ci robią to od razu i całkowicie. Konsekwencja dla oceny materiału: wąska i mocna reakcja nie jest porażką zasięgu, a szeroka obojętność nie jest sukcesem. [INTERPRETATION, `narracja/OSOBOWOSC_I_ARCHETYP.md`]
 
-**M1 - Intencja przed słowem.** Czytelnik czuje STAN piszącego, nie tylko słowa. Przed pisaniem ustal jaki stan wewnętrzny ma wywołać u avatara: ulga+opór / napięcie bez rozwiązania / rozbrojenie wstydu / konfrontacja z kosztem / decyzja. To ustalasz w Ekstrakcji (AGENT_PISARZ.md), nie osobno.
+Wyświetlenia, zapis i udostępnienie są różnymi zachowaniami. Żadne samo nie dowodzi zaufania, znajomości, identyfikacji ani zmiany u odbiorcy. Ocena musi uwzględniać funkcję materiału i rzeczywiste dane.
 
-**M2 - Kierunek narracyjny, nie temat.** Przed pisaniem ustal WEKTOR: "ten tekst zmierza od [punkt A avatara] do [punkt B który otwiera pętlę]" - nie "temat to X". To pokrywa się z Krokiem 2 (Kręgosłup) w AGENT_PISARZ.md.
+## CZĘŚĆ 3a — Wskazówki M14–M21: skąd bierze się ruch u odbiorcy
 
-### Otwieranie
+Wyprowadzone z `narracja/OSOBOWOSC_I_ARCHETYP.md`, rozdziały 6 i 7. Ten sam status co M1–M13: wskazówki redakcyjne, nie katalog dowiedzionych skutków. Nie stosuj więcej niż jednej naraz i nie wymagaj żadnej od materiału, który ma po prostu towarzyszyć.
 
-**M3 - Rezonans limbiczny.** Precyzyjne nazwanie bólu aktywuje ciało migdałowate - ale TYLKO przy wysokiej precyzji, ogólniki są ignorowane. Kraść słowa avatara 1:1, nie parafrazować.
+**M14 — Odwrócenie oczywistości.** Bierzesz rzecz uznaną za zamkniętą i pokazujesz, że stoi inaczej. Działa nie przez nową informację, tylko przez to, że pewna rzecz przestaje być pewna i w tej szczelinie robi się miejsce dla odbiorcy.
 
-**M4 - Neurony lustrzane (symulacja sceny).** Konkretna scena (dzień+godzina+miejsce+działanie) aktywuje te same obwody co realne przeżycie. Test: czy można zapytać "kiedy dokładnie?" i znaleźć odpowiedź.
+**M15 — Zejście i powrót jako podstawa prowadzenia.** Prawo do prowadzenia daje przejście, nie wykształcenie. Dlatego własne przejście autora występuje jako scena w treści, a nie jako informacja w bio.
 
-**M5 - Zeigarnik otwarcia.** Hook z pytaniem/paradoksem/przeciętym oczekiwaniem otwiera pętlę poznawczą. Test: czy po samym hooku czytelnik wie dokąd to zmierza? Jeśli tak - hook nie tworzy napięcia.
+**M16 — Zdjęcie winy przy jednoczesnym mówieniu prawdy.** Rynek zwykle albo pociesza kosztem prawdy, albo mówi prawdę kosztem człowieka. Zdanie robiące obie rzeczy naraz jest rzadkie i zostaje w pamięci.
 
-**M6 - Timing biologiczny hooków.** Amygdala przetwarza bodźce 7-10x szybciej niż kora przedczołowa. Hooki emocjonalne (ból/wstyd/tożsamość) docierają przed informacyjnymi. Dla zasięgu (ToF) - hook trafiający w amygdalę (scena bólu, direct address). Dla głębokości (MoF/BoF) - hook aktywujący PFC (reframe, paradoks) też działa dobrze.
+**M17 — Autorytet z przyznania się do niewiedzy.** Kiedy mówiący nie zajmuje pozycji wyższej, odbiorca przestaje bronić granicy, bo nie jest oceniany.
 
-### Prowadzenie
+**M18 — Próg zamiast naprawy.** Obietnica przeprowadzenia przez przejście sięga głębiej niż obietnica rezultatu. Człowiek bez dnia, po którym sprawa została orzeczona, rozpoznaje mówienie o progu natychmiast.
 
-**M7 - Pomost przez reframe, nie nadzieję.** Po aktywacji bólu tania nadzieja ("będzie lepiej") jest wolna i podatna na sabotaż. Reframe tożsamości ("to nie ty, to mechanizm") działa szybciej i głębiej. "To nie twoja wina, ale twoja odpowiedzialność" redukuje wstyd bez dawania tanią ulgę.
+**M19 — Rozbierana jest konstrukcja, nie człowiek.** Materiał pokazujący, że układ da się rozebrać, uwalnia. Materiał pokazujący, że człowiek jest do poprawienia, dokłada mu. Pokrywa się z zakazem oskarżania czytelnika w skillu proza-przemka i jest jego uzasadnieniem.
 
-**M8 - Symulacja przez dowód, nie obietnicę.** Cudze świadectwo jest neurochemicznie silniejsze niż abstrakcyjna obietnica. "Marek po 60 dniach napisał: 'po raz pierwszy nie jestem w tym sam'" > "Twoje życie się zmieni". Wymaga realnych case'ów z BANK_CASE_STUDIES.md - nie wymyślaj.
+**M20 — Sprzeczne treści przy jednym stałym kryterium.** Nie da się przewidzieć, co powie, a mimo to za każdym razem okazuje się spójne. To nie jest zgoda na chaos tematyczny: warunkiem jest widoczne wspólne kryterium.
 
-**M9 - Wartość przez mechanizm, nie poradę.** Realna wartość bez proszenia o odpłatę = zobowiązanie wzajemności. "Twój mózg szuka odciążenia od napięcia, nie przyjemności - dlatego trigger jest pretekstem, nie przyczyną" > lista 5 kroków.
+**M21 — Ruch bierze się z odjęcia gruntu, nie z pchnięcia.** Nikt nie rusza z miejsca dlatego, że go przekonano, tylko dlatego, że miejsce, na którym stał, przestało być miejscem. Praktycznie: pokazać, że grunt był umową, i nie dopychać wniosku.
 
-### Zamykanie
+Do tego dwa pytania kontrolne z tego samego źródła, przydatne przy materiale diagnostycznym:
 
-**M10 - Zeigarnik zamknięcia, POPRAWIONE.** Zakończenie nie musi być zawsze otwartą pętlą - **musi zawsze DAWAĆ WARTOŚĆ i PCHAĆ ODBIORCĘ DALEJ**, w jego poziomie świadomości ALBO w lejku Poznaj→Polub→Zaufaj→Kup. Otwarta pętla to JEDNA metoda tego, nie jedyna słuszna. Mocne, osobiste, rozwiązane zamknięcie ("Przegrałbym ten zakład. I nigdy w życiu nie byłbym szczęśliwszy z przegranej.") też pcha dalej - buduje więź (Polub/Zaufaj), nawet bez otwartego pytania. Test poprawiony: czy to zamknięcie zostawia czytelnika z czymś do zrobienia/poczucia/pomyślenia - czy zamyka temat całkowicie i nic więcej się nie dzieje w jego głowie? Drugie - przepisz. Pierwsze (niezależnie czy pytające czy stwierdzające) - zostaw.
+- **Czemu ten objaw służy i co się stanie, kiedy go zabraknie** — zamiast pytania, skąd się wziął. Objaw jest odpowiedzią na coś, nie usterką do usunięcia.
+- **Czy rzecz robiona coraz mocniej zaczyna z tego powodu działać przeciw człowiekowi.** Mocne narzędzie diagnostyczne przy mężczyźnie, który umie tylko naciskać i którego naciskanie przestało działać.
 
-**M11 - Koszt zaniechania (kortyzol jako driver).** Obraz straty tworzy silniejsze ślady pamięciowe niż obietnica zysku. "10 lat minęło w tej pętli. Kolejne 10 będzie identyczne, jeśli nic się nie zmieni" - prawda, nie presja. Warunek: stres proporcjonalny i prawdziwy, nie straszenie.
+**Granica dla całej tej części.** Regułę łamie się po to, żeby pokazać, że była umową, a nie po to, żeby zostać zobaczonym przy łamaniu. Pierwsze uruchamia coś u odbiorcy, drugie zbiera uwagę i zostawia go tam, gdzie był. To jedyne kryterium odróżniające M14 od prowokacji i obowiązuje także wtedy, gdy tekst z prowokacją miałby lepszy zasięg.
 
-**M12 - CTA directive (commitment przez słowo).** Konkretne słowo w komentarzu ("tak", "to o mnie") aktywuje mechanizm spójności - avatar staje się swoim własnym adwokatem. "Napisz 'wiem' jeśli ten mechanizm rozpoznajesz u siebie" > generyczne "zostaw komentarz". Używać rzadko - wartościuje się przez rzadkość.
+Test praktyczny do tego samego rozróżnienia: nośne postawienie się mówi rzecz prawdziwą, o której się nie mówi, a tanie mówi rzecz nieprawdziwą, która brzmi odważnie. Sprawdzian nie jest stylistyczny — pytanie brzmi, czy to zdanie obroni się za tydzień.
 
-### Budowanie relacji
+**Warunek wstępny dla całej części.** Żadna z tych wskazówek nie działa zastosowana z zewnątrz. Porusza materiał, w którym coś jest żywe u samego autora; zdanie napisane z miejsca, gdzie u mówiącego nic nie drgnęło, zostaje poprawne i puste. To jest uzasadnienie reguły „jego wsad wygrywa z twoim sformułowaniem" ze skilla proza-przemka i powód, dla którego wymyślony mechanizm nie zastąpi prawdziwej obserwacji.
 
-**M13 - Vulnerabilność bez odkupienia.** Autentyczne ujawnienie słabości BEZ natychmiastowego rozwiązania na końcu aktywuje oxytocynę (zaufanie/przywiązanie). "Byłem tam. Wciąż to noszę" = aktywne. "Byłem tam. Teraz nie jestem" = zamknięte, neutralizuje efekt. Pilnować żeby nie stało się performatywne ("pokazuję słabość żebyś widział że jestem autentyczny" - to się czuje).
+## CZĘŚĆ 4 — Wartość i kontrola
 
-### Mapa szybkiego wyboru
+Wartość natychmiastowa może polegać na:
+- zrozumieniu problemu lub trafnym rozróżnieniu;
+- poznaniu sposobu działania lub zastosowaniu;
+- rozpoznaniu własnego doświadczenia, pragnienia lub wartości;
+- spotkaniu z perspektywą i sposobem bycia, który odbiorca uznaje za znaczący;
+- przyjemności, humorze, refleksji albo poczuciu towarzyszenia.
 
-| Cel posta | Priorytet mechanizmów |
-|---|---|
-| Zasięg (ToF, nowi odbiorcy) | M6 (hooki emocjonalne), M3, M4 |
-| Budowanie zaufania (MoF) | M9, M13, M8, M2 |
-| Decyzja zakupu (BoF) | M11, M10, M12, M8 |
-| Rozbrojenie wstydu | M7, M3, M13 |
-| Demaskacja mechanizmu | M4, M5, M9, M10 |
+Wartość kumulacyjna polega na coraz bogatszym rozumieniu osoby, pamięci jej drogi i samodzielnym korzystaniu z idei. Obie sprawdzaj zgodnie z briefem, bez wymogu autobiografii.
 
----
+### Kontrola gotowego materiału
 
-## CZĘŚĆ 3 - VIRAL MATRIX (psychologia zasięgu i udostępnień)
+1. Czy dostarcza obiecaną wartość?
+2. Czy doświadczenie, filozofia i osobowość są widoczne w konkretnych fragmentach?
+3. Co pozwala zrozumieć lub potwierdzić o Przemku i jak to realizuje?
+4. Czy ma prawdziwe źródła i nie zamienia opinii w dowód?
+5. Czy nowa osoba go rozumie, a wcześniejszy kontekst — jeśli jest — coś dodaje?
+6. Czy zakończenie pasuje do funkcji, a oferta ma uczciwy zakres?
 
-### Fundament: udostępnienie vs zapis - dwa różne mózgi
+Wskazówki DISCOVERY i REFRAME dotyczą materiałów, które mają odkrywać lub zmieniać interpretację. Potwierdzenie znanej cechy, zwykły moment lub zastosowanie wcześniej omówionej zasady nie są automatycznie słabe.
 
-**Udostępnienie** = akt tożsamościowy (mówi coś o mężczyźnie jego sieci). Motyw: social currency, tribal signal, emocja wysokiego pobudzenia.
-**Zapis** = akt użyteczności ("to się przyda"). Motyw: praktyczna wartość, framework.
-Rzadko współistnieją - content robiący oba naraz to złoty środek.
+### Czego nie robić
 
-### STEPPS (Jonah Berger) - 6 sił, oceniaj każdy temat pod nie
+Nie pozostawiaj celowo części wyjaśnienia poza materiałem, żeby wymusić DM. Nie dopisuj ograniczenia przydatnej porady, jeśli nie wynika z faktów. Nie odrzucaj ulgi, kompletnej odpowiedzi i samodzielności odbiorcy jako przeszkody w sprzedaży. Nie każda treść ma kończyć się działaniem.
 
-- **Social Currency** - czy podzielenie się tym czyni mężczyznę mądrzejszym/głębszym w oczach sieci? Diagnoza mechanizmu > wyznanie problemu.
-- **Triggers** - czy coś w codziennym życiu PRZYPOMINA o tym contencie za 3 dni? (telefon o 23:00, siłownia zamiast rozmowy)
-- **Emotion** - tylko wysokie pobudzenie generuje udostępnienie: gniew, zachwyt, rozpoznanie-zaskoczenie, aktywizujący lęk. Smutek/nostalgia = zapisy, nie udostępnienia.
-- **Public** - czy zaangażowanie publiczne (lajk/komentarz) jest bez wstydu? Tożsamość aspiracyjna = niskie tarcie.
-- **Practical Value** - checklist/liczby/test diagnostyczny = zapisy.
-- **Stories** - scena pierwszoosobowa z konkretem > sucha statystyka.
-
-**Minimum do przejścia:** temat aktywuje min. 3 z 6 sił. Poniżej - zmień kadrowanie, nie tylko napisz gorzej.
-
-### Psychologia udostępnienia - 5 mechanizmów
-Identity Expression (pożądana tożsamość, nie obecna) / High-Arousal Emotion / Gift-Giving Impulse ("muszę to wysłać X") / Tribal Signal (przynależność do "niedźwiedzia") / Information Gap Sharing.
-
-### Psychologia zapisu - 5 mechanizmów
-Future Self Utility / Overwhelm+Process Later / Identity Confirmation Document / Reference Framework / Cognitive Dissonance Resolution.
-
-### Trzy tematy o najniższym potencjale (zmień kąt albo odłóż)
-Wyznanie problemu bez reframe / temat abstrakcyjny bez sceny / edukacja bez mierzalnego deliverable w CTA.
-
-### Viral scan karuzeli - 5 pytań
-1. Czy S1 jest konkretny (teza/scena), nie abstrakcja?
-2. Czy każdy slajd ma łącznik do następnego (patrz test łańcucha eskalacji w AGENT_PISARZ)?
-3. Czy jest SHIFT między diagnozą a transformacją (dla typów diagnostycznych)?
-4. Czy CTA jest specyficzne, nie generyczne?
-5. Czy wynik transformacji jest konkretny (nie "spokój ducha")?
-
----
-
-## CZĘŚĆ 4 - WARTOŚĆ: FILTR JAKOŚCI (ostateczny test przed publikacją)
-
-### Co to "wartość" w marce
-
-Wartość ≠ informacja. **Wartość = content który zmienia interpretację rzeczywistości w głowie odbiorcy** (patrz też AGENT_PISARZ.md - definicja z formami A/B, zgodna z tym).
-
-- Zmienia sposób myślenia o problemie → WARTOŚĆ
-- Dowiaduje się czegoś, nic nie zmienia → INFORMACJA (niewystarczająca)
-- Dostaje ulgę/"to mi wystarczy" → TIP ZAMYKAJĄCY (szkodliwe, patrz pułapki niżej)
-- Scrolluje dalej bez poruszenia → BEZWARTOŚCIOWE
-
-### Test naczelny - "facet przy ognisku"
-
-Czy to brzmi jak ktoś kto siedzi z Tobą przy ognisku, czy jak skrypt z Canvy? Mówi do Ciebie, nie do "publiczności". Ma co powiedzieć, nie powtarza fraz. Nie poucza, nie moralizuje. Konkret, nie slogan. Milczy gdzie trzeba (pauza, pointa, oddech).
-
-### Discovery test - przed każdym formatem
-
-"Czy ta teza jest dla avatara ODKRYCIEM czy POTWIERDZENIEM?"
-- **DISCOVERY** - nazywasz to co avatar czuł, nie potrafił ująć. "Kurwa, dokładnie tak." Generuje zapisy/udostępnienia.
-- **REFRAME** - mówisz jak myśleć inaczej. "Ciekawy punkt widzenia." Nie generuje zasięgu, ale wciąż wartościowe.
-- **POTWIERDZENIE** - mówisz co już wie. Kiwa głową, scrolluje dalej. Zmień kąt.
-
-Cel: minimum REFRAME, optymalnie DISCOVERY.
-
-### Cztery pytania filtra (każdy post przechodzi wszystkie)
-
-**1. Czy uderza w konkretny mechanizm?** Nie ogólny "problem" - schemat który dzieje się automatycznie (napięcie→ucieczka, silna wola→pętla wstydu).
-
-**2. Czy użyta konkretna scena, nie ogólnik?** "Stoi na siłowni, widzi klatę typa obok, łapie go myśl..." > "wielu mężczyzn porównuje się do innych". Brak konkretu → wróć do material/CONTENT_MACHINE.md.
-
-**3. Czy wynik transformacji opisany namacalnie?** "Kobieta przestanie chodzić na palcach" > "poczujesz wewnętrzną wolność". Test: czy to może poczuć kobieta obok niego, zobaczyć dzieci?
-
-**4. Czy zamknięcie daje wartość i pcha dalej?** (poprawione, patrz M10 wyżej) - niekoniecznie otwarta pętla, ale zawsze coś więcej niż "tania porada" ("po prostu przestań...", "oto 5 kroków...").
-
-### Checklista przed publikacją
-
-**Rdzeń:** jedna dominująca funkcja / jeden filar tematyczny / jeden rejestr TOV / jedna dominująca emocja.
-
-**Język:** zero marketingowej nowomowy (mindset, vibe, lifestyle, level up) / zero coach-speaku (zmaksymalizuj potencjał, wyjdź ze strefy komfortu) / zero zakazanych CTA ("nauczę Cię", "pokażę Ci") / wulgaryzmy 0-1 uzasadnione emocjonalnie / "Ty" wielką literą, nie "wy"/"mężczyźni często".
-
-**Struktura:** hook zatrzymuje w 2 sekundy / body ma jedno centralne uderzenie / pointa uderza / CTA konkretne.
-
-**Zawartość:** min. jedna konkretna scena/liczba/moment / min. jeden mechanizm / autoekspozycja gdzie pasuje.
-
-**Niedźwiedź test** (zgodny z BRAND.md): emanuję nie gonię, zero sztucznego urgency / pokazuję mechanizm, nie oskarżam klienta / konfrontacja przez empatię, nie przez wstyd / klient czuje się widziany, nie atakowany.
-
-**Test finałowy:** facet przy ognisku, nie skrypt / zmienia interpretację, nie tylko informuje / mogłoby być płatne, a nie jest / pomógłby mi ten post gdybym był na miejscu odbiorcy.
-
-### Kiedy spalić i zacząć od nowa
-
-Sygnały: brzmi jak cudzy głos (mógłby to napisać 20 innych coachów) / tłumaczy, ale nie porusza / pointa daje ulgę zamiast wartości / moralizuje / miesza 3 tematy / sama abstrakcja bez konkretu.
-
-Zamiast ratować: wróć do scen (material/CONTENT_MACHINE.md) / wróć do mechanizmów (ta część pliku) / wróć do fraz (material/FRAZY_PRZEMKA.md) / zmień Filar (TYPY_TRESCI.md) / zmień rejestr.
-
-### Wartość vs tip
-
-Tip: regulacyjny (doraźne narzędzie z kotwicą ograniczenia) / diagnostyczny (lustro nie instrukcja) / ramujący.
-Wartość: zawsze zmienia ramę myślenia, pokazuje mechanizm, zostawia koszt braku zmiany, pcha dalej (nie zawsze przez otwartą pętlę - patrz M10 poprawione).
-
-Złota zasada: "Tip sprawi że mężczyzna funkcjonuje LEPIEJ. Oferta sprawi że jest INNY." Każdy tip może być wartością, nie każda wartość musi być tipem.
-
-### Częste pułapki
-
-Pełne wyjaśnienie (A do Z, nic nie zostaje do DM - zostaw 20% nietłumaczone) / tip który wystarczy (dodaj kotwicę ograniczenia: "to pomoże dziś, ale nie rozwiąże powodu") / motywacyjna pointa (wzruszenie bez działania - popraw na wartość która pcha dalej) / mądra obserwacja bez reframe (kiwnięcie głową, scrolluje dalej) / sprzedaż zbyt wcześnie (trzymaj mechanizm do końca).
-
-### Skala wartości - 5 poziomów
-
-| Poziom | Nazwa | Opis |
-|---|---|---|
-| 5 | Przełom | Mógłby być podstawą produktu, trafia głęboko |
-| 4 | Mocny | Przechodzi cały filtr, ma reframe i konkret |
-| 3 | Dobry | Przechodzi filtr, bez przełomowego uderzenia |
-| 2 | Informacyjny | Dane bez mechanizmu/reframu - przepisz albo spal |
-| 1 | Generyczny | Każdy inny coach mógłby to napisać - spal |
-
-Cel: min. 80% publikacji na poziomie 3+, min. 20% na poziomie 4-5.
-
----
-
-## JAK KORZYSTAĆ Z TEGO PLIKU
-
-**AGENT_PISARZ.md** - używa Części 1-2 przy konstrukcji hooka/mechanizmu (Krok 1, Ekstrakcja), Części 4 jako ostatecznego filtra przed pokazaniem tekstu (obok Scanu jakościowego - te dwa się uzupełniają, nie duplikują: Scan jakościowy sprawdza referencje/spójność, ten plik sprawdza siłę psychologiczną i poziom wartości).
-
-**AGENT_DORADCA.md Tryb B** - używa Części 3 (STEPPS) i Części 1 (fundamenty) do OCENY proponowanych tematów, nie tylko do sprawdzenia cytatu z AVATAR.md/BRAND.md - temat musi też aktywować min. 3 siły STEPPS, inaczej to słaby temat niezależnie od zaczepienia w avatarze.
-
----
-
-**Wersja:** 1.0 - scalenie 4 plików, poprawiona reguła zamknięcia (M10, punkt 4 filtra), zaktualizowane odniesienia.
+Oferta wyjaśnia dodatkowy zakres, sposób pracy i warunki współpracy. Nie wymaga odebrania wartości temu, co odbiorca dostał bez zakupu.

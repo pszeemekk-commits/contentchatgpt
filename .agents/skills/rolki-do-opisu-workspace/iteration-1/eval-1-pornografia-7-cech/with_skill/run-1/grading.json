@@ -1,0 +1,24 @@
+{
+  "expectations": [
+    {"text": "Output zawiera wyraźnie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": true, "evidence": "Osobne bloki '**HOOK (tekst na wideo):**' i '**OPIS POD POST:**' w Etapie 3."},
+    {"text": "Hook mieści się w maksymalnie 2 zdaniach.", "passed": true, "evidence": "'Pornografia odbiera ci każdą cechę, która odpowiada za skuteczność mężczyzny. Siedem z nich rozpisałem w opisie.' — 2 zdania."},
+    {"text": "Opis zawiera wszystkie 7 cech z wsadu.", "passed": true, "evidence": "Wszystkie 7 pozycji ponumerowane w opisie, w oryginalnej kolejności."},
+    {"text": "Wsad to same nazwy bez rozwinięcia — skill powinien zapytać albo zostać przy definicyjnym rozwinięciu, nie wymyślać mechanizmów.", "passed": true, "evidence": "Etap 1 zawiera wprost pytanie 1 o materiał do przykładów; ZAŁOŻENIE 1 jawnie ogranicza rozwinięcia do definicji bez nowych scen/liczb, i samokontrola nazywa to 'najsłabszym ogniwem'."},
+    {"text": "Opis nie dodaje statystyk, badań ani twierdzeń medycznych spoza wsadu.", "passed": true, "evidence": "Rozwinięcia przy punktach są czysto definicyjne (np. 'Pozwala ci utrzymać uwagę na jednej rzeczy' dla koncentracji) — brak liczb, badań, cytatów."},
+    {"text": "Widać ślad procesu etapowego (Etap 1, 2, 3).", "passed": true, "evidence": "Pełne sekcje ETAP 1/2/3 z jawnymi założeniami tam, gdzie brak realnego użytkownika."},
+    {"text": "Opis kończy się CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Policz, ile z tych siedmiu masz jeszcze przy sobie. Napisz w komentarzu, który punkt najbardziej cię ruszył.'"},
+    {"text": "Ton utrzymany bez moralizowania/oceniania czytelnika.", "passed": true, "evidence": "Zdania opisowe, neutralne ('Sprawia, że inni cię słuchają'), bez języka wstydu czy oceny."}
+  ],
+  "summary": {"passed": 8, "failed": 0, "total": 8, "pass_rate": 1.0},
+  "execution_metrics": {"total_tool_calls": 5, "errors_encountered": 0},
+  "timing": {"total_duration_seconds": 277.0},
+  "user_notes_summary": {
+    "uncertainties": ["Rozwinięcia 7 cech są minimalne/definicyjne, bo wsad nie dawał przykładów — model to jawnie nazwał najsłabszym ogniwem tekstu."],
+    "needs_review": ["Przy realnym użytkowniku warto dopytać o konkretne przykłady zamiast zostawiać czysto definicyjne rozwinięcia."],
+    "workarounds": []
+  },
+  "eval_feedback": {
+    "suggestions": [],
+    "overall": "Najmocniejszy z czterech przebiegów — model poprawnie rozpoznał ubóstwo wsadu, zapytałby o materiał, i w symulacji bez użytkownika wybrał bezpieczną opcję (definicja, nie wymysł), otwarcie nazywając to słabością."
+  }
+}

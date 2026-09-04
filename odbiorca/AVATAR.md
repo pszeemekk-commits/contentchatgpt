@@ -1,211 +1,264 @@
-# AVATAR - profil klienta marki "Niedźwiedź na Szlaku"
+# Avatar klienta marki „Niedźwiedź na Szlaku”
 
-**Rewizja 2026-08-04:** sekcje 1, 3, 4.6, 9 i 10 przepisane albo dopisane na podstawie wsadu spisanego 1:1 z rzeczywistości klientów (cytaty, sceny, koszty, próby rozwiązania). Elementy oznaczone `[NIEPOTWIERDZONE]` nie mają pokrycia w tym wsadzie - to hipotezy, nie fakty. Brak potwierdzenia nie znaczy, że są fałszywe; znaczy, że treść budowana na nich zgaduje.
+Wersja robocza 1.0, 3 września 2026. Podstawa: zebrane wypowiedzi klientów i informacje Przemka. Dokument do rozwijania wraz z kolejnymi rozmowami.
 
----
+## Podstawa i zasady odczytania
 
-## 1. RDZEŃ - WIE KIM CHCE BYĆ I NIE JEST TYM MĘŻCZYZNĄ
+To jeden profil strategiczny. Opisuje wspólne napięcia, zachowując różnice między klientami. Nie zakłada, że każda osoba ma wszystkie wymienione trudności.
 
-Wie dokładnie, kim chce być. Widzi tego mężczyznę wyraźnie. I nie jest nim.
+Źródła:
+- A01–A11: odpowiedzi z [ankiet programu dotyczącego pornografii](<G:/MARKA/Cowork/ANALIZA/Analiza klientow/ankiety.md>). Przede wszystkim motywacje, odczuwane koszty i oczekiwania przy wejściu do programu. Co najmniej A11 odpowiada już po rozpoczęciu kursu.
+- K01 = A10: ta sama osoba, opisana również w [raporcie późniejszej konsultacji](C:/Users/przdz/.codex/attachments/c6de5d49-e06d-42f7-8ead-4f9759358b2f/pasted-text.txt). Według Przemka do zakupu skłoniły ją narodziny syna.
+- K02: odrębna osoba, opisana w [raporcie z pamięci](C:/Users/przdz/.codex/attachments/a679ed62-977f-4b3a-937c-9c6fc86a39ee/pasted-text.txt) i uzupełnieniach Przemka. Chce rodziny; niejasność kierunku dotyczy biznesu i tego, co go interesuje w życiu.
+- K03: Kamil, opisany z pamięci przez Przemka. Wycofanie w relacjach i dziwne odczucie podczas przytulania. Nie ustalono, czy występuje również w ankietach.
 
-To nie jest brak wiedzy i nie jest brak umiejętności. To rozjazd między tym, kim wie że ma być, a tym, kim jest.
+Potwierdzono 12 różnych osób przed dodaniem Kamila. Jego opisu nie używamy do zwiększania liczebności bez sprawdzenia powiązań. Dwa raporty opracowujące ankiety nie są dodatkowymi dowodami.
 
-Nosi dwa obrazy siebie naraz. Ten z wizji: mężczyzna, który prowadzi, dopina, jest wybrany. I ten z lustra: dzisiejszy, który ucieka, nie kończy, siedzi sam. Codziennie budzi się tym drugim. Odległość między nimi boli mocniej niż samotność i mocniej niż nawyk, bo to jest ból świadomości zmarnowanego potencjału.
+Dane oznaczają to, co klient napisał lub co przekazano o jego wypowiedzi i zachowaniu. Interpretacja oznacza wniosek strategiczny. Hipoteza oznacza wyjaśnienie wymagające sprawdzenia.
 
-**Kierunek ruchu: ucieczka, nie pościg.** Pod spodem nie ma biegu do bycia mężczyzną. Jest ucieczka od bycia chłopcem, od wstydu, że się nim wciąż jest, i od widma ojca, obok którego było się samemu. "Nie chcę już być tym, kim jestem teraz."
+Ankiety pytały o określone koszty i skłaniały do wyobrażania sobie przyszłości. Nie są neutralnym badaniem całego życia. Wizja za 60 dni opisuje oczekiwanie, nie rezultat. Scenariusz za pięć lat nie jest automatycznie faktem z teraźniejszości.
 
-**Czym jest w tym nawyk.** Seks i porno są dla niego najwyższym dowodem wartości jako mężczyzny. Gdy tego nie ma - "skoro inni to mają, a ja nie, to coś jest ze mną nie tak". Gdy jest - działa jak znieczulenie, nie jak obecność, bo to bodziec, nie czynność. Tak radzi sobie z brakiem, którego głębokości nawet nie podejrzewa.
+Profil najlepiej opisuje obecnie poznanych klientów. Brakuje porównania ich rezultatów i przebiegu współpracy, aby rozstrzygnąć, kto reprezentuje najlepszych klientów marki.
 
----
+## 1. Kim jest klient
 
-## 2. KIM JEST
+**Rdzeń strategiczny — interpretacja wsparta kilkoma źródłami:**
 
-Mężczyzna 20-42 lata `[NIEPOTWIERDZONE - wsad nie daje żadnego przedziału wiekowego]`. Inteligentny, refleksyjny, funkcjonujący normalnie na zewnątrz - pracuje, ma plany, nikt by się nie domyślił. W środku napięty, czujny czy ktoś go nie przejrzy. Jeden z jego najmocniejszych lęków brzmi wprost: "przeżyję życie, udając mężczyznę, którym nie jestem, i ktoś to zobaczy".
+Mężczyzna, który chce budować życie, z którego będzie zadowolony i w którym będzie mógł na sobie polegać. Jego obecne zachowania utrudniają realizację ważnych zamiarów i wpływają na to, jak siebie ocenia. Chce odzyskać wpływ na swoje działanie, lepiej funkcjonować w relacjach i mieć poczucie, że wykorzystuje własne możliwości.
 
-Nie jest przegranym w oczywisty sposób. Ma pracę, często partnerkę, czasem dzieci. Partnerka nie jest dodatkiem do profilu - to główna scena, na której ten problem się rozgrywa i główne miejsce, w którym boli.
+Dla wielu klientów szczególnie ważne jest stworzenie lub utrzymanie rodziny oraz bycie partnerem i ojcem, na którym można polegać. Inni jako główny powód zmiany wskazują własną wartość, energię, seksualność lub cele sportowe.
 
-Rozjazd jest między tym, kim mógłby być - a wie to dokładnie, widzi tego siebie wyraźnie - a tym, kim budzi się codziennie.
+Może pracować zawodowo, rozwijać biznes, być w związku, mieć dzieci albo dopiero chcieć rodziny. Nie ustalamy wieku, dochodu ani zawodu bez danych.
 
-Porno jest najbardziej widocznym objawem - najłatwiej go nazwać, dlatego dominuje w ankietach i DM. Sam przypisuje mu przyczynę całej reszty ("to, że jestem odcięty na emocje, to wina porno") - traktuj to jako jego diagnozę, nie jako fakt. To samo widać w pracy, w pieniądzach, w relacjach, w tym czy w ogóle wie po co żyje poza przetrwaniem dnia.
+**Źródła:** A01, A05–A11, K01, K02.
 
----
+## 2. Obecna rzeczywistość
 
-## 3. MECHANIZM - CZEGO SIĘ NAUCZYŁ, ŻEBY NIE BOLAŁO
+Jego życie może zawierać rzeczy, które ocenia dobrze: pracę, partnerkę, zainteresowania, plany. K01 wprost mówi o dobrym życiu. Inni opisują silne niezadowolenie, pogorszenie relacji i poczucie powtarzania tych samych zachowań.
 
-To nie jest brak umiejętności, których nikt mu nie pokazał. To program, który kiedyś miał go chronić i chroni dalej - kosztem życia. Rozróżnienie jest kluczowe: deficytu uczy się treningiem, a marka wprost odrzuca trening i silną wolę jako drogę (BRAND.md sekcja 0, MOTOR).
+W działaniu występują różne trudności. K01 wycofuje się przy części stresujących zadań. K02 zaczyna kolejne czynności, nie kończy poprzednich i opisuje intensywne zrywy przeplatane okresami chaosu. Stopień trudności jest różny.
 
-W dzieciństwie nauczył się, że:
-- opinia innych boli
-- miłość boli
-- staranie się boli
-- bycie sobą boli
-- zarabianie boli
-- ryzyko boli
-- wygrywanie boli
-- przegrywanie boli
+W relacjach może doświadczać dystansu, unikania intymności, zamykania się lub ukrywania zachowań. Nie każdy ma problem z poznawaniem kobiet. K02 opisuje trudność w utrzymaniu relacji, mimo łatwości rozpoczynania znajomości.
 
-Paradoks: dokładnie tego pragnie, a jego umysł zapisał to jako niebezpieczne. To, co ma go chronić, odcina go od życia, które chce mieć.
+Jasność celów zależy od obszaru. Może chcieć rodziny, a nie wiedzieć, jaki biznes rozwijać i co go interesuje. Może znać kierunek, a nie mieć przemyślanej codzienności. A09 w polu przyszłej wizji wpisał „Brak wizji.”
 
-Trzy miejsca, w których widać to najostrzej:
+**Źródła:** A01–A11, K01, K02, K03.
 
-**Nie zostaje w konflikcie.** Albo się poddaje i milczy, albo eksploduje. Granicy nie stawia nie dlatego, że nie wie jak - tylko dlatego, że ocena, która przyjdzie po granicy, kosztuje go więcej, niż jest w stanie unieść.
+## 3. Największe problemy
 
-**Niepewność czyta jako dowód na siebie.** Po sytuacji, w której zachował się nie tak, jak chciał, nie zostaje mu pytanie "co zrobić inaczej", tylko "sam nie wiem, czy dobrze postąpiłem". To zsuwa się w ocenę siebie, nie zachowania. `[NIEPOTWIERDZONE: przymus "muszę zawsze wiedzieć, mieć rację, kontrolować sytuację" - wsad potwierdza przeżywaną niepewność, nie potwierdza przymusu kontroli]`
+Poniższa kolejność jest roboczą oceną znaczenia dla profilu marki. Nie jest ustaloną hierarchią zakupową wszystkich klientów.
 
-**Obwinia siebie, nie okoliczności.** Gdy nie wychodzi, mówi "widocznie tak już mam", "za mało mi zależy", "mi to zawsze tak nie wychodzi". Własny charakter jako wyrok. Okoliczności obwinia punktowo, w pojedynczej sytuacji ("daję się sprowokować partnerce"), ale rozliczenie całego życia bierze na siebie.
+**1. Ważne zamiary nie przekładają się na działanie, na którym może polegać.**
+Wycofuje się, odkłada, rozprasza lub nie kończy. Widzi koszt w pracy i osobistych planach. Nie wolno zakładać całkowitej bezczynności: część klientów dużo zaczyna i potrafi działać intensywnie.  
+Źródła: K01, K02, A08, A10, A11. **Silny wzorzec.**
 
-**Zdanie które tłumaczy wszystko:** myśli że ON jest problemem, nie że MA problem. Content musi otwierać trzecią przestrzeń: to nie ty jesteś problemem - w tobie działa mechanizm, mechanizm da się zmienić.
+**2. Trudności pogarszają jego stosunek do siebie.**
+Pojawiają się wstyd, poczucie winy, obniżona wartość, nazywanie siebie słabym lub karanie siebie w myślach. Wstyd lub poczucie winy pojawiają się w polu obecnych kosztów emocjonalnych w 8 z 11 ankiet.  
+Źródła: A01–A05, A07–A11, K01, K02. **Bardzo silny wzorzec kosztów emocjonalnych w ankietach; silny wzorzec negatywnej samooceny.**
 
----
+**3. Nie potrafi tworzyć takiej relacji, jakiej chce, albo obawia się utraty obecnej.**
+Może unikać bliskości, zamykać się, odczuwać obojętność, kłamać lub nie dzielić się tym, co przeżywa. Kamil i K02 według relacji Przemka czują się dziwnie przy przytulaniu. To konkretny sygnał z dwóch opisów z pamięci, bez ustalonej przyczyny.  
+Źródła: A01, A02, A05–A08, A10, A11, K02, K03. **Silny wzorzec trudności relacyjnych, różne zachowania.**
 
-## 4. SZEŚĆ OBSZARÓW, W KTÓRYCH TEN SAM MECHANIZM TRZYMA GO W MIEJSCU
+**4. Pornografia i związane z nią doświadczenia zajmują zbyt dużo miejsca w jego życiu.**
+W ankietach klienci opisują powroty do zachowania, trudności seksualne, ukrywanie, stracony czas i uwagę pochłoniętą problemem. Jest to potwierdzony powód szukania pomocy w tej próbie. Nie ustalono, czy pornografia jest wspólną przyczyną innych trudności ani czy zawsze jest wyłącznie objawem.  
+Źródła: A01–A11. **Bardzo silny wzorzec w próbie wybranej wokół tego programu.**
 
-Każdy z sześciu to osobny, ważny wątek contentowy - nie podpunkt tego samego tematu porno/rodzina.
+**5. Nie ma jasności, jak chce pracować i na co przeznaczać własne życie.**
+U K02 dotyczy to kierunku biznesowego i zainteresowań. K01 chce ograniczyć wyjazdy, być przy rodzinie i docelowo zmienić sposób pracy. Niejasność kierunku i niezadowolenie z obecnego modelu pracy to odrębne trudności.  
+Źródła: K01, K02. **Ważny sygnał z ograniczonej liczby osób.**
 
-### 4.1 Praca i własny kierunek
+## 4. Konsekwencje problemów
 
-Ma w sobie impuls do zbudowania czegoś swojego, ale każdy ruch, który ma znaczenie, wystawia go na ocenę - więc ruchu nie ma. Czuje, że marnuje potencjał, ma pomysły które nigdy nie ruszają, zazdrości mężczyznom którzy "po prostu działają". Nie widzi, że to nie lenistwo, tylko napięcie, które trzyma go w miejscu.
+**Obecnie opisywane:** mniej ukończonych działań, utracony czas, gorsza ocena siebie, zmęczenie, trudności z koncentracją, dystans w związku i ciężar ukrywania. Klienci wiążą część objawów z pornografią; ankiety nie rozstrzygają medycznej ani psychologicznej przyczynowości.
 
-**Kąt contentowy:** nie jesteś leniwy. Stoisz, bo każda rzecz, na której ci naprawdę zależy, może zostać oceniona - a tego twój układ unika skuteczniej, niż ty planujesz.
+**Przewidywane przez klientów:** rozstanie, dalsze pogorszenie samopoczucia, kolejne lata niezrealizowanych zamiarów, trudność stworzenia rodziny lub bycia takim ojcem, jakim chcieliby być.
 
-### 4.2 Autorytet i mentorzy
+Nie przedstawiamy przewidywań jako nieuniknionych skutków. Opis zaniedbywania odbiorów dzieci u A06 znajduje się w scenariuszu przyszłości i nie jest potwierdzonym obecnym zachowaniem.
 
-Autorytet kojarzy się z ryzykiem oceny, nie z fascynacją czy prowadzeniem. "Jak pokażę prawdę - zostanę odrzucony." Pomocy szuka - był u psychologa, próbował terapii, czyta książki - ale pokazuje wycinek, ten najłatwiejszy do przyznania. Terapia często zostawiła mu wgląd i nic poza tym, a z psychologiem "ciężko mu się rozmawiało".
+**Źródła:** A01–A11, K01, K02.
 
-**Kąt contentowy:** `[NIEPOTWIERDZONE - fascynacja mentorem, "kogoś kto już tam był i nie odwrócił wzroku", trudność pierwszego kroku w DM: brak śladu we wsadzie]` nie szukasz kogoś, kto powie ci co robisz źle. Szukasz kogoś, kto już tam był i nie odwrócił wzroku.
+## 5. Najważniejsze pragnienia
 
-### 4.3 Fałszywa twardość
+- Móc wykonywać ważne zamiary i kończyć rozpoczęte sprawy.
+- Odzyskać lepszy stosunek do siebie: poczucie wartości, pewność, u części dumę.
+- Stworzyć lub utrzymać bliską relację; być szczerym, wspierającym partnerem.
+- Być zdolnym założyć rodzinę lub dobrze pełnić rolę ojca.
+- Zakończyć powracanie do pornografii i ograniczyć skupienie życia wokół tego problemu.
+- Mieć więcej spokoju i energii do codzienności.
+- Rozwijać zainteresowania; u części także stworzyć bardziej odpowiadający im sposób pracy.
 
-Buduje wartość przez zewnętrzne dowody męskości - ciało, gadkę, "wyluzowanie", czasem twarde środowiska - zamiast przez integrację siły z wrażliwością. Im mocniej buduje te dowody, tym wyraźniej czuje, że to nie dotyka rdzenia. Osobne, ostre napięcie: nie umie postawić się twardo w pracy, bo czuje, że wtedy udaje kogoś, kim nie jest - i staje przed fałszywym wyborem "albo jestem badboyem, albo facetem, którego lubią".
+To mapa pragnień. W konkretnym przypadku ich kolejność wynika z wypowiedzi tej osoby. Rodzina lub partnerka występują wprost w głównym powodzie zmiany u A06, A07, A08, A10 i A11. A03 akcentuje sport, A04 siły do życia, A05 własną wartość.
 
-**Kąt contentowy:** budowałeś twardość jako dowód. Prawdziwa siła nie potrzebuje dowodu.
+## 6. Głębsze pragnienia
 
-### 4.4 Wiedza bez zmiany
+**Interpretacja: móc na sobie polegać.**
+U A01 pojawia się wprost zaufanie do siebie. A10 opisuje mężczyznę, który kończy rozpoczęte sprawy. K02 mówi o karaniu siebie za niewykonanie zamiarów. To uzasadnia traktowanie wiarygodności wobec siebie jako ważnego wspólnego napięcia, bez ogłaszania go jedynym rdzeniem wszystkich osób.
 
-Czyta, ogląda, analizuje, próbował: zrywy i przypływy energii, siłownia, zimne prysznice, "Atomowe nawyki", psycholog, terapia. Wie, co powinien zrobić, i dalej tego nie robi. To najlepiej potwierdzona rzecz w całym profilu: "to nie jest niewiedza, to bezsilność".
+**Dane: być zdolnym do życia rodzinnego, którego chce.**
+K02 bardzo chce rodziny, lecz według Przemka obecny stan relacji i życia podważa jego wiarę w możliwość jej zbudowania. A07 wprost pragnie zdolności stworzenia i utrzymania rodziny. K01 chce obecności przy synu.
 
-Uwaga, ważna korekta: **nie zna pojęcia podświadomości jako wyjaśnienia swojego stanu.** Zna słowo "nawyk". O tym, że pod spodem pracuje napięcie, którego nie widzi, nie ma pojęcia - wsad mówi wprost "nie wiedząc, że to podświadomy schemat". Tego rozróżnienia treść musi dokonać za niego, nie zakładać go.
+**Interpretacja: mieć życie obejmujące więcej niż obowiązki i zajmowanie się problemem.**
+K01 ma realne zainteresowania twórcze i intelektualne. A02 i A08 chcą czasu na pasje. A11 wskazuje koszt uwagi skupionej na walce z uzależnieniem. To wsparcie szerszej wizji życia, bez dowodu, że pasje są głównym motywem zakupu.
 
-**Kąt contentowy:** próbowałeś wszystkiego, co da się zrobić z zewnątrz. Nie jesteś słaby - próbowałeś nie tam.
+Nie przypisujemy wszystkim ukrytego pragnienia statusu, uznania ojca, bycia publicznie wybranym przez kobietę ani pozostawienia po sobie śladu.
 
-### 4.5 Sens poza przetrwaniem dnia
+## 7. Główne frustracje
 
-`[NIEPOTWIERDZONE - cała sekcja. Wsad nie daje ani jednego cytatu o płaskości życia czy braku sensu. Najbliżej jest "zmarnuję życie" i "czas przeleci mi przez palce", ale to ból zmarnowanego potencjału, nie pustka. Podejrzenie: to nie osobny obszar, tylko część 4.1. Do rozstrzygnięcia przez Przemka.]`
+- Uważa, że mógłby wykonać zadanie, a wycofuje się przed nim. K01.
+- Zaczyna wiele rzeczy i zostawia je niedokończone. K02.
+- Mobilizacja nie utrzymuje się w czasie. K02.
+- Wraca do zachowania, którego chciał zaprzestać, i ponownie przeżywa wstyd lub winę. A01, A03, A08.
+- Chce relacji, a w kontakcie z partnerką doświadcza dystansu, zamykania się lub trudności z bliskością. A02, A07, K02, K03.
+- Czas, który mógłby przeznaczyć na inne sprawy, upływa przy ekranie lub zajmowaniu się problemem. A01, A11.
+- Dotychczasowy model pracy utrudnia pożądaną obecność przy rodzinie. K01.
 
-Poczucie, że życie jest płaskie, że brakuje czegoś większego - nienazwane, bo cała uwaga idzie w bieżące gaszenie napięcia. Nie religijność, nie duchowość w cudzysłowie - poczucie, że robi coś więcej niż dociąga do wieczora.
+## 8. Obawy i lęki
 
-### 4.6 Pieniądze
+**Silnie udokumentowane:** utrata partnerki, dalsze pogorszenie relacji, utrwalanie niskiej oceny siebie, kolejne lata podobnego funkcjonowania. A01, A02, A07, A08, A10, A11.
 
-Czwarta rzeka z BRAND.md sekcja 0, do tej pory nieobecna w profilu. Traci na dwa sposoby naraz.
+**Konkretne dla części osób:** zmarnowanie potencjału — K02; brak zdolności stworzenia rodziny — K02 według Przemka; ujawnienie ukrywanego zachowania — A01; trudności podczas kontaktu seksualnego — A09.
 
-Pierwszy, widoczny: nie robi tego, co mógłby i chciałby robić, żeby zarabiać więcej. Odłożone zadania biznesowe, brak decyzji czego chce od życia, stanie w miejscu.
+**Materiał z procesu:** niepowtórzenie historii ojca pojawia się w pracy z K02. Zachowujemy ten kontekst; nie przypisujemy takiej motywacji całej grupie.
 
-Drugi, zupełnie nieświadomy i ważniejszy: same pieniądze są dla niego napięciem. Spadek na koncie daje ścisk w żołądku - "boję się wejść na konto bankowe". Ścisk pcha w pracoholizm, żeby to odrobić. Gdy wpada więcej, wydaje. I od nowa.
+Obawa przed utratą związku nie jest automatycznie obiekcją wobec zakupu.
 
-Paradoks: chce ich więcej, bo ich potrzebuje. Ta potrzeba jest napięciem. Napięcie każe je wydać.
+## 9. Obiekcje zakupowe
 
-**Kąt contentowy:** to nie jest kwestia zarabiania więcej ani lepszego budżetu. Pieniądze robią u ciebie to samo, co reszta - rozładowują napięcie, którego nie widzisz.
+**Brak wystarczających danych.**
 
----
+Nie znamy powtarzalnych obiekcji wobec ceny, czasu, pracy grupowej, hipnozy, osoby prowadzącego czy skuteczności oferty. Nie wpisujemy ich na podstawie typowych przekonań marketingowych.
 
-## 5. OBSZAR RELACJI - PEŁNY ZAKRES, NIE TYLKO PORNO
+K01 po pracy nad pornografią chce zobaczyć, co zmieni się w kolejnych miesiącach. To możliwa przesłanka odroczenia dalszej współpracy, nie potwierdzona odmowa zakupu.
 
-To nie jest "kłamstwo o nawyku" jako jedyny problem relacyjny. To cały wzorzec zachowań, z których nawyk jest tylko jednym:
+Nie utożsamiamy zgody na dalszy kontakt z zakupem kolejnego programu.
 
-**Unikanie konfliktu przez uległość** - zgadza się, żeby mieć spokój, potem żywi ciche pretensje, które wybuchają przy zupełnie innej okazji.
+## 10. Dotychczasowe próby rozwiązania problemu
 
-**Wycofanie w konflikcie** - milczy, mówi "potrzebuję przestrzeni", znika psychicznie. Karze ciszą albo agresją. To nie jest prawdziwa potrzeba dystansu - to ucieczka przebrana za granicę.
+K02 opisuje kolejne zrywy i mobilizowanie się. K01 wcześniej medytował, czytał i pracował nad sobą, lecz nie ustalono, które z tych działań podejmował jako próbę rozwiązania konkretnej obecnej trudności.
 
-**Mur** - "brak umiejętności szczerej rozmowy i budowanie muru przed wszystkimi", jego własnymi słowami. Wycofanie emocjonalne jako stan, nie jako reakcja.
+A11 opisuje wcześniejsze skupienie na walce z uzależnieniem, bez szczegółowego wykazu metod. A03 wskazuje jedenaście lat problemu. Długość problemu nie dokumentuje liczby ani rodzaju prób.
 
-**Bliskość na siłę** - "ciężko mi przytulić swoją dziewczynę, wewnętrznie czuję, że robię to na siłę". Związek trwa z przyzwyczajenia, bez wspólnej perspektywy, i on to wie.
+**Braki:** przebieg wcześniejszych terapii, programów, samodzielnych działań i ich rezultatów. Nie przypisujemy wszystkim historii „próbował już wszystkiego”.
 
-**Prowokacja i danie się sprowokować** - "daję się sprowokować partnerce". Wystawia jej emocje na burzę: kłótnie, prowokacje, czasem zdrady.
+## 11. Dlaczego te próby nie zadziałały
 
-**Nieświadome testowanie miłości** - sabotuje dobre momenty w związku, jakby sprawdzał, czy ona i tak zostanie. `[CZĘŚCIOWO POTWIERDZONE - wsad mówi ogólnie o sabotowaniu związku i zganianiu tego na własny charakter, nie o testowaniu jako mechanizmie]`
+**Nie ustalono.**
 
-**Kontrola przebrana za troskę** - potrzeba wiedzieć gdzie ona jest, z kim, dlaczego długo nie odpisuje. `[NIEPOTWIERDZONE]`
+Wiemy, że niektóre trudności się powtarzały. Nie wiemy, czy poprzednie działania były niedopasowane, krótkotrwałe, trudne do utrzymania, częściowo skuteczne czy dotyczyły innego problemu.
 
-**Nie umie przyjmować** - daje, ale gdy dostaje czułość albo komplement, odbija i umniejsza. `[NIEPOTWIERDZONE]`
+K02 opisuje przejście od zrywów do chaosu, lecz nie znamy jego przyczyny. A11 opisuje osłabienie przykrych uczuć po rozmowie z Przemkiem. To zgłoszony efekt emocjonalny, bez dowodu trwałej zmiany wszystkich zachowań.
 
-**Intelektualizuje emocje** - "bądźmy racjonalni", analizuje zamiast poczuć. `[NIEPOTWIERDZONE WPROST - najbliżej: "brak umiejętności szczerej rozmowy"]`
+Tezy o jednym źródle problemów, dzieciństwie lub podświadomości należy traktować jako wyjaśnienia marki albo hipotezy z pracy, a nie fakty dowiedzione tym zbiorem VoC.
 
-**Liczy krzywdy** - zbiera dowody zamiast powiedzieć wprost, czego mu brakuje. `[NIEPOTWIERDZONE]`
+## 12. Przekonania, które mogą ograniczać zmianę
 
-**Nie umie naprawić po kłótni** - albo znika, albo przeprasza szybko bez realnego powrotu do tego, co się stało. `[NIEPOTWIERDZONE]`
+Nie wszystkie poniższe przekonania zostały wykazane jako błędne. Zapisujemy wypowiedzi i oddzielamy ich możliwy skutek.
 
-**Praca jako legalna nieobecność** - "jestem zajęty" brzmi lepiej niż "uciekam". `[CZĘŚCIOWO - wsad ma pracoholizm, ale jako reakcję na napięcie wokół pieniędzy, nie na relację]`
+**Ocena siebie na podstawie trudności.**
+A08 po epizodzie ocenia siebie jako beznadziejnego. K01 widzi siebie jako słabszego, niż mógłby być. K02 karze siebie za niewykonanie zadania.  
+**Interpretacja:** ocena zachowania może przechodzić w szerszą ocenę własnej wartości.
 
-Nawyk (pornografia) jest jednym z objawów tego całego wzorca. Content o relacjach nie powinien kończyć się na nawyku - powinien nazywać cały ten wzorzec, bo to on niszczy relację długoterminowo, nie sama pornografia.
+**Rozwiązanie pornografii jako warunek innych celów.**
+A03 wierzy, że wtedy ukończy wszystkie cele sportowe. A10 wiąże zakończenie nawyku z możliwością stania się pożądanym partnerem i ojcem.  
+**Do sprawdzenia:** które oczekiwania są realistyczne, a które pomijają inne wymagania tych celów.
 
----
+**Brak determinacji jako własne wyjaśnienie.**
+K01 tak opisuje przeszkodę. Nie mamy dowodu, że jest to pełne lub błędne wyjaśnienie.
 
-## 6. WYMIAR REZONANSU - KTO ZOSTAJE NAJGŁĘBIEJ
+**Obecne trudności jako dowód niezdolności do stworzenia rodziny.**
+Według Przemka tak postrzega swoją sytuację K02. To jego obecna ocena możliwości, nie ustalenie dotyczące przyszłości.
 
-`[NIEPOTWIERDZONE - CAŁA SEKCJA. Wsad nie daje żadnego materiału o tym, jak klient czyta, co go przyciąga estetycznie i jak głębokiego języka potrzebuje. To hipoteza Przemka, a wynikają z niej twarde decyzje formatowe. Do zweryfikowania osobnym wywiadem, zanim treść dalej się na tym opiera.]`
+## 13. Nowe przekonania potrzebne do transformacji
 
-Czyta i szuka przebicia, nie nazwy. Ma momenty "po prostu wiedziałem" i traktuje je jako realny sygnał. Reaguje na estetykę (las, ogień, ciemność) jako nośnik prawdy, nie tylko na treść. Gotowy wejść głębiej w historię rodzinną, gdy ktoś mu pokaże, że jego wzorzec ma korzenie wcześniej niż on.
+**Propozycje strategiczne do sprawdzenia w pracy i komunikacji. Nie są cytatami klientów ani wykazanymi warunkami skuteczności.**
 
-**Co przyciąga:** głębia wymagająca kilku przeczytań, worldview zamiast porady, paradoks który przesuwa perspektywę.
-**Co odpycha:** quick-fix, nadmierna sprzedaż, zbyt prosty język.
+- Mogę oceniać konkretne zachowanie i pracować nad nim, zachowując szacunek do siebie.
+- Warto sprawdzać zmianę w codziennych działaniach, relacji i sposobie radzenia sobie z trudnością.
+- Mogę znać ważny cel rodzinny i jednocześnie potrzebować rozpoznania własnego kierunku zawodowego.
+- Po rozwiązaniu jednego problemu warto ocenić, które pozostałe trudności rzeczywiście się zmieniły.
+- Zdolność tworzenia relacji obejmuje także rozwijanie i utrzymywanie bliskości.
+- Obecne trudności mogą być punktem wyjścia do pracy nad życiem, którego chcę.
 
-Jedna rzecz z tej sekcji ma pokrycie i zostaje: **strach przed staniem się swoim ojcem i przekazaniem tych schematów dzieciom jest realny i nazwany wprost.**
+Dobór tych przekonań powinien odpowiadać sytuacji konkretnego klienta, zamiast tworzyć obowiązkową listę dla wszystkich.
 
-Uwaga do "co odpycha": zasada "czysty pain-hook bez głębi odpycha" została złagodzona. Ból tego człowieka jest ostry, świadomy i już przez niego nazwany - to on go przyprowadza. Hook może wejść mocno w ból, pod warunkiem że rozwinięcie pokazuje mechanizm, a nie zostaje we wstydzie.
+## 14. Moment gotowości do zakupu
 
----
+**Potwierdzone zdarzenie:** narodziny syna skłoniły K01/A10 do zakupu — informacja Przemka.
 
-## 7. OPÓR - GŁĘBSZY NIŻ STRACH PRZED NAWROTEM
+**Deklarowana pilność:** A11 określa sytuację jako ostatni moment, aby nie stracić partnerki. Nie znamy konkretnego zdarzenia bezpośrednio przed decyzją.
 
-Powierzchowny opór to strach przed kolejnym nawrotem albo przed tym, że "znowu nie wyjdzie". To realne, ale to nie jest najgłębszy poziom.
+**Motywy, bez ustalonego momentu zakupu:** A06 chce nie wnosić problemu w kolejny rozdział życia; A07 chce zdolności stworzenia rodziny; A03 ma dosyć wieloletniego problemu.
 
-**Głębszy opór:** boi się nie tego, że ktoś dowie się o nawyku - boi się, że jeśli naprawdę się otworzy, ktoś zobaczy, że to WSZYSTKO jest jego stałym wzorcem, nie chwilowym stresem ani skutkiem ubocznym nawyku. Jego własne słowa: "przeżyję życie, udając mężczyznę, którym nie jestem, i ktoś to zobaczy". Nawyk jest tym, co najłatwiej przyznać, bo brzmi jak pojedynczy problem do naprawienia. Cały wzorzec z sekcji 5 brzmi jak wyrok na charakter - dlatego zostaje niewypowiedziany, nawet przed samym sobą. `[Sam mechanizm potwierdzony wprost. NIEPOTWIERDZONE zostaje konkretna lista tego, czego boi się pokazać: kontrola, zazdrość, niemożność przyjęcia czułości.]`
+**Interpretacja robocza:** gotowość może rosnąć, gdy klient łączy obecne zachowanie z czymś ważnym, co chce ochronić lub zbudować. Nie ustalono jednego wyzwalacza dla wszystkich.
 
-To wyjaśnia, dlaczego praca tylko nad "przestaniem oglądać porno" nie usuwa napięcia w relacji - nawyk nigdy nie był jedynym problemem, tylko najwygodniejszym do wskazania.
+Dane o wejściu do programu pornograficznego nie dowodzą gotowości do zakupu Jaskini.
 
----
+## 15. Kryteria wyboru rozwiązania
 
-## 8. TRIGGERY ZAKUPOWE
+**Potwierdzone są oczekiwane zmiany, słabiej znamy kryteria wyboru oferty.**
 
-Kryzys w relacji albo moment, w którym widzi, że związek umiera. Presja czasu, mocniejsza niż zakładaliśmy: widzi lata, które już przeminęły, i widzi lata, które mogą wyglądać tak samo - "mam dość powielania schematu". Stagnacja zawodowa, która nagle zaczyna boleć mocniej. Moment, gdy widzi mężczyznę, który po prostu ma kierunek, i czuje ostrą zazdrość. Wewnętrzny punkt krytyczny po kolejnym nawrocie. Konkretna scena upokorzenia: partnerka mówi, że "prawdziwy mężczyzna zrobiłby to inaczej".
+Klienci opisują potrzebę spokoju, zmiany zachowania, poprawy relacji i działania. Nie oznacza to, że według tych samych kryteriów porównywali oferty.
 
-`[NIEPOTWIERDZONE: zbliżający się próg życiowy (ślub, dziecko) - wiek i czas są potwierdzone mocno, te dwa nie. Tak samo "post, który nazywa coś, czego wcześniej nie potrafił nazwać".]`
+A03 chce wsparcia bliskiej osoby, lecz nie wskazuje tym samym preferencji dla grupy czy mentoringu. A11 pozytywnie opisuje wpływ rozmowy z Przemkiem, ale nie dowodzi to pierwotnego powodu wyboru.
 
----
+**Do zbadania:** co budowało zaufanie przed zakupem, jakie alternatywy rozważali, jakie znaczenie miały metoda, forma kontaktu, prywatność, cena i dowody efektów. Nie wybieramy odpowiedzi za nich.
 
-## 9. JAK DO NIEGO MÓWIĆ
+## 16. Język klienta
 
-Nie zwężaj contentu do wstydu, porno i rodziny. To są najłatwiej dostępne słowa, bo tak mówią o sobie ankietowani klienci - ale to nie jest cały człowiek. Rotuj między sześcioma obszarami z sekcji 4 i pełnym wzorcem relacyjnym z sekcji 5.
+**Fragmenty odpowiedzi ankietowych — zachowane brzmienie:**
 
-**Punkt ciężkości: wejdź tam, gdzie boli, i pokaż mechanizm.** Nie odwracaj uwagi od bólu w stronę wizji - on wizję już ma i widzi ją wyraźnie, to część jego cierpienia. Brakuje mu przejścia, nie obrazu docelowego.
+- A01: „Nie chcę żyć w kłamstwie, obłudzie i fałszu.”
+- A05: „Poczucie swojej wartosci”
+- A06: „Nie chcę wnosić czegoś takiego w nowy rozdział swojego życia”
+- A07: „Chęć stania się silnym mężczyzną zdolnym do zbudowania i utrzymania rodziny, bycie wzorem dla przyszłych dzieci i bycie wspierającym mężem”
+- A08: „Wiele rzeczy gdyby nie to bym już robił”
+- A09: „Brak wizji.”
+- A10: „dla mojego syna chcę być najlepszym ojcem”
+- A10: „gościa który coś zaczyna i to kończy, który jest realnie sprawczy a nie tylko w gadce.”
+- A11: „A moja uwaga była skupiona na tym by walczyć z uzależnieniem a nie na tym by żyć.”
 
-Nie mów do wstydu jak do celu. Nazywaj konkretny mechanizm zamiast ogólnego "walczysz z nawykiem".
+**Wypowiedzi przypisane klientom w raportach konsultacji — dosłowność niezweryfikowana z nagraniem:**
 
-**Fraza-kotwica: "prawdziwy mężczyzna".** To jest główna, powtarzalna fraza tej grupy i najlepszy materiał na wejście, jaki masz. Ale ma dwie wersje i różnica między nimi jest całą stawką marki:
+- K01: „mam dobrą pracę, mam dobre życie”
+- K01: „czasami się wycofuję z pewnych rzeczy”
+- K01: „materiał na męża”
+- K01: „Chcę być codziennie w domu”
+- K02: „boję się, że zmarnuję potencjał”
+- K02: „karam się w myślach za to, że wiem, co mam robić i nie robię tego”
 
-- *"Chcę, żeby moja partnerka nazywała mnie prawdziwym mężczyzną"* - to jest jego dzisiejszy stan. Wartość oddana na zewnątrz, do cudzej oceny.
-- *"Chciałbym zbudować taką pewność siebie, żeby samemu móc się tak nazwać"* - to jest destynacja.
+Dopowiedzenia Przemka o K02 i Kamilu są parafrazami z pamięci. Nie zamieniamy ich w dosłowne cytaty.
 
-Używaj tej frazy jako hooka, nigdy jako obietnicy w pierwszej wersji. Obiecywanie mu, że kobieta wreszcie nazwie go prawdziwym mężczyzną, karmi dokładnie ten mechanizm, który marka demontuje. Kierunek zgodny z BRAND.md sekcja 0: nigdy "lepsza wersja siebie", zawsze "staję się wreszcie mężczyzną" - i to on sam ma być tym, kto to stwierdza.
+Słowa klienta mogą różnić się od języka wybranego przez markę. Przykładowo A10 pisze o lepszej wersji siebie, a A11 o dyscyplinie i osiągnięciach. Zachowujemy je jako dane o kliencie.
 
-Cytaty do budowania języka, dosłownie jego: "chcę być gościem, który dopina sprawy od początku do końca", "jestem gościem, który mówi i nie robi", "nie chcę być słaby", "chcę być wkoncu wolny, odzyskać kontrolę nad swoim życiem", "dla mojego syna chcę być najlepszym ojcem".
+## 17. Przed → Po
 
----
+„Po” przedstawia pożądany kierunek na podstawie wypowiedzi. Nie jest udokumentowanym rezultatem programu ani gwarancją jego osiągnięcia.
 
-## 10. PARADOKS - BUDOWA PROBLEMU, NIE OZDOBA TREŚCI
+| Wymiar | Przed — opisane doświadczenia | Po — pożądana zmiana |
+|---|---|---|
+| Obraz siebie | Trudności wpływają na poczucie wartości; pojawia się ocena siebie jako słabego lub nieskutecznego. | Więcej szacunku do siebie, pewności i poczucia, że można na sobie polegać. |
+| Myślenie o przyszłości | Ma ważne pragnienia; stopień jasności kierunku zależy od obszaru. Może wątpić, czy jest zdolny do życia, którego chce. | Potrafi nazwać ważne cele i widzi w codzienności działania zbliżające go do nich. |
+| Działanie | Wycofuje się, odkłada, rozprasza lub działa zrywami. | Podejmuje i kończy ważne sprawy, działa bardziej konsekwentnie. |
+| Emocje | Wstyd, wina, napięcie, zniechęcenie lub karanie siebie. | Więcej spokoju; lepsze radzenie sobie z trudnymi chwilami. |
+| Relacja | W części przypadków dystans, trudność bliskości, ukrywanie lub obawa przed utratą partnerki. | Więcej szczerości, bliskości i zdolności budowania relacji, której chce. |
+| Rodzina | Chce jej, lecz wątpi we własną zdolność jej stworzenia; albo już ją ma i chce lepiej pełnić swoją rolę. | Jest obecnym, wspierającym partnerem i ojcem, jeśli rodzina jest jego celem. |
+| Życie poza problemem | Czas i uwaga pochłonięte problemem, wycofanie z wyzwań; u części niezadowolenie z modelu pracy. | Miejsce na pracę, zainteresowania, rozwój i życie z bliskimi. |
 
-Prawie wszystko, co robi, żeby z tego wyjść, zasila to, z czego wychodzi. To nie jest chwyt retoryczny do treści - to anatomia jego problemu i najbogatsze źródło tematów w całym profilu.
+**Skrót strategiczny profilu:** chce móc realizować ważne zamiary i budować życie, w którym lepiej myśli o sobie oraz potrafi być blisko ludzi, na których mu zależy. Rodzina jest jednym z najmocniej potwierdzonych kontekstów tej zmiany.
 
-**Akceptacja.** Potrzebuje jej egzystencjalnie, więc szuka jej u innych. Jedyną osobą, która może mu ją dać, jest on sam, a tego nie umie. Im mocniej szuka na zewnątrz, tym pewniej nie dostanie.
+## Zasady używania i dalszej aktualizacji
 
-**Osiągnięcia.** Mają załatać obraz niepełnego mężczyzny. Ale ten obraz stoi w całości na opinii z zewnątrz, a osiągnięcia mają być zobaczone przez innych, nie przez niego - więc karmią dokładnie to, co miały zdjąć.
+1. Wybieraj konkretny problem i kontekst. Nie wkładaj wszystkich trudności w opis każdej osoby.
+2. Oddzielaj motywację wejścia do programu od potrzeb ujawnionych podczas późniejszej pracy.
+3. Oddzielaj pragnienie rezultatu od przekonania o jego przyczynie i preferencji metody.
+4. Nie ogłaszaj bez dodatkowych danych jednego źródła wszystkich trudności, stylu przywiązania ani wspólnej historii dzieciństwa.
+5. Nie zakładaj, że każdy klient źle ocenia całe swoje życie, nie ma partnerki, pragnie dzieci lub zna szczegółową wizję przyszłości.
+6. Nie przypisuj całej grupie preferencji estetycznych i sposobu odbioru treści na podstawie osobowości marki.
+7. Zachowuj różnicę między obecną sytuacją, przewidywanym kosztem i oczekiwanym efektem. Potrzebne są osobne dane o faktycznych efektach.
+8. Nowe rozmowy aktualizują konkretne obserwacje i ich siłę; kolejna wypowiedź tej samej osoby nie zwiększa liczby klientów.
+9. Starsze tezy bez dostępnego źródła nie są aktywnymi ustaleniami tego profilu. Można do nich wrócić po odnalezieniu materiału.
+10. Najnowsze wspomnienie o niezadowoleniu z relacji, czymś własnym i czasie niezależnym od pracy ma niejednoznaczne przypisanie do K02/Kamila. Do czasu wyjaśnienia nie stanowi dodatkowego dowodu osobowego.
+11. Ten układ zastępuje dawną numerację sekcji avatara. Przy użyciu starszych instrukcji należy sprawdzać temat odwołania, zamiast zakładać zgodność numerów.
 
-**Ucieczki.** Sięga po nie, żeby poczuć się lepiej: wygrana w sporcie, mięśnie, przygoda, porno. W chwili impulsu ignoruje to, że po nich czuje się gorzej. Tego rozstrzału nie rozumie i to boli go osobno.
-
-**Zdrowie.** To, co miało go wzmocnić, realnie go niszczy - jeden klient nabawił się problemów hormonalnych, katując się sportem. Sterydy, narkotyki i porno działają tą samą drogą.
-
-**Pieniądze.** Chce ich, bo ich potrzebuje. Potrzeba jest napięciem. Napięcie każe wydać.
-
-**Związek.** Marzy o szczęśliwym, sabotuje go, a potem tłumaczy to swoim charakterem.
-
-Wspólny wzór: to, co ma przynieść ulgę, pogłębia brak - bo wszystkim tym steruje jedno podświadome napięcie, którego on w ogóle albo nie w pełni jest świadomy. To jest miejsce, w którym treść pokazuje mechanizm, nie zachowanie.
+**Najważniejsze luki:** kryteria wyboru i obiekcje zakupowe; wcześniejsze próby; konkretne momenty decyzji poza K01; efekty i trwałość zmiany; powody dalszej współpracy; informacje pozwalające określić najlepszych klientów.

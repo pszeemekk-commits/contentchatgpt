@@ -73,6 +73,9 @@ Numeracja `B-XXX` służy odwołaniom z `STORY_BANK.md`.
 **B-014** [SOURCE] Niedoceniane jest za to: nadanie własnej drodze znaczenia — wręcz mitologicznego — praca z podświadomością, twórczość jako kanał bez konsumpcji, i ścieżka serca.
   ↳ Braindump_marka.md, pkt 43
 
+**B-037** [SOURCE] Wewnętrzny obraz siebie wpływa na to, jak człowiek działa w rzeczywistości i jak widzą go inni. Ludzie nie mają dostępu do jego przekonań, lecz reagują na wynikające z nich zachowania; ich reakcje mogą później wzmacniać jego dotychczasowy obraz siebie.
+  ↳ Ź35, narracja/zrodla/2026-09-03_jestem_tym_kim_mysle_ze_jestem.md
+
 ---
 
 ## MASCULINITY
@@ -131,6 +134,12 @@ Numeracja `B-XXX` służy odwołaniom z `STORY_BANK.md`.
 
 **B-029** [SOURCE] Wolność to najbardziej atrakcyjna cecha dla kobiet. Warto mieć kobietę wybraną z pozycji wolności, a nie z przymusu lub braku.
   ↳ braindump_wartoscimarki.md, Wartość 1, „Jak mogę wpleść tę wartość w content"
+
+**B-032** [SOURCE] Pieniądze, wzrost i status są powierzchownymi sygnałami cech, które według Przemka stoją pod atrakcyjnością: zaradności, skuteczności, inteligencji, niezależności, bezpieczeństwa, charakteru i własnej ramy. Sam symbol nie gwarantuje istnienia tej cechy.
+  ↳ Ź33, narracja/zrodla/2026-09-03_kobiety_hajs_wzrost_status.md
+
+**B-036** [SOURCE] Kobietę spójną ze sobą poznaje się przez wzajemne pokazywanie prawdziwego siebie i stopniowe otwieranie, podobnie jak najlepszego przyjaciela. Próba udowodnienia, jak dobrym będzie się partnerem, utrudnia sprawdzenie, czy dwoje ludzi rzeczywiście do siebie pasuje.
+  ↳ Ź34, narracja/zrodla/2026-09-03_poznac_spojna_kobiete_jak_kumpla.md
 
 ---
 

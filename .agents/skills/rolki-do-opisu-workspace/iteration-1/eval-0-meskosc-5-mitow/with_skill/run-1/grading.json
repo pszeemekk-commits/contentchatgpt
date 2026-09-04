@@ -1,0 +1,24 @@
+{
+  "expectations": [
+    {"text": "Output zawiera wyraźnie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": true, "evidence": "Osobne nagłówki '### HOOK (tekst na wideo)' i '### OPIS POD POST' w Etapie 3."},
+    {"text": "Hook mieści się w maksymalnie 2 zdaniach.", "passed": true, "evidence": "Hook: 'Większość facetów myli męskość z czymś, co nią wcale nie jest. Rozpisałem pięć takich pomyłek w opisie pod tym filmem.' — dokładnie 2 zdania."},
+    {"text": "Opis zawiera wszystkich 5 mitów z wsadu.", "passed": true, "evidence": "Wszystkie 5 punktów obecne i ponumerowane w opisie, w oryginalnej kolejności z wsadu."},
+    {"text": "Każdy z 5 punktów niesie przeformułowanie z wsadu, nie tylko nagłówek.", "passed": true, "evidence": "Każdy punkt ma 2 zdania rozwinięcia opartego na oryginalnych sformułowaniach ('spokój w sobie', 'kamienna twarz', 'chroni i podnosi')."},
+    {"text": "Opis nie dodaje przykładów, statystyk ani twierdzeń spoza wsadu.", "passed": true, "evidence": "Sekcja 'Uwagi własne' potwierdza brak nowego materiału; rozwinięcia to parafrazy, nie nowe sceny/liczby."},
+    {"text": "Widać ślad procesu etapowego (Etap 1, 2, 3).", "passed": true, "evidence": "Dokument ma jawne sekcje ETAP 1 (pytania kontrolne), ETAP 2 (plan w formacie z SKILL.md), ETAP 3 (finalny hook+opis)."},
+    {"text": "Opis kończy się CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Sprawdź, przy którym z tych pięciu punktów łapiesz się najczęściej. Napisz w komentarzu numer.'"},
+    {"text": "Pierwsze zdania opisu nie powtarzają hooka słowo w słowo.", "passed": true, "evidence": "Opis zaczyna się 'Każda pozycja z tej listy wygląda jak męskość, a w praktyce ją podcina.' — inne sformułowanie niż hook."}
+  ],
+  "summary": {"passed": 8, "failed": 0, "total": 8, "pass_rate": 1.0},
+  "execution_metrics": {"total_tool_calls": 5, "errors_encountered": 0},
+  "timing": {"total_duration_seconds": 417.3},
+  "user_notes_summary": {
+    "uncertainties": ["Wsad nie dawał przykładów/scen, więc rozwinięcia punktów są parafrazą, nie nowym materiałem — model to zgłosił, nie ukrył."],
+    "needs_review": [],
+    "workarounds": []
+  },
+  "eval_feedback": {
+    "suggestions": [],
+    "overall": "Wszystkie assercje przechodzą z realnym pokryciem, nie powierzchownie — model faktycznie przeprowadził proces etapowy i zachował wierność wsadowi."
+  }
+}

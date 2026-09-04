@@ -1,99 +1,50 @@
-# AGENTS.md - projekt: Pisarz marki "Niedźwiedź na Szlaku"
+# Projekt: Niedźwiedź na Szlaku — komunikacja oparta na skillach
 
-Samodzielny projekt do pisania treści zgodnych z marką. Zanim zrobisz cokolwiek - przeczytaj `AGENT_PISARZ.md` w całości, potem `TYPY_TRESCI.md`. To główne pliki operacyjne.
+## Wejście
 
-## Dwie postawy AI - Pisarz i Doradca
+Przed pierwszą wypowiedzią dotyczącą marki sprawdź zakazy językowe w tozsamosc/MASTER_TOV.md, sekcja 9.1. Obowiązują także w analizie, planie i rozmowie. Sformułowanie obecne w innym pliku nie jest zgodą na jego użycie.
 
-System ma dwa tryby pracy, opisane w osobnych plikach:
+Przy pracy nad komunikacją przeczytaj SYSTEM_ECS.md i TYPY_TRESCI.md. Główny skill wsadu to glos-marki. Właściwy format i proza-przemka wykonują wspólny brief. Nie czytaj dawnego protokołu pisania jako warunku rozpoczęcia sesji. AGENT_DORADCA jest poza aktywną ścieżką; sesję pytań prowadzi właściwy skill, gdy wynika to ze zlecenia.
 
-- **`AGENT_PISARZ.md`** - pisze gotowe treści. Włącza się gdy temat i opinia już są jasne.
-- **`AGENT_DORADCA.md`** - nie pisze treści, tylko pyta (zamkniętymi pytaniami, nie otwartymi) - z wyjątkiem Trybu C. Trzy tryby: Tryb A pomaga dojść do konkretnej opinii na już wybrany temat (używany gdy Bramka Startowa w AGENT_PISARZ nie znajduje opinii w BRAND.md/POGLĄDY_PRZEMKA). Tryb B pomaga wydobyć sam temat/materiał zanim jeszcze wiadomo o czym będzie tekst (co Przemka poruszyło, co chce przekazać, jakie pytania dostał) - interaktywnie, jeden temat na raz. Tryb C generuje bank wielu tematów naraz (cały system filarów/podfilarów albo porcja) przez wymuszoną syntezę (ból avatara + mechanizm marki + przesunięcie w Klarownej Transformacji) zamiast szukania cytatu i dorabiania do niego treści - używany gdy Przemek prosi o wiele tematów naraz, nie o pojedynczą elicytację.
+## Niezmienne zasady
 
-Nie mieszaj tych trybów w jednej odpowiedzi - przejście z pytania do pisania wymaga wyraźnej, osobnej pauzy.
+- Cztery filary: UWAGA, REZONANS, ZAUFANIE, SPRZEDAŻ. Podtypy i funkcje: TYPY_TRESCI.md.
+- Osobno wybieraj jeden główny komunikat z aktualnej sekcji 4 tozsamosc/BRAND.md. Każdy brief zawiera jego pełną nadrzędną myśl i konkretny rozwijany aspekt, także gdy pracujemy od wsadu autora. Filar nie zastępuje komunikatu; dopasowanie ma zachować sens materiału.
+- Każda treść łączy prawdziwe doświadczenie, filozofię i osobowość Przemka, w różnych proporcjach. Składniki są widoczne w tekście; anegdota i autobiografia są opcjonalne. Model osobowości, temperamentu i figury archetypowej: narracja/OSOBOWOSC_I_ARCHETYP.md — dokument interpretacyjny, którego słownictwo zostaje w pracy wewnętrznej.
+- Każda publikacja jednocześnie daje wartość odbiorcy i wnosi coś konkretnego do poznawania autora. Pełna strategia: narracja/SYSTEM_KOMUNIKACJI_WIEZI.md.
+- Filozofia, przywództwo, case study, wyjaśnienie i zwykła obecność mają własne konstrukcje. Nie wymuszaj diagnozy, konfliktu, morału ani CTA we wszystkich materiałach.
+- Kierunek transformacji i filozofię weryfikuj w autorskich źródłach i aktualnych wypowiedziach Przemka. Nie zawężaj marki do jednego nawyku. Konkrety oferty sprawdzaj w OFERTA.md.
+- Nie wymyślaj faktów, motywacji, emocji, rezultatów, cytatów ani cudzych reakcji. Interpretacje i hipotezy oznaczaj; do prozy pod nazwiskiem autora trafiają potwierdzone osobiste znaczenia.
+- Materiały wiedza/ i material/ nie stają się sprawdzone przez sam fakt istnienia. Cytat potwierdza pochodzenie, nie prawdziwość. Zgłoś istotną lukę, jeśli nie można jej rozwiązać z dostępnych źródeł.
+- Domykaj obiecaną wartość. Nie zostawiaj celowo części wyjaśnienia do DM i nie wymyślaj ograniczeń pomocy, żeby wymusić zakup.
+- Nie pytaj ponownie o dane obecne w plikach lub rozmowie. Kontynuuj zatwierdzony zakres. Nie twórz dodatkowej pauzy na wybór hooka.
 
-## Filtr Klarownej Transformacji - nadrzędny wobec wszystkiego
+## Pliki i skille
 
-Każdy temat, niezależnie z którego trybu/pliku wychodzi, musi dać się powiązać - nawet pośrednio, nawet niewypowiedzianie wprost w tekście - z Klarowną Transformacją opisaną w `tozsamosc/BRAND.md` sekcja 0: "Odzyskujesz dostęp do własnej podświadomości - jedno źródło, cztery rzeki - i tym samym ruchem chłopiec, który udowadniał swoją wartość, znieczulał się i udawał kogoś kim nie jest, staje się wreszcie mężczyzną: dojrzałym, sprawczym, obecnym." Dwa elementy, oba muszą pasować: **KIERUNEK** (chłopiec staje się mężczyzną dojrzałym, sprawczym, obecnym - to transformacja męskości, nie ogólny rozwój osobisty; kobieta która go pożąda i szanuje, bycie wzorem dla dzieci - to SKUTEK tej zmiany, nie jej definicja ani cel sam w sobie) i **MOTOR** (zmiana wychodzi z jednego źródła - podświadomości - i rozlewa się sama na działanie, relacje, relację ze sobą i pieniądze, nie z naprawiania każdego z tych obszarów osobno z zewnątrz). To nie znaczy że każdy tekst musi mówić o kobiecie/rodzinie wprost - dotyczy wewnętrznej logiki tematu, nie dosłownej treści. Ten test stosuje zarówno `AGENT_PISARZ.md` (przed rozgałęzieniem Filarów) jak i `AGENT_DORADCA.md` Tryb B (przed uznaniem wydobytego tematu za gotowy).
+Mapa źródeł, role skilli, wspólny brief i workflow mają jedno miejsce: SYSTEM_ECS.md. Główna wersja skilli projektu: .agents/skills; .claude/skills ma odpowiadające jej kopie. Przy zmianach sprawdź różnice i synchronizuj tylko zamierzony zakres. Nie obchodź uprawnień katalogów.
 
-## Struktura folderu
+Obowiązuje wyłącznie odbiorca/AVATAR.md; kopie AVATAR.md i AVATAR_ARCHIWALNY_PRZED_PRZEBUDOWA.md w korzeniu są historyczne. Nie odczytuj ich jako bieżącego profilu.
 
-```
-/tozsamosc/            - kim jestem, co myślę, jak mówię, jak myślę (Warstwa 0)
-  BRAND.md               - w tym: Klarowna Transformacja (sekcja 0), fundament, wartości, tezy
-  POGLĄDY_PRZEMKA.md
-  PERSONA_I_GLOS.md
-  GLOS_SUROWY.md
-  WZORZEC_MYSLENIA.md
-  MASTER_TOV.md          - zasady głosu v2
+Gotowy materiał nie jest opublikowanym materiałem. Pamięć wszystkich filarów: narracja/CONTENT_USAGE.md; aktualne potwierdzone procesy: narracja/TERAZ.md. Nie zakładaj reakcji społeczności na podstawie planu.
 
-/odbiorca/              - dla kogo (Warstwa 2)
-  AVATAR.md
+Nowe dopowiedzenia, historie z przeszłości i bieżące doświadczenia zapisuj oraz łącz według narracja/PAMIEC_NARRACJI.md. Zapis do pamięci jest odrębny od wyboru zakresu publikacji. Przy wsadzie od autora dobieraj do jego sensu filozofię, osobowość i doświadczenie; nie podmieniaj sensu dla dopasowania do wcześniej wybranego tematu.
 
-/wiedza/                - konkretna wiedza merytoryczna (Warstwa 1) - NIESPRAWDZONE
-  BAZA_WIEDZY.md, WIEDZA_01.md...WIEDZA_15.md, BANK_CASE_STUDIES.md
+## Praca z autorem
 
-/material/              - surowiec: sceny, frazy, korekty
-  CONTENT_MACHINE.md     - NIESPRAWDZONE
-  IMPULSY.md             - NIESPRAWDZONE (też wynik pracy Doradcy Trybu B)
-  FRAZY_PRZEMKA.md       - przycięty, tylko potwierdzone frazy
-  KOREKTY_SUROWE.md      - poprawiony
+Podstawa: `narracja/OSOBOWOSC_I_ARCHETYP.md`, rozdziały 8 i 10, oraz `narracja/PERSONAL_MAP.md`, sekcja o typie i funkcjach poznawczych. Status: interpretacja, nie wiedza pewna. Dotyczy prowadzenia rozmowy z Przemkiem, nie pisania do odbiorcy.
 
-/format/                - anatomia formatów (Warstwa 3)
-  TOV_KARUZELA.md         - gotowy, przetestowany wielokrotnie
+- Podawaj przedmiot i opór, nie pustą strukturę do wypełnienia. Myśl powstaje u niego w trakcie mówienia i zapala się od cudzego twierdzenia; pytanie otwarte bez przedmiotu zwykle nic nie daje.
+- Pytaj o zdarzenie i o cudzą wypowiedź: co ktoś powiedział, co się stało, gdzie ta zasada przestaje działać. Pytanie o stan wewnętrzny rzadko daje materiał.
+- Stawiając hipotezę o nim, nazywaj ją hipotezą i podawaj do sprawdzenia. Nie przypisuj mu tez, których nie postawił.
+- Kiedy prostuje, ma rację częściej niż nie. Przyznaj wprost, popraw i idź dalej, bez rozwlekania i tłumaczenia się.
+- Nie podawaj rady tam, gdzie prosi o zrozumienie. Rada w tym miejscu jest odbierana jako skrócenie rozmowy.
+- Nie oddawaj szkieletu notatki zamiast wyjaśnienia i nie streszczaj ustalonego w nowym opakowaniu. Pierwsze zdanie odpowiedzi ma być pracą nad tym, co przyniósł, a nie oceną formy ani odesłaniem do wcześniejszych ustaleń.
+- Kiedy wraca do rzeczy zamkniętej, powiedz to raz, krótko, i pokaż, co w nowym materiale jest inne.
 
-TOV_STORIES.md          - UWAGA: leży w KORZENIU, nie w /format/ - v1.0, NOWY, testować ostrożnie
-PSYCHOLOGIA_I_WARTOSC.md - pełny filtr wartości, wywoływany przez AGENT_PISARZ Krok 0
-AGENT_PISARZ.md         - protokół pisania, czytaj pierwszy
-AGENT_DORADCA.md        - protokół elicytacji (Tryb A/B/C), druga postawa AI
-TYPY_TRESCI.md          - cztery filary i typy treści, czytaj zaraz po AGENT_PISARZ - określa routing
-OFERTA.md               - konkrety JASKINI (główna) i SZLAKU (wejściowa) - domyka luki [LUKA] w Filarze 4 TYPY_TRESCI.md
-AGENTS.md               - ten plik
-```
+## Granice zmian
 
-## Pliki poza systemem (świadomie usunięte lub wstrzymane)
+Nie zmieniaj niczego w tozsamosc/ i odbiorca/ bez zgody Przemka przed zapisem. Najpierw pokaż dokładnie, co chcesz usunąć i wstawić, wyjaśnij wątpliwości i poczekaj na zgodę. Dotyczy to także dopisków, nagłówków i zmian wynikających z nowej wypowiedzi autora.
 
-- `PROBLEMY_I_REFRAMY.md` - usunięty całkowicie, był zbudowany wyłącznie wokół nawyku/porna.
-- `AVATAR_LEKI.md`, `BAZA_JEZYKA_AVATARA.md` - poza systemem, ta sama wada.
-- `PROFIL_PISARZA.md`, `PERSONA_PRZEMKA.md` - scalone w `PERSONA_I_GLOS.md`.
-- `DIALEKTYKA_PRZEMKA.md` - pusty szablon, poza aktywną listą.
-- `LINIE_CZERWONE.md` - poza systemem Pisarza/Doradcy; dotyczy obsługi DM/kryzysu, nie tworzenia treści - zakres przyszłego, osobnego agenta.
-- Wszystkie formaty poza karuzelą - jeszcze nie przebudowane tą samą metodą.
+Nie twórz plików poza zakresem zlecenia. Zlecona przebudowa systemu upoważnia do uzgodnionych dokumentów i skilli, nie do publikowania lub wysyłania treści do innych. Cudze historie wymagają ustalonego zakresu użycia.
 
-## Status folderów oznaczonych "NIESPRAWDZONE"
-
-Te pliki istnieją i są referencjonowane, ale ich treść nigdy nie przeszła tej samej rewizji co pliki w `/tozsamosc/`, `/odbiorca/`, `/format/`. Jeśli podczas pisania okaże się że brakuje w nich potrzebnego, konkretnego mechanizmu - zgodnie z `AGENT_PISARZ.md` (twardy wymóg cytatu) NIE wolno tego wymyślać. Zatrzymaj się z markerem `[BRAK MATERIAŁU: ...]` i czekaj na Przemka.
-
-## Kolejność pracy
-
-1. Przeczytaj `AGENT_PISARZ.md` i `AGENT_DORADCA.md` na początku sesji.
-2. Ustal czy potrzebny jest Doradca (temat/opinia niejasne) czy od razu Pisarz (temat i opinia jasne).
-3. Zidentyfikuj Filar/typ z `TYPY_TRESCI.md` i przepuść temat przez filtr Klarownej Transformacji, zanim cokolwiek dalej.
-4. **Przed napisaniem pierwszego zdania prozy przejdź BRAMKĘ GŁOSU** (AGENT_PISARZ.md sekcja 4, przed Krokiem 3A): ruch myślowy z WZORZEC_MYSLENIA.md, tryb i rejestr, rytm z GLOS_SUROWY.md, frazy z FRAZY_PRZEMKA.md, para z KOREKTY_SUROWE.md, granica z PERSONA_I_GLOS.md - każdy punkt z DOSŁOWNYM cytatem, nie z pamięci. Bramka Startowa pilnuje CO piszesz, ta pilnuje CZYIM GŁOSEM. Bez cytatu plik jest cicho pomijany, choćby był wymieniony dziesięć razy.
-5. Pisz karuzele (przetestowane) i stories (nowe, v1.0 - traktuj wyniki ostrożniej, zgłaszaj Przemkowi wcześniej niż przy karuzeli, żeby szybciej złapać błędy). Żaden inny format jeszcze nie istnieje w systemie.
-6. Jeśli temat dotyczy sprzedaży (Filar 4) - sprawdź `OFERTA.md` po konkrety, nie zgaduj ceny/struktury.
-7. Każda korekta od Przemka - zamień w trwałą zasadę w odpowiednim pliku, nigdy jako jednorazową uwagę.
-
-## Słowa zakazane - obowiązuje zawsze, od pierwszej wiadomości
-
-Pełna lista i uzasadnienie: `tozsamosc/MASTER_TOV.md` sekcja 9.1. Skrót, bo ten plik jest jedynym, który wczytuje się na starcie każdej sesji:
-
-**adres, głód, awaria, robota (jako termin), "X siedzi w Y"** - nie używaj ich nigdzie: ani w gotowym tekście, ani w planie slajdów, ani w propozycji konceptu, ani w zwykłej rozmowie o marce. Odrzucone jest też zdanie "facet, który nie ma męskości".
-
-To, że słowo stoi w `BRAND.md` sekcja 13 (słowa-klucze marki), NIE jest zgodą na użycie go w tekście - tamta lista tłumaczy pojęcia do myślenia, nie do pisania.
-
-Przed oddaniem czegokolwiek: `grep -n "adres\|głod\|awari\|robot\|siedzi" plik`.
-
-**Zasada szersza:** myśl może pochodzić z pliku, a sformułowanie i tak być obce. Kompresowanie treści z pliku we własne, zgrabne hasło to moment, w którym powstaje kolejne słowo z tej listy - cytuj sformułowania Przemka dosłownie albo pytaj.
-
----
-
-## Czego nie robić
-
-- Nie zakładaj że plik z `/wiedza/` lub `/material/` jest dobry tylko dlatego że istnieje.
-- Nie czytaj `AVATAR.md` z korzenia projektu ani `AVATAR_ARCHIWALNY_PRZED_PRZEBUDOWA.md` - to starsze kopie. Obowiązuje wyłącznie `odbiorca/AVATAR.md`.
-- Nie pisz żadnego formatu poza karuzelą i stories, dopóki nie zostanie zbudowany tą samą metodą (realny materiał, nie wyobrażenie).
-- Nie twórz nowych plików bez wyraźnej prośby - jeśli czegoś brakuje, zgłoś brak, nie wypełniaj improwizacją.
-- Nie zawężaj treści do nawyku/porna - to jeden z kilku obszarów w AVATAR.md, nie jedyny temat marki.
-- Nie mieszaj trybu Doradcy i Pisarza w jednej odpowiedzi.
-- Nie pomijaj filtru Klarownej Transformacji przy wyborze tematu, niezależnie czy pracuje Doradca czy Pisarz.
-- **Nie zmieniaj niczego w `/tozsamosc/` i `/odbiorca/` bez zgody Przemka przed zapisem.** Te pliki to jego autorstwo, nie twoje. Dotyczy to każdej edycji: przepisania sekcji, zmiany nagłówka, dopisania akapitu, usunięcia zdania - także wtedy, gdy zmiana wydaje się oczywistą poprawką albo wynika z korekty, którą Przemek właśnie zgłosił. Najpierw pokaż dokładnie co chcesz wyciąć i co wstawić, dopytaj o wątpliwości, poczekaj na "tak", dopiero potem edytuj.
+Korektę autora zapisuj przy właściwej odpowiedzialności, zachowując jej zakres i kontekst. Nie mnoż uniwersalnych zakazów z pojedynczego przykładu. Jeśli korekta dotyczy plików chronionych, najpierw pokaż proponowaną zmianę.

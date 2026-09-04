@@ -1,4 +1,6 @@
-# TOV - STORIES v1.0
+# TOV — STORIES
+
+**Integracja ECS, 3.09.2026:** wykonanie prowadzi sekwencje-stories na wspólnym briefie glos-marki. Mix doświadczenie + filozofia + osobowość obowiązuje w każdym samodzielnym odcinku, w różnych proporcjach. Pełny model: SYSTEM_ECS.md. Poniższe przykłady są zapisem dawnych materiałów, a nie potwierdzeniem aktualnych liczb, warunków oferty lub prawdziwości twierdzeń merytorycznych. Nie kopiuj ich jako bieżących faktów.
 
 Zbudowany z analizy realnych, nieedytowanych stories Przemka (18 screenów, 4 różne sesje/wątki: 1 lipca, 29 czerwca, 19 czerwca, 13 czerwca). Nie rekonstrukcja - bezpośrednia obserwacja wzorca.
 
@@ -6,7 +8,7 @@ Zbudowany z analizy realnych, nieedytowanych stories Przemka (18 screenów, 4 r�
 
 ## 0. CEL/FUNKCJA STORIES W CAŁYM SYSTEMIE (potwierdzone)
 
-**Stories to osobny, niezależny kanał** - nie zapowiadają ani nie wspierają karuzeli, stoją same.
+**Stories są samodzielnym kanałem.** Odcinek działa bez przeczytania karuzeli. Może nawiązać do potwierdzonej wcześniejszej publikacji, jeżeli daje własną wartość i minimum kontekstu.
 
 **Funkcja: bezpośrednie napędzanie sprzedaży - przez budowę relacji, mówienie o ofercie, zapraszanie do procesu.** To zmienia obraz względem samej próbki 18 przykładów (które w większości nie miały wprost oferty/CTA) - próbka pokazała FORMĘ i GŁOS, ale nie pokazała pełnego zakresu funkcji. Stories mają w praktyce robić wszystkie trzy rzeczy, rotacyjnie:
 
@@ -14,7 +16,7 @@ Zbudowany z analizy realnych, nieedytowanych stories Przemka (18 screenów, 4 r�
 2. **Mówienie o ofercie** - JASKINIA/SZLAK wprost, nie tylko przez filozofię (patrz OFERTA.md)
 3. **Zaproszenie do procesu** - CTA prowadzące do konkretnego kroku (DM, słowo kluczowe, link)
 
-**Różnica względem karuzeli:** karuzela ma pełny łuk diagnoza→mechanizm→transformacja w jednym tekście. Stories mogą rozłożyć to na wiele osobnych, krótkich momentów w czasie - jeden dzień to budowa relacji, inny dzień to wprost o ofercie, bez potrzeby żeby każde story samo w sobie miało cały łuk sprzedażowy.
+**Różnica względem karuzeli:** karuzela ma konstrukcję odpowiednią do filaru: argument, wyjaśnienie, case, refleksję lub historię. Stories mogą rozłożyć to na wiele osobnych, krótkich momentów w czasie - jeden dzień to budowa relacji, inny dzień to wprost o ofercie, bez potrzeby żeby każde story samo w sobie miało cały łuk sprzedażowy.
 
 ---
 
@@ -30,7 +32,7 @@ Potwierdzone tematy w 18 przykładach (Tryb relacyjny): sesja z klientem (nawyk)
 
 ## 0.2 RELACJA DO INNYCH FORMATÓW (potwierdzone)
 
-**Stories są całkowicie osobnym kanałem** - nie zapowiadają, nie wspierają, nie odnoszą się do konkretnej karuzeli. To zgadza się z obserwacją z materiału (żaden z 18 przykładów nie robił tego).
+Próbka 18 materiałów nie wykorzystywała odniesień do karuzel. To obserwacja próbki, nie zakaz callbacków. Wspólna pamięć może łączyć kanały, przy samodzielności każdego odcinka.
 
 ---
 
@@ -38,7 +40,7 @@ Potwierdzone tematy w 18 przykładach (Tryb relacyjny): sesja z klientem (nawyk)
 
 Skoro funkcja obejmuje bezpośrednie napędzanie sprzedaży - stories muszą czasem korzystać z `OFERTA.md` wprost, nie tylko z filozofii/relacji.
 
-**Trzy tryby treści stories, rotacyjnie (nie w jednym story naraz):**
+**Trzy główne tryby Stories.** Wybierz główną funkcję odcinka; wkład relacyjny i mix autora pozostają w każdym trybie:
 
 **Tryb relacyjny** (potwierdzony w materiale) - kulisy, samoironia, kontemplacja. Źródło: `material/IMPULSY.md`, `material/CONTENT_MACHINE.md`.
 
@@ -46,7 +48,7 @@ Skoro funkcja obejmuje bezpośrednie napędzanie sprzedaży - stories muszą cza
 
 **Tryb zaproszenia do procesu** - CTA prowadzące do konkretnego kroku. W stories CTA może być prostsze/bardziej bezpośrednie niż w karuzeli (np. link w bio, "napisz PROCES", reakcja na story) - mechanizm M12 (CTA directive) z `PSYCHOLOGIA_I_WARTOSC.md` pasuje tu naturalnie.
 
-**Do ustalenia przy pisaniu, nie teraz:** proporcja między trzema trybami w rytmie tygodniowym - to jest pytanie do `PROCES_TYGODNIOWY.md`, nie do samego TOV.
+**Do ustalenia przy pisaniu, nie teraz:** proporcja między trzema trybami w rytmie tygodniowym - wynika to z aktualnego planu i przeglądu w SYSTEM_ECS.md, nie z obowiązkowej proporcji w anatomii.
 
 ---
 
@@ -84,7 +86,7 @@ Przykład: "Dziecko wtedy uczy się dwóch rzeczy: - moja wartość jest zależn
 
 Przykład: "p*rno daje iluzję bycia zaakceptowanym, chcianym i wartościowym (dopamina + oksytocyna) - jest najmocniejszym znieczuleniem na trudne emocje"
 
-**Zasada:** w stories mechanizm nie jest budowany przez wiele slajdów jak w karuzeli - jest skondensowany do 2 punktów, czasem z nazwą hormonu/mechanizmu w nawiasie jako dowód wiedzy, bez rozwijania.
+**Zasada:** wyjaśnienie może być krótkie, ale zachowuje sens i podstawę źródłową. Dwa punkty są obserwowanym wariantem, nie wymogiem. Nazwa hormonu nie jest dowodem wiedzy ani skuteczności. Nie dopisuj mechanizmu do kontemplacji.
 
 ---
 
@@ -118,7 +120,7 @@ W karuzeli ostrzegaliśmy przed "wyliczanką przyczyn w jednym zdaniu". W storie
 
 Nie osobna sekcja - wplecione w środek wypowiedzi na serio: "I nie chce tu grać oświeconego guru, bo sam czasem łapię się, że za długo scrolluję. Czasem opierdolę żelki albo kebaba. Zioła wyjarałem w swoim życiu tyle, że mógłbym ziać dymem. Już nie jaram, ale uważam że wszystko jest dla ludzi."
 
-**Zasada:** gdy mówisz coś z pozycji autorytetu/wiedzy, wpleć przyznanie się do własnej niedoskonałości w tym samym oddechu, nie jako disclaimer na końcu.
+**Zasada:** prawdziwa samoironia lub słabość może ujawnić osobowość, jeśli pasuje do sytuacji i ma źródło. Nie wymagaj przyznania się do niedoskonałości przy każdej wypowiedzi z pozycji autorytetu.
 
 ---
 
@@ -174,7 +176,7 @@ Pytanie ze stickera "Co cię wkurwia?" + odpowiedź jednym słowem "Zepsuty świ
 
 Obserwowana sekwencja 10+ slajdów budująca jedną, spójną filozofię ("budowanie swojego małego świata na zgliszczach starego") - każdy slajd dokłada jedną warstwę do tej samej myśli (rozwój jednostki → zmiana otoczenia → odcięcie od toksycznego świata → codzienna praca → konkretne narzędzie/autohipnoza → wolność jako droga nie cel → community/kręgi męskie → **kończy się konkretną liczbą jako twardym dowodem**: "Pomogłem już 17 mężczyznom wyjść z p*rna. Pomnóż to teraz przez 3, bo to zmiana także życia ich partnerek, dzieci...")
 
-**Zasada:** długa sekwencja filozoficzna nie jest przypadkowym ciągiem osobnych myśli - to jeden Łańcuch Eskalacji (patrz WZORZEC_MYSLENIA/AGENT_PISARZ) rozciągnięty na więcej slajdów niż zwykłe story, kończący się twardym dowodem liczbowym, nie tylko konkluzją słowną.
+**Zasada:** długa sekwencja filozoficzna nie jest przypadkowym ciągiem osobnych myśli - kolejne części rozwijają jedną oś myśli. Liczba może domknąć przekaz, jeśli jest potrzebna i potwierdzona; nie jest wymaganym finałem filozofii. Sposób argumentowania sprawdzaj w tozsamosc/WZORZEC_MYSLENIA.md.
 
 **Personal proof wpleciony w tę sekwencję, nie osobno:** "Mojej narzeczonej pomogłem przepracować tyle tematów, że aż poszła na psychologię podjarana tematem umysłu." - dowód z najbliższego życia, z humorem ("podjarana"), nie z dystansu.
 
@@ -196,7 +198,7 @@ Kolejny odcinek krótko przypomina potrzebny kontekst, żeby nowa osoba mogła w
 
 ### Wartość każdej planszy w serii pogłębiającej
 
-Kolejna korekta Przemka z 2026-09-02: poznawanie biografii autora samo w sobie nie wystarcza. Odbiorca ma rozpoznać siebie i wyciągnąć coś o sobie z każdej planszy, a nie dopiero z ostatniego odcinka. Obowiązuje definicja z `PSYCHOLOGIA_I_WARTOSC.md`, część 4, oraz formy A/B z `AGENT_PISARZ.md`, Krok 0.
+Kolejna korekta Przemka z 2026-09-02: poznawanie biografii autora samo w sobie nie wystarcza. Odbiorca ma rozpoznać siebie i wyciągnąć coś o sobie z każdej planszy, a nie dopiero z ostatniego odcinka. Obowiązuje definicja wartości z PSYCHOLOGIA_I_WARTOSC.md, część 4, oraz wspólny brief SYSTEM_ECS.md. Reguła tej sekcji dotyczy zamówionych serii osobistych, nie wszystkich konstrukcji Stories.
 
 Przed oddaniem tekstu przypisz każdej planszy konkretny wynik dla odbiorcy: co rozpoznaje we własnym doświadczeniu, jak zmienia interpretację własnej sytuacji albo jaką własną motywację czy wartość potrafi nazwać. Sama informacja o zarobkach, zawodzie, zainteresowaniu lub decyzji Przemka nie przechodzi tego testu. Wartość ma wynikać z opowiedzianej sytuacji, przeżycia i osobistego odkrycia autora. Mechaniczne dopisanie „też tak masz?” albo porady na końcu każdej planszy nie wystarcza.
 
@@ -206,4 +208,4 @@ Zachowaj historię, osobisty głos i powroty między datami. Nie zastępuj ich w
 
 ---
 
-**Wersja:** 1.3 z korektami zakresu serii, wartości każdej planszy i dzielenia się doświadczeniem z 2026-09-02. Anatomia bazowa pochodzi z realnych stories; sekcja 17 doprecyzowuje serię rozwijaną w czasie.
+**Wersja:** 1.4 — integracja ECS z 3.09.2026, zachowane źródłowe wzorce i doprecyzowanie osobistych serii. Poprzednia wersja: 1.3 z korektami zakresu serii, wartości każdej planszy i dzielenia się doświadczeniem z 2026-09-02. Anatomia bazowa pochodzi z realnych stories; sekcja 17 doprecyzowuje serię rozwijaną w czasie.

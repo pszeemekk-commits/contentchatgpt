@@ -1,0 +1,26 @@
+{
+  "skill_name": "narracja-marki",
+  "evals": [
+    {
+      "id": 0,
+      "name": "dekompozycja",
+      "prompt": "wrzucam swoj braindump, cztery pliki: Braindump_marka.md, braindump_historiamarki.md, braindump_glosmarki.md, braindump_wartoscimarki.md. przeanalizuj to i powiedz mi co tu wlasciwie jest. chce wiedziec co jest mocne a co brzmi jak kazdy inny w tej branzy",
+      "expected_output": "Dekompozycja materialu na sekcje A-M z etykietami SOURCE/INTERPRETATION/HYPOTHESIS i kotwicami, zapisana do /narracja/, plus podsumowanie: rdzen, najplodniejsze, generyczne, sprzecznosci i dziury.",
+      "files": ["Braindump_marka.md", "braindump_historiamarki.md", "braindump_glosmarki.md", "braindump_wartoscimarki.md"]
+    },
+    {
+      "id": 1,
+      "name": "newsletter",
+      "prompt": "napisz mi newsletter na podstawie mojego braindumpu (pliki braindump_*). chce zeby to bylo cos glebszego niz porady, cos co pokazuje jak mysle",
+      "expected_output": "Wybrany i uzasadniony typ newslettera, material z kotwica w braindumpie, gotowy tekst w glosie autora, bez doklejonego CTA, wejscie przez konkret, ladowanie na konkrecie.",
+      "files": ["Braindump_marka.md", "braindump_historiamarki.md", "braindump_glosmarki.md", "braindump_wartoscimarki.md"]
+    },
+    {
+      "id": 2,
+      "name": "pinned",
+      "prompt": "potrzebuje trzech przypietych postow na instagrama zeby ktos kto wchodzi pierwszy raz na moj profil od razu wiedzial o co chodzi. material masz w plikach braindump_*",
+      "expected_output": "Najpierw brief dla kazdego z trzech postow (ROLE, PERCEPTION, EMOTION, CORE IDEA, SUBTEXT, SOURCE MATERIAL, WHAT NOT TO USE) przedstawiony do akceptacji przed pisaniem copy, plus sprawdzenie kompletu jako calosci.",
+      "files": ["Braindump_marka.md", "braindump_historiamarki.md", "braindump_glosmarki.md", "braindump_wartoscimarki.md"]
+    }
+  ]
+}

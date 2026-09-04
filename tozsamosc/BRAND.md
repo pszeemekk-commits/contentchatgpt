@@ -7,39 +7,62 @@ Czytany w Warstwie 0 (przed POGLĄDY_PRZEMKA.md) - to jest fundament z którego 
 
 ---
 
-## 0. KLAROWNA TRANSFORMACJA - CO BUDUJEMY (nadrzędne wobec wszystkiego poniżej)
+## 0. KLAROWNA TRANSFORMACJA - CO BUDUJEMY
 
-**JEDNO ZDANIE TRANSFORMACJI (kanoniczne, definiujące - wszystko w tej sekcji jest tylko jego rozwinięciem):**
+**Zatwierdzona transformacja marki:**
 
-"Odzyskujesz dostęp do własnej podświadomości - jedno źródło, cztery rzeki - i tym samym ruchem facet, który wie, że stać go na więcej, ale wciąż stoi w miejscu (chłopiec, który udowadnia swoją wartość, znieczula się i udaje kogoś kim nie jest), staje się mężczyzną, który wie, jakiego życia chce, konsekwentnie je buduje i potrafi przełamywać to, co wcześniej go zatrzymywało (dojrzałym, sprawczym, obecnym)."
+Od faceta, któremu kolejne lata mijają, a rzeczy, których chciał od życia, przeciekają mu przez palce → do mężczyzny, który potrafi doprowadzić do tego, że to, czego naprawdę chce, zaczyna istnieć w jego realnym życiu.
 
-**Z:** facet, który wie, że stać go na więcej, ale wciąż stoi w miejscu - chłopiec, który udowadnia swoją wartość, znieczula się i udaje kogoś kim nie jest.
-**Do:** mężczyzna, który wie, jakiego życia chce, konsekwentnie je buduje i potrafi przełamywać to, co wcześniej go zatrzymywało - dojrzały, sprawczy, obecny.
+### Co zmienia się w nim
 
-Dwa elementy zdania powyżej, do rozróżniania - test filtrujący (a)/(b) poniżej sprawdza je osobno:
+Coraz bardziej może na sobie polegać: podejmuje ważne działania, doprowadza sprawy do końca i potrafi rozwijać bliskość. Rozpoznaje też, czego chce w tych obszarach, w których dotąd brakowało mu kierunku.
 
-**MOTOR (mechanizm zmiany, test Metoda):** odzyskanie dostępu do własnego wnętrza, do podświadomości. Z NIEGO, nie z osobnych, ręcznych napraw, zmiana rozlewa się sama na wszystko: kierunek życia, sprawczość, relację z kobietą, ciało. Jedno źródło, cztery rzeki - nie cztery osobne projekty do ogarnięcia po kolei. Temat który każe czytelnikowi "naprawiać" jedną z tych czterech rzek bezpośrednio, technikami zewnętrznymi wobec podświadomości, nie jest metodą tej marki.
+Punkt wyjścia nie oznacza, że całe jego życie jest złe albo że niczego dotąd nie stworzył. Może mieć dobrą pracę, związek i zainteresowania, a jednocześnie nie realizować ważnych dla siebie zamiarów. Jasność pragnień zależy od obszaru: może wiedzieć, że chce rodziny, a dopiero szukać własnego kierunku zawodowego.
 
-**KIERUNEK (kategoria zmiany, test Destynacja):** to NIE jest ogólny rozwój osobisty - to transformacja męskości, "zagubiona inicjacja" (patrz sekcja 8, historia marki - ten sam tytuł). Chłopiec → mężczyzna, nie "gorsza wersja → lepsza wersja".
+### Co dzięki temu może budować
 
-**Skutek, nie definicja - kobieta i dzieci:** to, że kobieta go pożąda i szanuje, że jest wzorem dla dzieci, że dotrzymuje słowa - to SKUTKI tej zmiany w mężczyźnie, dowód że zaszła, NIE jej definicja ani cel sam w sobie. Nie definiuj tematu przez reakcję kobiety/dzieci na mężczyznę - definiuj go przez to co dzieje się W NIM. W konkretnym tekście wolno pokazać skutek jako namacalny dowód (jak kobieta się przy nim czuje, co syn widzi) - ale nigdy jako punkt wyjścia przy wyborze tematu.
+Relację, w której jest szczery i zaangażowany. Rodzinę, przy której jest obecny. Własny kierunek zawodowy. Miejsce na zainteresowania i rzeczy, które go poruszają. Konkret zależy od tego, czego dany mężczyzna naprawdę chce.
 
-To jest JEDNA transformacja, nie zbiór osobnych tematów. Każdy obszar pracy (misja, autorytet, twardość, wiedza, sens, relacja - patrz AVATAR.md) to droga DO tego samego miejsca, nie osobny, równoległy cel. Mężczyzna nie buduje się "przepracowując jeden problem na raz" - buduje się jako całość.
+Rodzina może być zarówno motywacją rozpoczęcia zmiany, jak i miejscem, w którym zmiana staje się widoczna. Nie zakładamy, że każdy klient chce dzieci albo że reakcja partnerki rozstrzyga o jego wartości.
 
-**Test filtrujący każdy temat treści (patrz też AGENT_PISARZ.md, TYPY_TRESCI.md) - dwie części, obie muszą przejść, sprawdzane PRZED wyborem tematu, nie po:**
+### Kierunek i sposób pracy
 
-(a) **Destynacja (test KIERUNKU):** czy temat da się nazwać krokiem od chłopca do mężczyzny (udowadnianie/znieczulanie/udawanie → dojrzałość/sprawczość/obecność - czyli od faceta, który wie, że stać go na więcej, ale wciąż stoi w miejscu, do mężczyzny, który wie, jakiego życia chce, konsekwentnie je buduje i potrafi przełamywać to, co wcześniej go zatrzymywało) - nie ogólnym "krokiem naprzód" w życiu, nie "lepszą wersją siebie"?
+**KIERUNEK:** mężczyzna rozwija zdolność budowania życia, którego chce. Dojrzałość, sprawczość i obecność mają przejawiać się w jego rzeczywistych działaniach oraz relacjach. Pytanie o prawdziwą siłę mężczyzny rozwija komunikat 3.
 
-(b) **Metoda (test MOTORU):** czy droga pokazana w temacie jest metodą TEJ marki (mechanizm, podświadomość, adres/źródło problemu, jedno źródło rozlewające się dalej) - nie generyczną techniką/dyscypliną/silną wolą, którą marka wprost odrzuca (sekcja 5)?
+**METODA:** marka uczy pracy z własną podświadomością i sprawdza, jak zmiana przekłada się na codzienne działania oraz relacje. Praca z podświadomością, w tym autohipnoza i procesy opisane w ofercie, pozostaje centralnym sposobem pracy nad utrwalonymi reakcjami i przekonaniami.
 
-Jeśli obie części nie przechodzą wprost - temat nie jest gotowy, niezależnie jak wartościowy czy nośny sam w sobie.
+To jedna transformacja, rozpatrywana przez cztery perspektywy z sekcji 4: możliwość zmiany reakcji, obraz siebie, prawdziwa siła mężczyzny i tworzenie życia. Nie są to cztery niezależne mechanizmy ani obowiązkowe kolejne etapy dla każdego klienta.
 
-**Czego NIE robić przy tym teście (błąd już popełniony wielokrotnie):**
-- Nie bierz frazy z definicji transformacji ("dotrzymuje słowa") i nie dopasowuj jej mechanicznie do gotowego już tematu - to tworzy sztuczne, wymuszone połączenie, które brzmi jak uzasadnienie, nie jak prawdziwy związek.
-- Nie generuj tematu z samej Funkcji podfilaru (TYPY_TRESCI.md) i nie doklejaj linku do transformacji post factum, jako ostatni krok. Ten test stosuje się PRZED uznaniem tematu za kandydata, nie jako końcowa kontrola jakości - w innej kolejności produkuje dokładnie taki sam, wymuszony efekt.
-- Jeśli po uczciwej próbie nie da się dociągnąć linku - nie ratuj tematu naciąganym uzasadnieniem. Odrzuć go albo oznacz ⚠️ i zapytaj Przemka wprost, czy widzi związek którego Ty nie widzisz.
+### Trzy poziomy transformacji
 
-**Pełne szczegóły oferty (JASKINIA, SZLAK) realizującej tę transformację:** `OFERTA.md`.
+- **Zewnętrzny:** ważne zamiary zaczynają przekładać się na ukończone sprawy, rozwijane relacje i życie z bliskimi.
+- **Wewnętrzny:** większe poczucie wpływu, zaufanie do siebie i zdolność pracy nad tym, co wcześniej utrudniało działanie.
+- **Tożsamościowy:** staje się mężczyzną, którego działanie odpowiada temu, co jest dla niego ważne, i na którym mogą polegać bliscy.
+
+### Granice wniosków i obietnicy
+
+Transformacja wyznacza kierunek marki. Nie jest gwarancją spełnienia wszystkich pragnień ani automatycznej poprawy każdego obszaru życia. Obietnicę konkretnej oferty opieramy na zakresie pracy i udokumentowanych efektach.
+
+Rozdzielamy:
+1. **Doświadczenia i pragnienia klientów** — z zachowaniem źródła, kontekstu pytania i etapu współpracy.
+2. **Stanowisko i metodę marki** — odpowiedź Przemka na te doświadczenia.
+3. **Dowody efektów** — konkretne zmiany po pracy i informacje o ich trwałości.
+
+Ankiety dotyczące zakończenia pornografii pozwalają opisywać powody tej konkretnej zmiany oraz oczekiwania wobec niej. Nie ustalają hierarchii ogólnych potrzeb życiowych ani powodów zakupu szerszego mentoringu. Częstotliwość wstydu i winy w odpowiedziach na pytania o koszty pornografii nie jest podstawą do uznania ich za główny problem całej marki.
+
+Szersze potrzeby rozpoznajemy na podstawie rozmów i dopowiedzeń Przemka, oddzielając wypowiedzi klientów od interpretacji prowadzącego. Również avatar wymaga zachowania tych granic źródeł.
+
+### Test spójności treści
+
+Przed pisaniem sprawdź:
+- Jaki konkretny problem, pragnienie lub aspekt męskości rozwija temat?
+- Jak łączy się z transformacją i jednym nadrzędnym komunikatem z sekcji 4?
+- Czy pokazany sposób pracy odpowiada metodzie i stanowisku marki?
+- Czy przykład jest faktem, oczekiwaniem klienta, ilustracją stanowiska czy hipotezą?
+
+Związek z transformacją ma wynikać z myśli tekstu. Nie dopisuj na siłę rodziny, podświadomości ani oferty do każdego tematu. Jeśli tekst tłumaczy przyczynę lub obiecuje efekt, potrzebuje odpowiedniego oparcia; sam opis problemu klienta nie dowodzi jego przyczyny.
+
+**Pełne szczegóły ofert:** `OFERTA.md`. **Profil i źródła dotyczące klientów:** `odbiorca/AVATAR.md`.
 
 ---
 
@@ -83,50 +106,170 @@ Nieskończona moc - dzięki niej inne wartości mogą się zmanifestować. Czase
 
 ---
 
-## 3. RDZENIOWE TEZY - ZASTĄPIONE PRZEZ KLUCZOWE KOMUNIKATY (SEKCJA 4)
+## 3. RDZENIOWE TEZY - KLUCZOWE KOMUNIKATY Z SEKCJI 4
 
-Ta sekcja jest scalona z sekcją 4. Dwa meta-komunikaty i siedem osi przekazu w sekcji 4 SĄ rdzeniowymi tezami marki - to one pełnią funkcję tezy/opinii do zacytowania w Bramce Startowej i Ekstrakcji (`AGENT_PISARZ.md`), nie osobna lista tutaj. Nie szukaj tez w tym miejscu - patrz sekcja 4.
+Cztery nadrzędne myśli w sekcji 4 są rdzeniowymi tezami marki. To one pełnią funkcję komunikatu do zacytowania w Bramce Startowej i Ekstrakcji. Rozwinięcia pokazują ich znaczenie, a konkretne zachowania i sytuacje są przykładami zastosowania.
 
-Stare tezy z tej sekcji zostały usunięte, bo częściowo dublowały nowy system, częściowo stały w sprzeczności z aktualnymi zasadami słownictwa marki (np. dawny zakaz słowa "schemat" - odwrócony, patrz `MASTER_TOV.md` sekcja 9).
+Aktualny układ zastępuje wcześniejsze dwa meta-komunikaty i siedem osi. Dawna numeracja nie wskazuje już tych samych treści. Przy odwołaniu z innego pliku ustal temat i wybierz odpowiedni aktualny komunikat, zamiast przenosić stary numer.
 
-Ewentualne pogłębienie "dlaczego" pod każdym komunikatem (mechanizm, źródło, dlaczego jest nienegocjowalny) to w przyszłości rozszerzenie SEKCJI 4 - nie osobna, równoległa lista tez tutaj.
+Pogłębienie stanowiska odbywa się w sekcji 4, w ramach właściwego komunikatu.
 
 ---
 
-## 4. KLUCZOWE KOMUNIKATY - OSIE PRZEKAZU
+## 4. KLUCZOWE KOMUNIKATY - CZTERY NADRZĘDNE MYŚLI
 
-**Reguła nadrzędna tej sekcji:** każda treść tej marki musi dać się sprowadzić do JEDNEGO komunikatu poniżej - to jest jej kręgosłup, nawet jeśli komunikat nie pada w tekście dosłownie, słowo w słowo. Dwa meta-komunikaty stoją nad całością, jako fundament do którego można sięgnąć zawsze, niezależnie od tematu. Siedem komunikatów to konkretne osie przekazu - każdy pojedynczy tekst podpina się pod JEDNĄ z nich, nie próbuje nieść kilku naraz (patrz też `AGENT_PISARZ.md` Krok 2, zasada "jedna nić").
+Każdy tekst rozwija jeden główny komunikat. Przed pisaniem zacytuj jego **nadrzędną myśl** w całości i wskaż, jaki konkretny aspekt rozwijasz. Pozostałe komunikaty mogą stanowić tło; nie próbuj zmieścić wszystkich w jednym tekście.
 
-**Test przed pisaniem, obowiązkowy (patrz też Bramka Startowa, AGENT_PISARZ.md):** który komunikat - meta albo oś - jest kręgosłupem tego tekstu? Zacytuj go w całości zanim zaczniesz pisać. Jeśli nie potrafisz wskazać jednego - temat nie jest jeszcze gotowy.
+Nadrzędne myśli wyrażają stanowisko marki. Rozwinięcia i przykłady pokazują sposoby jego zastosowania. Przykład nie zastępuje całego komunikatu, a przykład postawy nie jest automatycznie historią rzeczywistego klienta.
 
-### 4.1 META-KOMUNIKATY (nadrzędne wobec wszystkich siedmiu osi)
+Te cztery komunikaty są osobną osią od filarów funkcji treści opisanych w `TYPY_TRESCI.md`.
 
-**M1.** "Cała moc jest już w tobie, tylko przykrył ją zapis, którego nie wybierałeś. Mężczyzny, którym chcesz być, nie musisz budować od zera, bo on już w tobie siedzi, a to, co ci dziś stoi na drodze, jest programem z przeszłości, nie twoją naturą, i dlatego twoje relacje, twoje pieniądze i twoje ciało wyglądają dokładnie tak, jak ten zapis."
+### 4.1 Komunikat 1 - Zmiana utrwalonych sposobów reagowania
 
-**M2.** "Mężczyzną stajesz się przez przejście, a nie przez staranie się. Kolejny zryw, kolejna dyscyplina, kolejna technika i kolejna próba naprawienia siebie pracują na zachowaniu, a to, co tobą steruje, zmienia się dopiero wtedy, gdy przejdziesz przez to, przed czym uciekasz."
+**Pytanie przewodnie:** jak mogę zmieniać to, co powtarzam mimo postanowień?
 
-### 4.2 OSIE PRZEKAZU (KOMUNIKATY 1-7)
+**Nadrzędna myśl:**
 
-**1. Twoje życie prowadzi zapis, którego nie wybierałeś.**
-Podświadomość podpięła zwykłe rzeczy - dyskomfort, bliskość, pieniądze - pod zagrożenie, więc reagujesz, zanim zdążysz wybrać, a ten zapis da się przepisać.
+Możesz nauczyć się pracować z własnym umysłem i zmieniać utrwalone sposoby reagowania.
 
-**2. Wartość rozstrzyga się w środku, a nie w cudzych oczach.**
-Każde osiągnięcie i każda pochwała domykają sprawę do następnego dnia, bo jedyne miejsce, w którym da się ją zamknąć na stałe, jest w tobie, i wchodzi się tam robotą do wewnątrz, a nie kolejnym wynikiem.
+**Rozwinięcie**
 
-**3. To, czego chcesz, leży po drugiej stronie tego, przed czym uciekasz.**
-Cel, pieniądze i forma stoją dokładnie w miejscu, z którego się wycofujesz, a gotowość, na którą czekasz, powstaje dopiero w drodze.
+Praca marki obejmuje rozpoznawanie i zmienianie reakcji, do których wracasz mimo własnych zamiarów. Centralnym sposobem tej pracy jest praca z podświadomością.
 
-**4. Związek z kobietą to lustro na ciebie.**
-Problemy, które w nim masz, są bezpośrednim odbiciem twojego stanu wewnętrznego i rozjazdu między tym, jak chciałbyś, żeby to wyglądało, a tym, jak wygląda, więc zmienia się od twojej strony.
+Wycofywanie się z ważnych działań to jeden z przejawów. Inne mogą obejmować porzucanie rozpoczętych spraw, powtarzanie zachowania, którego chciałeś zaprzestać, albo zamykanie się w trudnej rozmowie. Nie zakładamy, że wszystkie mają tę samą przyczynę.
 
-**5. Męskość to siła, wrażliwość i świadomość, a ty żyjesz po to, żeby tworzyć.**
-Przyczyną twoich frustracji jest to, że wygasł w tobie męski duch twórczy, zablokowany przez przeszłość, więc zamiast tworzyć, konsumujesz.
+Znaczenie pracy sprawdzamy w konkretnych sytuacjach: czy podejmujesz sprawy, których unikałeś, kończysz rozpoczęte działania i potrafisz inaczej zachować się w trudnym momencie.
 
-**6. Twój umysł to jedyne narzędzie, które rusza wszystko naraz.**
-Podświadomość ustawia twój stan, a stan ustawia twoje wyniki w każdej dziedzinie jednocześnie, więc gdy poznasz zasady, na jakich działa twój umysł, przestajesz łatać życie po kawałku i pracujesz w miejscu, z którego to wszystko wychodzi.
+**Przykłady zastosowania**
+- Wycofywanie się przed wymagającym zadaniem.
+- Zrywy przeplatane porzucaniem ważnych spraw.
+- Powracanie do pornografii mimo postanowień — w kontekście tego konkretnego problemu.
+- Zamykanie się podczas trudnej rozmowy.
 
-**7. Schematy, które krzywdzą ciebie i innych, będziesz odtwarzał bez końca, bo same się nie zmieniają.**
-Każdy kolejny rok, kolejna kobieta i kolejna praca ustawią się pod ten sam zapis, dopóki go nie ruszysz.
+**Zmiana przekonania**
+
+Od: potrzebuję kolejnego zrywu i większej determinacji.
+
+Do: mogę pracować nad tym, co regularnie sprawia, że wracam do zachowania, które chcę zmienić.
+
+**Oparcie w materiale**
+
+K01 opisuje wycofanie przy części zadań; K02 opisuje zrywy i niedokańczanie. To dane o zachowaniach. Praca z podświadomością jest metodą marki, której skuteczność pokazujemy osobnymi dowodami rezultatów.
+
+### 4.2 Komunikat 2 - Obraz siebie i granice własnego życia
+
+**Pytanie przewodnie:** za kogo się uważam i jakie możliwości przez to sobie dopuszczam?
+
+**Nadrzędna myśl:**
+
+To, czego nauczyłeś się o sobie, może ograniczać życie, które dziś pozwalasz sobie budować.
+
+**Rozwinięcie**
+
+Przekonania o sobie wpływają na to, czego próbujesz, z czego się wycofujesz i jakie znaczenie nadajesz swoim doświadczeniom. Mogą dotyczyć twojej wartości, zdolności stworzenia rodziny, zarabiania czy zbudowania czegoś własnego.
+
+Pracujemy nad tym, jakie przekonania traktujesz jako prawdę o sobie i jak przejawiają się one w twoim życiu.
+
+**Przykład mechanizmu: wartość uzależniona od osiągnięć**
+
+Przy przekonaniu „jestem niewystarczający” możesz traktować kolejne osiągnięcia jako sposób udowodnienia, że zasługujesz na szacunek, miłość lub uznanie.
+
+Przy przekonaniu „osiągnięcia świadczą o wartości człowieka” niewykonane zadanie może stawać się oceną całego ciebie: z „nie zrobiłem tego” przechodzisz do „jestem słaby”.
+
+Wtedy praca obejmuje zarówno konkretne zachowanie, jak i przekonanie, przez które wynik decyduje o twoim stosunku do siebie. To przykład działania mechanizmu, nie jego jedyna postać ani rozpoznanie dotyczące wszystkich klientów.
+
+**Inne możliwe zastosowania**
+- Przekonania o zdolności stworzenia rodziny.
+- Przekonania o możliwości zbudowania czegoś własnego.
+- Ograniczenia, które traktujesz jako trwałą prawdę o sobie.
+
+**Zmiana przekonania**
+
+Od: moje dotychczasowe doświadczenia określają, kim jestem i do czego się nadaję.
+
+Do: mogę pracować nad tym, czego nauczyłem się o sobie, i sprawdzać swoje możliwości w realnym życiu.
+
+**Oparcie w materiale**
+
+K01 opisuje pogorszenie obrazu siebie po wycofaniu. K02 według Przemka chce rodziny, lecz obecne relacje i życie podważają jego wiarę w zdolność jej stworzenia. Dane pokazują wpływ doświadczeń na ocenę siebie. Wyjaśnienie, jak przekonania wpływają na kolejne decyzje, należy do stanowiska marki i wymaga pokazania na konkretnych przypadkach.
+
+### 4.3 Komunikat 3 - Skąd bierze się prawdziwa siła mężczyzny
+
+**Pytanie przewodnie:** co sprawia, że mężczyzna staje się naprawdę silny?
+
+**Nadrzędna myśl:**
+
+Mężczyzna staje się naprawdę silny, kiedy potrafi połączyć zdecydowanie i działanie z otwartością na własne emocje, wrażliwość i słabe strony.
+
+**Co marka przez to mówi**
+
+Siła rozwija się również przez gotowość spotkania z tym, co jest w tobie trudne: lękiem, wstydem, potrzebą bliskości, niepewnością. Świadomość oznacza tutaj pracę z własną podświadomością i poznawanie tego, co wpływa na twoje reakcje.
+
+Dzięki temu możesz pracować nad zdolnością podejmowania trudnych działań, pozostawania blisko drugiej osoby i brania odpowiedzialności za siebie. Wrażliwość, świadomość i zdecydowanie wspólnie składają się na dojrzałą siłę.
+
+**Konkretne sytuacje, przez które pokazujemy tę myśl**
+- Potrafisz przyznać, że czegoś się boisz, i podjąć ważną dla siebie decyzję.
+- Mówisz partnerce, co przeżywasz, i potrafisz przyjąć jej bliskość.
+- Stawiasz granicę, zachowując kontakt z drugą osobą.
+- Uznajesz własny błąd i podejmujesz odpowiedzialność za jego konsekwencje.
+
+To przykłady postawy marki. W materiałach klientów mamy konkretne punkty zaczepienia: wycofanie przy zadaniach, trudność przy przytulaniu i niewypowiadanie stresu w relacji.
+
+Rodzina pozostaje ważnym miejscem, w którym ta siła staje się widoczna. Sam komunikat obejmuje szerzej to, skąd ona się bierze.
+
+**Oparcie w materiale**
+
+K01 chce być silniejszy i bardziej zdecydowany. K02 i Kamil według relacji Przemka opisują trudność przy przytulaniu. Nie wyprowadzamy z tego wspólnej diagnozy. Połączenie siły, wrażliwości i świadomości jest odpowiedzią marki, a nie założeniem, że każdy klient już tak definiuje siłę.
+
+### 4.4 Komunikat 4 - Tworzenie własnego życia
+
+**Pytanie przewodnie:** co chcę tworzyć w swoim życiu i czemu służy mój rozwój?
+
+**Nadrzędna myśl:**
+
+Żyjesz po to, żeby tworzyć, a rozwój ma pomagać ci urzeczywistniać to, co jest dla ciebie ważne.
+
+**Rozwinięcie**
+
+Praca nad sobą ma prowadzić do tego, że zaczynasz tworzyć życie, którego naprawdę chcesz: relacje, rodzinę, własne przedsięwzięcia i miejsce na to, co cię porusza.
+
+Zmiana potrzebuje osobistego znaczenia. Warto wiedzieć, na co chcesz przeznaczać czas, z kim budować życie i czemu poświęcać swoje możliwości.
+
+Niektóre pragnienia już znasz. Inne odkrywasz w trakcie. Rozwój powinien być widoczny także w tym, co zaczyna pojawiać się w twojej codzienności.
+
+**Przykłady zastosowania**
+- Tworzenie bliskiej relacji i rodziny.
+- Podejmowanie własnych przedsięwzięć.
+- Twórczość, zainteresowania i ciekawość.
+- Zmiana sposobu pracy, aby móc być obecnym w domu.
+- Rozpoznawanie własnego kierunku tam, gdzie nie jest jeszcze jasny.
+
+Nie zakładamy, że każdy klient chce własnego biznesu, ma te same zainteresowania lub nie ma żadnego kierunku w życiu.
+
+**Zmiana przekonania**
+
+Od: skupiam całą uwagę na tym, z czym chcę skończyć.
+
+Do: określam również, co chcę stworzyć i jak chcę żyć.
+
+To jedno z możliwych rozwinięć. Komunikat obejmuje także człowieka, który już dobrze ocenia część swojego życia i chce dalej ją rozwijać.
+
+**Oparcie w materiale**
+
+K01 opisuje rodzinę, zmianę modelu pracy i realne zainteresowania. K02 chce rodziny i potrzebuje jasności w biznesie oraz tym, co go interesuje. Pozostałe dopowiedzenia o czymś własnym i czasie niezależnym od pracy mają niejednoznaczne przypisanie do K02/Kamila, więc nie liczymy ich jako dodatkowego dowodu.
+
+### Jak komunikaty tworzą jeden system
+
+| Komunikat | Główna perspektywa | Związek z transformacją |
+|---|---|---|
+| 1. Zmiana reakcji | Jak mogę pracować nad tym, co powtarzam? | Rozwijam zdolność zmieniania zachowań utrudniających realizację zamiarów. |
+| 2. Obraz siebie | Jakie możliwości sobie dopuszczam? | Pracuję nad przekonaniami o sobie i sprawdzam własne możliwości. |
+| 3. Prawdziwa siła | Co sprawia, że staję się naprawdę silny? | Łączę zdecydowanie i działanie z wrażliwością oraz świadomością. |
+| 4. Tworzenie życia | Czemu służy mój rozwój? | To, czego naprawdę chcę, zaczyna istnieć w codzienności. |
+
+Komunikaty 1 i 2 częściowo się łączą: przekonania o sobie również mogą być przedmiotem pracy z umysłem. Rozdzielamy je przez funkcję, bez ogłaszania czterech odrębnych mechanizmów.
+
+**Wniosek ze sprawdzenia spójności:** transformacja i cztery nadrzędne myśli pozostają zgodne z opisanymi w rozmowach potrzebami. Nie ma podstaw do ustalenia jednego rankingu potrzeb całej grupy na podstawie ankiet dotyczących pornografii. Pragnienia klientów, stanowisko marki i rezultaty współpracy wymagają osobnych źródeł.
 
 ---
 
@@ -365,4 +508,4 @@ Mapa, nie scenariusz do odtwarzania słowo w słowo. Historia z sekcji 8 nie mus
 
 **Test przed pisaniem:** czy to co piszę mogłoby wyjść od kogoś bez tych wartości, tez i tej historii? Jeśli tak - tekst nie jest jeszcze zakorzeniony w marce, tylko w ogólnej wiedzy o temacie.
 
-**Aktualizacja:** sekcja 3 (Rdzeniowe tezy) jest w przebudowie - nie dopisuj tam nic samodzielnie, dopóki nie zostanie odbudowana od zera (patrz notatka w sekcji 3). Nowe Komunikaty/Osie (sekcja 4) aktualizuj wprost w tym pliku, dopiero po potwierdzeniu w praktyce - nie jako jednorazową uwagę gdzie indziej.
+**Aktualizacja 2026-09-03:** sekcja 0 zawiera zatwierdzoną transformację, a sekcja 4 cztery nadrzędne komunikaty po sprawdzeniu spójności. Sekcja 3 odsyła do tego układu. Zmiany tożsamości marki wymagają zgody Przemka przed zapisem. W dalszych aktualizacjach zachowuj zakres źródeł opisany w sekcji 0.

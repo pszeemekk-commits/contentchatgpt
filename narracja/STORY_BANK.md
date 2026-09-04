@@ -2,7 +2,11 @@
 
 Bank historii z braindumpów. Źródła: `Braindump_marka.md`, `braindump_historiamarki.md`, `braindump_glosmarki.md`, `braindump_wartoscimarki.md` (stan: 2026-09-02).
 
-Zasada: zużywa się **znaczenie**, nie historia. Przed użyciem sprawdź `STORY_USAGE.md`.
+Przed użyciem sprawdź narracja/CONTENT_USAGE.md. Dawne oznaczenie „wolne” nie dowodzi, że materiał nie był publikowany. Znaczenie może wracać przez konsekwencję, nowe zastosowanie lub uzasadnione przypomnienie.
+
+Bank może zawierać także krótką obserwację, decyzję lub doświadczenie bez pełnej fabuły. Każdy wpis zachowuje źródło, status interpretacji i granice użycia. Data wydarzenia oraz publikacji są odrębne; aktualność procesu sprawdzaj w TERAZ.md.
+
+Zbieranie nowych dopowiedzeń, łączenie dawnych i bieżących doświadczeń oraz wybór zakresu ujawnienia: narracja/PAMIEC_NARRACJI.md. Nowy wpis w banku nie jest poleceniem rozszerzenia bieżącego posta.
 
 ---
 
@@ -82,6 +86,8 @@ Zasada: zużywa się **znaczenie**, nie historia. Przed użyciem sprawdź `STORY
 ---
 
 ## S-005 — DJ i imprezy
+
+**Powiązanie dopisane 2026-09-03:** Ź25 uzupełnia motywację o satysfakcję z wpływu na człowieka; nie usuwa wcześniejszej wypowiedzi o uznaniu. Ź30 / S-023 dodaje hipotezę autora o instrumentach jako narratorach budujących emocje. Związek i stopniowanie: NARRATIVE_MAP WATEK-001.
 
 **Status:** pomocnicza
 **Ton:** ciepły, z autoironią
@@ -343,6 +349,8 @@ Zasada: zużywa się **znaczenie**, nie historia. Przed użyciem sprawdź `STORY
 
 ## S-019 — 12k jako trener, 3k jako mentor
 
+**Powiązanie dopisane 2026-09-03:** Ź25 doprecyzowuje kolejne odkrycia dotyczące wpływu i skali przemiany. NARRATIVE_MAP WATEK-001 łączy ten motyw z DJ-ingiem oraz S-023. Kwoty i chronologia starego opisu wymagają weryfikacji w oryginalnym źródle; nie są aktualnymi danymi. Nowa historia muzyczna nie potwierdza tych liczb.
+
 **Status:** centralna
 **Ton:** rzeczowy, bez narzekania
 **Opis:** [SOURCE] Miał zarobki rzędu 12k/mc jako trener przy 26h pracy. Rzucił to, bo bardziej jarała go zmiana ludzkich przekonań niż treningi. Od roku buduje markę mentorską przy 3k/mc i 30-40h+ tygodniowo.
@@ -413,7 +421,73 @@ Zasada: zużywa się **znaczenie**, nie historia. Przed użyciem sprawdź `STORY
 
 ---
 
+## S-023 — Skrzypce, pół roku nauki i odkrycie tagelharpy
+
+**Typ:** własne doświadczenie z przeszłości i obecna refleksja. **Data zapisu:** 2026-09-03. **Źródło:** Ź30, narracja/zrodla/2026-09-03_skrzypce_i_stopniowanie.md, sekcja 2.
+
+**Co się wydarzyło [SOURCE]:** dźwięk skrzypiec od dawna go fascynował. Gdy poczuł chęć nauki, od razu kupił skrzypce, znalazł nauczycielkę i uczył się przez pół roku. Odpuścił naukę, gdy zobaczył, że skrzypce nie do końca są dla niego. Odkrył tagelharpę, którą odbiera jako podobną, lecz mroczniejszą.
+
+**Chronologia:** kolejność według wypowiedzi; rok zakupu, daty lekcji i odkrycia drugiego instrumentu nieustalone. Pół roku dotyczy czasu nauki skrzypiec. Nie wiemy, czy ma tagelharpę ani czy uczy się na niej grać.
+
+**Dzisiejsze rozumienie [SOURCE]:** nadal szuka tego, co go tak pociąga w obu instrumentach. Intuicyjnie wyczuwa wspólny mianownik; nie chodzi mu o samą cechę instrumentów smyczkowych.
+
+**Hipoteza autora:** „Chyba to, że są jak narrator. Tak sietnie moga zbudowac emocje. A to znowu wplyw na czlowieka hehe”. Zachować niepewność. „Mroczniejszy” jest oceną osobistą, nie obiektywną klasyfikacją instrumentu.
+
+**Możliwe znaczenia [INTERPRETATION]:** działanie pomaga mu doprecyzować pragnienie; rezygnacja z konkretnej formy nie musi oznaczać utraty fascynacji; próbuje rozpoznać wspólny motyw w muzyce i pracy z ludźmi. Jeden epizod nie dowodzi, że zawsze tak podejmuje decyzje lub że każde porzucenie nauki jest trafne.
+
+**Mix do wykorzystania później:** doświadczenie — zakup, nauczycielka, pół roku nauki; filozofia — możliwe zastosowanie aktualnego komunikatu BRAND 4.4 o poznawaniu pragnień w trakcie tworzenia życia; osobowość — szybkie podążenie za zainteresowaniem, korekta kierunku, szukanie znaczenia i własne „hehe”. Dopasowanie filozofii jest decyzją redakcyjną, nie dodatkowym wspomnieniem autora.
+
+**Powiązania:** S-005; S-019 / Ź25; NARRATIVE_MAP WATEK-001; OPEN_LOOPS O-009; TERAZ — poszukiwanie muzyczne. Słowa wyszukiwania: skrzypce, tagelharpa, muzyka, narrator, emocje, intuicja, pół roku, rezygnacja, wpływ.
+
+**Zakres ujawnienia:** zachować jako osobny materiał do późniejszej komunikacji. Nie dopisywać do PUB-001. Sama historia może być później samodzielna; nie trzeba urywać jej przed rezygnacją ani dzielić na kilka publikacji. PUB-001 może stać się punktem odniesienia dopiero po potwierdzeniu publikacji.
+
+**Granice:** nie wymyślać dialogów, wyglądu lekcji, reakcji nauczycielki, kosztu, technicznej przyczyny rezygnacji, stopnia umiejętności ani przyszłych rezultatów. Nie zamieniać fascynacji muzyką w narzędzie sprzedaży z automatu. **Status wykorzystania:** zapis wewnętrzny; publikacja niepotwierdzona.
+
+---
+
+## S-024 — Od niezręcznej randki do swobody w rozmowie
+
+**Typ:** osobista przemiana opowiedziana przez kilka etapów. **Źródło:** Ź31, narracja/zrodla/2026-09-03_nauka_rozmowy.md. **Data zapisu:** 2026-09-03.
+
+**Fakty według autora [SOURCE]:**
+- 2019: zaprosił dziewczynę na randkę, nie wiedział, o czym rozmawiać; opowiadał o pracy. Randka trwała godzinę, pojawiła się cisza, w której oboje nic nie mówili.
+- 2021: po rozstaniu zaczął uczyć się budowania relacji i rozmowy, motywowany tym, by nie zostać samemu. Nie podaje konkretnych ćwiczeń ani nauczyciela.
+- 2022: zagadywał do kobiet na ulicy; opisuje, że potrafił je zainteresować i uzyskać kontakt.
+- Późniejsze obserwacje, bez dokładnych dat: zauważył zmianę kontaktów w urzędzie, sklepie i pracy. Jako trener rozmawiał z klientami także poza tematami treningowymi. Według jego oceny konsultacje dotyczące trzymiesięcznej współpracy wychodziły mu lepiej z kobietami niż z mężczyznami; opisuje dobrą atmosferę zajęć.
+
+**Znaczenie nazwane przez autora [SOURCE]:** umiejętność początkowo wiązana z poznawaniem kobiet okazała się istotna w szerszych relacjach. Sam nazywa to przemianą od napięcia przy kobiecie do większej swobody kontaktu. Wypowiedź o atmosferze jest jego perspektywą, nie przytoczonym świadectwem klientki.
+
+**Mix i dopasowanie zaakceptowane w rozmowie:** doświadczenie dominuje; filozofia — komunikat BRAND 4.4, rozwój zwiększający zdolność budowania relacji i działania w życiu; osobowość — przyznanie dawnego braku umiejętności, zdumienie zakresem zmiany i autoironia przy konsultacjach. Nie dopisywać zasługi konkretnej metody ani diagnozy dawnego napięcia.
+
+**Powiązania:** NARRATIVE_MAP WATEK-002; PUB-002. Wspólny kontekst z S-019: praca trenera, ale różne znaczenia i dane. S-006 jest wyłącznie tropem do ewentualnego sprawdzenia tożsamości rozstania; nie scalać automatycznie.
+
+**Zakres ujawnienia:** datowane etapy mogą razem pokazać jedną przemianę, której sens autor właśnie podał. Bez dołączania skrzypiec lub innych odrębnych historii. Nie dzielić automatycznie jednego procesu dla większej liczby publikacji.
+
+**Granice:** nie przypisywać wszystkim płciom jednego stylu rozmowy. Nie wymyślać dialogu, przyczyny zakończenia randki, wyniku relacji z poznanymi osobami, liczby kontaktów, reakcji klientek ani procentów sprzedaży. Nie przenosić dawnych warunków współpracy do OFERTA. **Status:** materiał źródłowy; kierunek tekstu zaakceptowany; finalny post i publikacja jeszcze nie istnieją w rejestrze.
+
+---
+
+## S-025 - Od detektywa i doradcy do pozostania przy emocjach
+
+**Typ:** zmiana rozumienia własnego zachowania w relacji. **Źródło:** Ź32, narracja/zrodla/2026-09-03_partnerka_placz_i_regulacja_emocji.md. **Data zapisu:** 2026-09-03.
+
+**Co się wydarzyło [SOURCE]:** gdy partnerka przeżywała trudne emocje, Przemek analizował, dlaczego tak się czuje, doradzał jej i szukał sposobu rozwiązania sytuacji.
+
+**Dzisiejsze rozumienie [SOURCE]:** interpretuje tę reakcję jako nieświadome komunikowanie, że jej emocje są dla niego niebezpieczne i że nie potrafi przy nich pozostać. Dziś opisuje właściwą postawę jako nazwanie emocji, pozostawienie swobody płaczu oraz stabilną obecność.
+
+**Metafora [SOURCE]:** mężczyzna jak skała na wzburzonym morzu. Nie odpycha emocji i czuje je wszystkie, lecz nie traci przez nie stabilności.
+
+**Dopowiedzenie [SOURCE]:** w późniejszej korekcie autor podał własną figlarną odpowiedź łączącą czułość, humor i ochronę: ramiona „stworzone” do wypłakania się oraz „Przemuś”, który obroni przed złym światem. Według autora po około 15 minutach partnerka odpowiedziała: „Kochanie, ale mi lepiej, dziękuję”.
+
+**Możliwe znaczenia:** charakter - potrafi zobaczyć ograniczenie w dawnym sposobie pomagania; filozofia - dojrzałość łączy czucie ze stabilnością; relacja - bezpieczeństwo ujawnia się w reakcji na emocje bliskiej osoby.
+
+**Powiązania:** BRAND 4.3; BELIEF_SYSTEM B-016–B-019; PUB-005. **Granice:** poza podanym cytatem nie dopisywać reakcji partnerki, dat ani nie przenosić jednej reakcji na każdą kobietę lub dziecko. **Status:** materiał źródłowy; publikacja niepotwierdzona.
+
+---
+
 ## Braki
+
+Starsza lista poniżej jest zapisem luk z pierwotnego przeglądu, nie potwierdzeniem ich aktualności; przed pytaniem sprawdź rejestr źródeł i nowsze dopowiedzenia.
 
 - `[BRAK MATERIAŁU: pierwsza sesja autohipnozy]` — w `braindump_historiamarki.md` pytanie „Co dokładnie się stało? Opisz to jak przyjaciółce przy kawie" zostało puste. To dziura w najważniejszym miejscu drogi.
 - `[BRAK MATERIAŁU: poznanie narzeczonej]` — jest skutek („poznaję właściwą kobietę"), nie ma sceny.

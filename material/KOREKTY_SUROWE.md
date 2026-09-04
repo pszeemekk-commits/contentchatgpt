@@ -2173,3 +2173,134 @@ KOREKTA PRZEMKA: „ale teraz robisz coaching a nie dzielisz sie doswiadczeniem 
 WZORZEC: nadmierna korekta braku wartości. Autor przestał dzielić się doświadczeniem i zaczął prowadzić odbiorcę przez ćwiczenia. Schemat anegdota + polecenie zachował biografię, lecz zmienił rolę mówiącego.
 
 ZASADA: w osobistej serii Stories wartość wynika z przeżycia, napięcia, ceny, motywacji i osobistego odkrycia opowiedzianych w pierwszej osobie. Widz ma rozpoznać siebie w doświadczeniu Przemka. Nie prowadź go pytaniami diagnostycznymi ani komendami; nie zastępuj ich morałem. Nie cofaj się też do samej informacji biograficznej. Wszystkie uczucia i znaczenia przypisywane Przemkowi muszą mieć pokrycie w źródle. Zastosowanie: TOV_STORIES.md, sekcja 17.
+
+---
+
+### KOR-2026-09-03-PRAWIE-JAK-JA-ALE-BEZ-OGNIA-ENTP
+
+DATA: 2026-09-03  
+FORMAT: karuzela przywódcza o płaczu partnerki
+
+WERSJA AI: poprawna, czuła karuzela z osobistym doświadczeniem, filozofią i metaforą skały. Autor ocenił ją jako „prawie jak ja”, lecz bez charakterystycznego ostrza ENTP i „ognistego czegoś”. Przykładowa kwestia AI: „Widzę, że bardzo cię to boli. Jestem przy tobie. Płacz tyle, ile potrzebujesz”.
+
+KOREKTA AUTORA:
+
+> „Widzę, że bardzo cię to boli. Jestem przy tobie. Płacz tyle, ile potrzebujesz, te ramiona zostały do tego stworzone. A gdy będziesz chciała to Przemuś cię obroni przed tym całym złym światem ;)”.
+
+Autor dodał też konkretny rezultat: po około 15 minutach partnerka powiedziała „Kochanie, ale mi lepiej, dziękuję”. Własne znaczenie: emocja dostała pełną swobodę, została wyrażona i „ona sobie idzie”.
+
+DLACZEGO PIERWSZA WERSJA BYŁA ZA SŁABA: zawierała pogląd autora i jego doświadczenie, lecz prowadziła cały tekst jednym, rozsądnym i empatycznym tonem. Brakowało zmiany energii, intelektualnego paradoksu, figlarności, flirtu, pewności siebie i osobistej idiosynkrazji. Brzmiała jak bardzo dobry tekst kogoś o podobnych wartościach, a nie jak pełny Przemek.
+
+WZORZEC: MIX doświadczenie + filozofia + osobowość nie jest spełniony tylko dlatego, że tekst używa pierwszej osoby i potocznego języka. Osobowość musi być widoczna w konkretnym zagraniu. U Przemka w tym materiale są to:
+
+- autoironia wobec dawnego detektywa i doradcy,
+- odwrócenie pozornie pomocnego zachowania w ostry paradoks,
+- czułość połączona z pewnością siebie i ochroną,
+- krótki żart w środku emocjonalnego ciężaru,
+- zdrobnienie własnego imienia w trzeciej osobie,
+- szybki powrót od żartu do precyzyjnego wniosku.
+
+GRANICA: nie naprawiać każdego tekstu przekleństwem, emotikonem ani słowem „Przemuś”. Ogień jest zmianą energii i sposobem myślenia. Konkretne zagranie musi pasować do relacji, tematu i źródłowej wypowiedzi autora.
+
+**DRUGA KOREKTA TEGO SAMEGO MATERIAŁU:** AI poszło za daleko w figlarność i dopisało: „Skała też może mieć ramiona. A czasem nawet mówić na siebie Przemuś ;)”. Autor odrzucił to jako obce: „ja bym tak nie napisał”, oraz wskazał, że nadmiar takich zagrań rozmył osobowość. Polecił też nie używać `xD` w karuzelach.
+
+**DODATKOWY WZORZEC:** zdanie źródłowe pokazuje rodzaj energii, nie daje licencji na produkowanie kolejnych zdań w tej samej manierze. Jedno prawdziwe zagranie jest mocniejsze niż trzy wymyślone imitacje. Ostrze ENTP buduj przede wszystkim przez sposób rozumowania, paradoks i cięcie w założenie. Humor dodawaj wyłącznie tam, gdzie wynika ze źródła.
+
+**KOREKTA STRUKTURY:** dawny slajd 5 podawał komunikat wysyłany partnerce przed pokazaniem przyczyny w autorze. Kolejność została zmieniona na: próba szybkiego rozwiązania → własny dyskomfort wobec emocji → nieświadomy komunikat. Dawny slajd 13 wprowadzał dziecko po kulminacji historii partnerki i tworzył wrażenie przypadkowego przeskoku. Zastosowanie do dziecka zostało przeniesione na początek, zanim zaczyna się osobista historia.
+
+**TRZECIA KOREKTA TEGO SAMEGO MATERIAŁU:** autor poprosił o „ciut więcej autoironii” oraz powrót do mocniejszego zakończenia o kamieniu i skale. Autoironia ma zostać jednym krótkim ukłuciem skierowanym w dawną wersję siebie. Slajd końcowy ma działać jako manifest filozofii i wypowiadać główny komunikat marki wprost. Wniosek nie jest uniwersalną zasadą, że każda karuzela kończy się manifestem; dotyczy treści przywódczej, która wcześniej zbudowała własny obraz i argument.
+
+**CZWARTA KOREKTA TEGO SAMEGO MATERIAŁU:** autor poprosił o więcej autoironii i wskazał trafny wstęp z wcześniejszej, bardziej zabawowej wersji: „ja robiłem coś lepszego”. Zachować ironiczną przewagę w pierwszym zdaniu, po czym ujawnić, że „lepszym” rozwiązaniem było wejście w rolę detektywa i doradcy. Ten rodzaj humoru pasuje do autora, ponieważ jest wymierzony w jego dawną pewność własnej logiki i jednocześnie prowadzi argument.
+
+### KOR-2026-09-03-ZGLOSZONE-RYZYKO-ZAMIAST-POPRAWKI
+
+DATA: 2026-09-03
+FORMAT: karuzela przywódcza „wezwanie do transformacji" (PUB-009)
+
+WERSJA AI: dowód poprowadzony przez S-014, slajd 4 nazywał pornografię, a nota pod materiałem uprzedzała autora o sąsiedztwie z PUB-003 i o ryzyku zawężenia marki do jednego nawyku.
+
+KOREKTA AUTORA:
+
+> „ale dlaczego piszesz o porno? przecież chodzi o wezwanie do transformacji"
+
+> „PO CO???"
+
+DLACZEGO TO BYŁ BŁĄD: AI samo rozpoznało problem, nazwało go poprawnie i mimo to zostawiło fragment w tekście, przenosząc decyzję na autora. Temat brzmiał „wezwanie do transformacji", więc konkretny nawyk zawężał zakres wezwania i wpychał materiał w przekaz sąsiedniej karuzeli o silnej woli.
+
+WZORZEC: rozpoznane ryzyko poprawia się w tekście przed oddaniem materiału. Nota redakcyjna służy decyzjom, których nie da się rozstrzygnąć bez autora, a nie usterkom, które AI już zdiagnozowało. Jeśli AI potrafi napisać, dlaczego fragment osłabia materiał, potrafi też wybrać inne źródłowe doświadczenie.
+
+DODATKOWY WZORZEC: przy temacie o szerokim zakresie dobieraj doświadczenie, którego znaczenie obejmuje cały ten zakres. Tu zadziałała para S-008 i S-013: najmocniejsza decyzja podjęta świadomie, prawdziwa siła, którą obudziła, i to, że nie dotknęła powodu jej podjęcia. Ta sama para prowadzi PUB-004 w innym znaczeniu, co jest dozwolonym powrotem, a nie powtórką.
+
+GRANICA: to nie jest zakaz pisania o pornografii. Wchodzi tam, gdzie jest tematem albo źródłowym przykładem mieszczącym się w zakresie materiału, jak w PUB-003.
+
+### KOR-2026-09-03-WEZWANIE-KTORE-TLUMACZY-SIE-Z-BYCIA-WEZWANIEM
+
+DATA: 2026-09-03
+FORMAT: karuzela „wezwanie do transformacji" (PUB-009)
+
+WERSJA AI: ostrożny wywód otwierany zdaniami „Nie napiszę ci, żebyś się w końcu zmobilizował" i „To najsłabsze wezwanie, jakie znam", zamykany slajdem „nikogo nie zmienię wezwaniem". Komunikat marki 1.
+
+KOREKTA AUTORA:
+
+> „Ja do ciebie mówię: napisz wezwanie, a ty w 1 slajdzie tłumaczysz się, że piszesz wezwanie"
+
+> „to w ogóle nie jest manifest"
+
+> „a komunikat tutaj powinien być nr 4 a nie nr 1"
+
+DLACZEGO TO BYŁ BŁĄD, TRZY OSOBNE RZECZY:
+
+1. **Meta-komentarz zamiast wykonania.** Zlecony gatunek został w tekście omówiony, a nie zagrany. Tekst zaczynał od dystansu do własnej formy i kończył jej unieważnieniem. Zasada: zlecony gatunek wykonuje się od pierwszego zdania. Zastrzeżenia do gatunku zgłasza się autorowi poza tekstem albo wcale.
+
+2. **Zły komunikat.** Wezwanie do transformacji rozwija komunikat 4 (tworzenie własnego życia), nie komunikat 1 (zmiana utrwalonych reakcji). Komunikat 1 odpowiada na pytanie, jak pracować z tym, co się powtarza. Wezwanie odpowiada na pytanie, po co. Sprawdzaj, na które pytanie odpowiada temat, zanim przypiszesz numer.
+
+3. **Brak rejestru manifestu.** Ostrożny, wyważony wywód z zastrzeżeniami po każdej tezie nie jest manifestem, choćby każde zdanie było prawdziwe. Manifest stawia rzecz wprost, trzyma jedną deklarację i nie asekuruje się w środku.
+
+CO WESZŁO ZAMIAST: okładka jako gołe zdanie z BELIEF_SYSTEM („Żyjesz po to, żeby tworzyć"), scena konsumpcji w drugiej osobie, zdjęcie winy, sprzeciw czytelnika wersalikami, anafora „Tworzysz…" z osobną treścią w każdej linii, własna historia jako jedno uderzenie, finał z jawnym odcięciem się od mowy motywacyjnej.
+
+DODATKOWY WZORZEC PROCESU: przed pisaniem nie została przeczytana ani GLOS_SUROWY, ani korpus proza-przemka, mimo że bramka głosu w glos-marki i sam skill proza-przemka wymagają obu. Kroków bramki głosu nie wolno pomijać dlatego, że materiał źródłowy do treści wydaje się już zebrany. Kalibracja brzmienia jest osobnym krokiem od zebrania faktów.
+
+### KOR-2026-09-03-SLOGANY-ZAMIAST-PROZY
+
+DATA: 2026-09-03
+FORMAT: karuzela „wezwanie do transformacji" (PUB-009), wersja druga
+
+WERSJA AI: manifest złożony z krótkich, rzeźbionych linii. „Cudze treningi. Cudze firmy. Cudze wyjazdy. Cudze kobiety.", „Wszystko szło do środka. Na zewnątrz nie poszło nic.", „Tworzysz wieczór, po którym twoja kobieta zasypia spokojna.", finał „Jedyna osoba, która może ci na to pozwolić, trzyma teraz ten telefon."
+
+KOREKTA AUTORA:
+
+> „to nie jest proza przemka. To brzmi jak gówno i ten chat gpt"
+
+DLACZEGO TO BYŁ BŁĄD: tekst spełniał brief i skaner, a mimo to nie był jego prozą, bo powtarzał cztery znane pozycje z `odrzucenia.md` naraz:
+
+- **poz. 26, klamra:** „Wszystko szło do środka. Na zewnątrz nie poszło nic." Identyczny człon na obu końcach to rzeźba, nie mowa.
+- **poz. 18 i 21, wymyślona scenka jako ozdobnik:** „wieczór, po którym twoja kobieta zasypia spokojna" wygląda na konkret i jest zgadywaniem.
+- **poz. 3, poziom przykrości:** „jesteś wkurwiony, tylko nie wiesz na co" opisuje przykrość, nie stawkę tożsamościową.
+- **poz. 31, brak rozwinięcia stanu i brak mechanizmu:** slajdy streszczały sytuację i od razu wchodziły w wyrok, bez jednego zdania o tym, dlaczego tak się dzieje.
+
+Do tego cała karuzela szła równymi blokami po dwa i trzy zdania, czyli architektura z poz. 1.
+
+WZORZEC: jego proza leci ciurkiem, zdania są dłuższe i nierówne, a każdy tekst niesie mechanizm wyjaśniony wprost. Slajd z trzech krótkich zdań stawianych obok siebie brzmi jak copy z reklamy, choćby każde zdanie było prawdziwe. Krótkie, uderzeniowe zdanie u niego przychodzi po rozwiniętym stanie, nie zamiast niego.
+
+CO WESZŁO ZAMIAST: rozwinięty stan („Dni lecą jeden za drugim. Wstajesz, robota, wieczór, telefon w rękę"), potwierdzony mechanizm z korpusu — mózg nie odróżnia dopaminy z prawdziwego osiągnięcia od fałszywego, więc konsumpcja daje sygnał przeżytego dnia — sprzeciw czytelnika wersalikami, lista z pełną treścią w każdej pozycji, własna historia jako jedno uderzenie, a na końcu miejsce, gdzie leży robota, zgodnie z poz. 23.
+
+WZORZEC PROCESU: `odrzucenia.md` nie zostało przeczytane przed pierwszą ani drugą wersją, mimo że skill proza-przemka wymaga tego wprost. Skaner przepuszcza wszystkie cztery błędy z tej listy, więc kontrola mechaniczna nie zastępuje tej lektury.
+
+### KOR-2026-09-03-WYRZUCONE-ZDANIE-AUTORA-I-ZAPOWIEDZI
+
+DATA: 2026-09-03
+FORMAT: karuzela „wezwanie do transformacji" (PUB-009), wersja trzecia
+
+KOREKTA AUTORA:
+
+> „wywaliłeś dobry początek »Cudze treningi, firmy, wyjazdy. Cudze kobiety.« - przecież to idealnie obrazuje konsumowanie czyjegoś życia i daje na końcu punch z porno, to jest pazur ENTP"
+
+> „używasz zakazanych zwrotów"
+
+DWA BŁĘDY:
+
+1. **Usunięcie zdania autora razem z jego funkcją.** Autor przeredagował moje cztery osobne zdania w jedno („Cudze treningi, firmy, wyjazdy. Cudze kobiety.") i wskazał jego cel: lista konsumowania cudzego życia schodzi na pornografię jako ostatnią pozycję, bez morału i bez osobnego slajdu o nawyku. W kolejnej wersji zdanie zniknęło przy przepisywaniu całości. Wzorzec: przy przepisywaniu tekstu od nowa najpierw wypisz zdania autora zatwierdzone w poprzedniej rundzie i wstaw je do nowej wersji, zanim napiszesz resztę. Odrzucenie całości nie unieważnia fragmentów, które autor sam napisał lub pochwalił.
+
+2. **Zapowiedzi treści, czyli pozycja 4 z `odrzucenia.md` w trzech miejscach naraz:** „Uprzedzę cię od razu", „To jest cały mechanizm tej frustracji", „Powiem co innego". Każda obiecuje wagę, zanim padnie treść. Powiedz rzecz. Uwaga na pułapkę: „Już tłumaczę" jest jego własnym zwrotem z korpusu i nie należy do tej kategorii, bo zapowiada wyjaśnienie mechanizmu, który zaraz pada w całości, a nie „coś ważnego".
+
+DODATKOWY WZORZEC: pornografia nie jest tematem tej karuzeli i mimo to może w niej wystąpić jako jedna pozycja listy. Zakaz z KOR-2026-09-03-ZGLOSZONE-RYZYKO-ZAMIAST-POPRAWKI dotyczy robienia z nawyku tematu materiału, nie wymieniania go w zdaniu, które prowadzi szerszą myśl.

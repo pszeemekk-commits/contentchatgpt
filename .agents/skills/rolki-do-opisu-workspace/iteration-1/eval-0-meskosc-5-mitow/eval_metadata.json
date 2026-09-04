@@ -1,0 +1,15 @@
+{
+  "eval_id": 0,
+  "eval_name": "meskosc-5-mitow",
+  "prompt": "Mam wsad na rolkę do opisu:\n\n5 rzeczy, które faceci mylą z męskością\n1. Ciągłe udowadnianie swojej wartości\nPrawdziwa męskość to spokój w sobie – nie musisz nikomu nic pokazywać.\n2. Tłumienie emocji zamiast ich wyrażania\nMęskość to nie kamienna twarz – to umiejętność czucia i prowadzenia przez to, co czujesz.\n3. Granie twardego i zaniżanie wartości słabszych\nPrawdziwy mężczyzna chroni i podnosi – nie musi nikogo deprecjonować, żeby sam wyrosnąć.\n4. Męskość jako zawód\nNie twoja praca decyduje czy jesteś facetem – męskość to to, jak się trzymasz, nie czym się zajmujesz.\n5. Oferowanie wsparcia wszystkim dookoła\nMęskość to granice i selektywność – nie ratowanie każdego, tylko odpowiedzialność za swoich ludzi.\n\nZrób z tego rolkę do opisu.",
+  "assertions": [
+    "Output zawiera wyraźnie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post) — dwa różne bloki, nie jeden zlany tekst.",
+    "Hook mieści się w maksymalnie 2 zdaniach, zgodnie z limitem ze SKILL.md.",
+    "Opis zawiera wszystkich 5 mitów z wsadu (udowadnianie wartości, tłumienie emocji, granie twardego, męskość jako zawód, wsparcie dla wszystkich) — żaden nie zgubiony ani nie zlany z innym.",
+    "Każdy z 5 punktów w opisie niesie przeformułowanie z wsadu (np. 'spokój w sobie', 'granice i selektywność'), a nie tylko sam nagłówek punktu bez rozwinięcia.",
+    "Opis nie dodaje przykładów, statystyk ani twierdzeń, których nie ma we wsadzie (np. wymyślonych scen, liczb, cytatów).",
+    "Widać ślad procesu etapowego — dokument zawiera osobne, rozpoznawalne części odpowiadające Etapowi 1 (sprawdzenie/pytania), Etapowi 2 (plan w formacie z SKILL.md: HOOK/STRUKTURA OPISU/ZAMKNIĘCIE) i Etapowi 3 (finalny hook+opis) — nie tylko gotowy tekst bez procesu.",
+    "Opis kończy się CTA albo jawnym zaproszeniem do reakcji, nie urywa się na ostatnim punkcie listy.",
+    "Pierwsze 1-2 zdania opisu (przed 'więcej') nie powtarzają hooka słowo w słowo."
+  ]
+}

@@ -94,6 +94,19 @@ W bankach skrót Ź z numerem wskazuje poniższy dokument; dopisek wskazuje rozd
 
 20. **Nowa hierarchia celu transformacji.** Ź27 ustawia „oddanie steru w życiu” jako nadrzędne określenie autora. Pewność siebie, zmiana w obszarze pornografii i język męskości nie wyczerpują już definicji celu. To aktualizacja bieżącej strategii; nie jest zgodą na edycję plików tożsamości ani dowodem zmiany grupy docelowej lub metod programu. „Ster” jako metafora całej przemiany nie jest tożsamy z jednym obszarem Jaskini o tej nazwie. Osobiste obserwacje nie stają się przez to diagnozą każdego odbiorcy.
 
+## Nowe źródła rozmów — zapis bieżący
+
+| ID | Dokument | Co rzeczywiście wnosi |
+|---|---|---|
+| Ź30 | [Skrzypce i stopniowanie informacji](F:/CONTENT/narracja/zrodla/2026-09-03_skrzypce_i_stopniowanie.md) | Pełne dopowiedzenie Przemka z 3.09.2026: zakup skrzypiec, nauczycielka, pół roku nauki, rezygnacja i odkrycie tagelharpy. Hipoteza o narracji muzycznej i emocjach pozostaje niepewna. Zawiera też korektę oddzielającą zapis wiedzy od bieżącego posta oraz zlecenie pracy od wsadu. Cytowany fragment AI jest wyraźnie oddzielony od źródła biograficznego. |
+| Ź31 | [Nauka rozmowy i szersza zmiana](F:/CONTENT/narracja/zrodla/2026-09-03_nauka_rozmowy.md) | Wsad autora o randce w 2019, nauce po rozstaniu w 2021, kontaktach w 2022 i późniejszej pracy trenera. Zawiera akceptację komunikatu 4 oraz polecenie uwzględniania komunikatów w systemie. Osobista ocena atmosfery i konsultacji pozostaje oceną autora. |
+| Ź32 | [Partnerka, płacz i regulacja emocji](F:/CONTENT/narracja/zrodla/2026-09-03_partnerka_placz_i_regulacja_emocji.md) | Wsad autora o dawnej roli detektywa i doradcy przy trudnych emocjach partnerki, późniejszej interpretacji tego zachowania oraz zasadzie dotyczącej partnerki i dziecka. Zawiera metaforę mężczyzny jako skały na wzburzonym morzu. |
+| Ź33 | [Kobiety, pieniądze, wzrost i status](F:/CONTENT/narracja/zrodla/2026-09-03_kobiety_hajs_wzrost_status.md) | Reframe autora: powierzchowne cechy są atrakcyjne przez znaczenia, które mogą komunikować. Pieniądze wiąże z zaradnością, skutecznością, inteligencją i niezależnością; wzrost z bezpieczeństwem; status z własną ramą i charakterem. |
+| Ź34 | [Poznać kobietę spójną ze sobą tak, jak poznaje się najlepszego kumpla](F:/CONTENT/narracja/zrodla/2026-09-03_poznac_spojna_kobiete_jak_kumpla.md) | Myśl autora o wzajemnym poznawaniu i otwieraniu się jako podstawie sprawdzania zgodności. Analogia do najlepszego kumpla nie jest opisem konkretnej przyjaźni. Doświadczenie randkowe dobierane osobno z Ź31 / S-024. |
+| Ź35 | [Jestem tym, kim myślę, że jestem](F:/CONTENT/narracja/zrodla/2026-09-03_jestem_tym_kim_mysle_ze_jestem.md) | Temat autora o wpływie wewnętrznego obrazu siebie na działanie i sposób, w jaki widzą człowieka inni. Łączy S-007 i S-009 z wcześniejszym zamrożeniem przy atrakcyjnej kobiecie; nie oznacza magicznego myślenia. |
+
+Kolejne wypowiedzi zapisuj i łącz według narracja/PAMIEC_NARRACJI.md. Nie renumeruj starszych źródeł. Dodatkowe pliki z dopowiedzeniami nie zastępują oryginalnych braindumpów.
+
 ## Granice użycia
 
 Materiał wyraźnie oznaczony jako całkowicie prywatny lub wyłączony z publikowania pozostaje poza bankiem tematów. Dotyczy to także wyłączonych szczegółów rodzinnych, intymnych i doświadczeń z substancjami. Do zaprojektowania więzi wystarcza znacznie szerszy, mniej inwazyjny materiał.

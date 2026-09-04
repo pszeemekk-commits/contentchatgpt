@@ -10,6 +10,12 @@ To interpretacja materiału, nie nowe hasło marki ani tekst do bio. Nie musisz 
 
 **Nadrzędne doprecyzowanie autora — Ź27:** istotę transformacji nazywasz teraz „oddaniem steru w życiu”. Pewność siebie, zmiana w obszarze pornografii i język męskości pozostają możliwymi efektami, wejściami lub opisami, ale nie wyczerpują tego celu. Ten zapis ma pierwszeństwo w odczytaniu dalszych części strategii. Nie oznacza zmiany grupy docelowej ani edycji plików tożsamości. Odbiorca ma coraz lepiej rozumieć własną sytuację i rozwijać sprawczość, zachowując samodzielność wobec autora.
 
+## Integracja wykonawcza — 3.09.2026
+
+Aktualne ustalenie Przemka: cztery filary UWAGA, REZONANS, ZAUFANIE, SPRZEDAŻ pozostają podstawą komunikacji. Każda treść zawiera doświadczenie, filozofię i osobowość autora w różnych proporcjach. Argument, wyjaśnienie, demonstracja, case study, refleksja i historia są równoprawnymi konstrukcjami. Anegdota jest opcjonalna; osobisty mix i wkład w relację są obowiązkowe.
+
+Wdrożenie: [SYSTEM_ECS](F:/CONTENT/SYSTEM_ECS.md), główny wsad glos-marki, właściwy skill formatu i proza-przemka. Pamięć wszystkich filarów: [CONTENT_USAGE](F:/CONTENT/narracja/CONTENT_USAGE.md); aktualne procesy: [TERAZ](F:/CONTENT/narracja/TERAZ.md). Niniejszy dokument nadal prowadzi pełną strategię: warstwy postaci, W01–W30, serie, relacje, świat i wspólną pamięć. Wskazówki dla historii nie stają się wymogiem autobiografii w innych typach treści.
+
 ## Założenia i rozróżnienia
 
 ### Stała warstwa przekazu: dlaczego budowanie tego życia jest dla mnie ważne

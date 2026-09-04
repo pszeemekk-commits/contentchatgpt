@@ -186,6 +186,36 @@ Pełna lista: `OPEN_LOOPS.md`. Najważniejsze:
 
 ---
 
+## 13. Wątki łączące doświadczenia
+
+Wątki są indeksem połączeń, nie kolejną kopią biografii. Zasady aktualizacji: narracja/PAMIEC_NARRACJI.md. Wiedzę systemu i potwierdzone publikacje rozdziela CONTENT_USAGE.md.
+
+### WATEK-001 — Co mnie porusza i jak chcę poruszać człowieka
+
+**Stan:** aktualizacja 2026-09-03; część motywacji nazwana przez autora, jej muzyczne rozwinięcie pozostaje hipotezą.
+
+- **Ź25 / S-019:** rozpoznanie satysfakcji z wpływu na człowieka i potencjału rozległej zmiany. Znaczenie zawodowe potwierdzone przez autora.
+- **Ź25 / S-005:** dzisiejsze rozumienie wcześniejszego DJ-ingu przez tę samą motywację. Dawna potrzeba uznania ze starszego źródła może współistnieć; nowy wniosek jej nie kasuje.
+- **Ź30 / S-023:** zakup skrzypiec, nauka, rezygnacja i odkrycie tagelharpy. Osobny kontekst działania i poszukiwania. Wspólny mianownik „instrument jak narrator → emocje → wpływ” jest hipotezą autora, O-009.
+
+**Dlaczego łączymy:** połączenie proponuje Przemek w Ź30, a nie samo słowo „muzyka”. **Co nowego wnosi S-023:** czytelnik może poznać jego sposób sprawdzania zainteresowania w praktyce, zmianę kierunku i nieukończone rozumienie własnej fascynacji. To więcej niż kolejny przykład deklarowanej motywacji.
+
+**Zakres komunikacji:** PUB-001 obejmuje trenerstwo, DJ-ing i obecną pracę. S-023 pozostaje odrębnym materiałem na później; autor skorygował próbę natychmiastowego dołączenia tej historii. Kolejność redakcyjna jest propozycją, nie chronologią życia. Każdy późniejszy materiał ma samodzielne znaczenie i wystarczający kontekst.
+
+**Powrót:** po publikacji PUB-001 można przywołać jego motyw w samodzielnej historii muzycznej, pokazując dodatkowy wymiar człowieka. Aktualizacja poszukiwania wymaga nowego dopowiedzenia; samo późniejsze opowiedzenie starej historii nie wymaga wymyślenia nowego wydarzenia. **Publiczny stan:** sprawdzaj CONTENT_USAGE; na dziś publikacja niepotwierdzona.
+
+---
+
+### WATEK-002 — Nauka kontaktu, która zmienia więcej niż randki
+
+**Źródło i stan:** Ź31 / S-024, 2026-09-03. Dawne etapy: randka w 2019, rozpoczęcie nauki po rozstaniu w 2021, kontakty na ulicy w 2022, następnie obserwacje z codzienności i pracy trenera. Nie jest to nowo rozpoczęty proces.
+
+**Połączenie wskazane przez autora:** rozwój umiejętności rozmowy wiąże ze zmianą również w urzędzie, sklepie, pracy i na treningach. Każdy kontekst wnosi inny aspekt tej samej opisanej przemiany. Nie łączyć automatycznie z własną motywacją do wpływu z WATEK-001 ani z S-023; tutaj osią jest rozwijana zdolność kontaktu.
+
+**Komunikacja:** PUB-002, komunikat 4 zaakceptowany w rozmowie. Odbiorca może zrozumieć, że obecna swoboda autora ma historię nauki i wcześniejszego napięcia. To propozycja wkładu w relację, nie zaobserwowany efekt publikacji. Szczegóły uczenia się wymagają nowego źródła, jeśli mają powstać z nich późniejsze materiały.
+
+---
+
 ## Napięcia wewnętrzne mapy
 
 Nie wygładzone. Do rozstrzygnięcia przez Przemka, nie przeze mnie.

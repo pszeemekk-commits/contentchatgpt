@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "skill_name": "glos-marki",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-08-05T15:11:21Z",
+    "evals_run": [
+      0
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8333,
+        "passed": 10,
+        "failed": 2,
+        "total": 12,
+        "time_seconds": 592.3,
+        "tokens": 198145,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Wskazuje JEDEN konkretny komunikat marki z BRAND.md sekcja 4 i cytuje go dos\u0142ownie",
+          "passed": true,
+          "evidence": "O\u015b przekazu nr 1 zacytowana w ca\u0142o\u015bci, plus jawne uzasadnienie odrzucenia M1 i Komunikatu 7 '\u017ceby tekst ni\u00f3s\u0142 jedn\u0105 ni\u0107'."
+        },
+        {
+          "text": "Mechanizm ma dos\u0142owne pokrycie w konkretnym pliku WIEDZA_XX - cytat da si\u0119 odnale\u017a\u0107 w \u017ar\u00f3dle",
+          "passed": true,
+          "evidence": "6 cytat\u00f3w. Zweryfikowane grepem w \u017ar\u00f3d\u0142ach: 'instrukcja obs\u0142ugi podobnych sytuacji' i 'd\u0105\u017cy do sp\u00f3jno\u015bci z tym obrazem' (WIEDZA_02), 'Nie ma filtra krytycznego' (WIEDZA_04), 'Postanowienia podejmujesz w trybie spokoju' (WIEDZA_02). Zero zmy\u015blonej wiedzy."
+        },
+        {
+          "text": "Mechanizm ma realn\u0105 przyczynowo\u015b\u0107 (gdy X, dzieje si\u0119 Y, bo Z), nie samo nazwanie uczucia",
+          "passed": true,
+          "evidence": "\u0141a\u0144cuch: ust\u0119pujesz w drobiazgu -> pod\u015bwiadomo\u015b\u0107 archiwizuje emocj\u0119 i wniosek jako instrukcj\u0119 -> z wniosk\u00f3w sk\u0142ada si\u0119 obraz siebie -> umys\u0142 d\u0105\u017cy do sp\u00f3jno\u015bci z nim, nie do sukcesu -> postanowienie p\u0119ka w tym samym miejscu. Slajdy 9-10."
+        },
+        {
+          "text": "Wszystkie cztery rzeczy z promptu s\u0105 w karuzeli",
+          "passed": true,
+          "evidence": "Slajdy 4-7: porno, m\u00f3wienie 'tak' z l\u0119ku, gubienie zdania przy niej, niedotrzymane obietnice. Ka\u017cdy jako osobny numerowany punkt."
+        },
+        {
+          "text": "Nie definiuje wprost, \u017ce m\u0119sko\u015b\u0107 to szacunek do samego siebie",
+          "passed": true,
+          "evidence": "Skan: 0 wyst\u0105pie\u0144 'm\u0119sko\u015b\u0107 to / oznacza / polega'. Definicja zostaje pod tekstem - jedyne u\u017cycie s\u0142owa to potwierdzona fraza na slajdzie 4."
+        },
+        {
+          "text": "Nie ocenia i nie moralizuje - brak przypisywania czytelnikowi s\u0142abo\u015bci lub charakteru jako przyczyny",
+          "passed": true,
+          "evidence": "Odwrotnie: slajd 8 przepisuje 'dlaczego jeste\u015b taki s\u0142aby' na 'kiedy nauczy\u0142e\u015b si\u0119, \u017ce tak jest bezpieczniej', slajd 11 nazywa charakter wnioskiem ch\u0142opca. Cztery zachowania opisane bez przymiotnika warto\u015bciuj\u0105cego."
+        },
+        {
+          "text": "U\u017cywa co najmniej jednej frazy dos\u0142ownie z tabeli FRAZY_PRZEMKA.md albo jawnie oznacza brak",
+          "passed": true,
+          "evidence": "Dwie frazy: 'nie panujesz nad seksualno\u015bci\u0105 nie panujesz nad swoj\u0105 m\u0119sko\u015bci\u0105' (slajd 4, bez zmian) i 'ni\u00f3s\u0142 ogromny plecak...' (slajd 12, zmieniona wy\u0142\u0105cznie osoba - odst\u0119pstwo zg\u0142oszone jawnie, nie ukryte)."
+        },
+        {
+          "text": "Zero-Fiction: \u017caden szczeg\u00f3\u0142 z \u017cycia Przemka bez pokrycia w plikach",
+          "passed": true,
+          "evidence": "Zero scen biograficznych. Jedyny cytat przypisany ludziom ('Jestem go\u015bciem, kt\u00f3ry m\u00f3wi i nie robi') pochodzi z AVATAR.md sekcja 9. Wyci\u0105\u0142 wymy\u015blon\u0105 scenk\u0119 z szefem w pi\u0105tek po 17 jako zgadni\u0119ty konkret."
+        },
+        {
+          "text": "'\u015awiadomo\u015b\u0107' nie u\u017cyta w rejestrze mindfulness (oddech, napi\u0119cie w ciele, tu i teraz)",
+          "passed": true,
+          "evidence": "Skan: 0 trafie\u0144 na wzorce mindfulness. Praca opisana jako dotarcie do zapisu sprzed lat w transie, z normalizacj\u0105 przez przyk\u0142ad z samochodu."
+        },
+        {
+          "text": "Scan mechaniczny czysty: 0 d\u0142ugich my\u015blnik\u00f3w w tre\u015bci, max 1 'ale', 0 '\u017be' na pocz\u0105tku zdania",
+          "passed": true,
+          "evidence": "W tre\u015bci karuzeli i opisu: 'ale' = 0, '\u017be' na pocz\u0105tku = 0, d\u0142ugi my\u015blnik = 0. Dwa my\u015blniki wyst\u0119puj\u0105 wy\u0142\u0105cznie w nag\u0142\u00f3wkach roboczych pliku ('CZ\u0118\u015a\u0106 2 \u2014 KARUZELA'), nie w tek\u015bcie na Instagram."
+        },
+        {
+          "text": "Maksymalnie jeden kontrast typu 'X, nie Y' w ca\u0142ym tek\u015bcie",
+          "passed": false,
+          "evidence": "S\u0105 dwa: 'd\u0105\u017cy do sp\u00f3jno\u015bci z tym obrazem, nie do sukcesu' (slajd 10) i 'To jest problem konstrukcji, nie charakteru' (opis). Skill zadeklarowa\u0142 w kontroli limit 1 i policzy\u0142 si\u0119 na 1 - w\u0142asny scan modelu przeliczy\u0142 si\u0119 o jeden."
+        },
+        {
+          "text": "\u017badna abstrakcja nie jest podmiotem czasownika akcji",
+          "passed": false,
+          "evidence": "'Twoja pod\u015bwiadomo\u015b\u0107 archiwizuje' (slajd 9, opis). Zg\u0142oszone jawnie i uzasadnione kanonem - Komunikat 1 w BRAND.md sam brzmi 'Pod\u015bwiadomo\u015b\u0107 podpi\u0119\u0142a...'. Policzone: 23 zdania z podmiotem 'Ty' wobec 2 z abstrakcj\u0105."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.9167,
+        "passed": 11,
+        "failed": 1,
+        "total": 12,
+        "time_seconds": 403.4,
+        "tokens": 214987,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Wskazuje JEDEN konkretny komunikat marki z BRAND.md sekcja 4 i cytuje go dos\u0142ownie",
+          "passed": true,
+          "evidence": "Meta-komunikat M1 zacytowany w ca\u0142o\u015bci w Bramce Startowej. Baseline ma CLAUDE.md w kontek\u015bcie, a ten od dzi\u015b ka\u017ce przej\u015b\u0107 Bramk\u0119 G\u0142osu - st\u0105d pe\u0142na procedura mimo braku skilla."
+        },
+        {
+          "text": "Mechanizm ma dos\u0142owne pokrycie w konkretnym pliku WIEDZA_XX - cytat da si\u0119 odnale\u017a\u0107 w \u017ar\u00f3dle",
+          "passed": true,
+          "evidence": "6 cytat\u00f3w z WIEDZA_02 (2.3, 2.8) i WIEDZA_04 (4.2, 4.3, 4.5). Zweryfikowane grepem: 'Zarz\u0105dza oko\u0142o 95%', 'staje si\u0119 plastyczne', 'Nie ma filtra krytycznego'. Zero zmy\u015blonej wiedzy."
+        },
+        {
+          "text": "Mechanizm ma realn\u0105 przyczynowo\u015b\u0107 (gdy X, dzieje si\u0119 Y, bo Z), nie samo nazwanie uczucia",
+          "passed": true,
+          "evidence": "\u0141a\u0144cuch przez slajdy 8-12: pod\u015bwiadomo\u015b\u0107 dzia\u0142a na zapisach sytuacja X -> reakcja Y -> zapis powsta\u0142 bez filtra krytycznego -> postanowienie sk\u0142adane w spokoju, dotrzymywane w napi\u0119ciu -> sama obietnica daje ulg\u0119, wi\u0119c zapis zostaje nietkni\u0119ty."
+        },
+        {
+          "text": "Wszystkie cztery rzeczy z promptu s\u0105 w karuzeli",
+          "passed": true,
+          "evidence": "Slajdy 3-6: porno/zio\u0142o/telefon, zgoda na nadgodziny i przys\u0142ugi, mi\u0119kn\u0105ce zdanie przy kobiecie, obietnice z niedzieli."
+        },
+        {
+          "text": "Nie definiuje wprost, \u017ce m\u0119sko\u015b\u0107 to szacunek do samego siebie",
+          "passed": true,
+          "evidence": "Skan: 0 wyst\u0105pie\u0144 'm\u0119sko\u015b\u0107 to / oznacza / polega'. O\u015b ukryta jako 'm\u0119\u017cczyzna z wizji' kontra 'm\u0119\u017cczyzna z lustra'."
+        },
+        {
+          "text": "Nie ocenia i nie moralizuje - brak przypisywania czytelnikowi s\u0142abo\u015bci lub charakteru jako przyczyny",
+          "passed": true,
+          "evidence": "Slajd 7 nazywa to reakcj\u0105, nie wad\u0105; slajd 12 wprost 'Nie na charakter, na to, \u017ce nikt nie ruszy\u0142 zapisu'. Zachowania opisane bez oceniaj\u0105cych przymiotnik\u00f3w."
+        },
+        {
+          "text": "U\u017cywa co najmniej jednej frazy dos\u0142ownie z tabeli FRAZY_PRZEMKA.md albo jawnie oznacza brak",
+          "passed": true,
+          "evidence": "'jak co\u015b uwiera i przestaje uwiera\u0107 - nagle \u015bwiat wygl\u0105da inaczej' dos\u0142ownie na slajdzie 15. Druga jawnie oznaczona jako [BRAK], z uzasadnieniem - plecak konkurowa\u0142by z poj\u0119ciem centralnym."
+        },
+        {
+          "text": "Zero-Fiction: \u017caden szczeg\u00f3\u0142 z \u017cycia Przemka bez pokrycia w plikach",
+          "passed": true,
+          "evidence": "Zero scen biograficznych, zero case'\u00f3w, \u017cadnego wymy\u015blonego imienia. Wszystkie sytuacje po stronie czytelnika."
+        },
+        {
+          "text": "'\u015awiadomo\u015b\u0107' nie u\u017cyta w rejestrze mindfulness (oddech, napi\u0119cie w ciele, tu i teraz)",
+          "passed": true,
+          "evidence": "Skan: 0 trafie\u0144. Slajd 14 opisuje regresj\u0119 w theta, nie monitorowanie emocji na bie\u017c\u0105co."
+        },
+        {
+          "text": "Scan mechaniczny czysty: 0 d\u0142ugich my\u015blnik\u00f3w w tre\u015bci, max 1 'ale', 0 '\u017be' na pocz\u0105tku zdania",
+          "passed": true,
+          "evidence": "D\u0142ugi my\u015blnik = 0, 'ale' = 1 (\u015bwiadome echo 'to nie twoja wina, ale twoja odpowiedzialno\u015b\u0107', BRAND.md 11.3), '\u017be' na pocz\u0105tku = 0."
+        },
+        {
+          "text": "Maksymalnie jeden kontrast typu 'X, nie Y' w ca\u0142ym tek\u015bcie",
+          "passed": true,
+          "evidence": "Konstrukcji ', nie Y' = 0. Jedna dychotomia w opisie: 'to nie s\u0105 cztery osobne s\u0142abo\u015bci charakteru. To jedna wyuczona reakcja' - dok\u0142adnie na limicie."
+        },
+        {
+          "text": "\u017badna abstrakcja nie jest podmiotem czasownika akcji",
+          "passed": false,
+          "evidence": "'Zapis zmienia si\u0119 tam, gdzie powsta\u0142' (slajd 14), 'Prowadzenie przejmuje ta, kt\u00f3ra chce ulgi natychmiast' (slajd 11), 'Pod\u015bwiadomo\u015b\u0107 aktualizuje wniosek' (slajd 14). Nie zg\u0142oszone ani nie uzasadnione w samoocenie."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.8333,
+        "stddev": 0.0,
+        "min": 0.8333,
+        "max": 0.8333
+      },
+      "time_seconds": {
+        "mean": 592.3,
+        "stddev": 0.0,
+        "min": 592.3,
+        "max": 592.3
+      },
+      "tokens": {
+        "mean": 198145.0,
+        "stddev": 0.0,
+        "min": 198145,
+        "max": 198145
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.9167,
+        "stddev": 0.0,
+        "min": 0.9167,
+        "max": 0.9167
+      },
+      "time_seconds": {
+        "mean": 403.4,
+        "stddev": 0.0,
+        "min": 403.4,
+        "max": 403.4
+      },
+      "tokens": {
+        "mean": 214987.0,
+        "stddev": 0.0,
+        "min": 214987,
+        "max": 214987
+      }
+    },
+    "delta": {
+      "pass_rate": "-0.08",
+      "time_seconds": "+188.9",
+      "tokens": "-16842"
+    }
+  },
+  "notes": []
+}

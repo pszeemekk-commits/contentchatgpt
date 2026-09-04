@@ -1,8 +1,10 @@
-# TOV - KARUZELA v2.0
+# TOV — KARUZELA v3.0
+
+Zakres: anatomia karuzel wykonywanych przez karuzele-z-wsadu. Wspólny brief, mix autora i kontrola relacji: SYSTEM_ECS.md. Warianty przywódcze, edukacyjne, case studies i sprzedażowe nie przechodzą automatycznie przez strukturę diagnozy. Karuzele prowadzone przez zdarzenia obsługuje karuzele-storytellingowe. Opis anatomii nie tworzy nowych faktów ani zasad tożsamości.
 
 Zastępuje poprzednią wersję w całości. Usunięto: podział na "Typ A/B/2B" wybierany z tabeli na starcie oraz szablony slajdów z nawiasami `[placeholder]` - te dwa mechanizmy razem produkowały teksty technicznie kompletne, ale generyczne, bo forma była wybierana przed treścią, nie wynikała z niej.
 
-**Zasada nadrzędna:** piszesz PROZĄ najpierw, głosem z MASTER_TOV.md i GLOS_SUROWY.md, na bazie tego co ustaliłeś w [EKSTRAKCJA]. Struktura (czy to łańcuch przyczynowy, lista równoległych argumentów, scena, czy coś innego) wyłania się z tego co masz do powiedzenia. Dopiero potem dzielisz na slajdy i sprawdzasz przez testy poniżej. Nigdy odwrotnie.
+**Zasada nadrzędna:** piszesz PROZĄ najpierw, głosem z MASTER_TOV.md i GLOS_SUROWY.md, na bazie tego co ustaliłeś w [WSPÓLNY BRIEF]. Struktura (czy to łańcuch przyczynowy, lista równoległych argumentów, scena, czy coś innego) wyłania się z tego co masz do powiedzenia. Dopiero potem dzielisz na slajdy i sprawdzasz przez testy poniżej. Nigdy odwrotnie.
 
 ---
 
@@ -14,7 +16,7 @@ Większość dobrych karuzeli ma ten ruch, niezależnie od konkretnej treści:
 
 - Otwarcie: teza, obserwacja lub scena, która ma szeroki zasięg rozpoznania (dużo ludzi się w tym widzi)
 - Środek: zawężenie do konkretnego mechanizmu, sytuacji, faktu - im węższe i bardziej dosłowne, tym mocniejsze
-- Zamknięcie: powrót do szerszej myśli + CTA, domykający pętlę z otwarciem
+- Zamknięcie: spełnienie obietnicy i domknięcie myśli; CTA, jeśli wynika z celu
 
 To jest kształt, nie instrukcja "slajd 1 = X, slajd 2 = Y". Ile slajdów zajmuje każda część - wynika z materiału.
 
@@ -25,28 +27,22 @@ Gdy masz kilka niezależnych, pełnowartościowych powodów/argumentów prowadz�
 
 ## 2. WEJŚCIE (otwarcie)
 
-Dostępne opcje, wybierz tę która pasuje do materiału z Ekstrakcji - nie z automatu:
+Dostępne opcje, wybierz tę która pasuje do materiału z briefu - nie z automatu:
 
 - **Teza/kontra** - deklaracja która przecina, odcina fałszywą motywację
 - **Scena konkretna** - moment z detalami (czas, miejsce, działanie)
 - **Zagadkowa sentencja/paradoks** - buduje ciekawość przez niedopowiedzenie (np. "Każde puste podwórko ma poprzednie puste podwórko") - to NIE wymaga dopisywania kto/gdzie/co, zagadkowość jest tu celowa
 - **Luźny, bezpośredni zwrot do czytelnika** - zapowiedź tonu, nie treści (patrz GLOS_SUROWY: "Dziś będzie niegrzecznie...")
 
-**ZAKAZ:** hook jako gotowa teza-dychotomia do rozstrzygnięcia ("Albo X, albo Y - jedno z dwóch cię prowadzi"). To streszcza zawartość zamiast ją otwierać - czytelnik nie ma po co czytać dalej. Hook to teaser, nie streszczenie.
+**Test otwarcia:** czy odbiorca rozumie temat i ma powód, by czytać dalej? Teza może otwierać karuzelę przywódczą, a dalsza część rozwijać argument. Znany wynik nie usuwa ciekawości drogi. Nie wymagaj ukrycia sedna.
 
-**Test przed zatwierdzeniem hooka:**
-1. Wieloryb czyta i mówi "to o mnie" w 2 sekundy?
-2. Tworzy napięcie na które musi odpowiedzieć (nie tłumaczy z góry o co chodzi)?
-3. Ktoś spoza avatara powiedziałby "to nie moje"?
-4. Czy po przeczytaniu hooka czytelnik już ZNA sedno posta (źle - to teza) czy musi czytać dalej (dobrze - to teaser)?
-
-Jeśli hook jest filozoficzny/abstrakcyjny bez kotwicy w konkretnej sytuacji ("Wola nie dosięga źródła") - nie przechodzi. Jeśli odnosi się do rozpoznawalnego zachowania czy monologu wewnętrznego avatara ("Obiecałeś sobie już setki razy") - przechodzi.
+Sprawdź czytelność, źródła, zgodność obietnicy i język. Nie przypisuj czytelnikowi biografii lub intencji, których nie znamy. Zachowaj wskazane przez Przemka otwarcie; poprawiaj tylko rzeczywisty problem.
 
 ---
 
-## 3. ROZPOZNANIE AVATARA (gdziekolwiek na początku, nie sztywno "slajd 2")
+## 3. ROZPOZNANIE ODBIORCY — gdy wyjaśniasz jego problem
 
-Musi się pojawić zanim wejdziesz w mechanizm: kontrast między tym jak coś wygląda na zewnątrz a co naprawdę dzieje się w środku, LUB scena w której avatar rozpoznaje własne zachowanie.
+W materiale diagnostycznym wprowadź rozpoznawalny problem przed jego wyjaśnieniem: kontrast między tym jak coś wygląda na zewnątrz a co naprawdę dzieje się w środku, LUB scena w której avatar rozpoznaje własne zachowanie.
 
 **Wzorzec kontrastu (jedna z dostępnych form, nie jedyna):**
 ```
@@ -54,15 +50,15 @@ Wygląda, że [jak to wygląda na zewnątrz].
 Ale w środku? [wewnętrzna prawda].
 ```
 
-Nie wyjaśniaj tu jeszcze mechanizmu - tylko wywołaj rozpoznanie. Zamknięcie tej części to emocja, nie wniosek.
+Rozpoznanie i wyjaśnienie mogą sąsiadować. Nie opóźniaj odpowiedzi dla samego napięcia. Filozofia, demonstracja lub case study nie potrzebują tej części, jeśli nie wynika z briefu.
 
 ---
 
-## 4. MECHANIZM - TU WCHODZI TWOJA WIEDZA, NIE WYMYŚLONA PSYCHOLOGIA
+## 4. MERYTORYKA — zgodna ze źródłem i typem materiału
 
 To jest najważniejsza poprawka względem starej wersji tego pliku.
 
-**Twardy wymóg:** treść mechanizmu w tym miejscu MUSI być dokładnie tym, co zostało ustalone w [EKSTRAKCJA] - konkretny fakt/mechanizm z `WIEDZA_XX.md`, teza z `BRAND.md`, albo case z `BANK_CASE_STUDIES.md`. Nie wymyślaj nowego opisu psychologicznego na tym etapie pisania - przenieś tu to, co już zacytowałeś. Jeśli w Ekstrakcji zabrakło konkretnego mechanizmu - wróć tam, nie improwizuj teraz.
+**Twardy wymóg:** jeśli materiał zawiera wyjaśnienie mechanizmu, jego treść w tym miejscu MUSI być dokładnie tym, co zostało ustalone w [WSPÓLNY BRIEF] - konkretny fakt/mechanizm z `WIEDZA_XX.md`, teza z `BRAND.md`, albo case z `BANK_CASE_STUDIES.md`. Nie wymyślaj nowego opisu psychologicznego na tym etapie pisania - przenieś tu to, co już zacytowałeś. Jeśli w briefu zabrakło konkretnego mechanizmu - wróć tam, nie improwizuj teraz.
 
 **ZAKAZ ABSTRAKCJI JAKO AKTORA (dowolne słowo, nie lista konkretnych zakazanych):**
 Żaden abstrakcyjny rzeczownik - mechanizm, wzorzec, program, zapis, pytanie, rana, silnik, cokolwiek - nie może być podmiotem czasownika akcji (szuka, wraca, odzywa się, decyduje, siedzi głębiej niż wola). Test: czy podmiot zdania da się wskazać palcem? Jeśli nie - podmiotem musi być "Ty", robiący coś konkretnego. Abstrakcja może być najwyżej dopełnieniem.
@@ -98,7 +94,7 @@ Nie każda karuzela go potrzebuje - lista równoległych argumentów (sekcja 1, 
 
 **Dostępne kształty (przykłady, NIE szablony do wypełnienia - żaden z nich nie kopiuj strukturalnie, potraktuj jako ilustrację zasady):**
 - Paradoks: czytelnik sam wyciąga wniosek z zestawienia dwóch faktów
-- Pytanie-upgrade: przesuwa adres pytania na właściwy poziom
+- Pytanie rozwijające: pozwala zauważyć istotną zależność
 - Obraz który obala założenie (bez abstrakcyjnego aktora - patrz sekcja 4)
 - Obserwacja z Twojego realnego doświadczenia (kotwica w faktach z CONTENT_MACHINE/BANK_CASE_STUDIES)
 
@@ -106,44 +102,23 @@ Po SHIFT narracja idzie w górę, nie w dół. Czytelnik sam wyciąga wniosek - 
 
 ---
 
-## 7. TRANSFORMACJA - ZAKAZ w MoF, TYLKO w BoF
+## 7. Transformacja i oferta
 
-Karuzela diagnostyczna (MoF) kończy się SHIFT + domknięciem + CTA. Wieloryb sam domyśla się co jest po drugiej stronie - pokazanie mu tego wprost skraca napięcie i zabija konwersję.
+Zakres określa filar z TYPY_TRESCI.md. Można pokazać rezultat lub kierunek zmiany także w treści edukacyjnej, jeśli wynika ze źródła i celu. Nie ukrywaj odpowiedzi lub rezultatu dla konwersji.
 
-W BoF (case study, karuzela inicjacyjna): transformacja dozwolona, ale wyłącznie jako konkretny obraz (co ona czuje, co dzieci widzą, co on robi inaczej) - nigdy abstrakcyjny stan ("wewnętrzna wolność", "spokój ducha"). Test: czy ostatni slajd transformacji logicznie wynika z wątku zasianego wcześniej w tej samej karuzeli, nie z powietrza?
+W case study podaj potwierdzoną zmianę, czas i ograniczenia danych. Nie zmieniaj własnego doświadczenia w dowód uniwersalnego efektu. W sprzedaży korzystaj z OFERTA.md i wyjaśnij rzeczywisty dodatkowy zakres współpracy.
 
----
+## 8. Historia i anegdota
 
-## 8. STORYTELLING (gdy otwierasz sceną lub scena jest głównym wehikułem)
+Jeśli zdarzenia prowadzą cały materiał, użyj karuzele-storytellingowe i jego anatomii. Jeśli historia tylko ilustruje argument, pozostaje dodatkiem w tej karuzeli. Nie zmieniaj konstrukcji przez sam fakt pojawienia się anegdoty.
 
-### 8.0 Karuzela storytellingowa to osobny format, nie karuzela diagnostyczna z anegdotą
-
-To jest najczęstszy sposób, w jaki ten format się psuje, i widać go dopiero po oddaniu tekstu. Bierzesz historię, rozpisujesz plan na funkcje slajdów (okładka / kontekst / zawias / mięso / wniosek / puenta) i wsypujesz w nie materiał. Wychodzi karuzela edukacyjna na bazie historii: poprawna slajd po slajdzie, bez biegu, i już na drugim slajdzie tłumacząca, co bohater robił i po co. Nikt tego nie przewija.
-
-Trzy wymogi, wszystkie liczone od POCZĄTKU tekstu, nie od jego środka:
-
-**(1) Napięcie najpóźniej na slajdzie 2.** Nie na szóstym, gdzie leży punkt zwrotny historii. Czytelnik ma czuć, że coś jest nie tak, zanim dowie się, o co chodzi.
-
-**(2) Cena, którą widz czuje od pierwszego slajdu.** Musi być jasne, co jest do stracenia. Okładka, która mówi tylko "opowiem, co mi się przydarzyło", nie ma stawki - okładka, która mówi "straciłem ją na dwa lata", ma.
-
-**(3) Konflikt jest CZYTELNIKA, nie autora.** To jest sedno i najłatwiej to przeoczyć, bo tekst z konfliktem autora czyta się dobrze - dla autora. Ludzie czytają, bo ta historia może dotyczyć też ich, i pokazuje im to konflikt postawiony wcześnie. Slajd napisany jako relacja z wydarzeń ("zagadałem, zaczęliśmy się spotykać, imponowała mi") komunikuje "opowiem ci historię z mojego życia" i tam karuzela się kończy.
-
-**Kształt, który zadziałał (sesja 2026-08-31, karuzela o bratniej duszy):** okładka nazywa stratę wprost i ma dwie linie. Slajd 2 stawia obok siebie dwa fakty - kim ona była i po co on do niej sięgał - bez ani jednego zdania wyjaśniającego. Rozjazd między nimi robi czytelnik sam i to jest jego konflikt, nie autora. Od tego momentu każdy slajd zbliżenia czyta się z napięciem, bo koniec jest już znany z okładki.
-
-**Czego przy tym nie robić:** nie zapowiadaj napięcia ("nie wiedziałem jeszcze, po co mi to będzie potrzebne") - to sztuczny cliffhanger, nie ziarenko. Slajd kończący się faktem ciągnie sam. Nie tłumacz też, dlaczego coś się rozpadło - odetnij płytkie wyjaśnienie, którego czytelnik by się spodziewał ("nikt się nie znudził"), i wskaż głębszą przyczynę przez skutek, nie przez nazwę ("do mnie nie dało się dostać" zamiast "byłem niedostępny emocjonalnie").
-
-- Otwarcie sceną NIE oznacza braku tezy - teza/wyznanie/paradoks może otwierać, scena potwierdza w kolejnych 1-2 slajdach (patrz sekcja 2)
-- Scena musi być potwierdzona w CONTENT_MACHINE.md lub bezpośrednio od Ciebie w rozmowie - zero fabularyzacji faktów
-- **Zakaz wymyślania motywacji psychologicznych.** Jeśli nie padło wprost od Ciebie dlaczego coś zrobiłeś/poczułeś - nie pisz tego. "Powiedziałem tak, bo się bałem" wymyślone = kłamstwo w tekście autobiograficznym, nawet jeśli brzmi wiarygodnie
-- Przejście ze sceny na "Ty" - historia ma stać się lustrem czytelnika, nie zostać Twoją anegdotą samą w sobie
-- Terminy techniczne (hipnoza, trans, fale theta) wymagają wyjaśnienia przy pierwszym użyciu, w tej samej karuzeli
-- Domknięcie: ostatni slajd zamyka pętlę z otwarciem - echo słowa, obrazu, paradoksu
+Sceny, motywacje i wyniki wymagają źródła. Konflikt, strata, zwrot oraz przejście na „ty” są zależne od materiału. Nie dodawaj ich dla kompletności szablonu. Szczegół może służyć poznaniu człowieka i przyjemności kontaktu, bez eskalacji problemu.
 
 ---
 
 ## 9. DEFINICJA I ZAMKNIĘCIE
 
-Krótkie (2-3 linie), nazywa wprost to co opisała cała karuzela. Ostatnia linia uderza. Zamyka pętlę z otwarciem - to jest test obowiązkowy, nie opcjonalny: znajdź słowo/obraz/paradoks z pierwszego slajdu i wpleć je w ostatnie zdanie.
+Domknij główną myśl lub obiecaną wartość. Ton i długość wynikają z materiału; nie każde zakończenie ma uderzać. Powrót do otwarcia stosuj, gdy jest naturalny, bez wymuszania symetrii.
 
 ---
 
@@ -176,13 +151,13 @@ Zawsze wynika z ostatniego slajdu, nigdy generyczne. Rotuj typ - nie ten sam wzo
 
 **Test "czy można wyjąć".** Usuń dowolny slajd - narracja nadal trzyma się kupy? Jeśli tak - slajd dekoracyjny, przepisz lub usuń.
 
-**Test DISCOVERY vs REFRAME.** Po przeczytaniu czytelnik mówi "kurwa, dokładnie tak" (DISCOVERY - generuje zapisy) czy "ciekawy punkt widzenia" (REFRAME - czytane i zapominane)? DISCOVERY nazywa to co czytelnik już czuł. REFRAME każe mu myśleć inaczej z zewnątrz.
+**Test wartości.** Czy materiał spełnia swoją funkcję i jednocześnie rozwija poznawanie autora? Discovery, reframe, zastosowanie i znajoma obecność mają różne cele; nie orzekaj o ich skuteczności bez danych.
 
-**Test szerokości tematu.** Czy ten temat pasowałby równie dobrze do alkoholu, diety, hazardu? Jeśli tak - za szeroki, zawęź do konkretnego bólu Twojego avatara.
+**Test dopasowania.** Czy materiał wynika z potrzeb właściwego odbiorcy oraz filozofii autora? Nie wymuszaj jednego nawyku jako tematu całej marki.
 
-**Test stawki.** Czy temat ma konkretną stawkę dla mężczyzny z tym nawykiem - coś co traci albo już stracił? Bez stawki = za płytko.
+**Test znaczenia.** Dlaczego materiał jest wart kontaktu? Stawka może obejmować możliwość, pragnienie, wybór lub relację. Nie dopisuj straty do zwykłej obecności.
 
-**Scan mechaniczny (bash, twarde liczby):** "Że " na początku zdania = 0, "ale" max 1, długi myślnik "—" = 0, max 1 konstrukcja "to nie X, to Y" na całą karuzelę, brak przymiotników marketingowych, brak "pornografia" wprost w tezie ToF (użyj "nawyk"/"ucieczka").
+**Kontrola języka:** proza-przemka i skaner scripts/scan_tekstu.py względem katalogu glos-marki. Skanuj tekst docelowy, nie brief. Nie zastępuje to kontroli źródeł, mixu i relacji.
 
 ---
 
@@ -198,7 +173,7 @@ Nie mieszaj w jednej karuzeli: konkretu akcyjnego + poetyckiej transformacji + c
 Hipnoza regresywna to rdzeń metody marki - nie chowaj jej za "siadasz w ciszy" czy "akt inicjacji". Konkret metody buduje wiarygodność, unik sugeruje self-help.
 
 ### 12.4 Zmiana pytania ≠ wynik
-Nie sugeruj że samo przeformułowanie pytania/przekonania zatrzymuje zachowanie. Zmiana pytania daje wyłącznie: właściwy adres do dalszej pracy. Pełny wynik (mniej impulsów, wolność) wymaga opisania całego procesu (źródło + regulacja + tożsamość), nie jednego zdania.
+Nie sugeruj że samo przeformułowanie pytania/przekonania zatrzymuje zachowanie. Zmiana pytania daje wyłącznie: właściwy kierunek dalszej pracy. Pełny wynik (mniej impulsów, wolność) wymaga opisania całego procesu (źródło + regulacja + tożsamość), nie jednego zdania.
 
 ### 12.5 Limit slajdów to sugestia
 10-16 dla łańcucha diagnostycznego, 4-7 dla listy równoległej - orientacyjne. Przekroczenie o 1-3 dla naturalności rytmu = OK. O 5+ = piszesz rozlewnie, tnij.
@@ -216,8 +191,8 @@ Hook skierowany do avatara ("Ty") + anegdota ilustrująca mechanizm przez innego
 - `MASTER_TOV.md` - zasady głosu (jak pisać zdania)
 - `GLOS_SUROWY.md` - kanoniczne przykłady, wyższy priorytet niż WZORCOWE_POSTY
 - `BRAND.md` - fundament, tezy, wrogowie (skąd bierze się MECHANIZM w sekcji 4)
-- `STRUKTURY_NARRACYJNE.md` - dodatkowe struktury do wglądu, nie do sztywnego wyboru z góry
-- `FORMATY.md` sekcja 6 - anatomia innych formatów (rolka, stories)
+- SYSTEM_ECS.md — pełna mapa źródeł, właściwy skill formatu i kontrola mixu autora
+- format/TOV_STORIES.md — osobna anatomia Stories
 
 ---
 

@@ -1,0 +1,73 @@
+{
+  "eval_id": 0,
+  "eval_name": "meskosc-po-cichu-karuzela",
+  "run": "without_skill",
+  "expectations": [
+    {
+      "text": "Wskazuje JEDEN konkretny komunikat marki z BRAND.md sekcja 4 i cytuje go dosłownie",
+      "passed": true,
+      "evidence": "Meta-komunikat M1 zacytowany w całości w Bramce Startowej. Baseline ma CLAUDE.md w kontekście, a ten od dziś każe przejść Bramkę Głosu - stąd pełna procedura mimo braku skilla."
+    },
+    {
+      "text": "Mechanizm ma dosłowne pokrycie w konkretnym pliku WIEDZA_XX - cytat da się odnaleźć w źródle",
+      "passed": true,
+      "evidence": "6 cytatów z WIEDZA_02 (2.3, 2.8) i WIEDZA_04 (4.2, 4.3, 4.5). Zweryfikowane grepem: 'Zarządza około 95%', 'staje się plastyczne', 'Nie ma filtra krytycznego'. Zero zmyślonej wiedzy."
+    },
+    {
+      "text": "Mechanizm ma realną przyczynowość (gdy X, dzieje się Y, bo Z), nie samo nazwanie uczucia",
+      "passed": true,
+      "evidence": "Łańcuch przez slajdy 8-12: podświadomość działa na zapisach sytuacja X -> reakcja Y -> zapis powstał bez filtra krytycznego -> postanowienie składane w spokoju, dotrzymywane w napięciu -> sama obietnica daje ulgę, więc zapis zostaje nietknięty."
+    },
+    {
+      "text": "Wszystkie cztery rzeczy z promptu są w karuzeli",
+      "passed": true,
+      "evidence": "Slajdy 3-6: porno/zioło/telefon, zgoda na nadgodziny i przysługi, mięknące zdanie przy kobiecie, obietnice z niedzieli."
+    },
+    {
+      "text": "Nie definiuje wprost, że męskość to szacunek do samego siebie",
+      "passed": true,
+      "evidence": "Skan: 0 wystąpień 'męskość to / oznacza / polega'. Oś ukryta jako 'mężczyzna z wizji' kontra 'mężczyzna z lustra'."
+    },
+    {
+      "text": "Nie ocenia i nie moralizuje - brak przypisywania czytelnikowi słabości lub charakteru jako przyczyny",
+      "passed": true,
+      "evidence": "Slajd 7 nazywa to reakcją, nie wadą; slajd 12 wprost 'Nie na charakter, na to, że nikt nie ruszył zapisu'. Zachowania opisane bez oceniających przymiotników."
+    },
+    {
+      "text": "Używa co najmniej jednej frazy dosłownie z tabeli FRAZY_PRZEMKA.md albo jawnie oznacza brak",
+      "passed": true,
+      "evidence": "'jak coś uwiera i przestaje uwierać - nagle świat wygląda inaczej' dosłownie na slajdzie 15. Druga jawnie oznaczona jako [BRAK], z uzasadnieniem - plecak konkurowałby z pojęciem centralnym."
+    },
+    {
+      "text": "Zero-Fiction: żaden szczegół z życia Przemka bez pokrycia w plikach",
+      "passed": true,
+      "evidence": "Zero scen biograficznych, zero case'ów, żadnego wymyślonego imienia. Wszystkie sytuacje po stronie czytelnika."
+    },
+    {
+      "text": "'Świadomość' nie użyta w rejestrze mindfulness (oddech, napięcie w ciele, tu i teraz)",
+      "passed": true,
+      "evidence": "Skan: 0 trafień. Slajd 14 opisuje regresję w theta, nie monitorowanie emocji na bieżąco."
+    },
+    {
+      "text": "Scan mechaniczny czysty: 0 długich myślników w treści, max 1 'ale', 0 'Że' na początku zdania",
+      "passed": true,
+      "evidence": "Długi myślnik = 0, 'ale' = 1 (świadome echo 'to nie twoja wina, ale twoja odpowiedzialność', BRAND.md 11.3), 'Że' na początku = 0."
+    },
+    {
+      "text": "Maksymalnie jeden kontrast typu 'X, nie Y' w całym tekście",
+      "passed": true,
+      "evidence": "Konstrukcji ', nie Y' = 0. Jedna dychotomia w opisie: 'to nie są cztery osobne słabości charakteru. To jedna wyuczona reakcja' - dokładnie na limicie."
+    },
+    {
+      "text": "Żadna abstrakcja nie jest podmiotem czasownika akcji",
+      "passed": false,
+      "evidence": "'Zapis zmienia się tam, gdzie powstał' (slajd 14), 'Prowadzenie przejmuje ta, która chce ulgi natychmiast' (slajd 11), 'Podświadomość aktualizuje wniosek' (slajd 14). Nie zgłoszone ani nie uzasadnione w samoocenie."
+    }
+  ],
+  "summary": {
+    "pass_rate": 0.9167,
+    "passed": 11,
+    "failed": 1,
+    "total": 12
+  }
+}

@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eval Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" integrity="sha384-EnyY0/GSHQGSxSgMwaIPzSESbqoOLSexfnSMN2AP+39Ckmn92stwABZynq1JyzdT" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg: #faf9f5;
+      --surface: #ffffff;
+      --border: #e8e6dc;
+      --text: #141413;
+      --text-muted: #b0aea5;
+      --accent: #d97757;
+      --accent-hover: #c4613f;
+      --green: #788c5d;
+      --green-bg: #eef2e8;
+      --red: #c44;
+      --red-bg: #fceaea;
+      --header-bg: #141413;
+      --header-text: #faf9f5;
+      --radius: 6px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---- Header ---- */
+    .header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .header .instructions {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 0.25rem;
+    }
+    .header .progress {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      text-align: right;
+    }
+
+    /* ---- Main content ---- */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* ---- Sections ---- */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      flex-shrink: 0;
+    }
+    .section-header {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .section-body {
+      padding: 1rem;
+    }
+
+    /* ---- Config badge ---- */
+    .config-badge {
+      display: inline-block;
+      padding: 0.2rem 0.625rem;
+      border-radius: 9999px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-left: 0.75rem;
+      vertical-align: middle;
+    }
+    .config-badge.config-primary {
+      background: rgba(33, 150, 243, 0.12);
+      color: #1976d2;
+    }
+    .config-badge.config-baseline {
+      background: rgba(255, 193, 7, 0.15);
+      color: #f57f17;
+    }
+
+    /* ---- Prompt ---- */
+    .prompt-text {
+      white-space: pre-wrap;
+      font-size: 0.9375rem;
+      line-height: 1.6;
+    }
+
+    /* ---- Outputs ---- */
+    .output-file {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .output-file + .output-file {
+      margin-top: 1rem;
+    }
+    .output-file-header {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .output-file-header .dl-btn {
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .output-file-header .dl-btn:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+    .output-file-content {
+      padding: 0.75rem;
+      overflow-x: auto;
+    }
+    .output-file-content pre {
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+    .output-file-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .output-file-content iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .output-file-content table {
+      border-collapse: collapse;
+      font-size: 0.8125rem;
+      width: 100%;
+    }
+    .output-file-content table td,
+    .output-file-content table th {
+      border: 1px solid var(--border);
+      padding: 0.375rem 0.5rem;
+      text-align: left;
+    }
+    .output-file-content table th {
+      background: var(--bg);
+      font-weight: 600;
+    }
+    .output-file-content .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+    .output-file-content .download-link:hover {
+      background: var(--border);
+    }
+    .empty-state {
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* ---- Feedback ---- */
+    .prev-feedback {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.625rem 0.75rem;
+      margin-top: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .prev-feedback-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.25rem;
+      color: var(--text-muted);
+    }
+    .feedback-textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      resize: vertical;
+      color: var(--text);
+    }
+    .feedback-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+    .feedback-status {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      min-height: 1.1em;
+    }
+
+    /* ---- Grades (collapsible) ---- */
+    .grades-toggle {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .grades-toggle:hover {
+      color: var(--accent);
+    }
+    .grades-toggle .arrow {
+      margin-right: 0.5rem;
+      transition: transform 0.15s;
+      font-size: 0.75rem;
+    }
+    .grades-toggle .arrow.open {
+      transform: rotate(90deg);
+    }
+    .grades-content {
+      display: none;
+      margin-top: 0.75rem;
+    }
+    .grades-content.open {
+      display: block;
+    }
+    .grades-summary {
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .grade-badge {
+      display: inline-block;
+      padding: 0.125rem 0.5rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .grade-pass { background: var(--green-bg); color: var(--green); }
+    .grade-fail { background: var(--red-bg); color: var(--red); }
+    .assertion-list {
+      list-style: none;
+    }
+    .assertion-item {
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8125rem;
+    }
+    .assertion-item:last-child { border-bottom: none; }
+    .assertion-status {
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+    .assertion-status.pass { color: var(--green); }
+    .assertion-status.fail { color: var(--red); }
+    .assertion-evidence {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+      padding-left: 1.5rem;
+    }
+
+    /* ---- View tabs ---- */
+    .view-tabs {
+      display: flex;
+      gap: 0;
+      padding: 0 2rem;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .view-tab {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.625rem 1.25rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .view-tab:hover { color: var(--text); }
+    .view-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .view-panel { display: none; }
+    .view-panel.active { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+
+    /* ---- Benchmark view ---- */
+    .benchmark-view {
+      padding: 1.5rem 2rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .benchmark-table {
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.8125rem;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    .benchmark-table th, .benchmark-table td {
+      padding: 0.625rem 0.75rem;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    .benchmark-table th {
+      font-family: 'Poppins', sans-serif;
+      background: var(--header-bg);
+      color: var(--header-text);
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .benchmark-table tr:hover { background: var(--bg); }
+    .benchmark-table tr.benchmark-row-with { background: rgba(33, 150, 243, 0.06); }
+    .benchmark-table tr.benchmark-row-without { background: rgba(255, 193, 7, 0.06); }
+    .benchmark-table tr.benchmark-row-with:hover { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-without:hover { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-table tr.benchmark-row-avg { font-weight: 600; border-top: 2px solid var(--border); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-with { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-without { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-delta-positive { color: var(--green); font-weight: 600; }
+    .benchmark-delta-negative { color: var(--red); font-weight: 600; }
+    .benchmark-notes {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+    }
+    .benchmark-notes h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+    }
+    .benchmark-notes ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+    }
+    .benchmark-notes li {
+      font-size: 0.8125rem;
+      line-height: 1.6;
+      margin-bottom: 0.375rem;
+    }
+    .benchmark-empty {
+      color: var(--text-muted);
+      font-style: italic;
+      text-align: center;
+      padding: 3rem;
+    }
+
+    /* ---- Navigation ---- */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+    .nav-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .nav-btn:hover:not(:disabled) {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .done-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    .done-btn:hover {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .done-btn.ready {
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+    }
+    .done-btn.ready:hover {
+      background: var(--accent-hover);
+    }
+    /* ---- Done overlay ---- */
+    .done-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+    }
+    .done-overlay.visible {
+      display: flex;
+    }
+    .done-card {
+      background: var(--surface);
+      border-radius: 12px;
+      padding: 2rem 3rem;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+    }
+    .done-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .done-card p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .done-card .btn-row {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    .done-card button {
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .done-card button:hover {
+      background: var(--bg);
+    }
+    /* ---- Toast ---- */
+    .toast {
+      position: fixed;
+      bottom: 5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 0.625rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      z-index: 200;
+    }
+    .toast.visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" style="height:100vh; display:flex; flex-direction:column;">
+    <div class="header">
+      <div>
+        <h1>Eval Review: <span id="skill-name"></span></h1>
+        <div class="instructions">Review each output and leave feedback below. Navigate with arrow keys or buttons. When done, copy feedback and paste into Claude Code.</div>
+      </div>
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <!-- View tabs (only shown when benchmark data exists) -->
+    <div class="view-tabs" id="view-tabs" style="display:none;">
+      <button class="view-tab active" onclick="switchView('outputs')">Outputs</button>
+      <button class="view-tab" onclick="switchView('benchmark')">Benchmark</button>
+    </div>
+
+    <!-- Outputs panel (qualitative review) -->
+    <div class="view-panel active" id="panel-outputs">
+    <div class="main">
+      <!-- Prompt -->
+      <div class="section">
+        <div class="section-header">Prompt <span class="config-badge" id="config-badge" style="display:none;"></span></div>
+        <div class="section-body">
+          <div class="prompt-text" id="prompt-text"></div>
+        </div>
+      </div>
+
+      <!-- Outputs -->
+      <div class="section">
+        <div class="section-header">Output</div>
+        <div class="section-body" id="outputs-body">
+          <div class="empty-state">No output files found</div>
+        </div>
+      </div>
+
+      <!-- Previous Output (collapsible) -->
+      <div class="section" id="prev-outputs-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="togglePrevOutputs()">
+            <span class="arrow" id="prev-outputs-arrow">&#9654;</span>
+            Previous Output
+          </div>
+        </div>
+        <div class="grades-content" id="prev-outputs-content"></div>
+      </div>
+
+      <!-- Grades (collapsible) -->
+      <div class="section" id="grades-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="toggleGrades()">
+            <span class="arrow" id="grades-arrow">&#9654;</span>
+            Formal Grades
+          </div>
+        </div>
+        <div class="grades-content" id="grades-content"></div>
+      </div>
+
+      <!-- Feedback -->
+      <div class="section">
+        <div class="section-header">Your Feedback</div>
+        <div class="section-body">
+          <textarea
+            class="feedback-textarea"
+            id="feedback"
+            placeholder="What do you think of this output? Any issues, suggestions, or things that look great?"
+          ></textarea>
+          <div class="feedback-status" id="feedback-status"></div>
+          <div class="prev-feedback" id="prev-feedback" style="display:none;">
+            <div class="prev-feedback-label">Previous feedback</div>
+            <div id="prev-feedback-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav" id="outputs-nav">
+      <button class="nav-btn" id="prev-btn" onclick="navigate(-1)">&#8592; Previous</button>
+      <button class="done-btn" id="done-btn" onclick="showDoneDialog()">Submit All Reviews</button>
+      <button class="nav-btn" id="next-btn" onclick="navigate(1)">Next &#8594;</button>
+    </div>
+    </div><!-- end panel-outputs -->
+
+    <!-- Benchmark panel (quantitative stats) -->
+    <div class="view-panel" id="panel-benchmark">
+      <div class="benchmark-view" id="benchmark-content">
+        <div class="benchmark-empty">No benchmark data available. Run a benchmark to see quantitative results here.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Done overlay -->
+  <div class="done-overlay" id="done-overlay">
+    <div class="done-card">
+      <h2>Review Complete</h2>
+      <p>Your feedback has been saved. Go back to your Claude Code session and tell Claude you're done reviewing.</p>
+      <div class="btn-row">
+        <button onclick="closeDoneDialog()">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ---- Embedded data (injected by generate_review.py) ----
+    const EMBEDDED_DATA = {"skill_name": "rolki-do-opisu", "runs": [{"id": "eval-0-meskosc-5-mitow-with_skill", "prompt": "Mam wsad na rolk\u0119 do opisu:\n\n5 rzeczy, kt\u00f3re faceci myl\u0105 z m\u0119sko\u015bci\u0105\n1. Ci\u0105g\u0142e udowadnianie swojej warto\u015bci\nPrawdziwa m\u0119sko\u015b\u0107 to spok\u00f3j w sobie \u2013 nie musisz nikomu nic pokazywa\u0107.\n2. T\u0142umienie emocji zamiast ich wyra\u017cania\nM\u0119sko\u015b\u0107 to nie kamienna twarz \u2013 to umiej\u0119tno\u015b\u0107 czucia i prowadzenia przez to, co czujesz.\n3. Granie twardego i zani\u017canie warto\u015bci s\u0142abszych\nPrawdziwy m\u0119\u017cczyzna chroni i podnosi \u2013 nie musi nikogo deprecjonowa\u0107, \u017ceby sam wyrosn\u0105\u0107.\n4. M\u0119sko\u015b\u0107 jako zaw\u00f3d\nNie twoja praca decyduje czy jeste\u015b facetem \u2013 m\u0119sko\u015b\u0107 to to, jak si\u0119 trzymasz, nie czym si\u0119 zajmujesz.\n5. Oferowanie wsparcia wszystkim dooko\u0142a\nM\u0119sko\u015b\u0107 to granice i selektywno\u015b\u0107 \u2013 nie ratowanie ka\u017cdego, tylko odpowiedzialno\u015b\u0107 za swoich ludzi.\n\nZr\u00f3b z tego rolk\u0119 do opisu.", "eval_id": 0, "outputs": [{"name": "output.md", "type": "text", "content": "# Rolka do opisu \u2014 5 rzeczy, kt\u00f3re faceci myl\u0105 z m\u0119sko\u015bci\u0105\n\n---\n\n## ETAP 1 \u2014 sprawdzenie wsadu\n\nPrzejrza\u0142em wsad pod k\u0105tem sze\u015bciu punkt\u00f3w z checklisty.\n\n1. **Jedna g\u0142\u00f3wna obietnica.** Jest \u2014 lista pi\u0119ciu rzeczy, kt\u00f3re faceci myl\u0105 z m\u0119sko\u015bci\u0105. Typ obietnicy: lista.\n2. **Konkrety.** Tu jest luka. Ka\u017cdy z pi\u0119ciu punkt\u00f3w to teza plus jedno zdanie kontrastu, bez przyk\u0142adu, sytuacji czy liczby, kt\u00f3ra by to o\u017cywi\u0142a. Sama lista wystarczy na struktur\u0119, ale rozwini\u0119cie ka\u017cdego punktu w opisie b\u0119dzie musia\u0142o trzyma\u0107 si\u0119 parafrazy tego, co ju\u017c jest, a nie si\u0119ga\u0107 po nowy materia\u0142.\n3. **Perspektywa autora.** Nie wida\u0107, sk\u0105d to wiesz \u2014 czy to obserwacja z pracy z klientami, z w\u0142asnego \u017cycia, czy co\u015b, co cz\u0119sto widzisz u innych facet\u00f3w. Bez tego pi\u0119\u0107 punkt\u00f3w mo\u017ce zabrzmie\u0107 jak rzeczy, kt\u00f3re ju\u017c si\u0119 s\u0142ysza\u0142o.\n4. **Cel posta.** Nie wiadomo, po co ma powsta\u0107: zasi\u0119g, zaanga\u017cowanie, sprzeda\u017c czego\u015b konkretnego, zapis na co\u015b.\n5. **Truizm.** Cz\u0119\u015bciowo tak. Punkty 1 i 2 (spok\u00f3j zamiast udowadniania, czucie zamiast t\u0142umienia emocji) to temat, kt\u00f3ry w tej przestrzeni pojawia si\u0119 bardzo cz\u0119sto. Forma kontrastu ratuje je przed pustk\u0105, ale bez Twojego konkretu b\u0119d\u0105 brzmia\u0142y og\u00f3lnie.\n6. **Ilo\u015b\u0107 materia\u0142u.** Pi\u0119\u0107 pozycji to wystarczaj\u0105co, \u017ceby zbudowa\u0107 list\u0119. Ale ka\u017cda ma tylko jedno zdanie, wi\u0119c opis wyjdzie zwi\u0119z\u0142y, nie rozbudowany \u2014 chyba \u017ce dorzucisz co\u015b wi\u0119cej do wybranych punkt\u00f3w.\n\n**Wsad nie jest kompletny do pe\u0142nego opisu z pe\u0142nym rozwini\u0119ciem \u2014 mam do Ciebie cztery pytania:**\n\n1. Sk\u0105d wiesz to, co jest w tych pi\u0119ciu punktach? Masz konkretn\u0105 sytuacj\u0119, klienta albo moment z w\u0142asnego \u017cycia, kt\u00f3ry stoi za kt\u00f3rymkolwiek z nich?\n2. Jaki jest cel tego posta \u2014 zasi\u0119g, zaanga\u017cowanie w komentarzach, sprzeda\u017c czego\u015b konkretnego, czy zapis na co\u015b?\n3. Hook ma wprost kierowa\u0107 do opisu (\u201ereszta w opisie\u201d), czy wolisz, \u017ceby dzia\u0142a\u0142 samym napi\u0119ciem, bez wskazywania palcem?\n4. Je\u015bli celem jest zaanga\u017cowanie \u2014 jak\u0105 reakcj\u0119 chcesz wywo\u0142a\u0107? Komentarz z numerem punktu, przy kt\u00f3rym kto\u015b si\u0119 pozna\u0142, czy co\u015b innego? A je\u015bli planujesz co\u015b wys\u0142a\u0107 po s\u0142owie-kluczu, co to jest?\n\n---\n\n## Odpowiedzi (symulacja \u2014 brak realnego u\u017cytkownika w tym przebiegu)\n\nTo jest przebieg ewaluacyjny bez dost\u0119pu do prawdziwego u\u017cytkownika. Zamiast czeka\u0107 na odpowiedzi, przyjmuj\u0119 rozs\u0105dne za\u0142o\u017cenia i jasno je oznaczam, tak jak poprosi\u0142 zlecaj\u0105cy zadanie.\n\n**ZA\u0141O\u017bENIE (odp. na pyt. 1):** U\u017cytkownik nie ma dodatkowego przyk\u0142adu ani sceny do dorzucenia. Rozwini\u0119cie ka\u017cdego punktu w opisie zostaje przy przeformu\u0142owaniu tego, co ju\u017c jest we wsadzie \u2014 bez nowych scen, liczb czy sytuacji. To realne ograniczenie tej rolki i zostaje takie w planie.\n\n**ZA\u0141O\u017bENIE (odp. na pyt. 2):** Cel posta \u2014 zaanga\u017cowanie (komentarze pod postem), bez CTA sprzeda\u017cowego. Temat jest bliski osobistemu przes\u0142aniu, wi\u0119c twarde CTA sprzeda\u017cowe by zgrzyta\u0142o.\n\n**ZA\u0141O\u017bENIE (odp. na pyt. 3):** Hook kieruje wprost (\u201ereszta w opisie\u201d) \u2014 to lista z pi\u0119cioma pozycjami, wi\u0119c widz powinien wiedzie\u0107, gdzie szuka\u0107 ci\u0105gu dalszego, zamiast liczy\u0107 na samo napi\u0119cie.\n\n**ZA\u0141O\u017bENIE (odp. na pyt. 4):** Reakcja = komentarz z numerem punktu, przy kt\u00f3rym kto\u015b si\u0119 pozna\u0142. Nagrody w postaci materia\u0142u do wysy\u0142ki po s\u0142owie-kluczu nie zak\u0142adam, bo nie mam podstawy, czym mia\u0142aby by\u0107 \u2014 CTA zostaje przy samej reakcji i dyskusji pod postem.\n\n---\n\n## ETAP 2 \u2014 plan\n\n```\nHOOK: \u201eWi\u0119kszo\u015b\u0107 facet\u00f3w myli m\u0119sko\u015b\u0107 z czym\u015b, co ni\u0105 wcale nie jest. Rozpisa\u0142em pi\u0119\u0107 takich pomy\u0142ek w opisie pod tym filmem.\u201d \u2014 obietnica: lista (5 pomy\u0142ek) \u2014 jak kieruje do opisu: wprost (\u201erozpisa\u0142em... w opisie\u201d)\nSTRUKTURA OPISU: lista sposob\u00f3w/powod\u00f3w \u2014 pi\u0119\u0107 mylnych przekona\u0144 o m\u0119sko\u015bci, ka\u017cde z korekt\u0105\n1. Ci\u0105g\u0142e udowadnianie swojej warto\u015bci \u2014 otwiera list\u0119, mocna pozycja startowa, bo to najcz\u0119stszy z pi\u0119ciu wzorc\u00f3w\n2. T\u0142umienie emocji zamiast ich wyra\u017cania \u2014 rozwija temat wewn\u0119trzny, kamienna twarz jako obraz pomy\u0142ki\n3. Granie twardego i zani\u017canie warto\u015bci s\u0142abszych \u2014 przenosi temat na relacje z innymi m\u0119\u017cczyznami\n4. M\u0119sko\u015b\u0107 jako zaw\u00f3d \u2014 zmiana kierunku, od zachowania do to\u017csamo\u015bci/statusu\n5. Oferowanie wsparcia wszystkim dooko\u0142a \u2014 zamyka list\u0119, mocna pozycja ko\u0144cowa, temat granic\nZAMKNI\u0118CIE: zaproszenie sprawdzi\u0107, przy kt\u00f3rym punkcie czytelnik si\u0119 poznaje, plus CTA komentarzowe (numer punktu)\nPomini\u0119te ze wsadu: nic \u2014 wszystkie pi\u0119\u0107 punkt\u00f3w wchodzi do opisu w oryginalnej kolejno\u015bci i z oryginalnymi sformu\u0142owaniami (np. \u201espok\u00f3j w sobie\u201d, \u201ekamienna twarz\u201d, \u201echroni i podnosi\u201d, \u201ejak si\u0119 trzymasz\u201d, \u201egranice i selektywno\u015b\u0107\u201d, \u201eodpowiedzialno\u015b\u0107 za swoich ludzi\u201d). Zastrze\u017cenie: rozwini\u0119cia pod punktami s\u0105 kr\u00f3tkie, bo wsad nie dawa\u0142 przyk\u0142ad\u00f3w \u2014 to ograniczenie zostaje, zgodnie z za\u0142o\u017ceniem z etapu 1.\n```\n\n**ZA\u0141O\u017bENIE: u\u017cytkownik zaakceptowa\u0142 plan bez zmian.**\n\n---\n\n## ETAP 3 \u2014 gotowa tre\u015b\u0107\n\n### HOOK (tekst na wideo)\n\nWi\u0119kszo\u015b\u0107 facet\u00f3w myli m\u0119sko\u015b\u0107 z czym\u015b, co ni\u0105 wcale nie jest. Rozpisa\u0142em pi\u0119\u0107 takich pomy\u0142ek w opisie pod tym filmem.\n\n### OPIS POD POST\n\nKa\u017cda pozycja z tej listy wygl\u0105da jak m\u0119sko\u015b\u0107, a w praktyce j\u0105 podcina.\n\n**1. Ci\u0105g\u0142e udowadnianie swojej warto\u015bci.**\nPierwsza pomy\u0142ka to udowadnianie swojej warto\u015bci na okr\u0105g\u0142o, ka\u017cdemu i przy ka\u017cdej okazji. Prawdziwa m\u0119sko\u015b\u0107 to spok\u00f3j, kt\u00f3ry nosisz w sobie z automatu, niezale\u017cnie od tego, kto akurat patrzy.\n\n**2. T\u0142umienie emocji zamiast ich wyra\u017cania.**\nDruga pomy\u0142ka to kamienna twarz, za\u0142o\u017cona na sta\u0142e, \u017ceby niczego po sobie nie pokaza\u0107. M\u0119ska si\u0142a emocjonalna to umiej\u0119tno\u015b\u0107 czu\u0107 to, co czujesz, i przez to przej\u015b\u0107.\n\n**3. Granie twardego i zani\u017canie warto\u015bci s\u0142abszych.**\nTrzecia pomy\u0142ka to udawanie twardziela kosztem kogo\u015b s\u0142abszego, \u017ceby samemu poczu\u0107 si\u0119 wi\u0119kszym. Prawdziwy m\u0119\u017cczyzna chroni i podnosi innych. To jego spos\u00f3b, \u017ceby samemu rosn\u0105\u0107.\n\n**4. M\u0119sko\u015b\u0107 jako zaw\u00f3d.**\nCzwarta pomy\u0142ka to mierzenie m\u0119sko\u015bci tym, czym si\u0119 zajmujesz zawodowo. M\u0119sko\u015b\u0107 mierzysz tym, jak si\u0119 trzymasz, nie tym, czym si\u0119 zajmujesz.\n\n**5. Oferowanie wsparcia wszystkim dooko\u0142a.**\nPi\u0105ta pomy\u0142ka to ratowanie ka\u017cdego, kto o to poprosi, bez wzgl\u0119du na to, ile to kosztuje. M\u0119sko\u015b\u0107 to granice i selektywno\u015b\u0107, czyli odpowiedzialno\u015b\u0107 za swoich ludzi.\n\nSprawd\u017a, przy kt\u00f3rym z tych pi\u0119ciu punkt\u00f3w \u0142apiesz si\u0119 najcz\u0119\u015bciej. Napisz w komentarzu numer \u2014 ch\u0119tnie podyskutuj\u0119, co z tym dalej zrobi\u0107.\n\n---\n\n## Uwagi w\u0142asne po napisaniu (samokontrola z SKILL.md)\n\n- Ka\u017cdy z pi\u0119ciu punkt\u00f3w zachowa\u0142 sens z wsadu, \u017caden nie zosta\u0142 \u015bci\u0119ty ani zamieniony w kategori\u0119 og\u00f3ln\u0105.\n- Charakterystyczne sformu\u0142owania z wsadu przenios\u0142em w oryginalnym brzmieniu: \u201espok\u00f3j w sobie\u201d, \u201ekamienna twarz\u201d, \u201echroni i podnosi\u201d, \u201ejak si\u0119 trzymasz\u201d, \u201egranice i selektywno\u015b\u0107\u201d, \u201eodpowiedzialno\u015b\u0107 za swoich ludzi\u201d.\n- Konstrukcje \u201eX, nie Y\u201d (dychotomia) z oryginalnego wsadu przycina\u0142em do maksymalnie jednego u\u017cycia w ca\u0142ym tek\u015bcie (punkt 4) \u2014 reszta punkt\u00f3w przepisana na twierdzenia bez tej formu\u0142y, \u017ceby nie brzmia\u0142o to jak wygenerowane maszynowo.\n- Usun\u0105\u0142em dramatyczne my\u015blniki i konstrukcje \u201enie X \u2014 tylko Y\u201d z oryginalnych zda\u0144 (np. punkt 2 i 3 w wsadzie), zostawiaj\u0105c samo twierdzenie, tak jak wymaga tego skill j\u0119zykowy \u2014 nawet w redagowanym cudzym tek\u015bcie.\n- Nie dopisa\u0142em \u017cadnych przyk\u0142ad\u00f3w, liczb ani scen spoza wsadu \u2014 rozwini\u0119cia pod punktami to przeformu\u0142owanie tego, co u\u017cytkownik ju\u017c napisa\u0142, nie nowy materia\u0142. To realne ograniczenie tej rolki, zg\u0142oszone w Etapie 1.\n- CTA nie zak\u0142ada nagrody, kt\u00f3rej nie znam \u2014 zostaje przy zaproszeniu do komentarza i reakcji autora, zgodnie z za\u0142o\u017ceniem z Etapu 1.\n"}], "grading": null}, {"id": "eval-0-meskosc-5-mitow-without_skill", "prompt": "Mam wsad na rolk\u0119 do opisu:\n\n5 rzeczy, kt\u00f3re faceci myl\u0105 z m\u0119sko\u015bci\u0105\n1. Ci\u0105g\u0142e udowadnianie swojej warto\u015bci\nPrawdziwa m\u0119sko\u015b\u0107 to spok\u00f3j w sobie \u2013 nie musisz nikomu nic pokazywa\u0107.\n2. T\u0142umienie emocji zamiast ich wyra\u017cania\nM\u0119sko\u015b\u0107 to nie kamienna twarz \u2013 to umiej\u0119tno\u015b\u0107 czucia i prowadzenia przez to, co czujesz.\n3. Granie twardego i zani\u017canie warto\u015bci s\u0142abszych\nPrawdziwy m\u0119\u017cczyzna chroni i podnosi \u2013 nie musi nikogo deprecjonowa\u0107, \u017ceby sam wyrosn\u0105\u0107.\n4. M\u0119sko\u015b\u0107 jako zaw\u00f3d\nNie twoja praca decyduje czy jeste\u015b facetem \u2013 m\u0119sko\u015b\u0107 to to, jak si\u0119 trzymasz, nie czym si\u0119 zajmujesz.\n5. Oferowanie wsparcia wszystkim dooko\u0142a\nM\u0119sko\u015b\u0107 to granice i selektywno\u015b\u0107 \u2013 nie ratowanie ka\u017cdego, tylko odpowiedzialno\u015b\u0107 za swoich ludzi.\n\nZr\u00f3b z tego rolk\u0119 do opisu.", "eval_id": 0, "outputs": [{"name": "output.md", "type": "text", "content": "5 rzeczy, kt\u00f3re faceci myl\u0105 z m\u0119sko\u015bci\u0105.\n\nNikt ci\u0119 tego nie uczy\u0142 wprost. Po prostu gdzie\u015b po drodze - w domu, w szatni, w pracy - z\u0142apa\u0142e\u015b kilka nawyk\u00f3w i nazwa\u0142e\u015b je \"byciem facetem\". Tylko \u017ce cz\u0119\u015b\u0107 z nich to nie m\u0119sko\u015b\u0107. To strach przebrany w m\u0119sko\u015b\u0107.\n\nSprawd\u017a, czy kt\u00f3ry\u015b z tych punkt\u00f3w pasuje:\n\n1. Ci\u0105gle musisz co\u015b udowadnia\u0107.\nPrawdziwy spok\u00f3j bierze si\u0119 z tego, \u017ce nie musisz nikomu niczego pokazywa\u0107. Jak wci\u0105\u017c walczysz o dowody swojej warto\u015bci - to nie jest si\u0142a, to g\u0142\u00f3d.\n\n2. T\u0142umisz emocje zamiast je nazywa\u0107.\nKamienna twarz to nie m\u0119sko\u015b\u0107, to zbroja. Facet, kt\u00f3ry potrafi czu\u0107 i mimo to prowadzi\u0107 - jest silniejszy ni\u017c ten, kt\u00f3ry tylko udaje, \u017ce nic nie czuje.\n\n3. Grasz twardziela kosztem s\u0142abszych.\nJe\u015bli musisz kogo\u015b pomniejszy\u0107, \u017ceby poczu\u0107 si\u0119 wi\u0119kszym - to nie jest wzrost. Prawdziwy m\u0119\u017cczyzna chroni i podnosi, nie deprecjonuje.\n\n4. Uto\u017csamiasz si\u0119 z zawodem.\nTwoja praca to nie ty. M\u0119sko\u015b\u0107 to nie stanowisko na wizyt\u00f3wce, tylko to, jak si\u0119 trzymasz, kiedy nikt nie patrzy.\n\n5. Ratujesz ka\u017cdego, kto poprosi.\nWsparcie bez granic to nie odpowiedzialno\u015b\u0107, to brak selekcji. M\u0119sko\u015b\u0107 to wiedzie\u0107, komu i ile dajesz - nie rozdawa\u0107 si\u0119 ka\u017cdemu po kolei.\n\n\u017baden z tych punkt\u00f3w nie robi z ciebie gorszego faceta. Robi z ciebie kogo\u015b, kto uczy\u0142 si\u0119 m\u0119sko\u015bci z tego, co by\u0142o pod r\u0119k\u0105, a nie z tego, co faktycznie dzia\u0142a.\n\nKt\u00f3ry punkt siedzi w tobie najmocniej? Napisz numer w komentarzu.\n"}], "grading": null}, {"id": "eval-1-pornografia-7-cech-with_skill", "prompt": "Mam wsad na rolk\u0119 do opisu:\n\nPornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny\n1. Seksualn\u0105 energi\u0119\n2. G\u0142\u00f3d dzia\u0142ania\n3. Koncentracj\u0119\n4. Naturalne libido\n5. Ci\u0119\u017car w g\u0142osie\n6. Szacunek do siebie\n7. Obecno\u015b\u0107 w relacji\n\nZr\u00f3b z tego rolk\u0119 do opisu.", "eval_id": 1, "outputs": [{"name": "output.md", "type": "text", "content": "# Rolka do opisu \u2014 wsad: \u201ePornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny\"\n\n---\n\n## ETAP 1 \u2014 sprawdzenie wsadu\n\nSprawdzam wsad wed\u0142ug sze\u015bciu punkt\u00f3w z SKILL.md.\n\n1. **Jedna g\u0142\u00f3wna obietnica** \u2014 jest, i jest jasna: lista siedmiu cech skuteczno\u015bci m\u0119\u017cczyzny, kt\u00f3re zabiera pornografia. To typ \u201elista\".\n2. **Konkrety** \u2014 tu jest luka. Siedem pozycji to same nazwy cech (Seksualna energia, G\u0142\u00f3d dzia\u0142ania, Koncentracja...), bez przyk\u0142adu, sceny czy sytuacji, kt\u00f3ra pokaza\u0142aby, jak to wygl\u0105da w praktyce.\n3. **Perspektywa autora** \u2014 wsad nie m\u00f3wi, sk\u0105d ta lista si\u0119 wzi\u0119\u0142a: obserwacja siebie, praca z innymi m\u0119\u017cczyznami, czy teza og\u00f3lna.\n4. **Cel posta** \u2014 nie jest podany (zasi\u0119g, zaanga\u017cowanie, zapis, sprzeda\u017c).\n5. **Truizm** \u2014 teza \u201epornografia szkodzi m\u0119\u017cczy\u017anie\" sama w sobie jest znana. Rozbicie jej na siedem konkretnych cech ratuje j\u0105 przed og\u00f3lnikiem, ale tylko je\u015bli ka\u017cda pozycja dostanie realne rozwini\u0119cie \u2014 inaczej lista czyta si\u0119 jak siedem hase\u0142, nie jak tre\u015b\u0107.\n6. **Czy starczy na pe\u0142ny opis** \u2014 siedem pozycji liczbowo wystarcza na struktur\u0119 \u201elista\" z anatomii. Ale bez rozwini\u0119cia przy ka\u017cdej pozycji (przyk\u0142ad, kontekst, dlaczego tak jest) opis b\u0119dzie za cienki.\n\nPytania, kt\u00f3re w normalnej rozmowie zada\u0142bym przed przej\u015bciem do planu:\n\n1. Czy przy ka\u017cdej z siedmiu cech chcesz kr\u00f3tkie rozwini\u0119cie oparte na konkretnym przyk\u0142adzie z Twojego \u017cycia albo pracy z m\u0119\u017cczyznami \u2014 czy mam zostawi\u0107 same nazwy cech i budowa\u0107 rozwini\u0119cie wy\u0142\u0105cznie z tego, co ju\u017c jest w tytule wsadu (bez dok\u0142adania nowych przyk\u0142ad\u00f3w)?\n2. Jaki jest cel tego posta: zasi\u0119g, zaanga\u017cowanie (komentarze), czy zaproszenie do czego\u015b konkretnego?\n3. Czy ta lista to Twoja teza z obserwacji, czy ma zabrzmie\u0107 jak stwierdzenie faktu bez odwo\u0142ywania si\u0119 do \u201eja\"?\n4. Zamkni\u0119cie: CTA sprzeda\u017cowe, czy \u2014 bior\u0105c pod uwag\u0119, \u017ce temat jest osobisty \u2014 zaproszenie do reakcji w komentarzu?\n\nPoniewa\u017c to test bez realnego u\u017cytkownika po drugiej stronie, odpowiadam na te pytania sam, jawnie oznaczaj\u0105c za\u0142o\u017cenia, i id\u0119 dalej zgodnie z poleceniem.\n\n**ZA\u0141O\u017bENIE 1:** brak materia\u0142u na realne przyk\u0142ady przy ka\u017cdej cesze, a zasada wierno\u015bci wsadowi (SKILL.md, \u201eNie dopisujesz niczego spoza wsadu: przyk\u0142ad\u00f3w, liczb, pozycji listy, obietnic, opinii\") zabrania mi je wymy\u015bli\u0107. Rozwini\u0119cie przy ka\u017cdej pozycji b\u0119dzie wi\u0119c czysto definicyjne \u2014 dopowiada, co dana cecha znaczy w kontek\u015bcie \u201eskuteczno\u015bci m\u0119\u017cczyzny\" z tytu\u0142u wsadu, bez nowych scen, liczb ani twierdze\u0144, kt\u00f3rych wsad nie zawiera. To rozwi\u0105zanie s\u0142absze ni\u017c realne przyk\u0142ady od Przemka \u2014 w prawdziwej rozmowie zg\u0142osi\u0142bym to jako ograniczenie gotowego tekstu.\n\n**ZA\u0141O\u017bENIE 2:** cel posta = zaanga\u017cowanie (temat mocny, dyskusyjny, naturalnie no\u015bny na komentarze).\n\n**ZA\u0141O\u017bENIE 3:** lista brzmi jak stwierdzenie wprost, bez \u201eja uwa\u017cam\" \u2014 sp\u00f3jne z tym, \u017ce wsad sam podaje tez\u0119 jako fakt, nie jako osobist\u0105 refleksj\u0119.\n\n**ZA\u0141O\u017bENIE 4:** zamkni\u0119cie = zaproszenie do reakcji w komentarzu, nie CTA sprzeda\u017cowe \u2014 temat jest osobisty i wra\u017cliwy, wi\u0119c zgodnie z anatomi\u0105 (\u201eprzy mocnym, osobistym przes\u0142aniu CTA sprzeda\u017cowe zgrzyta\") nie domy\u015blam si\u0119 \u017cadnej oferty, kt\u00f3rej wsad nie wspomina.\n\nWsad daje kompletn\u0105, jedn\u0105 obietnic\u0119 i wystarczaj\u0105c\u0105 liczb\u0119 pozycji na list\u0119. Id\u0119 do etapu 2.\n\n---\n\n## ETAP 2 \u2014 plan\n\n```\nHOOK: \u201ePornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny.\nSiedem z nich rozpisa\u0142em w opisie.\" \u2014 obietnica: lista \u2014 jak kieruje do opisu: wprost\n(7 pozycji to za du\u017co, \u017ceby widz sam si\u0119 domy\u015bli\u0142, gdzie szuka\u0107 reszty)\n\nSTRUKTURA OPISU: lista\nOtwarcie: 2 zdania, parafraza hooka bez powt\u00f3rzenia s\u0142owo w s\u0142owo \u2014 zaw\u0119\u017caj\u0105\nz \u201ecechy skuteczno\u015bci\" do konkretnej gro\u017aby: znikaj\u0105 jedna po drugiej.\n\n1. Seksualn\u0105 energi\u0119 \u2014 funkcja: otwiera list\u0119, najbardziej bezpo\u015brednio\n   zwi\u0105zana z tematem pornografii, mocny start.\n2. G\u0142\u00f3d dzia\u0142ania \u2014 funkcja: rozszerza z seksu na ca\u0142e \u017cycie, pierwsze przesuni\u0119cie.\n3. Koncentracj\u0119 \u2014 funkcja: kolejny konkretny obszar funkcjonowania.\n4. Naturalne libido \u2014 funkcja: domyka w\u0105tek seksualny, kontrastuje z punktem 1.\n5. Ci\u0119\u017car w g\u0142osie \u2014 funkcja: przej\u015bcie do tego, jak m\u0119\u017cczyzn\u0119 odbieraj\u0105 inni.\n6. Szacunek do siebie \u2014 funkcja: przesuwa temat do wewn\u0105trz, do to\u017csamo\u015bci.\n7. Obecno\u015b\u0107 w relacji \u2014 funkcja: najmocniejsze zamkni\u0119cie listy, bo dotyka\n   nie samego faceta, tylko ludzi wok\u00f3\u0142 niego.\n\nKolejno\u015b\u0107 zostaje taka, jak w wsadzie \u2014 ju\u017c zaczyna mocnym, konkretnym punktem\ni ko\u0144czy najg\u0142\u0119bszym, wi\u0119c nie ma potrzeby przestawia\u0107.\n\nZAMKNI\u0118CIE: wniosek prosz\u0105cy o policzenie, ile z siedmiu cech zosta\u0142o + CTA\nzapraszaj\u0105ce do komentarza (nie sprzeda\u017cowe \u2014 temat osobisty).\n\nPomini\u0119te ze wsadu (do Twojej decyzji): nic \u2014 wszystkie 7 pozycji i teza z tytu\u0142u\nwchodz\u0105 do hooka i opisu.\n```\n\n**ZA\u0141O\u017bENIE: u\u017cytkownik zaakceptowa\u0142 plan bez zmian.**\n\n---\n\n## ETAP 3 \u2014 tre\u015b\u0107\n\n**HOOK (tekst na wideo):**\n\nPornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny. Siedem z nich rozpisa\u0142em w opisie.\n\n**OPIS POD POST:**\n\nSiedem cech, kt\u00f3re robi\u0105 z ciebie skutecznego faceta. Pornografia zabiera je jedn\u0105 po drugiej, zanim to zauwa\u017cysz.\n\n1. Seksualn\u0105 energi\u0119. Ta energia nap\u0119dza ci\u0119 do dzia\u0142ania w ka\u017cdej dziedzinie \u017cycia.\n2. G\u0142\u00f3d dzia\u0142ania. Ten g\u0142\u00f3d ka\u017ce ci ruszy\u0107 si\u0119 i zrobi\u0107 co\u015b, zamiast to odk\u0142ada\u0107.\n3. Koncentracj\u0119. Pozwala ci utrzyma\u0107 uwag\u0119 na jednej rzeczy d\u0142u\u017cej ni\u017c kilka minut.\n4. Naturalne libido. Ten poci\u0105g pojawia si\u0119 sam, bez pomocy ekranu.\n5. Ci\u0119\u017car w g\u0142osie. Sprawia, \u017ce inni ci\u0119 s\u0142uchaj\u0105.\n6. Szacunek do siebie. Trzymasz si\u0119 s\u0142owa, kt\u00f3re dajesz samemu sobie.\n7. Obecno\u015b\u0107 w relacji. Jeste\u015b tu i teraz z drug\u0105 osob\u0105, a nie my\u015blami gdzie\u015b indziej.\n\nPolicz, ile z tych siedmiu masz jeszcze przy sobie. Napisz w komentarzu, kt\u00f3ry punkt najbardziej ci\u0119 ruszy\u0142.\n\n---\n\n### Samokontrola (SKILL.md, \u201eWierno\u015b\u0107 wsadowi\", pkt 5)\n\n- Wszystkie 7 pozycji z wsadu obecne, w oryginalnym brzmieniu, w oryginalnej kolejno\u015bci.\n- Teza z tytu\u0142u wsadu przeniesiona do hooka niemal dos\u0142ownie.\n- Obietnica z hooka (7 cech, reszta w opisie) spe\u0142niona tre\u015bci\u0105 z wsadu, nie og\u00f3lnikami zast\u0119pczymi.\n- \u017badna pozycja, przyk\u0142ad ani liczba nie zosta\u0142y dopisane spoza wsadu.\n- Rozwini\u0119cia przy punktach 1\u20137 s\u0105 celowo minimalne (patrz ZA\u0141O\u017bENIE 1) \u2014 to najs\u0142absze ogniwo tego tekstu i w realnej pracy z Przemkiem prosi\u0142bym o konkretne przyk\u0142ady zamiast definicji.\n\n### Przej\u015bcie przez checklist\u0119 `natural-polish-copy-fable-updated`\n\n- Brak konstrukcji \u201ezaprzeczenie + twierdzenie\" (B1).\n- Brak \u201enie tylko X, ale te\u017c Y\" (B2).\n- Brak opisywania przez brak / lawiny \u201ebez\u00f3w\" (B3, B4).\n- Brak regu\u0142y tr\u00f3jek (B5), brak sztucznych pyta\u0144 retorycznych i dwukropk\u00f3w z wyliczeniem (B6, B7).\n- Brak dramatycznych my\u015blnik\u00f3w w \u015brodku zdania (E1).\n- Brak s\u0142\u00f3w ze s\u0142ownika AI-ozy, brak zb\u0119dnych wzmacniaczy (\u201enaprawd\u0119\", \u201eserio\") i \u201etrzech groszy\".\n- Tylko jedna konstrukcja kontrastowa typu \u201eX, a nie Y\" w ca\u0142ym tek\u015bcie (punkt 7) \u2014 zgodnie z zasad\u0105 z pami\u0119ci: max 1 taki kontrast na tekst.\n- Zdania w punktach listy maj\u0105 r\u00f3\u017cn\u0105 budow\u0119 (nie trzy z rz\u0119du w tym samym schemacie podmiot\u2013orzeczenie).\n- Zero wykrzyknik\u00f3w, zero emoji, zero cudzys\u0142ow\u00f3w.\n"}], "grading": null}, {"id": "eval-1-pornografia-7-cech-without_skill", "prompt": "Mam wsad na rolk\u0119 do opisu:\n\nPornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny\n1. Seksualn\u0105 energi\u0119\n2. G\u0142\u00f3d dzia\u0142ania\n3. Koncentracj\u0119\n4. Naturalne libido\n5. Ci\u0119\u017car w g\u0142osie\n6. Szacunek do siebie\n7. Obecno\u015b\u0107 w relacji\n\nZr\u00f3b z tego rolk\u0119 do opisu.", "eval_id": 1, "outputs": [{"name": "output.md", "type": "text", "content": "# Rolka: \"Pornografia odbiera ci 7 cech skuteczno\u015bci\" \u2014 scenariusz + opis pod post\n\n## SCENARIUSZ ROLKI (m\u00f3wiony / lektor, ok. 45-55 sek.)\n\n**[HOOK \u2014 0:00-0:03]**\n(napis na ekranie na ca\u0142\u0105 plansz\u0119, mocny ton g\u0142osu)\n\n> Pornografia nie zabiera ci jednej rzeczy. Zabiera ci siedem \u2014 i wszystkie odpowiadaj\u0105 za to, czy jeste\u015b skuteczny jako m\u0119\u017cczyzna.\n\n**[PRZEJ\u015aCIE \u2014 0:03-0:05]**\n> Sprawd\u017a, ile z nich rozpoznajesz u siebie.\n\n**[LISTA 7 CECH \u2014 0:05-0:40]**\n(ka\u017cda cecha to osobne ci\u0119cie/napis na ekranie, lektor czyta kr\u00f3tko i konkretnie \u2014 bez owijania w bawe\u0142n\u0119; tempo szybkie, jak odliczanie)\n\n1. **Seksualna energia** \u2014 ta, kt\u00f3ra mia\u0142a nap\u0119dza\u0107 ciebie, idzie w ekran zamiast w \u017cycie.\n\n2. **G\u0142\u00f3d dzia\u0142ania** \u2014 to on pcha ci\u0119 do roboty, do celu, do \"chc\u0119 wi\u0119cej\". Pornografia go gasi pierwsza.\n\n3. **Koncentracja** \u2014 m\u00f3zg przyzwyczajony do bod\u017aca co kilka sekund nie wytrzyma d\u0142u\u017cej nad jedn\u0105 spraw\u0105.\n\n4. **Naturalne libido** \u2014 to, co powinno ci\u0105gn\u0105\u0107 ci\u0119 do prawdziwej kobiety, zu\u017cywa si\u0119 na ekranie.\n\n5. **Ci\u0119\u017car w g\u0142osie** \u2014 m\u0119\u017cczyzna, kt\u00f3ry nie ma za sob\u0105 pary jaj, brzmi inaczej. I ludzie to s\u0142ysz\u0105.\n\n6. **Szacunek do siebie** \u2014 trudno szanowa\u0107 siebie, kiedy wiesz, \u017ce codziennie robisz co\u015b, czego si\u0119 wstydzisz.\n\n7. **Obecno\u015b\u0107 w relacji** \u2014 jeste\u015b fizycznie obok, ale g\u0142ow\u0105 jeste\u015b gdzie indziej. Ona to czuje, nawet je\u015bli nic nie m\u00f3wi.\n\n**[ZAMKNI\u0118CIE / KONKRET \u2014 0:40-0:50]**\n(zwolnienie tempa, spojrzenie w kamer\u0119)\n\n> To nie jest lista siedmiu osobnych problem\u00f3w. To jeden mechanizm \u2014 energia, kt\u00f3ra mia\u0142a i\u015b\u0107 w twoje \u017cycie, idzie w ekran. I codziennie masz o jedn\u0105 ceg\u0142\u0119 mniej, \u017ceby zbudowa\u0107 to, co chcesz zbudowa\u0107.\n\n**[CTA \u2014 0:50-0:55]**\n> Zapisz to sobie, je\u015bli chcesz to zmieni\u0107. Odezwij si\u0119, je\u015bli ju\u017c wiesz, \u017ce czas sko\u0144czy\u0107.\n\n---\n\n## OPIS POD POST\n\nPornografia nie odbiera ci \"troch\u0119 czasu\". Odbiera ci siedem konkretnych rzeczy, kt\u00f3re decyduj\u0105 o tym, czy jeste\u015b skutecznym m\u0119\u017cczyzn\u0105:\n\n\ud83d\udd3b Seksualn\u0105 energi\u0119\n\ud83d\udd3b G\u0142\u00f3d dzia\u0142ania\n\ud83d\udd3b Koncentracj\u0119\n\ud83d\udd3b Naturalne libido\n\ud83d\udd3b Ci\u0119\u017car w g\u0142osie\n\ud83d\udd3b Szacunek do siebie\n\ud83d\udd3b Obecno\u015b\u0107 w relacji\n\nTo nie siedem osobnych problem\u00f3w. To jeden mechanizm, kt\u00f3ry dzia\u0142a codziennie \u2014 energia, kt\u00f3ra mia\u0142a i\u015b\u0107 w twoje \u017cycie, idzie w ekran.\n\nIm d\u0142u\u017cej to trwa, tym wi\u0119cej z tych siedmiu punkt\u00f3w rozpoznajesz u siebie.\n\nNapisz w komentarzu, kt\u00f3ry z nich uderzy\u0142 najmocniej. Albo napisz do mnie, je\u015bli ju\u017c wiesz, \u017ce chcesz to zmieni\u0107.\n\n---\n\n## UWAGI DLA PRZEMKA (do weryfikacji przed publikacj\u0105)\n\n- Ten tekst pisa\u0142em **bez dost\u0119pu do plik\u00f3w marki** (BRAND.md, AVATAR.md, WIEDZA_XX, GLOS_SUROWY itd.) \u2014 to wersja bazowa, nie przesz\u0142a przez system Pisarza/Doradcy opisany w CLAUDE.md tego projektu. Przed publikacj\u0105 warto przepu\u015bci\u0107 przez normalny proces (m.in. filtr Klarownej Transformacji, sprawdzenie czy mechanizmy w punktach 1-7 maj\u0105 pokrycie w Twoich materia\u0142ach, czy to nie jest tylko lista bez wyja\u015bnienia \"dlaczego tak jest\").\n- Punkty takie jak \"ci\u0119\u017car w g\u0142osie\" czy \"szacunek do siebie\" wymagaj\u0105 konkretnego mechanizmu przyczynowego (np. z WIEDZA_XX), inaczej brzmi\u0105 jak twierdzenie bez pokrycia \u2014 w normalnym trybie pracy to miejsce na marker [BRAK MATERIA\u0141U: ...], tutaj dopisa\u0142em uzasadnienia z w\u0142asnej g\u0142owy, bo nie mia\u0142em dost\u0119pu do bazy.\n- Zamkni\u0119cie pr\u00f3buje wprowadzi\u0107 w\u0142asny mechanizm (\"energia idzie w ekran zamiast w \u017cycie\") \u2014 w normalnym procesie tego typu mechanizm musi pochodzi\u0107 z materia\u0142u \u017ar\u00f3d\u0142owego, nie by\u0107 wymy\u015blony na poczekaniu.\n- Format 7-punktowej listy z kr\u00f3tkimi, r\u00f3wnoleg\u0142ymi zdaniami mo\u017ce brzmie\u0107 zbyt \"AI\" \u2014 do sprawdzenia pod k\u0105tem naturalno\u015bci j\u0119zyka.\n"}], "grading": null}], "previous_feedback": {}, "previous_outputs": {}, "benchmark": {"metadata": {"skill_name": "rolki-do-opisu", "skill_path": "G:\\MARKA\\ContentAI\\CONTENT\\.claude\\skills\\rolki-do-opisu", "executor_model": "<model-name>", "analyzer_model": "<model-name>", "timestamp": "2026-07-26T09:39:51Z", "evals_run": [0, 1], "runs_per_configuration": 3}, "runs": [{"eval_id": 0, "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 8, "failed": 0, "total": 8, "time_seconds": 417.3, "tokens": 0, "tool_calls": 5, "errors": 0}, "expectations": [{"text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": true, "evidence": "Osobne nag\u0142\u00f3wki '### HOOK (tekst na wideo)' i '### OPIS POD POST' w Etapie 3."}, {"text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.", "passed": true, "evidence": "Hook: 'Wi\u0119kszo\u015b\u0107 facet\u00f3w myli m\u0119sko\u015b\u0107 z czym\u015b, co ni\u0105 wcale nie jest. Rozpisa\u0142em pi\u0119\u0107 takich pomy\u0142ek w opisie pod tym filmem.' \u2014 dok\u0142adnie 2 zdania."}, {"text": "Opis zawiera wszystkich 5 mit\u00f3w z wsadu.", "passed": true, "evidence": "Wszystkie 5 punkt\u00f3w obecne i ponumerowane w opisie, w oryginalnej kolejno\u015bci z wsadu."}, {"text": "Ka\u017cdy z 5 punkt\u00f3w niesie przeformu\u0142owanie z wsadu, nie tylko nag\u0142\u00f3wek.", "passed": true, "evidence": "Ka\u017cdy punkt ma 2 zdania rozwini\u0119cia opartego na oryginalnych sformu\u0142owaniach ('spok\u00f3j w sobie', 'kamienna twarz', 'chroni i podnosi')."}, {"text": "Opis nie dodaje przyk\u0142ad\u00f3w, statystyk ani twierdze\u0144 spoza wsadu.", "passed": true, "evidence": "Sekcja 'Uwagi w\u0142asne' potwierdza brak nowego materia\u0142u; rozwini\u0119cia to parafrazy, nie nowe sceny/liczby."}, {"text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).", "passed": true, "evidence": "Dokument ma jawne sekcje ETAP 1 (pytania kontrolne), ETAP 2 (plan w formacie z SKILL.md), ETAP 3 (finalny hook+opis)."}, {"text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Sprawd\u017a, przy kt\u00f3rym z tych pi\u0119ciu punkt\u00f3w \u0142apiesz si\u0119 najcz\u0119\u015bciej. Napisz w komentarzu numer.'"}, {"text": "Pierwsze zdania opisu nie powtarzaj\u0105 hooka s\u0142owo w s\u0142owo.", "passed": true, "evidence": "Opis zaczyna si\u0119 'Ka\u017cda pozycja z tej listy wygl\u0105da jak m\u0119sko\u015b\u0107, a w praktyce j\u0105 podcina.' \u2014 inne sformu\u0142owanie ni\u017c hook."}], "notes": ["Wsad nie dawa\u0142 przyk\u0142ad\u00f3w/scen, wi\u0119c rozwini\u0119cia punkt\u00f3w s\u0105 parafraz\u0105, nie nowym materia\u0142em \u2014 model to zg\u0142osi\u0142, nie ukry\u0142."]}, {"eval_id": 1, "configuration": "with_skill", "run_number": 1, "result": {"pass_rate": 1.0, "passed": 8, "failed": 0, "total": 8, "time_seconds": 277.0, "tokens": 0, "tool_calls": 5, "errors": 0}, "expectations": [{"text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": true, "evidence": "Osobne bloki '**HOOK (tekst na wideo):**' i '**OPIS POD POST:**' w Etapie 3."}, {"text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.", "passed": true, "evidence": "'Pornografia odbiera ci ka\u017cd\u0105 cech\u0119, kt\u00f3ra odpowiada za skuteczno\u015b\u0107 m\u0119\u017cczyzny. Siedem z nich rozpisa\u0142em w opisie.' \u2014 2 zdania."}, {"text": "Opis zawiera wszystkie 7 cech z wsadu.", "passed": true, "evidence": "Wszystkie 7 pozycji ponumerowane w opisie, w oryginalnej kolejno\u015bci."}, {"text": "Wsad to same nazwy bez rozwini\u0119cia \u2014 skill powinien zapyta\u0107 albo zosta\u0107 przy definicyjnym rozwini\u0119ciu, nie wymy\u015bla\u0107 mechanizm\u00f3w.", "passed": true, "evidence": "Etap 1 zawiera wprost pytanie 1 o materia\u0142 do przyk\u0142ad\u00f3w; ZA\u0141O\u017bENIE 1 jawnie ogranicza rozwini\u0119cia do definicji bez nowych scen/liczb, i samokontrola nazywa to 'najs\u0142abszym ogniwem'."}, {"text": "Opis nie dodaje statystyk, bada\u0144 ani twierdze\u0144 medycznych spoza wsadu.", "passed": true, "evidence": "Rozwini\u0119cia przy punktach s\u0105 czysto definicyjne (np. 'Pozwala ci utrzyma\u0107 uwag\u0119 na jednej rzeczy' dla koncentracji) \u2014 brak liczb, bada\u0144, cytat\u00f3w."}, {"text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).", "passed": true, "evidence": "Pe\u0142ne sekcje ETAP 1/2/3 z jawnymi za\u0142o\u017ceniami tam, gdzie brak realnego u\u017cytkownika."}, {"text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Policz, ile z tych siedmiu masz jeszcze przy sobie. Napisz w komentarzu, kt\u00f3ry punkt najbardziej ci\u0119 ruszy\u0142.'"}, {"text": "Ton utrzymany bez moralizowania/oceniania czytelnika.", "passed": true, "evidence": "Zdania opisowe, neutralne ('Sprawia, \u017ce inni ci\u0119 s\u0142uchaj\u0105'), bez j\u0119zyka wstydu czy oceny."}], "notes": ["Rozwini\u0119cia 7 cech s\u0105 minimalne/definicyjne, bo wsad nie dawa\u0142 przyk\u0142ad\u00f3w \u2014 model to jawnie nazwa\u0142 najs\u0142abszym ogniwem tekstu.", "Przy realnym u\u017cytkowniku warto dopyta\u0107 o konkretne przyk\u0142ady zamiast zostawia\u0107 czysto definicyjne rozwini\u0119cia."]}, {"eval_id": 0, "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.375, "passed": 3, "failed": 5, "total": 8, "time_seconds": 45.6, "tokens": 0, "tool_calls": 2, "errors": 0}, "expectations": [{"text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": false, "evidence": "Tekst jest jednym ci\u0105g\u0142ym postem/listicle bez rozr\u00f3\u017cnienia, co pada na wideo a co jest samym opisem pod postem."}, {"text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.", "passed": false, "evidence": "Nie da si\u0119 wskaza\u0107 osobnego bloku hooka \u2014 pierwsze zdania p\u0142ynnie przechodz\u0105 w reszt\u0119 posta, format nie rozr\u00f3\u017cnia warstwy wideo od opisu."}, {"text": "Opis zawiera wszystkich 5 mit\u00f3w z wsadu.", "passed": true, "evidence": "Wszystkie 5 punkt\u00f3w obecne, przepisane na 'Ty' zamiast trzeciej osoby."}, {"text": "Ka\u017cdy z 5 punkt\u00f3w niesie przeformu\u0142owanie z wsadu, nie tylko nag\u0142\u00f3wek.", "passed": true, "evidence": "Ka\u017cdy punkt ma rozwini\u0119cie w drugim zdaniu."}, {"text": "Opis nie dodaje przyk\u0142ad\u00f3w, statystyk ani twierdze\u0144 spoza wsadu.", "passed": false, "evidence": "Wst\u0119p dodaje wymy\u015blone konteksty 'w domu, w szatni, w pracy' \u2014 scen, kt\u00f3rych wsad nie zawiera\u0142."}, {"text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).", "passed": false, "evidence": "Brak jakiegokolwiek procesu \u2014 model poszed\u0142 prosto do gotowego tekstu, bez pyta\u0144 ani planu."}, {"text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Kt\u00f3ry punkt siedzi w tobie najmocniej? Napisz numer w komentarzu.'"}, {"text": "Pierwsze zdania opisu nie powtarzaj\u0105 hooka s\u0142owo w s\u0142owo.", "passed": false, "evidence": "Nie ma wydzielonego hooka do por\u00f3wnania \u2014 ca\u0142y tekst to jeden blok, wi\u0119c assercja nie ma czego sprawdzi\u0107 w spos\u00f3b, kt\u00f3ry mia\u0142by znaczenie."}], "notes": []}, {"eval_id": 1, "configuration": "without_skill", "run_number": 1, "result": {"pass_rate": 0.375, "passed": 3, "failed": 5, "total": 8, "time_seconds": 56.0, "tokens": 0, "tool_calls": 3, "errors": 0}, "expectations": [{"text": "Output zawiera wyra\u017anie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": false, "evidence": "Sekcje istniej\u0105 nominalnie, ale 'HOOK' to w praktyce ca\u0142y scenariusz m\u00f3wiony (hook+przej\u015bcie+lista+zamkni\u0119cie+CTA) \u2014 wideo samo dowozi pe\u0142n\u0105 warto\u015b\u0107, co przeczy definicji formatu z anatomii (wideo ma tylko otworzy\u0107 p\u0119tl\u0119, nie domyka\u0107 jej)."}, {"text": "Hook mie\u015bci si\u0119 w maksymalnie 2 zdaniach.", "passed": true, "evidence": "Sam wydzielony blok '[HOOK \u2014 0:00-0:03]' to 2 zdania \u2014 ale w kontek\u015bcie ca\u0142ego scenariusza to techniczna zgodno\u015b\u0107, nie realne spe\u0142nienie mechaniki formatu."}, {"text": "Opis zawiera wszystkie 7 cech z wsadu.", "passed": true, "evidence": "Lista 7 cech obecna w sekcji OPIS POD POST, oznaczona emoji \ud83d\udd3b."}, {"text": "Wsad to same nazwy bez rozwini\u0119cia \u2014 skill powinien zapyta\u0107 albo zosta\u0107 przy definicji, nie wymy\u015bla\u0107 mechanizm\u00f3w.", "passed": false, "evidence": "Model wymy\u015bli\u0142 konkretne mechanizmy przyczynowe niepochodz\u0105ce z wsadu (np. 'm\u00f3zg przyzwyczajony do bod\u017aca co kilka sekund nie wytrzyma d\u0142u\u017cej', 'm\u0119\u017cczyzna, kt\u00f3ry nie ma za sob\u0105 pary jaj, brzmi inaczej') i sam to przyznaje w 'UWAGI DLA PRZEMKA'."}, {"text": "Opis nie dodaje statystyk, bada\u0144 ani twierdze\u0144 medycznych spoza wsadu.", "passed": false, "evidence": "Sam model pisze wprost: 'dopisa\u0142em uzasadnienia z w\u0142asnej g\u0142owy, bo nie mia\u0142em dost\u0119pu do bazy' \u2014 czyli \u015bwiadomie naruszy\u0142 t\u0119 zasad\u0119."}, {"text": "Wida\u0107 \u015blad procesu etapowego (Etap 1, 2, 3).", "passed": false, "evidence": "Brak jakichkolwiek pyta\u0144 kontrolnych czy planu do akceptacji \u2014 model poszed\u0142 prosto do gotowego scenariusza i opisu."}, {"text": "Opis ko\u0144czy si\u0119 CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Napisz w komentarzu, kt\u00f3ry z nich uderzy\u0142 najmocniej. Albo napisz do mnie, je\u015bli ju\u017c wiesz, \u017ce chcesz to zmieni\u0107.'"}, {"text": "Ton utrzymany bez moralizowania/oceniania czytelnika.", "passed": false, "evidence": "'trudno szanowa\u0107 siebie, kiedy wiesz, \u017ce codziennie robisz co\u015b, czego si\u0119 wstydzisz' \u2014 j\u0119zyk wstydu skierowany wprost do czytelnika."}], "notes": ["Model sam oznaczy\u0142 ca\u0142y tekst jako 'wersj\u0119 bazow\u0105 bez dost\u0119pu do plik\u00f3w marki' i zasugerowa\u0142 przepuszczenie przez normalny proces Pisarza/Doradcy.", "Wymy\u015blone mechanizmy przyczynowe przy punktach 3 i 5 \u2014 model sam to flagowa\u0142 jako ryzykowne."]}], "run_summary": {"with_skill": {"pass_rate": {"mean": 1.0, "stddev": 0.0, "min": 1.0, "max": 1.0}, "time_seconds": {"mean": 347.15, "stddev": 99.2071, "min": 277.0, "max": 417.3}, "tokens": {"mean": 0.0, "stddev": 0.0, "min": 0, "max": 0}}, "without_skill": {"pass_rate": {"mean": 0.375, "stddev": 0.0, "min": 0.375, "max": 0.375}, "time_seconds": {"mean": 50.8, "stddev": 7.3539, "min": 45.6, "max": 56.0}, "tokens": {"mean": 0.0, "stddev": 0.0, "min": 0, "max": 0}}, "delta": {"pass_rate": "+0.62", "time_seconds": "+296.3", "tokens": "+0"}}, "notes": []}};
+
+    // ---- State ----
+    let feedbackMap = {};  // run_id -> feedback text
+    let currentIndex = 0;
+    let visitedRuns = new Set();
+
+    // ---- Init ----
+    async function init() {
+      // Load saved feedback from server — but only if this isn't a fresh
+      // iteration (indicated by previous_feedback being present). When
+      // previous feedback exists, the feedback.json on disk is stale from
+      // the prior iteration and should not pre-fill the textareas.
+      const hasPrevious = Object.keys(EMBEDDED_DATA.previous_feedback || {}).length > 0
+        || Object.keys(EMBEDDED_DATA.previous_outputs || {}).length > 0;
+      if (!hasPrevious) {
+        try {
+          const resp = await fetch("/api/feedback");
+          const data = await resp.json();
+          if (data.reviews) {
+            for (const r of data.reviews) feedbackMap[r.run_id] = r.feedback;
+          }
+        } catch { /* first run, no feedback yet */ }
+      }
+
+      document.getElementById("skill-name").textContent = EMBEDDED_DATA.skill_name;
+      showRun(0);
+
+      // Wire up feedback auto-save
+      const textarea = document.getElementById("feedback");
+      let saveTimeout = null;
+      textarea.addEventListener("input", () => {
+        clearTimeout(saveTimeout);
+        document.getElementById("feedback-status").textContent = "";
+        saveTimeout = setTimeout(() => saveCurrentFeedback(), 800);
+      });
+    }
+
+    // ---- Navigation ----
+    function navigate(delta) {
+      const newIndex = currentIndex + delta;
+      if (newIndex >= 0 && newIndex < EMBEDDED_DATA.runs.length) {
+        saveCurrentFeedback();
+        showRun(newIndex);
+      }
+    }
+
+    function updateNavButtons() {
+      document.getElementById("prev-btn").disabled = currentIndex === 0;
+      document.getElementById("next-btn").disabled =
+        currentIndex === EMBEDDED_DATA.runs.length - 1;
+    }
+
+    // ---- Show a run ----
+    function showRun(index) {
+      currentIndex = index;
+      const run = EMBEDDED_DATA.runs[index];
+
+      // Progress
+      document.getElementById("progress").textContent =
+        `${index + 1} of ${EMBEDDED_DATA.runs.length}`;
+
+      // Prompt
+      document.getElementById("prompt-text").textContent = run.prompt;
+
+      // Config badge
+      const badge = document.getElementById("config-badge");
+      const configMatch = run.id.match(/(with_skill|without_skill|new_skill|old_skill)/);
+      if (configMatch) {
+        const config = configMatch[1];
+        const isBaseline = config === "without_skill" || config === "old_skill";
+        badge.textContent = config.replace(/_/g, " ");
+        badge.className = "config-badge " + (isBaseline ? "config-baseline" : "config-primary");
+        badge.style.display = "inline-block";
+      } else {
+        badge.style.display = "none";
+      }
+
+      // Outputs
+      renderOutputs(run);
+
+      // Previous outputs
+      renderPrevOutputs(run);
+
+      // Grades
+      renderGrades(run);
+
+      // Previous feedback
+      const prevFb = (EMBEDDED_DATA.previous_feedback || {})[run.id];
+      const prevEl = document.getElementById("prev-feedback");
+      if (prevFb) {
+        document.getElementById("prev-feedback-text").textContent = prevFb;
+        prevEl.style.display = "block";
+      } else {
+        prevEl.style.display = "none";
+      }
+
+      // Feedback
+      document.getElementById("feedback").value = feedbackMap[run.id] || "";
+      document.getElementById("feedback-status").textContent = "";
+
+      updateNavButtons();
+
+      // Track visited runs and promote done button when all visited
+      visitedRuns.add(index);
+      const doneBtn = document.getElementById("done-btn");
+      if (visitedRuns.size >= EMBEDDED_DATA.runs.length) {
+        doneBtn.classList.add("ready");
+      }
+
+      // Scroll main content to top
+      document.querySelector(".main").scrollTop = 0;
+    }
+
+    // ---- Render outputs ----
+    function renderOutputs(run) {
+      const container = document.getElementById("outputs-body");
+      container.innerHTML = "";
+
+      const outputs = run.outputs || [];
+      if (outputs.length === 0) {
+        container.innerHTML = '<div class="empty-state">No output files</div>';
+        return;
+      }
+
+      for (const file of outputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        // Always show file header with download link
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const content = document.createElement("div");
+        content.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          content.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          content.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          content.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(content, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          content.appendChild(a);
+        } else if (file.type === "error") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          pre.style.color = "var(--red)";
+          content.appendChild(pre);
+        }
+
+        fileDiv.appendChild(content);
+        container.appendChild(fileDiv);
+      }
+    }
+
+    // ---- XLSX rendering via SheetJS ----
+    function renderXlsx(container, b64Data) {
+      try {
+        const raw = Uint8Array.from(atob(b64Data), c => c.charCodeAt(0));
+        const wb = XLSX.read(raw, { type: "array" });
+
+        for (let i = 0; i < wb.SheetNames.length; i++) {
+          const sheetName = wb.SheetNames[i];
+          const ws = wb.Sheets[sheetName];
+
+          if (wb.SheetNames.length > 1) {
+            const sheetLabel = document.createElement("div");
+            sheetLabel.style.cssText =
+              "font-weight:600; font-size:0.8rem; color:#b0aea5; margin-top:0.5rem; margin-bottom:0.25rem;";
+            sheetLabel.textContent = "Sheet: " + sheetName;
+            container.appendChild(sheetLabel);
+          }
+
+          const htmlStr = XLSX.utils.sheet_to_html(ws, { editable: false });
+          const wrapper = document.createElement("div");
+          wrapper.innerHTML = htmlStr;
+          container.appendChild(wrapper);
+        }
+      } catch (err) {
+        container.textContent = "Error rendering spreadsheet: " + err.message;
+      }
+    }
+
+    // ---- Grades ----
+    function renderGrades(run) {
+      const section = document.getElementById("grades-section");
+      const content = document.getElementById("grades-content");
+
+      if (!run.grading) {
+        section.style.display = "none";
+        return;
+      }
+
+      const grading = run.grading;
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("grades-arrow").classList.remove("open");
+
+      const summary = grading.summary || {};
+      const expectations = grading.expectations || [];
+
+      let html = '<div style="padding: 1rem;">';
+
+      // Summary line
+      const passRate = summary.pass_rate != null
+        ? Math.round(summary.pass_rate * 100) + "%"
+        : "?";
+      const badgeClass = summary.pass_rate >= 0.8 ? "grade-pass" : summary.pass_rate >= 0.5 ? "" : "grade-fail";
+      html += '<div class="grades-summary">';
+      html += '<span class="grade-badge ' + badgeClass + '">' + passRate + '</span>';
+      html += '<span>' + (summary.passed || 0) + ' passed, ' + (summary.failed || 0) + ' failed of ' + (summary.total || 0) + '</span>';
+      html += '</div>';
+
+      // Assertions list
+      html += '<ul class="assertion-list">';
+      for (const exp of expectations) {
+        const statusClass = exp.passed ? "pass" : "fail";
+        const statusIcon = exp.passed ? "\u2713" : "\u2717";
+        html += '<li class="assertion-item">';
+        html += '<span class="assertion-status ' + statusClass + '">' + statusIcon + '</span>';
+        html += '<span>' + escapeHtml(exp.text) + '</span>';
+        if (exp.evidence) {
+          html += '<div class="assertion-evidence">' + escapeHtml(exp.evidence) + '</div>';
+        }
+        html += '</li>';
+      }
+      html += '</ul>';
+
+      html += '</div>';
+      content.innerHTML = html;
+    }
+
+    function toggleGrades() {
+      const content = document.getElementById("grades-content");
+      const arrow = document.getElementById("grades-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Previous outputs (collapsible) ----
+    function renderPrevOutputs(run) {
+      const section = document.getElementById("prev-outputs-section");
+      const content = document.getElementById("prev-outputs-content");
+      const prevOutputs = (EMBEDDED_DATA.previous_outputs || {})[run.id];
+
+      if (!prevOutputs || prevOutputs.length === 0) {
+        section.style.display = "none";
+        return;
+      }
+
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("prev-outputs-arrow").classList.remove("open");
+
+      // Render the files into the content area
+      content.innerHTML = "";
+      const wrapper = document.createElement("div");
+      wrapper.style.padding = "1rem";
+
+      for (const file of prevOutputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const fc = document.createElement("div");
+        fc.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          fc.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          fc.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          fc.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(fc, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          fc.appendChild(a);
+        }
+
+        fileDiv.appendChild(fc);
+        wrapper.appendChild(fileDiv);
+      }
+
+      content.appendChild(wrapper);
+    }
+
+    function togglePrevOutputs() {
+      const content = document.getElementById("prev-outputs-content");
+      const arrow = document.getElementById("prev-outputs-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Feedback (saved to server -> feedback.json) ----
+    function saveCurrentFeedback() {
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // Build reviews array from map
+      const reviews = [];
+      for (const [run_id, feedback] of Object.entries(feedbackMap)) {
+        if (feedback.trim()) {
+          reviews.push({ run_id, feedback, timestamp: new Date().toISOString() });
+        }
+      }
+
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reviews, status: "in_progress" }),
+      }).then(() => {
+        document.getElementById("feedback-status").textContent = "Saved";
+      }).catch(() => {
+        // Static mode or server unavailable — no-op on auto-save,
+        // feedback will be downloaded on final submit
+        document.getElementById("feedback-status").textContent = "Will download on submit";
+      });
+    }
+
+    // ---- Done ----
+    function showDoneDialog() {
+      // Save current textarea to feedbackMap (but don't POST yet)
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // POST once with status: complete — include ALL runs so the model
+      // can distinguish "no feedback" (looks good) from "not reviewed"
+      const reviews = [];
+      const ts = new Date().toISOString();
+      for (const r of EMBEDDED_DATA.runs) {
+        reviews.push({ run_id: r.id, feedback: feedbackMap[r.id] || "", timestamp: ts });
+      }
+      const payload = JSON.stringify({ reviews, status: "complete" }, null, 2);
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload,
+      }).then(() => {
+        document.getElementById("done-overlay").classList.add("visible");
+      }).catch(() => {
+        // Server not available (static mode) — download as file
+        const blob = new Blob([payload], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "feedback.json";
+        a.click();
+        URL.revokeObjectURL(url);
+        document.getElementById("done-overlay").classList.add("visible");
+      });
+    }
+
+    function closeDoneDialog() {
+      // Reset status back to in_progress
+      saveCurrentFeedback();
+      document.getElementById("done-overlay").classList.remove("visible");
+    }
+
+    // ---- Toast ----
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("visible");
+      setTimeout(() => toast.classList.remove("visible"), 2000);
+    }
+
+    // ---- Keyboard nav ----
+    document.addEventListener("keydown", (e) => {
+      // Don't capture when typing in textarea
+      if (e.target.tagName === "TEXTAREA") return;
+
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        navigate(-1);
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        navigate(1);
+      }
+    });
+
+    // ---- Util ----
+    function getDownloadUri(file) {
+      if (file.data_uri) return file.data_uri;
+      if (file.data_b64) return "data:application/octet-stream;base64," + file.data_b64;
+      if (file.type === "text") return "data:text/plain;charset=utf-8," + encodeURIComponent(file.content);
+      return "#";
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // ---- View switching ----
+    function switchView(view) {
+      document.querySelectorAll(".view-tab").forEach(t => t.classList.remove("active"));
+      document.querySelectorAll(".view-panel").forEach(p => p.classList.remove("active"));
+      document.querySelector(`[onclick="switchView('${view}')"]`).classList.add("active");
+      document.getElementById("panel-" + view).classList.add("active");
+    }
+
+    // ---- Benchmark rendering ----
+    function renderBenchmark() {
+      const data = EMBEDDED_DATA.benchmark;
+      if (!data) return;
+
+      // Show the tabs
+      document.getElementById("view-tabs").style.display = "flex";
+
+      const container = document.getElementById("benchmark-content");
+      const summary = data.run_summary || {};
+      const metadata = data.metadata || {};
+      const notes = data.notes || [];
+
+      let html = "";
+
+      // Header
+      html += "<h2 style='font-family: Poppins, sans-serif; margin-bottom: 0.5rem;'>Benchmark Results</h2>";
+      html += "<p style='color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1.25rem;'>";
+      if (metadata.skill_name) html += "<strong>" + escapeHtml(metadata.skill_name) + "</strong> &mdash; ";
+      if (metadata.timestamp) html += metadata.timestamp + " &mdash; ";
+      if (metadata.evals_run) html += "Evals: " + metadata.evals_run.join(", ") + " &mdash; ";
+      html += (metadata.runs_per_configuration || "?") + " runs per configuration";
+      html += "</p>";
+
+      // Summary table
+      html += '<table class="benchmark-table">';
+
+      function fmtStat(stat, pct) {
+        if (!stat) return "—";
+        const suffix = pct ? "%" : "";
+        const m = pct ? (stat.mean * 100).toFixed(0) : stat.mean.toFixed(1);
+        const s = pct ? (stat.stddev * 100).toFixed(0) : stat.stddev.toFixed(1);
+        return m + suffix + " ± " + s + suffix;
+      }
+
+      function deltaClass(val) {
+        if (!val) return "";
+        const n = parseFloat(val);
+        if (n > 0) return "benchmark-delta-positive";
+        if (n < 0) return "benchmark-delta-negative";
+        return "";
+      }
+
+      // Discover config names dynamically (everything except "delta")
+      const configs = Object.keys(summary).filter(k => k !== "delta");
+      const configA = configs[0] || "config_a";
+      const configB = configs[1] || "config_b";
+      const labelA = configA.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const labelB = configB.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const a = summary[configA] || {};
+      const b = summary[configB] || {};
+      const delta = summary.delta || {};
+
+      html += "<thead><tr><th>Metric</th><th>" + escapeHtml(labelA) + "</th><th>" + escapeHtml(labelB) + "</th><th>Delta</th></tr></thead>";
+      html += "<tbody>";
+
+      html += "<tr><td><strong>Pass Rate</strong></td>";
+      html += "<td>" + fmtStat(a.pass_rate, true) + "</td>";
+      html += "<td>" + fmtStat(b.pass_rate, true) + "</td>";
+      html += '<td class="' + deltaClass(delta.pass_rate) + '">' + (delta.pass_rate || "—") + "</td></tr>";
+
+      // Time (only show row if data exists)
+      if (a.time_seconds || b.time_seconds) {
+        html += "<tr><td><strong>Time (s)</strong></td>";
+        html += "<td>" + fmtStat(a.time_seconds, false) + "</td>";
+        html += "<td>" + fmtStat(b.time_seconds, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.time_seconds) + '">' + (delta.time_seconds ? delta.time_seconds + "s" : "—") + "</td></tr>";
+      }
+
+      // Tokens (only show row if data exists)
+      if (a.tokens || b.tokens) {
+        html += "<tr><td><strong>Tokens</strong></td>";
+        html += "<td>" + fmtStat(a.tokens, false) + "</td>";
+        html += "<td>" + fmtStat(b.tokens, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.tokens) + '">' + (delta.tokens || "—") + "</td></tr>";
+      }
+
+      html += "</tbody></table>";
+
+      // Per-eval breakdown (if runs data available)
+      const runs = data.runs || [];
+      if (runs.length > 0) {
+        const evalIds = [...new Set(runs.map(r => r.eval_id))].sort((a, b) => a - b);
+
+        html += "<h3 style='font-family: Poppins, sans-serif; margin-bottom: 0.75rem;'>Per-Eval Breakdown</h3>";
+
+        const hasTime = runs.some(r => r.result && r.result.time_seconds != null);
+        const hasErrors = runs.some(r => r.result && r.result.errors > 0);
+
+        for (const evalId of evalIds) {
+          const evalRuns = runs.filter(r => r.eval_id === evalId);
+          const evalName = evalRuns[0] && evalRuns[0].eval_name ? evalRuns[0].eval_name : "Eval " + evalId;
+
+          html += "<h4 style='font-family: Poppins, sans-serif; margin: 1rem 0 0.5rem; color: var(--text);'>" + escapeHtml(evalName) + "</h4>";
+          html += '<table class="benchmark-table">';
+          html += "<thead><tr><th>Config</th><th>Run</th><th>Pass Rate</th>";
+          if (hasTime) html += "<th>Time (s)</th>";
+          if (hasErrors) html += "<th>Crashes During Execution</th>";
+          html += "</tr></thead>";
+          html += "<tbody>";
+
+          // Group by config and render with average rows
+          const configGroups = [...new Set(evalRuns.map(r => r.configuration))];
+          for (let ci = 0; ci < configGroups.length; ci++) {
+            const config = configGroups[ci];
+            const configRuns = evalRuns.filter(r => r.configuration === config);
+            if (configRuns.length === 0) continue;
+
+            const rowClass = ci === 0 ? "benchmark-row-with" : "benchmark-row-without";
+            const configLabel = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+            for (const run of configRuns) {
+              const r = run.result || {};
+              const prClass = r.pass_rate >= 0.8 ? "benchmark-delta-positive" : r.pass_rate < 0.5 ? "benchmark-delta-negative" : "";
+              html += '<tr class="' + rowClass + '">';
+              html += "<td>" + configLabel + "</td>";
+              html += "<td>" + run.run_number + "</td>";
+              html += '<td class="' + prClass + '">' + ((r.pass_rate || 0) * 100).toFixed(0) + "% (" + (r.passed || 0) + "/" + (r.total || 0) + ")</td>";
+              if (hasTime) html += "<td>" + (r.time_seconds != null ? r.time_seconds.toFixed(1) : "—") + "</td>";
+              if (hasErrors) html += "<td>" + (r.errors || 0) + "</td>";
+              html += "</tr>";
+            }
+
+            // Average row
+            const rates = configRuns.map(r => (r.result || {}).pass_rate || 0);
+            const avgRate = rates.reduce((a, b) => a + b, 0) / rates.length;
+            const avgPrClass = avgRate >= 0.8 ? "benchmark-delta-positive" : avgRate < 0.5 ? "benchmark-delta-negative" : "";
+            html += '<tr class="benchmark-row-avg ' + rowClass + '">';
+            html += "<td>" + configLabel + "</td>";
+            html += "<td>Avg</td>";
+            html += '<td class="' + avgPrClass + '">' + (avgRate * 100).toFixed(0) + "%</td>";
+            if (hasTime) {
+              const times = configRuns.map(r => (r.result || {}).time_seconds).filter(t => t != null);
+              html += "<td>" + (times.length ? (times.reduce((a, b) => a + b, 0) / times.length).toFixed(1) : "—") + "</td>";
+            }
+            if (hasErrors) html += "<td></td>";
+            html += "</tr>";
+          }
+          html += "</tbody></table>";
+
+          // Per-assertion detail for this eval
+          const runsWithExpectations = {};
+          for (const config of configGroups) {
+            runsWithExpectations[config] = evalRuns.filter(r => r.configuration === config && r.expectations && r.expectations.length > 0);
+          }
+          const hasAnyExpectations = Object.values(runsWithExpectations).some(runs => runs.length > 0);
+          if (hasAnyExpectations) {
+            // Collect all unique assertion texts across all configs
+            const allAssertions = [];
+            const seen = new Set();
+            for (const config of configGroups) {
+              for (const run of runsWithExpectations[config]) {
+                for (const exp of (run.expectations || [])) {
+                  if (!seen.has(exp.text)) {
+                    seen.add(exp.text);
+                    allAssertions.push(exp.text);
+                  }
+                }
+              }
+            }
+
+            html += '<table class="benchmark-table" style="margin-top: 0.5rem;">';
+            html += "<thead><tr><th>Assertion</th>";
+            for (const config of configGroups) {
+              const label = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+              html += "<th>" + escapeHtml(label) + "</th>";
+            }
+            html += "</tr></thead><tbody>";
+
+            for (const assertionText of allAssertions) {
+              html += "<tr><td>" + escapeHtml(assertionText) + "</td>";
+
+              for (const config of configGroups) {
+                html += "<td>";
+                for (const run of runsWithExpectations[config]) {
+                  const exp = (run.expectations || []).find(e => e.text === assertionText);
+                  if (exp) {
+                    const cls = exp.passed ? "benchmark-delta-positive" : "benchmark-delta-negative";
+                    const icon = exp.passed ? "\u2713" : "\u2717";
+                    html += '<span class="' + cls + '" title="Run ' + run.run_number + ': ' + escapeHtml(exp.evidence || "") + '">' + icon + "</span> ";
+                  } else {
+                    html += "— ";
+                  }
+                }
+                html += "</td>";
+              }
+              html += "</tr>";
+            }
+            html += "</tbody></table>";
+          }
+        }
+      }
+
+      // Notes
+      if (notes.length > 0) {
+        html += '<div class="benchmark-notes">';
+        html += "<h3>Analysis Notes</h3>";
+        html += "<ul>";
+        for (const note of notes) {
+          html += "<li>" + escapeHtml(note) + "</li>";
+        }
+        html += "</ul></div>";
+      }
+
+      container.innerHTML = html;
+    }
+
+    // ---- Start ----
+    init();
+    renderBenchmark();
+  </script>
+</body>
+</html>

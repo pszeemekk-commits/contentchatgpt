@@ -1,0 +1,15 @@
+{
+  "eval_id": 1,
+  "eval_name": "pornografia-7-cech",
+  "prompt": "Mam wsad na rolkę do opisu:\n\nPornografia odbiera ci każdą cechę, która odpowiada za skuteczność mężczyzny\n1. Seksualną energię\n2. Głód działania\n3. Koncentrację\n4. Naturalne libido\n5. Ciężar w głosie\n6. Szacunek do siebie\n7. Obecność w relacji\n\nZrób z tego rolkę do opisu.",
+  "assertions": [
+    "Output zawiera wyraźnie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post) — dwa różne bloki, nie jeden zlany tekst.",
+    "Hook mieści się w maksymalnie 2 zdaniach, zgodnie z limitem ze SKILL.md.",
+    "Opis zawiera wszystkie 7 cech z wsadu (energia seksualna, głód działania, koncentracja, libido, ciężar głosu, szacunek do siebie, obecność w relacji) — żadna nie zgubiona.",
+    "Wsad to lista samych nazw cech bez rozwinięcia (np. samo 'Koncentrację') — skill powinien albo dopisać krótkie rozwinięcie trzymające się wyłącznie tego, co dosłownie sugeruje nazwa cechy, albo (lepiej) w Etapie 1 zapytać użytkownika o rozwinięcie zamiast wymyślać je samodzielnie. Sprawdź, które z tych dwóch się stało — wymyślanie bez sygnalizowania tego jako założenia jest błędem.",
+    "Opis nie dodaje statystyk, badań ani twierdzeń medycznych, których nie ma we wsadzie.",
+    "Widać ślad procesu etapowego — dokument zawiera osobne, rozpoznawalne części odpowiadające Etapowi 1, Etapowi 2 (plan w formacie z SKILL.md) i Etapowi 3 (finalny hook+opis).",
+    "Opis kończy się CTA albo jawnym zaproszeniem do reakcji.",
+    "Ton tematu (pornografia, męska skuteczność) jest utrzymany bez moralizowania czy oceniania czytelnika — zgodnie z regułą 'empatia zamiast oceniania' wspominaną w materiałach źródłowych dla podobnych skilli."
+  ]
+}

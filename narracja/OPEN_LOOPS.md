@@ -2,7 +2,9 @@
 
 Pytania, na które Przemek nie ma jeszcze odpowiedzi, oraz napięcia, które w materiale żyją. Nie domykać.
 
-Stan: 2026-09-02.
+Starsze wpisy O-001–O-008: stan źródeł 2026-09-02; ich bieżącej aktualności nie potwierdza sam zapis. Nowe dopowiedzenia mają własne daty i źródła.
+
+**Zakres ECS:** ten bank zawiera pytania filozoficzne, hipotezy i luki poznawcze obok możliwych procesów. Nie każdy wpis jest aktywną publiczną historią. Potwierdzone bieżące procesy prowadzi TERAZ.md, a ich publikacje i aktualizacje CONTENT_USAGE.md. Zachowuj etykiety źródeł; nie publikuj hipotezy jako wewnętrznego konfliktu autora. Nowy wynik wymaga nowej informacji.
 
 ---
 
@@ -83,3 +85,30 @@ Jest za to [SOURCE] pkt 50: świat, w którym jest miejsce na twórczość i do�
 **Status:** to nie jest luka przypadkowa. W całym materiale nie ma ani jednego zdania o tym, co robi z mężczyznami internet, praca, ekonomia czy kultura. Cała diagnoza jest wewnętrzna: podświadomość, rodzina, integracja.
 **Konsekwencja dla marki:** [INTERPRETATION] bez tej warstwy treści będą raz po raz wracać do „to zależy od ciebie" i po pół roku zabrzmią jak zarzut wobec odbiorcy, choć nim nie są.
 **Do zapytania:** czy to świadome stanowisko (wszystko jest wewnątrz, reszta to wymówka), czy po prostu obszar, o którym jeszcze nie myślał. To dwie zupełnie różne marki.
+
+---
+
+## O-009 — Co łączy fascynację skrzypcami i tagelharpą
+
+**Źródło i data:** Ź30, wypowiedź Przemka 2026-09-03; S-023; NARRATIVE_MAP WATEK-001.
+
+**Co wiadomo [SOURCE]:** dawny pociąg do dźwięku skrzypiec doprowadził do zakupu i pół roku nauki. Uznał, że ten instrument nie do końca jest dla niego. Odkrył tagelharpę i nadal szuka wspólnego znaczenia obu fascynacji.
+
+**Pytanie autora:** co dokładnie go w nich tak porusza? **Jego hipoteza:** są jak narrator, budują emocje, więc ponownie chodzi o wpływ na człowieka. Zachować „chyba”; nie przedstawiać hipotezy jako rozstrzygniętego powodu.
+
+**Naturalne dalsze dane:** własne dopowiedzenie o tym, co usłyszał, zauważył lub zrozumiał; ewentualne nowe działanie, jeśli rzeczywiście je opisze. Nie zakładać zakupu drugiego instrumentu, rozpoczęcia lekcji ani terminu odkrycia odpowiedzi.
+
+**Status:** aktualne pytanie poznawcze potwierdzone w rozmowie; publiczne otwarcie wątku niepotwierdzone. Możliwe późniejsze wykorzystanie S-023 pozostaje decyzją redakcyjną. Nie zapowiadać rezultatu ani obowiązku aktualizacji.
+
+---
+
+## O-010 — Niewierzący, a każe klientom się modlić
+
+**Źródło i data:** bezpośrednia wiadomość Przemka w rozmowie, 2026-09-03. Zapis pomysłu na post, bez zlecenia pisania.
+
+[SOURCE] „Nie jestem wierzący, a każę moim klientom się modlić. Jak to?"
+
+**Co wiadomo:** w pracy z klientami korzysta z modlitwy jako praktyki, sam nie identyfikuje się jako osoba wierząca. Sam nazywa to napięciem wartym wyjaśnienia („Jak to?").
+**Czego nie wie / nie zapisano jeszcze:** co dokładnie oznacza „każę się modlić" w praktyce (forma, kontekst, do kogo/czego adresowana), od kiedy tak pracuje, jak sam rozumie to pogodzenie niewiary z zaleceniem modlitwy — czy to narzędzie niezależne od przekonań, czy coś innego. Nie zakładać odpowiedzi ani mechanizmu.
+**Materiał na:** post o paradoksie — skuteczna praktyka niezależna od własnych przekonań religijnych; rozróżnienie duchowości od instytucji (por. B-030); możliwe case study, jeśli pojawi się konkretny klient i zgoda.
+**Status:** pomysł na post zapisany na żądanie autora; temat, filar, format i konstrukcja niewybrane. Do dopytania przed pisaniem: co dokładnie robi z klientami i dlaczego uważa, że to działa.

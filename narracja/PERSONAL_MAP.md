@@ -14,6 +14,49 @@ Portret człowieka stojącego za marką. Stan: 2026-09-02, na podstawie czterech
 
 [SOURCE / GRANICA INTERPRETACJI] Sam opisuje tę sekwencję jako Ne–Ti i ENTP. W narracji pierwszeństwo ma konkretne zachowanie. Typologia jest jego sposobem opisu, bez wnioskowania, że inne typy nie potrafią tak analizować ani że każde jego działanie wynika z typu.
 
+## Typ i funkcje poznawcze — jak działa jego myślenie
+
+Status całej sekcji: [INTERPRETATION] i [HYPOTHESIS]. Podstawa: jego własny opis powyżej (ENTP, Ne–Ti) oraz analiza w `narracja/OSOBOWOSC_I_ARCHETYP.md`. Żadne zdanie stąd nie jest faktem o nim i nie unieważnia niczego, co w tym pliku ma status [SOURCE]. Typologia opisuje sposób działania, nie tłumaczy każdego zachowania i nie orzeka, czego inne typy nie potrafią. Przy sprzeczności z potwierdzoną wypowiedzią wygrywa wypowiedź.
+
+**Postrzeganie wyprzedza wyjaśnienie.** [HYPOTHESIS] Widzi, że w sytuacji coś się zawiązuje, zanim potrafi powiedzieć, skąd to wie. Uzasadnienie przychodzi po rozpoznaniu, nie przed nim. Ślad w potwierdzonym materiale: [SOURCE] „świat to dla mnie nieskończone możliwości"; pięćdziesiąt tematów tygodniowo i zostanie specem od jednego w jeden dzień, o ile go zaciekawi.
+Konsekwencja dla pracy z nim: pytanie „dlaczego tak uważasz" postawione od razu trafia w próżnię, to samo pytanie po opisaniu sytuacji daje materiał.
+
+**Sprawdza zakres cudzej tezy, nie jej prawdziwość.** [INTERPRETATION] Uznaje rację i pokazuje, dokąd nie sięga, zamiast zaprzeczać. Ma pokrycie w potwierdzonym pliku: `tozsamosc/WZORZEC_MYSLENIA.md` sekcja 3D dopuszcza reframe wyłącznie wtedy, gdy pierwsza część zostaje uznana za prawdziwą, i odrzuca konstrukcję „to nie X, to Y". To jest ta sama operacja opisana z dwóch stron. Skutek: człowiek po takiej wymianie nie jest pokonany, tylko przesunięty.
+
+**Nie broni wczorajszej wersji siebie.** [INTERPRETATION] Zmiana zdania nie jest u niego kosztem. Ślady: [SOURCE] dwie wersje lat 14–20 zostawione obok siebie bez wybierania wygodniejszej; [SOURCE] szybkie prostowanie w rozmowie. Konsekwencja: komplet wcześniejszych wypowiedzi nie pozwala przewidzieć jego stanowiska w nowej sprawie.
+
+**Myśl powstaje w trakcie mówienia.** [HYPOTHESIS] Nie ma etapu obmyślania przed wypowiedzią, a zapala się od cudzego twierdzenia — zdania klienta, komentarza, popularnego poglądu, własnego zdania sprzed chwili. Zgodne z tym, co widać w jego materiale: najlepsze fragmenty przychodzą w mówieniu i w reakcji, nie przy pustej kartce.
+
+**Uwaga poświęcona człowiekowi w czasie przyszłym.** [HYPOTHESIS] Pisze do kogoś takiego, jaki ten będzie za pół roku w nocy, a nie do tego, kto właśnie czyta. Do sprawdzenia na realnych tekstach, zanim zostanie uznane za wzorzec.
+
+**Gładkość jako sygnał materiału wtórnego.** [HYPOTHESIS] Kiedy rzecz jest świeżo zobaczona, język przyspiesza i gęstnieje; kiedy powtarza coś zamkniętego, robi się równy. Przydatne przy ocenie wsadu, nie do orzekania o wartości tekstu.
+
+**Rozpoznaje umowność zastanych konstrukcji.** [HYPOTHESIS] Domyślnie sprawdza, czy rzecz jest koniecznością, czy tylko przyjętym układem. To samo postrzeganie stoi za wartością jego materiału i za ryzykiem przekraczania dla samego przekraczania; kryterium rozdzielające jedno od drugiego prowadzi `PSYCHOLOGIA_I_WARTOSC.md`.
+
+**Staje po stronie rzeczy, zanim otoczenie ją widzi.** [HYPOTHESIS] Rozpoznaje kierunek w momencie, w którym opowiedzenie się za nim jeszcze kosztuje.
+
+**Sytuacja bez wyjścia jest dla niego materiałem, nie przeszkodą.** [HYPOTHESIS] Tam, gdzie układ wygląda na zamknięty, szuka wyjścia spoza spisu wyjść.
+
+**Zapał, który wzbudza, jest skutkiem widzenia, nie techniką.** [HYPOTHESIS] Ludzie reagują nie na argument, tylko na to, że ktoś patrzy na coś, czego oni nie widzą.
+
+**Zgoda otoczenia nie jest u niego kryterium.** [INTERPRETATION] Nie jako postawa, tylko jako brak takiego wejścia w ogóle. Ślad w potwierdzonym materiale: [SOURCE] kolejne odejścia wbrew otoczeniu — wojsko z dnia na dzień, rezygnacja z 12k/mc.
+
+**Jest własnym przeciwnikiem.** [INTERPRETATION] Zarzut przeciw własnej tezie stawia sam i mocniej, niż zrobiłby to krytyk z zewnątrz, a potem go rozbraja. Widoczne w jego dłuższych konstrukcjach.
+
+**Nie sięga po łatwiejszy chwyt tam, gdzie odpowiada za człowieka.** [INTERPRETATION] Podstawa: trzy takie okazje w scenariuszu o pornografii, wszystkie odrzucone — nie zbudował wroga z terapeutów, nie przemilczał niewygodnego zastrzeżenia, nie zamienił trzeciej części w obowiązek. Do sprawdzenia w `SKRYPT_YT_PORNO_CZESC1-3.md`, jeśli ma służyć jako dowód.
+
+**Pracuje przez chwycenie rzeczy, która akurat leży, w chwili, w której leży.** [HYPOTHESIS] Nie planowo. Analiza podaje jako przykład post uruchamiający wszystko po półtora miesiąca bez wyniku; sam przykład wymaga potwierdzenia u niego, zanim zostanie użyty.
+
+**Bywa dla siebie nieprzewidywalny.** [HYPOTHESIS] Nie wie, co pomyśli, dopóki nie przepuści rzeczy przez własne kryterium. Konsekwencja dla systemu: komplet wcześniejszych wypowiedzi nie upoważnia do zakładania jego stanowiska w nowej sprawie.
+
+**Nie porusza się po osi, jest osią.** [SOURCE — wg analizy sformułowanie własne, do potwierdzenia] Sprzeczne treści przy jednym stałym kryterium. Zbieżne z paradoksami niżej i z tym, że największa siła i największy koszt to u niego ta sama cecha.
+
+**Wybiera jedno miejsce przeciw nieskończonemu polu możliwości.** [INTERPRETATION] Człowiek pięćdziesięciu tematów tygodniowo osadza się przy jednej kobiecie, jednej marce i planowanym siedlisku. Ślady: [SOURCE] rezygnacja z 12k/mc na rzecz budowania marki; narzeczona jako bratnia dusza; świętowanie przesileń i plan osiadania w naturze. To nie jest sprzeczność z otwartością, tylko jej druga strona.
+
+**Ma za sobą praktykę, której sam nie liczy jako dorobku.** [HYPOTHESIS] Analiza mówi o dwudziestu dwóch przypadkach przez lata z widocznym odsiewaniem. Liczba wymaga potwierdzenia u niego, zanim pojawi się w jakimkolwiek materiale — `wiedza/BANK_CASE_STUDIES.md` jest właściwym miejscem weryfikacji.
+
+Figura wybrana na głos marki jest odrębną sprawą i należy do `tozsamosc/PERSONA_I_GLOS.md`; ten plik opisuje człowieka, nie pozycję, z której mówi marka.
+
 ## Główne rozdziały
 
 Podział pochodzi od Przemka [SOURCE] (`Braindump_marka.md`, pkt 7 i 8), nazwy rozdziałów są [INTERPRETATION] — nazwane przez to, czego każda wersja szukała i czym płaciła.

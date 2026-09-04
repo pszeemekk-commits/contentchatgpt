@@ -1,0 +1,19 @@
+{
+  "skill_name": "rolki-do-opisu",
+  "evals": [
+    {
+      "id": 0,
+      "name": "meskosc-5-mitow",
+      "prompt": "Mam wsad na rolkę do opisu:\n\n5 rzeczy, które faceci mylą z męskością\n1. Ciągłe udowadnianie swojej wartości\nPrawdziwa męskość to spokój w sobie – nie musisz nikomu nic pokazywać.\n2. Tłumienie emocji zamiast ich wyrażania\nMęskość to nie kamienna twarz – to umiejętność czucia i prowadzenia przez to, co czujesz.\n3. Granie twardego i zaniżanie wartości słabszych\nPrawdziwy mężczyzna chroni i podnosi – nie musi nikogo deprecjonować, żeby sam wyrosnąć.\n4. Męskość jako zawód\nNie twoja praca decyduje czy jesteś facetem – męskość to to, jak się trzymasz, nie czym się zajmujesz.\n5. Oferowanie wsparcia wszystkim dookoła\nMęskość to granice i selektywność – nie ratowanie każdego, tylko odpowiedzialność za swoich ludzi.\n\nZrób z tego rolkę do opisu.",
+      "expected_output": "Hook (1-2 zdania, kieruje do opisu, obietnica typu 'lista') + pełny opis: numerowana lista 5 mitów z rozwinięciem każdego punktu z wsadu, bez dopisanych przykładów spoza wsadu, zamknięcie z CTA. Proces etapowy: sprawdzenie wsadu/pytania -> plan do akceptacji -> dopiero pisanie.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "pornografia-7-cech",
+      "prompt": "Mam wsad na rolkę do opisu:\n\nPornografia odbiera ci każdą cechę, która odpowiada za skuteczność mężczyzny\n1. Seksualną energię\n2. Głód działania\n3. Koncentrację\n4. Naturalne libido\n5. Ciężar w głosie\n6. Szacunek do siebie\n7. Obecność w relacji\n\nZrób z tego rolkę do opisu.",
+      "expected_output": "Hook (1-2 zdania, obietnica typu 'lista', kieruje do opisu) + pełny opis: lista 7 cech z rozwinięciem każdej z wsadu, bez dopisanych statystyk/przykładów spoza wsadu, zamknięcie z CTA. Proces etapowy zachowany.",
+      "files": []
+    }
+  ]
+}

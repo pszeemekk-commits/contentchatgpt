@@ -138,6 +138,24 @@ Współczesny komunikat często: męskość = toksyczna.
 
 **Nie walczymy z męskością. Ją odzyskujemy.**
 
+### 9.10 Warstwa jungowska pod czterema archetypami (2026-09-03)
+
+Materiał teoretyczny wyprowadzony z `narracja/OSOBOWOSC_I_ARCHETYP.md`. Status jak cała baza wiedzy: **NIESPRAWDZONE**. To są tezy Junga i alchemików w opracowaniu, nie ustalenia empiryczne i nie stanowisko Przemka. Służą rozumieniu mechanizmu, nie dowodzeniu czegokolwiek w treści.
+
+**Czwarty element, czyli co się dzieje z tym, co wykluczone.** Teza: trójca domaga się czwartego, a czwartym jest to, co z obrazu wyrzucono. Przełożenie na uzależnienie: to, co człowiek wykluczył ze swojego obrazu siebie, nie znika i nie słabnie — przestaje być dostępne, a potem wraca jako coś, co mu się „przydarza". Człowiek zbudował siebie z trzech elementów i czwarty urządza mu życie od zewnątrz. Zbieżne z 9.3 (brak integracji jako źródło nałogu) i z B-008 w `narracja/BELIEF_SYSTEM.md`, gdzie ta sama rzecz jest powiedziana jego własnymi słowami — w treści używamy jego wersji, nie tej.
+
+**Jedno narzędzie, dwa skutki.** Alchemiczny Merkuriusz jest trucizną i lekarstwem naraz, przy czym to nie są dwie rzeczy, tylko ta sama użyta w innej dawce i w innym miejscu. Przełożenie: zdolność rozbierania cudzej konstrukcji, użyta na człowieku, który właśnie się pozbierał, szkodzi; użyta na człowieku zamkniętym we własnym przekonaniu, otwiera. Nie ma wersji bezpiecznej, jest rozeznanie, w kogo to trafia.
+
+**Trickster jako poprzednik uzdrowiciela.** W cyklach mitycznych ta sama postać, która na początku jest bezrozumna i żarłoczna, na końcu przynosi ludziom ogień i porządek — nie zostaje zastąpiona inną postacią, tylko przechodzi przemianę wewnątrz siebie. Stąd teza, że przewodnikiem dla człowieka w kompulsji może być ten, kto tam mieszkał, a nie ten, kto tam zaglądał.
+
+**Przepustka w obie strony.** Figura przewodnika dusz schodzi w dół i wraca. Kto był w dole i nie wrócił, nie prowadzi nikogo; kto nigdy tam nie był, nie zna drogi. To jest teoretyczne tło dla tego, dlaczego własne przejście działa jako podstawa prowadzenia — wersja operacyjna stoi jako M15 w `PSYCHOLOGIA_I_WARTOSC.md`.
+
+**Cena świadomości.** Wygnanie z raju jako cena za otwarcie oczu; figura, która przekracza granicę i przez to uruchamia świadomość, jest w micie zawsze potępiona i zawsze konieczna. Praktyczny wniosek, ostrożnie: wrogość w odpowiedzi na treść bywa sygnałem, że rzecz była umową, a nie prawdą — ale to nie jest dowód trafności i nie zwalnia z kontroli faktów.
+
+**Skrajność przechodzi we własne przeciwieństwo.** Człowiek trzymający się na sile przewraca się nie dlatego, że zabrakło mu siły, tylko dlatego, że doszedł do końca tej drogi. Zbieżne z 9.2 i z cieniem Wojownika.
+
+**Do publicznego języka nic z tej sekcji nie przechodzi w oryginalnym brzmieniu.** Merkuriusz, trickster, przewodnik dusz, wąż, alchemia — nazwy zostają tutaj, tak samo jak nazwy czterech archetypów w 9.2. Publicznie idzie mechanizm i zachowanie.
+
 ---
 
 ## WARSTWA 2: JĘZYK PUBLICZNY

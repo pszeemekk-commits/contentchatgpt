@@ -1,0 +1,15 @@
+{
+  "eval_id": 2,
+  "eval_name": "pinned",
+  "prompt": "potrzebuje trzech przypietych postow na instagrama zeby ktos kto wchodzi pierwszy raz na moj profil od razu wiedzial o co chodzi. material masz w plikach braindump_*",
+  "assertions": [
+    {"id": "c1", "text": "Przed napisaniem copy powstal brief dla kazdego z trzech postow (rola, co odbiorca ma zalozyc, co poczuc, glowna idea, podtekst, material zrodlowy, czego nie uzywac) i zostal przedstawiony do akceptacji"},
+    {"id": "c2", "text": "Trzy posty sa ocenione jako KOMPLET - jest wprost powiedziane, co razem buduja i dlaczego nie dubluja sie funkcjami"},
+    {"id": "c3", "text": "Kazdy post ma wskazany konkretny material zrodlowy z braindumpu (kotwica), nie ogolne 'z historii Przemka'"},
+    {"id": "c4", "text": "Wynik zawiera wprost nazwane 'czego NIE uzywac' dla postow - material odrzucony jako generyczny, zuzyty lub ryzykowny"},
+    {"id": "c5", "text": "Wynik uwzglednia ryzyko wizerunkowe / nadmierne odsloniecie przy materiale wrazliwym (pornografia, ziolo, ojcowska rana) zamiast uzywac go bezrefleksyjnie dla efektu"},
+    {"id": "c6", "text": "Brak slow zakazanych: 'adres', 'glod', 'awaria', 'robota' jako termin, 'X siedzi w Y'"},
+    {"id": "c7", "text": "Zadna historia ani rezultat w postach nie jest zmyslony - wyrywkowo sprawdzalny w plikach braindump_*"},
+    {"id": "c8", "text": "Posty NIE czytaja sie jak landing page mentora (lista korzysci, deklaracja ekspertyzy, 'pomogę ci osiagnac X')"}
+  ]
+}

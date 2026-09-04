@@ -1,0 +1,16 @@
+{
+  "eval_id": 1,
+  "eval_name": "newsletter",
+  "prompt": "napisz mi newsletter na podstawie mojego braindumpu (pliki braindump_*). chce zeby to bylo cos glebszego niz porady, cos co pokazuje jak mysle",
+  "assertions": [
+    {"id": "b1", "text": "Wynik nazywa i uzasadnia wybrany typ/rodzaj newslettera zamiast pisac bezimienny tekst"},
+    {"id": "b2", "text": "Newsletter otwiera sie konkretem (scena, cytowane zdanie, sytuacja), a NIE teza ani pytaniem retorycznym typu 'Czy zdarzylo ci sie kiedys...'"},
+    {"id": "b3", "text": "Tekst NIE konczy sie doklejonym CTA do produktu/oferty, jesli funkcja tekstu nie zostala zdefiniowana jako sprzedaz"},
+    {"id": "b4", "text": "Zakonczenie ladu je na konkretnym zachowaniu, przyczynie lub obserwacji, a nie na poetyckiej metaforze bez rozpakowania"},
+    {"id": "b5", "text": "Material uzyty w newsletterze ma wskazane zrodlo w braindumpie (kotwica), a nie jest wymyslona historia lub emocja"},
+    {"id": "b6", "text": "W tekscie mysl sie przesuwa: koniec mowi cos innego niz poczatek, nie powtarza tej samej tezy"},
+    {"id": "b7", "text": "Brak slow zakazanych: 'adres', 'glod', 'awaria', 'robota' jako termin, 'X siedzi w Y'"},
+    {"id": "b8", "text": "Brak typowych markerow AI-copy: punchline co dwa zdania, 'brutalna prawda', trzy krotkie zdania pod rzad na jedna mysl, anafora (to samo slowo otwierajace 2+ zdan z rzedu)"},
+    {"id": "b9", "text": "Zadna historia, emocja, rezultat ani cytat w tekscie nie jest zmyslony - wyrywkowo sprawdzalny w plikach braindump_*"}
+  ]
+}

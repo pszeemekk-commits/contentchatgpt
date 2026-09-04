@@ -94,6 +94,39 @@ Współpracuje z `proza-przemka` i `material/FRAZY_PRZEMKA.md`.
 - [SOURCE] Emotikon „xD" i „😉" — rzadko, przy dystansie do siebie.
 - [INTERPRETATION] Kiedy mówi o mechanizmie, jest długi i precyzyjny. Kiedy mówi o sobie w scenie, tnie do kości. Nie mieszaj tych dwóch w jednym akapicie.
 
+## Ogień ENTP w czułym temacie - kalibracja 2026-09-03
+
+- [SOURCE] W rozmowie o płaczu partnerki Przemek nie zatrzymuje się na poprawnym „jestem przy tobie”. Dokłada: „te ramiona zostały do tego stworzone” oraz „Przemuś cię obroni przed tym całym złym światem ;)”. Łączy czułość, flirt, humor, pewność siebie i ochronę w jednej wypowiedzi.
+- [SOURCE] Posługuje się własnym zdrobnieniem w trzeciej osobie jako figlarnym zagraniem. Nie infantylizuje nim siebie, tylko rozładowuje ciężar i jednocześnie wzmacnia bliskość.
+- [INTERPRETATION] Charakterystyczny ogień nie polega na dodaniu przekleństwa. Powstaje przez zmianę energii: autoironiczne przyznanie dawnego błędu, szybki paradoks, bezpośrednie cięcie, czułą pewność siebie i żart, po którym wraca precyzyjne wyjaśnienie.
+- [INTERPRETATION] Ostrze ENTP ujawnia się szczególnie w odwróceniu pozornie rozsądnego zachowania. „Pomagam jej znaleźć rozwiązanie” zostaje rozebrane do komunikatu: jej emocje są dla mnie problemem. Sama instrukcja bez tego paradoksu brzmi poprawnie, lecz nie rozpoznawalnie.
+- [INTERPRETATION] W ciężkim temacie trickster ma być krótkim błyskiem wewnątrz realnej czułości. Nie może wyśmiać bólu ani zamienić całej sceny w żart.
+- [GRANICA] „Przemuś”, emotikon i podobne zagrania nie są nową obowiązkową manierą. Używać ich tam, gdzie wypowiedź autora rzeczywiście ma figlarny, intymny ton. Nie rozsiewać mechanicznie po każdej publikacji.
+- [KOREKTA AUTORA] Jedna prawdziwa figlarna kwestia nie jest zgodą na dopisywanie kolejnych uroczych puent. „Skała też może mieć ramiona. A czasem nawet mówić na siebie Przemuś ;)” zostało odrzucone jako obce i rozmywające osobowość.
+- [KOREKTA AUTORA] `xD` nie wchodzi do karuzel. Może występować w rozmowie i surowym wsadzie; nie przenosić go automatycznie do publikacji tego formatu. Emotikon `;)` pozostał w konkretnej, źródłowej wypowiedzi autora do partnerki.
+- [INTERPRETATION] Ostrze ENTP ma wynikać przede wszystkim z paradoksu, odwrócenia potocznego założenia i precyzyjnego cięcia. Nadmiar figlarności nie wzmacnia osobowości, tylko zmienia ją w manierę.
+- [KOREKTA AUTORA] „Ciut więcej autoironii” oznacza punktowe podbicie istniejącego momentu, a nie ponowne przepisanie całej treści w tonie żartu. W karuzeli o płaczu autoironia została dołożona do dawnej roli doradcy, zanim tekst wraca do poważnego mechanizmu.
+- [KOREKTA AUTORA] W karuzeli przywódczej ostatni slajd może świadomie przejść z obrazu do manifestu i wypowiedzieć pełny komunikat marki wprost. Metafora ma wtedy przygotować znaczenie: w materiale o płaczu kamień oznacza odcięcie, a skała stabilność człowieka, który czuje.
+- [KOREKTA AUTORA] Trafna autoironia może zaczynać się od pozornej pochwały dawnego zachowania: „ja robiłem coś lepszego”. Następne zdania pokazują, że tym „lepszym” rozwiązaniem było uruchomienie śledztwa, doradzania i planu działania w chwili, gdy partnerka potrzebowała czegoś innego. Dowcip powstaje przez rozbieżność między dawną pewnością a dzisiejszym rozumieniem.
+
+## Kompozycja wypowiedzi — z analizy typu, 2026-09-03
+
+Wyprowadzone z `narracja/OSOBOWOSC_I_ARCHETYP.md`. Status: [INTERPRETATION], a przy sprzeczności z potwierdzonym plikiem wygrywa plik. To opis tego, jak układa całą wypowiedź; sformułowania i rejestry wyżej zostają bez zmian.
+
+- Scena przed pojęciem, zawsze. Chłopiec przy pniaku, a nazwa dopiero po nim. Nazwa postawiona przed obrazem jest najczęstszym miejscem, w którym tekst przestaje być jego.
+- Zdania niosą się czasownikiem. Kiedy zdanie robi się płaskie, ma słaby czasownik, a nie za mało przymiotników. To jest właściwa naprawa płaskiego zdania.
+- Prowadzi jedną tezę przez cały tekst i daje sobie czas na jej udowodnienie. Myśli ciągami, więc forma wymuszająca odcięcie związków między rzeczami obcina mu to, co ma najlepsze.
+- Uznaje rację przeciwnika, zanim pokaże jej granicę. Nie obala cudzej tezy, przesuwa jej zakres.
+- Stawia zarzut przeciw sobie mocniej, niż zrobiłby to ktoś z zewnątrz, i dopiero potem go rozbraja.
+- Zdejmuje z odbiorcy winę w tym samym zdaniu, w którym mówi mu rzecz twardą. Nie pociesza kosztem prawdy i nie mówi prawdy kosztem człowieka.
+- Nie rozmiękcza mechanizmu. Kiedy rzecz jest twarda, mówi ją twardo.
+- Mówi obrazem, nie definicją.
+
+Dwa miejsca sporne, zostawione jako napięcie, nie jako reguła:
+
+- Analiza mówi „kończy tam, gdzie rzecz stoi, bez dokładania nowego napięcia na koniec". `tozsamosc/WZORZEC_MYSLENIA.md` sekcja 3E mówi, że nie ma jednego wzorca zamknięcia i żeby żadnego nie narzucać — a to ustalenie powstało z korekty wcześniejszego wymyślonego wzorca. Do rozstrzygnięcia obowiązuje 3E.
+- Analiza mówi „nie używa szkieletów, nagłówków typu »mechanizm« ani numerowanych faz wewnątrz wywodu". Dotyczy prozy ciągłej. Slajdy karuzeli mają własne funkcje i nie są tym samym; `format/TOV_KARUZELA.md` rozstrzyga formę.
+
 ## Czego w jego głosie NIE ma
 
 - Nie mówi „powinieneś". Mówi, co widzi i co się z czym łączy.
@@ -104,3 +137,10 @@ Współpracuje z `proza-przemka` i `material/FRAZY_PRZEMKA.md`.
 ## Przypomnienie o słowach zakazanych
 
 `CLAUDE.md`: **adres, głód, awaria, robota (jako termin), „X siedzi w Y"**. Obowiązują też w dokumentach roboczych. Przed oddaniem tekstu grep.
+
+## Próba bez gwarancji - korekta skrzypiec 2026-09-04
+
+- [SOURCE] Autor rozpoczynając naukę gry na skrzypcach był świadomy, że może po pół roku porzucić instrument, tak jak porzucił wiele wcześniejszych hobby. Jego reakcja: „A wyjebane w to. To jest tylko droga do poznania siebie”. Pełne źródło: `narracja/zrodla/2026-09-04_skrzypce_droga_do_poznania_siebie.md`.
+- [INTERPRETATION] Ciekawość autora jest ważniejsza niż potrzeba wcześniejszej pewności, że zainteresowanie okaże się trwałe. Wartość próby polega również na zdobyciu doświadczenia i lepszym poznaniu siebie.
+- [INTERPRETATION] Osobowość ujawnia się przez jednoczesną świadomość własnej niekonsekwencji i swobodną zgodę na ryzyko kolejnego porzucenia. Autor nie wybiela swojej historii, ale też nie zamienia jej w zakaz próbowania.
+- [GRANICA] Nie przedstawiać tej sceny jako spokojnego planowania ani rozsądnego testu przed wieloletnim zobowiązaniem. Nie obiecywać w jego imieniu wytrwałości. Nie przenosić automatycznie wulgaryzmu do innych materiałów; zachować ruch myślowy stojący pod wypowiedzią.

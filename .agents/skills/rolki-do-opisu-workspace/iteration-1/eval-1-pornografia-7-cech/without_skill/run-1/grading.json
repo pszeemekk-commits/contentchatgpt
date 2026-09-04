@@ -1,0 +1,23 @@
+{
+  "expectations": [
+    {"text": "Output zawiera wyraźnie oddzielony HOOK (tekst na wideo) od OPISU (tekst pod post).", "passed": false, "evidence": "Sekcje istnieją nominalnie, ale 'HOOK' to w praktyce cały scenariusz mówiony (hook+przejście+lista+zamknięcie+CTA) — wideo samo dowozi pełną wartość, co przeczy definicji formatu z anatomii (wideo ma tylko otworzyć pętlę, nie domykać jej)."},
+    {"text": "Hook mieści się w maksymalnie 2 zdaniach.", "passed": true, "evidence": "Sam wydzielony blok '[HOOK — 0:00-0:03]' to 2 zdania — ale w kontekście całego scenariusza to techniczna zgodność, nie realne spełnienie mechaniki formatu."},
+    {"text": "Opis zawiera wszystkie 7 cech z wsadu.", "passed": true, "evidence": "Lista 7 cech obecna w sekcji OPIS POD POST, oznaczona emoji 🔻."},
+    {"text": "Wsad to same nazwy bez rozwinięcia — skill powinien zapytać albo zostać przy definicji, nie wymyślać mechanizmów.", "passed": false, "evidence": "Model wymyślił konkretne mechanizmy przyczynowe niepochodzące z wsadu (np. 'mózg przyzwyczajony do bodźca co kilka sekund nie wytrzyma dłużej', 'mężczyzna, który nie ma za sobą pary jaj, brzmi inaczej') i sam to przyznaje w 'UWAGI DLA PRZEMKA'."},
+    {"text": "Opis nie dodaje statystyk, badań ani twierdzeń medycznych spoza wsadu.", "passed": false, "evidence": "Sam model pisze wprost: 'dopisałem uzasadnienia z własnej głowy, bo nie miałem dostępu do bazy' — czyli świadomie naruszył tę zasadę."},
+    {"text": "Widać ślad procesu etapowego (Etap 1, 2, 3).", "passed": false, "evidence": "Brak jakichkolwiek pytań kontrolnych czy planu do akceptacji — model poszedł prosto do gotowego scenariusza i opisu."},
+    {"text": "Opis kończy się CTA albo zaproszeniem do reakcji.", "passed": true, "evidence": "'Napisz w komentarzu, który z nich uderzył najmocniej. Albo napisz do mnie, jeśli już wiesz, że chcesz to zmienić.'"},
+    {"text": "Ton utrzymany bez moralizowania/oceniania czytelnika.", "passed": false, "evidence": "'trudno szanować siebie, kiedy wiesz, że codziennie robisz coś, czego się wstydzisz' — język wstydu skierowany wprost do czytelnika."}
+  ],
+  "summary": {"passed": 3, "failed": 5, "total": 8, "pass_rate": 0.375},
+  "execution_metrics": {"total_tool_calls": 3, "errors_encountered": 0},
+  "timing": {"total_duration_seconds": 56.0},
+  "user_notes_summary": {
+    "uncertainties": ["Model sam oznaczył cały tekst jako 'wersję bazową bez dostępu do plików marki' i zasugerował przepuszczenie przez normalny proces Pisarza/Doradcy."],
+    "needs_review": ["Wymyślone mechanizmy przyczynowe przy punktach 3 i 5 — model sam to flagował jako ryzykowne."],
+    "workarounds": []
+  },
+  "eval_feedback": {
+    "suggestions": [],
+    "overall": "Baseline pomylił format z klasycznym scenariuszem mówionym (cała wartość pada w wideo) i uzupełnił luki we wsadzie wymyślonymi mechanizmami — dokładnie to, przed czym chroni skill."}
+}
