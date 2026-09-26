@@ -172,4 +172,4 @@ Przy przeglądzie cyklu korzystaj z sekcji 8 SYSTEM_ECS.md. Podsumowanie tego, c
 
 ## Karuzele zapisane 2026-09-26
 
-- `material/KARUZELA_PORNO_ZACZELO_SIE_WCZESNIEJ_2026-09-26.md` - szkic; filar UWAGA 1.2; komunikat 1; oś: źródło reakcji sprzed pierwszego kontaktu z porno i drobna skala pierwszej sceny; nieopublikowana.
+- `material/KARUZELA_DLACZEGO_PORNO_WRACA_2026-09-26.md` - szkic; filar UWAGA 1.2; komunikat 1; oś: porno jako ochrona przed trudną emocją zamiast przyjemności, nawyku lub choroby; impuls i zdjęcie winy za przegrane; nieopublikowana. Zastąpił odrzucony tego samego dnia szkic „porno zaczęło się wcześniej” (autor: nie brzmi jak Przemek, brak jego toku argumentu, schematyczny skok między slajdami, fakty wciskane na siłę).
