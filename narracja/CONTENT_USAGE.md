@@ -169,3 +169,7 @@ Przy przeglądzie cyklu korzystaj z sekcji 8 SYSTEM_ECS.md. Podsumowanie tego, c
 - `material/KARUZELA_WYJSCIE_Z_PORNO_TO_POCZATEK_2026-09-04.md` - szkic; filar REZONANS 2.1; komunikat 4, z wykorzystaniem komunikatu 1; nieopublikowana.
 - `material/KARUZELA_WLASNE_PRAGNIENIE_CZY_UDOWADNIANIE_WARTOSCI_2026-09-04.md` - szkic; filar REZONANS 2.1; komunikat 2 i 4; nieopublikowana.
 - `material/KARUZELA_ODBUDOWA_ZAUFANIA_DO_SIEBIE_2026-09-04.md` - szkic; filar UWAGA 1.1; komunikat 1 i 3; nieopublikowana.
+
+## Karuzele zapisane 2026-09-26
+
+- `material/KARUZELA_PORNO_ZACZELO_SIE_WCZESNIEJ_2026-09-26.md` - szkic; filar UWAGA 1.2; komunikat 1; oś: źródło reakcji sprzed pierwszego kontaktu z porno i drobna skala pierwszej sceny; nieopublikowana.
