@@ -172,4 +172,4 @@ Przy przeglądzie cyklu korzystaj z sekcji 8 SYSTEM_ECS.md. Podsumowanie tego, c
 
 ## Karuzele zapisane 2026-09-26
 
-- `material/KARUZELA_DLACZEGO_PORNO_WRACA_2026-09-26.md` - szkic; filar UWAGA 1.2; komunikat 1; oś: porno jako ochrona przed trudną emocją zamiast przyjemności, nawyku lub choroby; impuls i zdjęcie winy za przegrane; nieopublikowana. Zastąpił odrzucony tego samego dnia szkic „porno zaczęło się wcześniej” (autor: nie brzmi jak Przemek, brak jego toku argumentu, schematyczny skok między slajdami, fakty wciskane na siłę).
+- `material/KARUZELA_PORNO_TO_NIE_PRYWATNA_SPRAWA_2026-09-26.md` - szkic; filar REZONANS 2.1; komunikat 3; scena B z IMPULSY (łazienka, pierwsza dziewczyna) jako dowód dawnego przekonania; podwójne życie i bliskość bez zbroi; nieopublikowana. Scena B zużyta w szkicu, nie w publikacji. Zastąpiła dwa odrzucone tego dnia szkice: „porno zaczęło się wcześniej” (nie brzmi jak Przemek, fakty na siłę) i „dlaczego porno wraca” (przepisany materiał do filmu YT - karuzela nie może dublować filmu).
